@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
+
+$main-font: 'Open Sans', sans-serif;
+$fvi-blue: #5bf;
+
+* {
+    box-sizing: border-box;
+    position: relative;
+    transition: all 200ms;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    color: #222;
+    font-family: $main-font;
+}

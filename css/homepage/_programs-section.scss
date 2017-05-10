@@ -1,0 +1,45 @@
+section.programs {
+    display: flex;
+    flex-flow: row wrap;
+
+    .left,
+    .right {
+        width: 100%;
+        padding-bottom: 35%;
+        background-size: cover;
+        background-position: center top;
+
+        @media all and (min-width: 768px) {
+            width: 50%;
+        }
+
+        .program-title {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 30px 20px;
+            background-color: rgba(0, 0, 0, .8);
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 28px;
+            font-weight: 700;
+            text-align: center;
+            cursor: pointer;
+
+            &:hover,
+            &:focus {
+                background-color: #000;
+                color: $fvi-blue;
+                padding: 50px 20px;
+            }
+        }
+    }
+
+    .left {
+        background-image: url('../images/code-on-screen.jpeg');
+    }
+    .right {
+        background-image: url('../images/guy-on-laptop.jpeg');
+    }
+}

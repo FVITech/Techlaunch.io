@@ -1,0 +1,24 @@
+{
+    "name": "techlaunch.io",
+    "version": "1.0.0",
+    "description": "Website for the Techlaunch coding school at the Florida Vocational Institute",
+    "main": "js/index.js",
+    "scripts": {
+        "start": "webpack-dev-server --open",
+        "prod": "webpack -p"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^7.0.1",
+        "babel-core": "^6.24.1",
+        "babel-loader": "^7.0.0",
+        "css-loader": "^0.28.1",
+        "extract-text-webpack-plugin": "^2.1.0",
+        "file-loader": "^0.11.1",
+        "node-sass": "^4.5.2",
+        "postcss-loader": "^2.0.3",
+        "sass-loader": "^6.0.4",
+        "webpack": "^2.5.1",
+        "webpack-dev-server": "^2.4.5"
+    }
+}
