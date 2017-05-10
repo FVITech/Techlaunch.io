@@ -40,5 +40,15 @@ module.exports = {
     },
     plugins: [
         new ExtractTextPlugin('./css/bundle.css')
-    ]
+    ],
+    devServer:{
+      proxy: {
+        // "^http://localhost:8080/$": {
+        //   target: "http://localhost/Techlaunch.io/index.php",
+        // },
+        "*":{
+          target: "http://localhost/Techlaunch.io/"
+        }
+      }
+    }
 }
