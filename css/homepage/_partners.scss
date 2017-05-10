@@ -1,0 +1,16 @@
+section.partners {
+    background-color: #fff;
+
+    .logos-container {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        align-items: center;
+        padding: 30px;
+
+        img {
+            height: 80px;
+            margin: 20px;
+        }
+    }
+}

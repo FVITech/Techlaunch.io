@@ -5,11 +5,12 @@ section.programs {
     .left,
     .right {
         width: 100%;
-        padding-bottom: 30%;
+        padding-bottom: 80%;
         background-size: cover;
         background-position: center top;
 
         @media all and (min-width: 768px) {
+            padding-bottom: 30%;
             width: 50%;
         }
 
@@ -18,20 +19,30 @@ section.programs {
             bottom: 0;
             left: 0;
             width: 100%;
-            padding: 40px 20px;
             background-color: rgba(0, 0, 0, .8);
             color: #fff;
             text-transform: uppercase;
-            font-size: 28px;
+            font-size: 22px;
             font-weight: 700;
             text-align: center;
+            padding: 20px 10px;
             cursor: pointer;
 
             &:hover,
             &:focus {
                 background-color: #000;
                 color: $fvi-blue;
-                padding: 60px 20px;
+                padding: 30px 10px;
+            }
+
+            @media all and (min-width: 768px) {
+                padding: 40px 20px;
+                font-size: 28px;
+
+                &:hover,
+                &:focus {
+                    padding: 60px 20px;
+                }
             }
         }
     }
