@@ -1,0 +1,135 @@
+section.stacks {
+    background-color: #eee;
+    padding: 20px;
+
+    @media all and (min-width: 768px) {
+        background-image:
+            linear-gradient(rgba(210, 210, 210, .7) 0%, rgba(210, 210, 210, .7) 100%),
+            url('../images/backgrounds/canvas-texture.jpg');
+        background-size: cover;
+    }
+
+    .section-title {
+        text-align: center;
+        text-transform: uppercase;
+        margin: 30px 0 50px;
+        font-size: 30px;
+
+        @media all and (min-width: 786px) {
+            font-size: 32px;
+            margin: 40px 0 60px;
+        }
+    }
+}
+
+section.stacks .stacks-container {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+section.stacks .stacks-container .stack {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+
+    .box {
+        width: 100%;
+        border: 8px solid #999;
+    }
+
+    .title {
+        padding: 30px;
+        text-transform: uppercase;
+        font-size: 32px;
+        font-weight: 800;
+        letter-spacing: 3px;
+        color: #fff;
+        background-color: #555;
+        margin: 0;
+    }
+
+    .tech,
+    .company-logos {
+        padding: 20px;
+        background-color: #fff;
+    }
+
+    .tech {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+
+        span {
+            color: #888;
+            width: 50%;
+            margin: 15px 0;
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+
+    .company-logos {
+        padding-top: 0;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+        .logo {
+            width: 40%;
+            height: 40px;
+            margin: 15px 0;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    button {
+        margin: 30px 0;
+        border-radius: 3px;
+        border: none;
+        box-shadow: 0 2px 3px -1px rgba(0, 0, 0, .8);
+        background-color: #555;
+        padding: 8px 20px;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 700;
+        color: #fff;
+        cursor: pointer;
+
+        &:hover,
+        &:focus {
+            background-color: lighten(#555, 15%);
+            box-shadow: 0 4px 5px -2px rgba(0, 0, 0, .8);
+            transform: translateY(-2px);
+        }
+
+        &:active {
+            transition: all 0s;
+            box-shadow: 0 2px 3px -1px rgba(0, 0, 0, .8);
+            transform: translateY(0px);
+        }
+    }
+
+    &:first-of-type {
+
+        .box {
+            border-color: lighten($fvi-blue, 5%);
+        }
+
+        .title {
+            background-color: darken($fvi-blue, 15%);
+        }
+
+        button {
+            background-color: darken($fvi-blue, 15%);
+
+            &:hover,
+            &:focus {
+                background-color: $fvi-blue;
+            }
+        }
+    }
+}
