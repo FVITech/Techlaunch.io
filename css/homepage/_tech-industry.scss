@@ -19,7 +19,7 @@ section.tech-industry {
         align-items: center;
     }
 
-    .graph,
+    .graph-container,
     .explanation,
     .income-div {
         width: 100%;
@@ -31,11 +31,19 @@ section.tech-industry {
         }
     }
 
-    .graph {
-        margin-top: 30px;
+    .graph-container {
+        margin-top: 70px;
 
         @media all and (min-width: 992px) {
-            margin-top: -20px;
+            margin-top: 0px;
+        }
+
+        .graph-label {
+            display: block;
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: 14px;
+            text-align: center;
         }
     }
 
@@ -66,18 +74,130 @@ section.tech-industry {
 
         .income.one,
         .position.one {
-            color: red;
+            color: #D00;
         }
 
         .income.two,
         .position.two {
-            color: green;
+            color: #187000;
         }
 
         .income.three,
         .position.three {
-            color: #00C;
+            color: #004ba8;
+        }
+    }
+}
+
+section.tech-industry .graph {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    .bar-container {
+        width: 30%;
+        min-height: 200px;
+    }
+
+    .bar {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        margin: auto;
+        text-align: center;
+        height: 0px;
+        transition: height 1s;
+    }
+
+    .bar-container.left .bar {
+        background-image: linear-gradient(orange 30%, red 100%);
+
+        &.scroll-visible {
+            height: 190px;
         }
     }
 
+    .bar-container.middle .bar {
+        background-image: linear-gradient(#76ff51 30%, #187000 100%);
+        transition-delay: 200ms;
+
+        &.scroll-visible {
+            height: 160px;
+        }
+    }
+
+    .bar-container.right .bar {
+        background-image: linear-gradient(#6df2ff 30%, #004ba8 100%);
+        transition-delay: 400ms;
+
+        &.scroll-visible {
+            height: 130px;
+        }
+    }
+
+    .bar .rocket-container {
+        position: absolute;
+        top: -20px;
+        left: -10px;
+        width: 60px;
+        opacity: .2;
+        transition: opacity 1s;
+
+        .rocket {
+            height: 55px;
+            transform: translateX(-50%) rotate(-90deg);
+            position: absolute;
+            left: 50%;
+            z-index: 1;
+        }
+
+        .flame {
+            top: 45px;
+            transform: rotate(180deg);
+            width: 30px;
+            animation-name: flame-pulse;
+            animation-duration: 800ms;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+    }
+
+    .bar.scroll-visible .rocket-container {
+        opacity: 1;
+    }
+
+    .bar span {
+        font-size: 14px;
+        font-weight: bolder;
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        width: 100%;
+        color: #fff;
+    }
+
+    label {
+        position: absolute;
+        bottom: 0;
+        display: block;
+        font-size: 10px;
+        text-align: center;
+        width: 100%;
+        margin-top: 5px;
+        line-height: 1.2;
+        font-weight: bolder;
+    }
+}
+
+@keyframes flame-pulse {
+    from {
+        transform: scaleX(.9) translateY(-2px) rotate(180deg);
+    }
+    to {
+        transform: scale(1.2) translateY(3px) rotate(180deg);
+    }
 }

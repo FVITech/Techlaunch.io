@@ -43,8 +43,40 @@
     <section class="tech-industry">
         <h2 class="section-title">tech industry outlook</h2>
         <div class="container">
-            <div class="graph">
-                <img src="./images/graph.svg" alt="tech industry outlook graph">
+            <div class="graph-container">
+                <div class="graph">
+                    <div class="bar-container left">
+                        <div class="bar">
+                            <div class="rocket-container">
+                                <img src="images/rocket2.svg" alt="rocket" class="rocket">
+                                <img src="images/fire.svg" alt="flame" class="flame">
+                            </div>
+                            <span>27%</span>
+                        </div>
+                        <label>Web<br>Developers</label>
+                    </div>
+                    <div class="bar-container middle">
+                        <div class="bar">
+                            <div class="rocket-container">
+                                <img src="images/rocket2.svg" alt="rocket" class="rocket">
+                                <img src="images/fire.svg" alt="flame" class="flame">
+                            </div>
+                            <span>17%</span>
+                        </div>
+                        <label>Software<br>Developers</label>
+                    </div>
+                    <div class="bar-container right">
+                        <div class="bar">
+                            <div class="rocket-container">
+                                <img src="images/rocket2.svg" alt="rocket" class="rocket">
+                                <img src="images/fire.svg" alt="flame" class="flame">
+                            </div>
+                            <span>7%</span>
+                        </div>
+                        <label>Average of<br>all jobs</label>
+                    </div>
+                </div>
+                <p class="graph-label">job growth 2014-2024</p>
             </div>
             <p class="explanation">Miami springs critical mass dale cafe llave leah arts district upper east side, Pepe Billete art basel. Arroz con mango cafe bustelo LIV pero like abuelita meng bulykkk. West flagler sweetwater westchester south beach downtown dale tiki tiki music Marlins cafe llave bird road Dolphins. Gorda bottles calle ocho critical mass ya tu sabes power love hour LIV Azucar bulykkk cafecito MiMo.</p>
             <div class="income-div">
