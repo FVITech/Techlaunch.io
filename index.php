@@ -1,6 +1,6 @@
 <?php include('parts/head.php'); ?>
 <body>
-
+    <?php include('parts/navbar.php'); ?>
     <section class="above-the-fold">
         <div class="container">
             <img src="./images/logos/techlaunch-blackbg.svg" alt="Techlaunch logo" class="logo">

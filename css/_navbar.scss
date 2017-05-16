@@ -1,0 +1,25 @@
+nav{
+  color: white;
+  display: flex;
+  position: fixed;
+  right: 5%;
+  z-index: 100;
+  *{
+    background-color: #159EEE;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+  }
+  div{
+    padding-left: 1rem;
+  }
+  a{
+    color: white;
+  }
+  i:hover{
+    cursor: pointer;
+  }
+  i{
+    transform: scaleX(1.5);
+  }
+}
