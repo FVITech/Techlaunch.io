@@ -1,10 +1,10 @@
 // shared
-@import "./_normalize";
-@import "./_base";
-@import "./_helpers";
+@import "normalize";
+@import "base";
+@import "helpers";
 
 // components
-@import "./_footer";
+@import "footer";
 @import "navbar";
 @import "menu";
 

@@ -10,6 +10,22 @@ nav{
     padding: 0.5rem;
     font-size: 1.25rem;
   }
+  span {
+      display: none;
+      margin: 0;
+      padding: 0;
+
+      @media all and (min-width: 440px) {
+          display: inline;
+      }
+  }
+  .phone a {
+      margin: 0;
+
+      @media all and (min-width: 340px) {
+          margin: 0 1rem;
+      }
+  }
   div{
     padding-left: 1rem;
   }

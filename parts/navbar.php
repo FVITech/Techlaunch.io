@@ -1,6 +1,6 @@
 <nav>
   <div class="phone">
-    Call Now! <a href="tel:786-574-9511">786-574-9511</a>
+    <span>Call Now!</span> <a href="tel:786-574-9511">786-574-9511</a>
   </div>
   <i id="hamburger" class="fa fa-bars fa-2x" aria-hidden="true"></i>
 </nav>
