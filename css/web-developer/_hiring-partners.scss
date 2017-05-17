@@ -1,5 +1,6 @@
 section.hiring-partners {
     background-color: #fff;
+    padding: 20px;
 
     .logos-container {
         display: flex;
@@ -7,9 +8,10 @@ section.hiring-partners {
         flex-flow: row wrap;
         align-items: center;
         padding: 30px;
+        padding-top: 20px;
 
         img {
-            height: 80px;
+            height: 60px;
             margin: 20px;
         }
     }

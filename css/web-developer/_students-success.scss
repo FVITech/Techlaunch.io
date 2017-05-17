@@ -1,0 +1,49 @@
+section.students-success {
+    background-color: #444;
+    padding-top: 30px;
+    padding-bottom: 60px;
+
+    .section-title {
+        color: #fff;
+    }
+}
+
+section.students-success .testimonials-container {
+    padding-top: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    .testimonial {
+        padding: 10px;
+        padding-bottom: 30px;
+        max-width: 300px;
+    }
+
+    .quote {
+        padding: 15px;
+        background-color: #eee;
+        font-size: 14px;
+        font-style: italic;
+        line-height: 1.6;
+        font-weight: bolder;
+        margin: 0;
+        height: 185px;
+    }
+
+    img {
+        display: inline-block;
+        width: 50px;
+        border-radius: 100%;
+        margin: 10px 20px 0 0;
+        vertical-align: middle;
+    }
+
+    .name {
+        display: inline-block;
+        vertical-align: middle;
+        color: #fff;
+        font-weight: bolder;
+    }
+}

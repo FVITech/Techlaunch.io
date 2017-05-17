@@ -22,3 +22,11 @@ body {
     font-family: $main-font;
     max-width: 1400px;
 }
+
+.section-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+    padding-top: 50px;
+}
