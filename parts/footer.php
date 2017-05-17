@@ -1,6 +1,6 @@
 <footer>
     <div class="first">
-        <img src="./images/logos/techlaunch-blackbg.svg" alt="Techlaunch logo" class="logo">
+        <img src="/images/logos/techlaunch-blackbg.svg" alt="Techlaunch logo" class="logo">
         <address>
             8400 NW 36th St #450,<br>
             Doral, FL 33166<br>

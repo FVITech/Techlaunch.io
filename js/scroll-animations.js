@@ -3,16 +3,15 @@ const throttle = require('lodash.throttle')
 
 // Add selectors here and they will all have the class 'scroll-visible'
 // added to them when they scroll into view
-let selectors = [
+var selectors = [
     $('.bar')
 ]
 
-
-let animElements = []
+var animElements = []
 
 function _populateElements() {
-    selectors.forEach($selector => {
-        $selector.each((i, el) => {
+    selectors.forEach(function($selector) {
+        $selector.each(function(i, el) {
             animElements.push({element: $(el), position: null})
         })
     })
@@ -21,7 +20,7 @@ function _populateElements() {
 function _getPositions() {
     _populateElements()
 
-    animElements.forEach($el => {
+    animElements.forEach(function($el) {
         $el.position = $el.element.offset().top
     })
 }
@@ -29,11 +28,11 @@ function _getPositions() {
 const supportPageOffset = window.pageXOffset !== undefined;
 const isCSS1Compat = ((document.compatMode || "") === "CSS1Compat");
 const windowScroll = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
-let windowHeight = null
-let offset = null
+var windowHeight = null
+var offset = null
 
 function playAnimations() {
-    animElements.forEach(el => {
+    animElements.forEach(function(el) {
         const triggerPoint = el.position - windowHeight + offset
         if(window.scrollY > triggerPoint)
             el.element.addClass('scroll-visible')
