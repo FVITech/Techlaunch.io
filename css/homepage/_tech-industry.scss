@@ -104,7 +104,7 @@ section.tech-industry .graph {
         bottom: 30px;
         left: 50%;
         transform: translateX(-50%);
-        width: 40px;
+        width: 50px;
         margin: auto;
         text-align: center;
         height: 0px;
@@ -114,6 +114,10 @@ section.tech-industry .graph {
     .bar-container.left .bar {
         background-image: linear-gradient(orange 30%, red 100%);
 
+        .rocket {
+            animation-delay: 400ms;
+        }
+
         &.scroll-visible {
             height: 190px;
         }
@@ -121,7 +125,11 @@ section.tech-industry .graph {
 
     .bar-container.middle .bar {
         background-image: linear-gradient(#76ff51 30%, #187000 100%);
-        transition-delay: 200ms;
+        transition-delay: 300ms;
+
+        .rocket {
+            animation-delay: 700ms;
+        }
 
         &.scroll-visible {
             height: 160px;
@@ -130,7 +138,11 @@ section.tech-industry .graph {
 
     .bar-container.right .bar {
         background-image: linear-gradient(#6df2ff 30%, #004ba8 100%);
-        transition-delay: 400ms;
+        transition-delay: 600ms;
+
+        .rocket {
+            animation-delay: 1000ms;
+        }
 
         &.scroll-visible {
             height: 130px;
@@ -141,7 +153,7 @@ section.tech-industry .graph {
         position: absolute;
         top: -20px;
         left: -10px;
-        width: 60px;
+        width: 70px;
         opacity: .2;
         transition: opacity 1s;
 
@@ -162,15 +174,22 @@ section.tech-industry .graph {
             animation-timing-function: ease-in-out;
             animation-iteration-count: infinite;
             animation-direction: alternate;
+            animation-timing-function: ease-out;
         }
     }
 
     .bar.scroll-visible .rocket-container {
         opacity: 1;
+
+        .rocket {
+            animation-name: rocket-grow;
+            animation-duration: 600ms;
+            animation-timing-function: linear;
+        }
     }
 
     .bar span {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: bolder;
         position: absolute;
         bottom: 5px;
@@ -198,5 +217,17 @@ section.tech-industry .graph {
     }
     to {
         transform: scale(1.2) translateY(3px) rotate(180deg);
+    }
+}
+
+@keyframes rocket-grow {
+    0% {
+        height: 55px;
+    }
+    65% {
+        height: 62px
+    }
+    100% {
+        height: 55px;
     }
 }
