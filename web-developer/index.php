@@ -46,7 +46,7 @@
     <section class="program-overview">
         <div class="container">
             <h2 class="section-title">program overview</h2>
-            <p class="subtitle">Techlaunch offers a more robust program than traditional short-term coding boot camps. Come with passion and leave with a valuable skill set you can put to work!</p>
+            <p class="subtitle">Techlaunch offers a more robust program than traditional short-term coding boot camps. Come with passion and leave with a valuable skill set you can put to work.</p>
             <div class="cards-container">
                 <div class="left">
                     <div class="card">
@@ -123,6 +123,61 @@
                     <p>Upon graduation from the <strong>Web Developer Program</strong>, students will receive a diploma. Additionally, students will have a portfolio of work showcasing their abilities in order to aid them in finding full-time jobs or freelance web development contracts.</p>
                     <button>get info</button>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="what-you-will-learn">
+        <div class="container">
+            <h2 class="section-title">what you will learn</h2>
+            <div class="content">
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="/images/icons/clipboard.svg" alt="">
+                        <p>Frontend web development with HTML5, CSS3, JavaScript, and modern JavaScript frameworks</p>
+                    </div>
+                    <div class="card">
+                        <img src="/images/icons/atom.svg" alt="">
+                        <p>AJAX programming and best practices to manage the request-response model within the context of the web browser</p>
+                    </div>
+                    <div class="card">
+                        <img src="/images/icons/calculator.svg" alt="">
+                        <p>How to effectively use CSS media queries to create fully response, mobile-friendly websites and web apps</p>
+                    </div>
+                    <div class="card">
+                        <img src="/images/icons/statistics.svg" alt="">
+                        <p>Frontend programming in plain JavaScript and jQuery, as well as advanced JavaScript design patterns under MV* frameworks</p>
+                    </div>
+                    <div class="card">
+                        <img src="/images/icons/clipboard.svg" alt="">
+                        <p>How to optimize web pages and employ popular optimization worklows such as Gulp and Apache's mod_pagespeed for blazing fast page load times</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="/images/people/suit-guy.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-instructors">
+        <div class="container">
+            <div class="content">
+                <div class="left">
+                    <h2 class="section-title">our instructors</h2>
+                    <p>Our instructors take a <strong>hands-on</strong> approach and work closely with you to ensure that you gain the necessary skills to succeed. Our students will learn how to <strong>work in teams</strong> using git-based workflows that are commonly employed in software companies.</p>
+                    <button>get info</button>
+                </div>
+                <div class="right"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <h2 class="section-title">student projects</h2>
+            <div class="projects-container">
+                <img src="/images/code-on-screen.jpeg" alt="">
             </div>
         </div>
     </section>

@@ -1,0 +1,18 @@
+section.projects {
+    background-color: #222;
+    padding-bottom: 70px;
+
+    .section-title {
+        color: #fff;
+        padding-bottom: 50px;
+    }
+
+    .projects-container {
+
+        img {
+            display: block;
+            max-width: 500px;
+            margin: auto;
+        }
+    }
+}

@@ -94,7 +94,7 @@
     <section class="testimonials">
         <div class="testimonial">
             <div class="left">
-                <img src="/images/person-holding-computer.png" alt="person holding computer">
+                <img src="/images/people/person-holding-computer.png" alt="person holding computer">
             </div>
             <div class="right">
                 <h3 class="heading">some heading text</h3>
