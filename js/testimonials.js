@@ -1,10 +1,9 @@
 (function() {
-
     const $ = require('jquery')
 
     const $testimonials = $('.testimonial')
+    const $dots = $('.dot')
     const quant = document.querySelectorAll('.testimonial').length
-
     let activeIndex = 0
 
     function onArrowClick(e, direction) {
@@ -26,13 +25,17 @@
         $testimonials[nextIndex].classList.remove('hide-to-left', 'hide-to-right', 'fade-out')
         $testimonials[nextIndex].classList.add(`appear-from-${direction}`)
 
+        // update dots' UI
+        $dots.removeClass('active')
+        $dots[nextIndex].classList.add('active')
+
         activeIndex = nextIndex
     }
 
     $('.left-btn').click((e) => onArrowClick(e, 'left'))
     $('.right-btn').click((e) => onArrowClick(e, 'right'))
 
-    $('.dot').click(function(e) {
+    $dots.click(function(e) {
         const nextIndex = this.dataset.index
 
         if(+nextIndex === +activeIndex) return;
@@ -44,6 +47,10 @@
         // fade in next testimonial
         $testimonials[nextIndex].classList.remove('hide-to-left', 'hide-to-right', 'fade-out')
         $testimonials[nextIndex].classList.add('fade-in')
+
+        // update dots' UI
+        $dots.removeClass('active')
+        $dots[nextIndex].classList.add('active')
 
         activeIndex = +nextIndex
     })
