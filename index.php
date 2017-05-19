@@ -92,53 +92,55 @@
     </section>
 
     <section class="testimonials">
-        <div id="left-btn" class="left-btn">‹</div>
-        <div id="right-btn" class="right-btn">›</div>
-        <div class="dots">
-            <!-- EDIT: the number of dots must match the number of testimonials -->
-            <span data-index="0" class="dot active"></span>
-            <span data-index="1" class="dot"></span>
-            <span data-index="2" class="dot"></span>
-            <span data-index="3" class="dot"></span>
-        </div>
-        <div class="testimonial">
-            <div class="left">
-                <img src="/images/people/person-holding-computer.png" alt="person holding computer">
+        <div class="carousel">
+            <div id="left-btn" class="left-btn">‹</div>
+            <div id="right-btn" class="right-btn">›</div>
+            <div class="dots">
+                <!-- EDIT: the number of dots must match the number of testimonials -->
+                <span data-index="0" class="dot active"></span>
+                <span data-index="1" class="dot"></span>
+                <span data-index="2" class="dot"></span>
+                <span data-index="3" class="dot"></span>
             </div>
-            <div class="right">
-                <h3 class="heading">some heading text</h3>
-                <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you’ll find every step of the learning process."</p>
-                <p class="author">- John Doe Smith Rodriguez</p>
+            <div class="carousel-item">
+                <div class="left">
+                    <img src="/images/people/person-holding-computer.png" alt="person holding computer">
+                </div>
+                <div class="right">
+                    <h3 class="heading">some heading text</h3>
+                    <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you’ll find every step of the learning process."</p>
+                    <p class="author">- John Doe Smith Rodriguez</p>
+                </div>
             </div>
-        </div>
-        <div class="testimonial fade-out">
-            <div class="left">
-                <img src="/images/people/suit-guy.png" alt="suit guy">
+            <div class="carousel-item">
+                <div class="left">
+                    <img src="/images/people/suit-guy.png" alt="suit guy">
+                </div>
+                <div class="right">
+                    <h3 class="heading">some heading text</h3>
+                    <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you’ll find every step of the learning process."</p>
+                    <p class="author">- Johnny Bravo Dominguez</p>
+                </div>
             </div>
-            <div class="right">
-                <h3 class="heading">some heading text</h3>
-                <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you’ll find every step of the learning process."</p>
-                <p class="author">- Johnny Bravo Dominguez</p>
+            <div class="carousel-item">
+                <div class="left">
+                    <img src="/images/people/guy-on-laptop.jpeg" alt="">
+                </div>
+                <div class="right">
+                    <h3 class="heading">some heading text</h3>
+                    <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you’ll find every step of the learning process."</p>
+                    <p class="author">- Johnny Bravo Dominguez</p>
+                </div>
             </div>
-        </div>
-        <div class="testimonial fade-out">
-            <div class="left">
-                <img src="/images/people/guy-on-laptop.jpeg" alt="">
-            </div>
-            <div class="right">
-                <h3 class="heading">some heading text</h3>
-                <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you’ll find every step of the learning process."</p>
-                <p class="author">- Johnny Bravo Dominguez</p>
-            </div>
-        </div>
-        <div class="testimonial fade-out">
-            <div class="left">
-                <img src="/images/people/girl-on-laptop.jpg" alt="">
-            </div>
-            <div class="right">
-                <h3 class="heading">some heading text</h3>
-                <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you’ll find every step of the learning process."</p>
-                <p class="author">- Johnny Bravo Dominguez</p>
+            <div class="carousel-item">
+                <div class="left">
+                    <img src="/images/people/girl-on-laptop.jpg" alt="">
+                </div>
+                <div class="right">
+                    <h3 class="heading">some heading text</h3>
+                    <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you’ll find every step of the learning process."</p>
+                    <p class="author">- Johnny Bravo Dominguez</p>
+                </div>
             </div>
         </div>
     </section>

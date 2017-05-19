@@ -4,4 +4,4 @@ require('./canvas.js');
 
 require('./scroll-animations.js');
 
-require('./testimonials.js');
+require('../vendor/carousel/carousel.js');
