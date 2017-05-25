@@ -1,9 +1,9 @@
-<?php $page = "homepage"; include('parts/head.php'); ?>
+<?php $rootPath = ''; $page = "homepage"; include('parts/head.php'); ?>
 <body>
     <?php include('parts/navbar.php'); ?>
     <section class="above-the-fold">
         <div class="container">
-            <img src="/images/logos/techlaunch-blackbg.svg" alt="Techlaunch logo" class="logo">
+            <img src="images/logos/techlaunch-blackbg.svg" alt="Techlaunch logo" class="logo">
             <div class="cta-box">
                 <h2>launch a career in technology</h2>
                 <p>Techlaunch offers programs in Web Development, Web Design, and IT Security. We teach more than short-term coding bootcamps to ensure that you will not only be prepared to get a new career, but will also thrive.</p>
@@ -15,7 +15,7 @@
 
     <section class="launch">
         <div class="left">
-            <img src="/images/rocket.svg" alt="Techlaunch logo">
+            <img src="images/rocket.svg" alt="Techlaunch logo">
             <h2>launch a great tech career in under a year</h2>
         </div>
         <div class="right">
@@ -104,7 +104,7 @@
             </div>
             <div class="carousel-item">
                 <div class="left">
-                    <img src="/images/people/person-holding-computer.png" alt="person holding computer">
+                    <img src="images/people/person-holding-computer.png" alt="person holding computer">
                 </div>
                 <div class="right">
                     <h3 class="heading">some heading text</h3>
@@ -114,7 +114,7 @@
             </div>
             <div class="carousel-item">
                 <div class="left">
-                    <img src="/images/people/suit-guy.png" alt="suit guy">
+                    <img src="images/people/suit-guy.png" alt="suit guy">
                 </div>
                 <div class="right">
                     <h3 class="heading">some heading text</h3>
@@ -124,7 +124,7 @@
             </div>
             <div class="carousel-item">
                 <div class="left">
-                    <img src="/images/people/guy-on-laptop.jpeg" alt="">
+                    <img src="images/people/guy-on-laptop.jpeg" alt="">
                 </div>
                 <div class="right">
                     <h3 class="heading">some heading text</h3>
@@ -134,7 +134,7 @@
             </div>
             <div class="carousel-item">
                 <div class="left">
-                    <img src="/images/people/girl-on-laptop.jpg" alt="">
+                    <img src="images/people/girl-on-laptop.jpg" alt="">
                 </div>
                 <div class="right">
                     <h3 class="heading">some heading text</h3>
@@ -152,24 +152,24 @@
                 <p>Rationis enim perfectio est virtus; Universa enim illorum ratione cum tota vestra confligendum puto. Etsi qui potest intellegi aut cogitari esse aliquod animal, quod se oderit? Sic, et quidem diligentius saepiusque ista loquemur inter nos agemusque communiter. Non autem hoc: igitur ne illud quidem. Nondum autem explanatum satis, erat, quid maxime natura vellet. Tertium autem omnibus aut maximis rebus iis, quae secundum naturam sint, fruentem vivere.</p>
             </div>
             <div class="middle">
-                <img src="/images/phone-and-laptop.jpg" alt="phone and laptop">
+                <img src="images/phone-and-laptop.jpg" alt="phone and laptop">
             </div>
             <div class="right">
                 <ul>
                     <li>
-                        <img class="icon" src="/images/icons/atom.svg" alt="atom icon">
+                        <img class="icon" src="images/icons/atom.svg" alt="atom icon">
                         <p>Arroz con mango cafe bustelo LIV pero like abuelita meng bulykkk.</p>
                     </li>
                     <li>
-                        <img class="icon" src="/images/icons/calculator.svg" alt="calculator icon">
+                        <img class="icon" src="images/icons/calculator.svg" alt="calculator icon">
                         <p>Arroz con mango cafe bustelo LIV pero like abuelita meng bulykkk.</p>
                     </li>
                     <li>
-                        <img class="icon" src="/images/icons/statistics.svg" alt="statistics icon">
+                        <img class="icon" src="images/icons/statistics.svg" alt="statistics icon">
                         <p>Arroz con mango cafe bustelo LIV pero like abuelita meng bulykkk.</p>
                     </li>
                     <li>
-                        <img class="icon" src="/images/icons/clipboard.svg" alt="clipboard icon">
+                        <img class="icon" src="images/icons/clipboard.svg" alt="clipboard icon">
                         <p>Arroz con mango cafe bustelo LIV pero like abuelita meng bulykkk.</p>
                     </li>
                 </ul>
@@ -203,22 +203,22 @@
                     </div>
                     <div class="company-logos">
                         <div class="logo">
-                            <img src="/images/logos/khan-academy.png" alt="khan academy logo">
+                            <img src="images/logos/khan-academy.png" alt="khan academy logo">
                         </div>
                         <div class="logo">
-                            <img src="/images/logos/netflix.png" alt="netflix logo">
+                            <img src="images/logos/netflix.png" alt="netflix logo">
                         </div>
                         <div class="logo">
-                            <img src="/images/logos/yahoo.png" alt="yahoo logo">
+                            <img src="images/logos/yahoo.png" alt="yahoo logo">
                         </div>
                         <div class="logo">
-                            <img src="/images/logos/uber.jpg" style="width: auto; height: 100%;" alt="uber logo">
+                            <img src="images/logos/uber.jpg" style="width: auto; height: 100%;" alt="uber logo">
                         </div>
                         <div class="logo">
-                            <img src="/images/logos/paypal.png" alt="paypal logo">
+                            <img src="images/logos/paypal.png" alt="paypal logo">
                         </div>
                         <div class="logo">
-                            <img src="/images/logos/facebook.png" style="width: auto; height: 90%;" alt="facebook logo">
+                            <img src="images/logos/facebook.png" style="width: auto; height: 90%;" alt="facebook logo">
                         </div>
                     </div>
                 </div>
@@ -235,25 +235,25 @@
                     </div>
                     <div class="company-logos">
                         <!-- <div class="logo">
-                            <img src="/images/logos/rackspace.png" alt="rackspace logo">
+                            <img src="images/logos/rackspace.png" alt="rackspace logo">
                         </div> -->
                         <div class="logo">
-                            <img src="/images/logos/zynga.png" alt="zynga logo">
+                            <img src="images/logos/zynga.png" alt="zynga logo">
                         </div>
                         <div class="logo">
-                            <img src="/images/logos/tesla.png" style="width: auto; height: 90%;" alt="tesla logo">
+                            <img src="images/logos/tesla.png" style="width: auto; height: 90%;" alt="tesla logo">
                         </div>
                         <div class="logo">
-                            <img src="/images/logos/wordpress.png" alt="wordpress logo">
+                            <img src="images/logos/wordpress.png" alt="wordpress logo">
                         </div>
                         <div class="logo">
-                            <img src="/images/logos/udemy.png" style="width: auto; height: 100%;" alt="udemy logo">
+                            <img src="images/logos/udemy.png" style="width: auto; height: 100%;" alt="udemy logo">
                         </div>
                         <div class="logo">
-                            <img src="/images/logos/lyft.png" style="width: auto; height: 100%;" alt="lyft logo">
+                            <img src="images/logos/lyft.png" style="width: auto; height: 100%;" alt="lyft logo">
                         </div>
                         <div class="logo">
-                            <img src="/images/logos/tumblr.png" alt="tumblr logo">
+                            <img src="images/logos/tumblr.png" alt="tumblr logo">
                         </div>
                     </div>
                 </div>
@@ -264,15 +264,15 @@
 
     <section class="partners">
         <div class="logos-container">
-            <img src="/images/logos/cssf.png" alt="Career Source South Florida logo">
-            <img src="/images/logos/coe.jpg" alt="Council on Occupational Education logo">
-            <img src="/images/logos/fl-doe.jpg" alt="Florida Department of Education logo">
-            <img src="/images/logos/fapsc.jpeg" alt="FAPSC logo">
+            <img src="images/logos/cssf.png" alt="Career Source South Florida logo">
+            <img src="images/logos/coe.jpg" alt="Council on Occupational Education logo">
+            <img src="images/logos/fl-doe.jpg" alt="Florida Department of Education logo">
+            <img src="images/logos/fapsc.jpeg" alt="FAPSC logo">
         </div>
     </section>
 
-    <?php include('parts/footer.php') ?>
+    <?php $rootPath = ''; include('parts/footer.php') ?>
 
-    <script src="/js/bundle.js"></script>
+    <script src="js/bundle.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-<?php $page = "web-developer"; include('../parts/head.php'); ?>
+<?php $rootPath = '../'; $page = "web-developer"; include('../parts/head.php'); ?>
 <body>
     <?php include('../parts/navbar.php'); ?>
 
@@ -50,37 +50,37 @@
             <div class="cards-container">
                 <div class="left">
                     <div class="card">
-                        <img src="/images/icons/atom.svg" alt="">
+                        <img src="../images/icons/atom.svg" alt="">
                         <p>Full-Stack Web Development</p>
                     </div>
                     <div class="card">
-                        <img src="/images/icons/calculator.svg" alt="">
+                        <img src="../images/icons/calculator.svg" alt="">
                         <p>36-Week (9-Month) immersive program</p>
                     </div>
                     <div class="card">
-                        <img src="/images/icons/clipboard.svg" alt="">
+                        <img src="../images/icons/clipboard.svg" alt="">
                         <p>Career Placement Assistance</p>
                     </div>
                     <div class="card">
-                        <img src="/images/icons/statistics.svg" alt="">
+                        <img src="../images/icons/statistics.svg" alt="">
                         <p>Small Class sizes for one-on-one learning</p>
                     </div>
                 </div>
                 <div class="right">
                     <div class="card">
-                        <img src="/images/icons/clipboard.svg" alt="">
+                        <img src="../images/icons/clipboard.svg" alt="">
                         <p>Federal Financial aid available to those who qualify</p>
                     </div>
                     <div class="card">
-                        <img src="/images/icons/statistics.svg" alt="">
+                        <img src="../images/icons/statistics.svg" alt="">
                         <p>Campus located in Doral, a rapidly growing tech community</p>
                     </div>
                     <div class="card">
-                        <img src="/images/icons/atom.svg" alt="">
+                        <img src="../images/icons/atom.svg" alt="">
                         <p>Curriculum designed with local Miami job market in mind</p>
                     </div>
                     <div class="card">
-                        <img src="/images/icons/calculator.svg" alt="">
+                        <img src="../images/icons/calculator.svg" alt="">
                         <p>Complete the program with a Diploma and a Portfolio of work to show prospective employers</p>
                     </div>
                 </div>
@@ -94,17 +94,17 @@
             <div class="testimonials-container">
                 <div class="testimonial">
                     <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities."</p>
-                    <img src="/images/people/frank.jpg" alt="Frank">
+                    <img src="../images/people/frank.jpg" alt="Frank">
                     <span class="name">Frank Veloz</span>
                 </div>
                 <div class="testimonial">
                     <p class="quote">"When I started school I didn’t have the slightest idea of how much I would learn. I started the course without knowing anything about healthcare and the care that it requires."</p>
-                    <img src="/images/people/tatiana.png" alt="Tatiana">
+                    <img src="../images/people/tatiana.png" alt="Tatiana">
                     <span class="name">Tatiana Torres</span>
                 </div>
                 <div class="testimonial">
                     <p class="quote">"FVI helped me to accommodate my externship hours around my busy schedule. Today, I am working as a Medical Assistant in a doctor's office, in which I perform EKG, Phlebotomy, Data entry, Vital signs etc."</p>
-                    <img src="/images/people/yanet.png" alt="Yanet">
+                    <img src="../images/people/yanet.png" alt="Yanet">
                     <span class="name">Yanet Gonzalez</span>
                 </div>
             </div>
@@ -133,28 +133,28 @@
             <div class="content">
                 <div class="cards-container">
                     <div class="card">
-                        <img src="/images/icons/clipboard.svg" alt="">
+                        <img src="../images/icons/clipboard.svg" alt="">
                         <p>Frontend web development with HTML5, CSS3, JavaScript, and modern JavaScript frameworks</p>
                     </div>
                     <div class="card">
-                        <img src="/images/icons/atom.svg" alt="">
+                        <img src="../images/icons/atom.svg" alt="">
                         <p>AJAX programming and best practices to manage the request-response model within the context of the web browser</p>
                     </div>
                     <div class="card">
-                        <img src="/images/icons/calculator.svg" alt="">
+                        <img src="../images/icons/calculator.svg" alt="">
                         <p>How to effectively use CSS media queries to create fully response, mobile-friendly websites and web apps</p>
                     </div>
                     <div class="card">
-                        <img src="/images/icons/statistics.svg" alt="">
+                        <img src="../images/icons/statistics.svg" alt="">
                         <p>Frontend programming in plain JavaScript and jQuery, as well as advanced JavaScript design patterns under MV* frameworks</p>
                     </div>
                     <div class="card">
-                        <img src="/images/icons/clipboard.svg" alt="">
+                        <img src="../images/icons/clipboard.svg" alt="">
                         <p>How to optimize web pages and employ popular optimization worklows such as Gulp and Apache's mod_pagespeed for blazing fast page load times</p>
                     </div>
                 </div>
                 <div class="image-container">
-                    <img src="/images/people/suit-guy.png" alt="">
+                    <img src="../images/people/suit-guy.png" alt="">
                 </div>
             </div>
         </div>
@@ -177,7 +177,7 @@
         <div class="container">
             <h2 class="section-title">student projects</h2>
             <div class="projects-container">
-                <img src="/images/code-on-screen.jpeg" alt="">
+                <img src="../images/code-on-screen.jpeg" alt="">
             </div>
         </div>
     </section>
@@ -185,14 +185,14 @@
     <section class="hiring-partners">
         <h2 class="section-title">hiring partners</h2>
         <div class="logos-container">
-            <img src="/images/logos/microsoft.png" alt="Microsoft logo">
-            <img src="/images/logos/google.png" alt="Google logo">
-            <img src="/images/logos/amazon.png" alt="Amazon logo">
-            <img src="/images/logos/facebook.png" alt="Facebook logo">
+            <img src="../images/logos/microsoft.png" alt="Microsoft logo">
+            <img src="../images/logos/google.png" alt="Google logo">
+            <img src="../images/logos/amazon.png" alt="Amazon logo">
+            <img src="../images/logos/facebook.png" alt="Facebook logo">
         </div>
     </section>
 
-    <?php include('../parts/footer.php') ?>
+    <?php $rootPath = '../'; include('../parts/footer.php') ?>
 
     <script src="../js/bundle.js"></script>
 </body>
