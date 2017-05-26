@@ -1,6 +1,7 @@
 section.programs {
     display: flex;
     flex-flow: row wrap;
+    padding: 0;
 
     .left,
     .right {

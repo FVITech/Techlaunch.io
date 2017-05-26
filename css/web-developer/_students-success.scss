@@ -1,15 +1,13 @@
 section.students-success {
     background-color: #444;
-    padding-top: 30px;
-    padding-bottom: 60px;
 
     .section-title {
         color: #fff;
+        text-align: center;
     }
 }
 
 section.students-success .testimonials-container {
-    padding-top: 60px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;

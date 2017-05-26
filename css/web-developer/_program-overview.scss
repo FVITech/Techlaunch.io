@@ -2,6 +2,10 @@ section.program-overview {
     background-color: #fff;
     padding-bottom: 60px;
 
+    .section-title {
+        text-align: center;
+    }
+
     .subtitle {
         max-width: 800px;
         text-align: center;
@@ -42,7 +46,7 @@ section.program-overview .cards-container {
         }
 
         p {
-
+            margin: 0;
         }
     }
 }

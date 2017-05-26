@@ -1,15 +1,5 @@
 section.tech-industry {
     background-color: #fff;
-    padding-top: 10px;
-
-    .section-title {
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: 700;
-        font-size: 32px;
-        margin-bottom: 0px;
-        color: #000;
-    }
 
     .container {
         display: flex;
@@ -25,7 +15,7 @@ section.tech-industry {
         padding: 20px;
 
         @media all and (min-width: 992px) {
-            padding: 40px;
+            padding: 0 40px;
             width: 33%;
         }
     }

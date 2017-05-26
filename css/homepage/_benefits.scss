@@ -1,6 +1,5 @@
 section.benefits {
     width: 100%;
-    padding: 20px;
     background-color: #fff;
 
     @media all and (min-width: 768px) {
@@ -8,18 +7,6 @@ section.benefits {
             linear-gradient(rgba(255, 255, 255, .7) 0%, rgba(255, 255, 255, .7) 100%),
             url('../../images/backgrounds/canvas-texture.jpg');
         background-size: cover;
-    }
-
-    .section-title {
-        text-align: center;
-        text-transform: uppercase;
-        margin-bottom: 0;
-        font-size: 28px;
-        padding-top: 0;
-
-        @media all and (min-width: 768px) {
-            font-size: 32px;
-        }
     }
 }
 
@@ -38,7 +25,7 @@ section.benefits .benefits-container {
         padding: 15px 0;
 
         @media all and (min-width: 768px) {
-            padding: 25px;
+            padding: 0 25px;
             width: 33%;
         }
     }

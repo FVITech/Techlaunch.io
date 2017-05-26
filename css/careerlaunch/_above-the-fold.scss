@@ -1,0 +1,28 @@
+section.above-the-fold {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, .4) 0%, rgba(0, 0, 0, .4) 100%),
+        url('../../images/backgrounds/man-adjusting-tie.jpg');
+    background-size: cover;
+    background-position: center top;
+    min-height: 80vh;
+    padding-bottom: 20px;
+
+    @media all and (min-width: 992px) {
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .logo {
+        width: 140px;
+        margin-top: 60px;
+
+        @media all and (min-width: 600px) {
+            margin-top: 0;
+        }
+
+        @media all and (min-width: 992px) {
+            width: 180px;
+        }
+    }
+}

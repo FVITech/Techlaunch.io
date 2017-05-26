@@ -5,7 +5,7 @@ nav{
   right: 5%;
   z-index: 100;
   *{
-    background-color: #159EEE;
+    background-color: $fvi-blue;
     margin: 0 1rem;
     padding: 0.5rem;
     font-size: 1.25rem;
@@ -19,11 +19,18 @@ nav{
           display: inline;
       }
   }
-  .phone a {
-      margin: 0;
+  .phone,
+  i {
+      border: 1px solid #666;
+      border-top: none;
+  }
+  .phone {
+      a {
+          margin: 0;
 
-      @media all and (min-width: 340px) {
-          margin: 0 1rem;
+          @media all and (min-width: 340px) {
+              margin: 0 1rem;
+          }
       }
   }
   div{
@@ -32,10 +39,10 @@ nav{
   a{
     color: white;
   }
+  i{
+      transform: scaleX(1.5);
+  }
   i:hover{
     cursor: pointer;
-  }
-  i{
-    transform: scaleX(1.5);
   }
 }
