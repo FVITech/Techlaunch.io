@@ -7,9 +7,9 @@
     "start": "webpack-dev-server --open",
     "prod": "webpack -p",
     "sass": "node-sass css -o css",
+    "sass:watch": "node-sass -w css -o css",
     "autoprefixer": "postcss css/**/*.css --use autoprefixer -r",
     "build-css": "npm run sass && npm run autoprefixer",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "cleancss": "cleancss css/**/*.css",
     "build-css-min": "npm run sass && npm run autoprefixer && npm run cleancss"
   },
@@ -29,6 +29,7 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
+    "carousel-slider": "^1.0.0",
     "jquery": "^3.2.1",
     "lodash.throttle": "^4.1.1"
   }

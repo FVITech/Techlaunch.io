@@ -91,7 +91,7 @@
         </div>
     </section>
 
-    <section class="testimonials">
+    <section class="testimonials homepage">
         <div class="carousel">
             <div id="left-btn" class="left-btn">‹</div>
             <div id="right-btn" class="right-btn">›</div>
