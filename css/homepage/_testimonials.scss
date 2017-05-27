@@ -3,13 +3,6 @@
 section.testimonials {
     background-color: #eee;
     padding: 0;
-
-    .carousel {
-
-        @media all and (min-width: 768px) {
-            padding-bottom: 40%;
-        }
-    }
 }
 
 section.testimonials .carousel-item {

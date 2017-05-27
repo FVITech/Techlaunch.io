@@ -4,7 +4,7 @@ section.above-the-fold {
         url('../../images/backgrounds/man-adjusting-tie.jpg');
     background-size: cover;
     background-position: center top;
-    min-height: 80vh;
+    min-height: 50vw;
     padding-bottom: 20px;
 
     @media all and (min-width: 992px) {
@@ -16,6 +16,7 @@ section.above-the-fold {
     .logo {
         width: 140px;
         margin-top: 60px;
+        display: block;
 
         @media all and (min-width: 600px) {
             margin-top: 0;
@@ -24,5 +25,15 @@ section.above-the-fold {
         @media all and (min-width: 992px) {
             width: 180px;
         }
+    }
+
+    .page-title {
+        display: inline-block;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #fff;
+        background-color: $fvi-blue;
+        font-size: 34px;
+        padding: 15px;
     }
 }

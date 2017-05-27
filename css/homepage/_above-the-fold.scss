@@ -5,6 +5,7 @@ section.above-the-fold {
     background-size: cover;
     background-position: center top;
     min-height: 80vh;
+    padding: 0;
     padding-bottom: 20px;
 
     @media all and (min-width: 992px) {
@@ -53,13 +54,17 @@ section.above-the-fold {
     }
 
     button {
+        display: inline-block;
         background-color: #000;
         color: #fff;
         border: none;
         border-radius: 6px;
         padding: 10px;
+        letter-spacing: normal;
+        text-transform: none;
         font-size: 12px;
-        font-weight: 800;
+        font-family: inherit;
+        font-weight: 700;
         cursor: pointer;
 
         &:hover,
@@ -69,7 +74,7 @@ section.above-the-fold {
         }
 
         &:first-of-type {
-            margin-right: 30px;
+            margin-right: 25px;
         }
     }
 }

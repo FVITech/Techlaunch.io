@@ -95,13 +95,7 @@
         <div class="carousel">
             <div id="left-btn" class="left-btn">‹</div>
             <div id="right-btn" class="right-btn">›</div>
-            <div class="dots">
-                <!-- EDIT: the number of dots must match the number of testimonials -->
-                <span data-index="0" class="dot active"></span>
-                <span data-index="1" class="dot"></span>
-                <span data-index="2" class="dot"></span>
-                <span data-index="3" class="dot"></span>
-            </div>
+            <div class="dots"></div>
             <div class="carousel-item">
                 <div class="left">
                     <img src="images/people/person-holding-computer.png" alt="person holding computer">

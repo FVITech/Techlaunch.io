@@ -15,30 +15,34 @@
                 <h2 class="section-title">request more information</h2>
                 <form>
                     <div class="form-input">
-                        <label>First Name</label>
-                        <input type="text" name="first_name">
+                        <div>
+                            <label>First Name</label>
+                            <input type="text" name="first_name">
+                        </div>
+                        <div>
+                            <label>Last Name</label>
+                            <input type="text" name="last_name">
+                        </div>
                     </div>
                     <div class="form-input">
-                        <label>Last Name</label>
-                        <input type="text" name="last_name">
-                    </div>
-                    <div class="form-input">
-                        <label>Phone</label>
-                        <input type="tel" name="phone">
-                    </div>
-                    <div class="form-input split">
                         <div>
                             <label>Email</label>
-                            <input type="email" name="email">
+                            <input type="tel" name="email">
+                        </div>
+                        <div>
+                            <label>Phone</label>
+                            <input type="tel" name="phone">
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <div>
+                            <label>City</label>
+                            <input type="text" name="zip">
                         </div>
                         <div>
                             <label>Zip</label>
                             <input type="number" name="zip">
                         </div>
-                    </div>
-                    <div class="form-input">
-                        <label>City</label>
-                        <input type="text" name="zip">
                     </div>
                     <p>Cafe con leche vizcaya basel doral. Sall-mon Dolphins hialeah cocowalk gramps, cafecito miami time arroz con mango basel JWB dale art deco vizcaya.</p>
                     <button type="submit">submit info</button>

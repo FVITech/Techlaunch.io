@@ -5,6 +5,7 @@
     <section class="above-the-fold">
         <div class="container">
             <img src="../images/logos/techlaunch-blackbg.svg" alt="Techlaunch logo" class="logo">
+            <h1 class="page-title">Careerlaunch</h1>
         </div>
     </section>
 

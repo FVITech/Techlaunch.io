@@ -456,7 +456,6 @@ button {
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 1px;
-  width: 100%;
   font-family: "Open Sans", sans-serif;
   cursor: pointer;
   box-shadow: 0 2px 2px -1px black;
@@ -697,12 +696,12 @@ footer .fourth .blog-posts a:nth-of-type(4) {
   background-image: url("../../images/backgrounds/computer-mouse.jpg"); }
 
 footer .fourth .form-input {
-  display: flex; }
+  display: flex;
+  flex-flow: row nowrap; }
 
 footer .fourth .form-input input {
-  padding: 8px; }
-
-footer .fourth .form-input input[type="text"] {
+  display: block;
+  padding: 8px;
   width: 100%;
   background-color: transparent;
   border: 1px solid #aaa;
@@ -713,10 +712,11 @@ footer .fourth .form-input input[type="text"] {
   color: #fff;
   font-size: 14px; }
 
-footer .fourth .form-input input[type="text"]:hover, footer .fourth .form-input input[type="text"]:focus {
+footer .fourth .form-input input:hover, footer .fourth .form-input input:focus {
   background-color: rgba(255, 255, 255, 0.1); }
 
 footer .fourth .form-input button {
+  display: block;
   width: 40px;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
@@ -725,7 +725,12 @@ footer .fourth .form-input button {
   color: #fff;
   font-size: 24px;
   line-height: .8;
-  cursor: pointer; }
+  cursor: pointer;
+  text-transform: none;
+  padding: 0;
+  font-weight: normal;
+  letter-spacing: normal;
+  transform: none; }
 
 footer .fourth .form-input button:hover, footer .fourth .form-input button:focus {
   background-color: #555;
@@ -826,6 +831,7 @@ section.above-the-fold {
   background-size: cover;
   background-position: center top;
   min-height: 80vh;
+  padding: 0;
   padding-bottom: 20px; }
 
 @media all and (min-width: 992px) {
@@ -870,13 +876,17 @@ section.above-the-fold .logo {
   margin-bottom: 25px; }
 
 .above-the-fold .cta-box button {
+  display: inline-block;
   background-color: #000;
   color: #fff;
   border: none;
   border-radius: 6px;
   padding: 10px;
+  letter-spacing: normal;
+  text-transform: none;
   font-size: 12px;
-  font-weight: 800;
+  font-family: inherit;
+  font-weight: 700;
   cursor: pointer; }
 
 .above-the-fold .cta-box button:hover, .above-the-fold .cta-box button:focus {
@@ -884,7 +894,7 @@ section.above-the-fold .logo {
   color: #000; }
 
 .above-the-fold .cta-box button:first-of-type {
-  margin-right: 30px; }
+  margin-right: 25px; }
 
 section.launch {
   background-color: #159EEE;
@@ -1015,13 +1025,17 @@ section.tech-industry .container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  padding: 0; }
+
+section.tech-industry .section-title {
+  text-align: center; }
 
 section.tech-industry .graph-container,
 section.tech-industry .explanation,
 section.tech-industry .income-div {
   width: 100%;
-  padding: 20px; }
+  padding: 20px 0; }
 
 @media all and (min-width: 992px) {
   section.tech-industry .graph-container,
@@ -1031,7 +1045,7 @@ section.tech-industry .income-div {
     width: 33%; } }
 
 section.tech-industry .graph-container {
-  margin-top: 70px; }
+  padding-top: 60px; }
 
 @media all and (min-width: 992px) {
   section.tech-industry .graph-container {
@@ -1083,7 +1097,7 @@ section.tech-industry .graph {
 
 section.tech-industry .graph .bar-container {
   width: 30%;
-  min-height: 200px; }
+  min-height: 240px; }
 
 section.tech-industry .graph .bar {
   position: absolute;
@@ -1195,13 +1209,15 @@ section.tech-industry .graph label {
 
 .carousel {
   width: 100%;
-  position: relative; }
+  position: relative;
+  padding-bottom: 40%; }
 
 .carousel.stacked {
   padding-bottom: 0; }
 
 .carousel .left-btn,
 .carousel .right-btn {
+  display: none;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -1213,6 +1229,11 @@ section.tech-industry .graph label {
   cursor: pointer;
   z-index: 2;
   background-color: rgba(0, 0, 0, 0.1); }
+
+@media all and (min-width: 786px) {
+  .carousel .left-btn,
+  .carousel .right-btn {
+    display: block; } }
 
 .carousel .left-btn:hover, .carousel .left-btn:focus,
 .carousel .right-btn:hover,
@@ -1234,17 +1255,12 @@ section.tech-industry .graph label {
   border-bottom-left-radius: 4px; }
 
 .carousel .dots {
-  display: none;
   position: absolute;
   bottom: 0;
   padding-bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2; }
-
-@media all and (min-width: 786px) {
-  .carousel .dots {
-    display: block; } }
 
 .carousel .dots.stacked {
   display: none; }
@@ -1356,10 +1372,6 @@ section.testimonials {
   background-color: #eee;
   padding: 0; }
 
-@media all and (min-width: 768px) {
-  section.testimonials .carousel {
-    padding-bottom: 40%; } }
-
 section.testimonials .carousel-item .left {
   width: 100%;
   max-width: 500px; }
@@ -1422,6 +1434,9 @@ section.benefits {
   section.benefits {
     background-image: linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url("../../images/backgrounds/canvas-texture.jpg");
     background-size: cover; } }
+
+section.benefits .section-title {
+  text-align: center; }
 
 section.benefits .benefits-container {
   display: flex;
@@ -1531,12 +1546,10 @@ section.stacks .section-title {
   text-align: center;
   text-transform: uppercase;
   margin: 30px 0 50px;
-  padding-top: 0;
-  font-size: 30px; }
+  padding-top: 0; }
 
 @media all and (min-width: 786px) {
   section.stacks .section-title {
-    font-size: 32px;
     margin: 40px 0 60px; } }
 
 section.stacks .stacks-container {
@@ -1595,7 +1608,7 @@ section.stacks .stacks-container .stack .company-logos .logo img {
   width: 100%; }
 
 section.stacks .stacks-container .stack button {
-  margin: 30px 0;
+  margin: 30px auto;
   margin-bottom: 60px;
   border-radius: 3px;
   border: none;
