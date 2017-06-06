@@ -417,8 +417,7 @@ body {
 body {
   margin: 0 auto;
   color: #222;
-  font-family: "Open Sans", sans-serif;
-  max-width: 1400px; }
+  font-family: "Open Sans", sans-serif; }
 
 section {
   padding: 40px 20px;
@@ -446,6 +445,12 @@ section p, section li {
 
 section p {
   margin: 30px 0; }
+
+section a {
+  color: #159EEE; }
+
+section a:focus, section a:hover {
+  color: #003352; }
 
 button {
   display: block;

@@ -26,10 +26,16 @@ section {
             background-position: center;
         }
 
-        h3 {
+        h3 a {
+            text-decoration: none;
             color: $fvi-blue;
             font-size: 28px;
             text-transform: uppercase;
+
+            &:hover,
+            &:focus {
+                color: $dark-blue;
+            }
         }
 
         p {
