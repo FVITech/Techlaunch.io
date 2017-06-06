@@ -205,14 +205,14 @@
                         <div class="logo">
                             <img src="images/logos/yahoo.png" alt="yahoo logo">
                         </div>
-                        <div class="logo">
-                            <img src="images/logos/uber.jpg" style="width: auto; height: 100%;" alt="uber logo">
+                        <div class="logo uber">
+                            <img src="images/logos/uber.jpg" alt="uber logo">
                         </div>
                         <div class="logo">
                             <img src="images/logos/paypal.png" alt="paypal logo">
                         </div>
-                        <div class="logo">
-                            <img src="images/logos/facebook.png" style="width: auto; height: 90%;" alt="facebook logo">
+                        <div class="logo facebook">
+                            <img src="images/logos/facebook.png" alt="facebook logo">
                         </div>
                     </div>
                 </div>
@@ -234,17 +234,17 @@
                         <div class="logo">
                             <img src="images/logos/zynga.png" alt="zynga logo">
                         </div>
-                        <div class="logo">
-                            <img src="images/logos/tesla.png" style="width: auto; height: 90%;" alt="tesla logo">
+                        <div class="logo tesla">
+                            <img src="images/logos/tesla.png" alt="tesla logo">
                         </div>
                         <div class="logo">
                             <img src="images/logos/wordpress.png" alt="wordpress logo">
                         </div>
-                        <div class="logo">
-                            <img src="images/logos/udemy.png" style="width: auto; height: 100%;" alt="udemy logo">
+                        <div class="logo udemy">
+                            <img src="images/logos/udemy.png" alt="udemy logo">
                         </div>
-                        <div class="logo">
-                            <img src="images/logos/lyft.png" style="width: auto; height: 100%;" alt="lyft logo">
+                        <div class="logo lyft">
+                            <img src="images/logos/lyft.png" alt="lyft logo">
                         </div>
                         <div class="logo">
                             <img src="images/logos/tumblr.png" alt="tumblr logo">

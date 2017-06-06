@@ -82,6 +82,26 @@ section.stacks .stacks-container .stack {
             img {
                 width: 100%;
             }
+
+            &.uber img {
+                width: auto; height: 100%;
+            }
+
+            &.facebook img {
+                width: auto; height: 90%;
+            }
+
+            &.tesla img {
+                width: auto; height: 90%;
+            }
+
+            &.udemy img {
+                width: auto; height: 100%;
+            }
+
+            &.lyft img {
+                width: auto; height: 100%;
+            }
         }
     }
 
