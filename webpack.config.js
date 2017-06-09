@@ -1,4 +1,6 @@
 const webpack = require('webpack')
+require('dotenv').config()
+const COMPUTER = process.env.COMPUTER
 
 module.exports = {
     entry: './js/index.js',
@@ -28,7 +30,7 @@ module.exports = {
         //   target: "http://localhost/Techlaunch.io/index.php",
         // },
         "*":{
-          target: "http://localhost/Techlaunch.io/"
+          target: `http://localhost/${COMPUTER === 'brentsMac' && '~brenton/'}Techlaunch.io/`
         }
       }
     }

@@ -2,3 +2,4 @@ node_modules
 *.log
 Tech-Launch-Home-Page.psd
 .DS_Store
+.env
