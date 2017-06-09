@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="Content-Security-Policy" content="
         default-src 'self' data:;
-        font-src https://fonts.gstatic.com 'self';
+        font-src https://fonts.gstatic.com 'self' data:;
         style-src https://fonts.googleapis.com 'self';
         child-src 'none';
         object-src 'none'
