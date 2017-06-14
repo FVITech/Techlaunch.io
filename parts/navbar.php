@@ -11,36 +11,36 @@
     </div>
     <div class="menu-container" id="menu-container">
         <div class="menu-section">
-            <a class="menu-header dropdown" href="programs/">Tech Career Programs</a>
+            <a class="menu-header dropdown" href="<?php echo $rootPath ?>programs/">Tech Career Programs</a>
             <div class="menu-list">
-                <a href="web-developer/">Web Developer</a>
-                <a href="web-design/">Web Design</a>
-                <a href="#">IT Help Desk</a>
-                <a href="#">CyberSecurity and Network Technician</a>
+                <a href="<?php echo $rootPath ?>web-developer/">Web Developer</a>
+                <a href="<?php echo $rootPath ?>web-design/">Web Design</a>
+                <a href="<?php echo $rootPath ?>#">IT Help Desk</a>
+                <a href="<?php echo $rootPath ?>#">CyberSecurity and Network Technician</a>
             </div>
-            <a class="menu-header dropdown" href="short-programs/">Short Skills Programs</a>
+            <a class="menu-header dropdown" href="<?php echo $rootPath ?>short-programs/">Short Skills Programs</a>
             <div class="menu-list">
-                <a href="#">Intro to DevOps - AWS</a>
-                <a href="#">WordPress Development</a>
-                <a href="#">Sign Up</a>
+                <a href="<?php echo $rootPath ?>#">Intro to DevOps - AWS</a>
+                <a href="<?php echo $rootPath ?>#">WordPress Development</a>
+                <a href="<?php echo $rootPath ?>#">Sign Up</a>
             </div>
-            <a class="menu-header dropdown" href="#">CareerLaunch</a>
+            <a class="menu-header dropdown" href="<?php echo $rootPath ?>#">CareerLaunch</a>
             <div class="menu-list">
-                <a href="#">Student Success</a>
-                <a href="#">Hiring Partners</a>
-                <a href="affordability/">Affordability</a>
+                <a href="<?php echo $rootPath ?>#">Student Success</a>
+                <a href="<?php echo $rootPath ?>#">Hiring Partners</a>
+                <a href="<?php echo $rootPath ?>affordability/">Affordability</a>
             </div>
         </div>
         <div class="menu-section">
-            <a class="menu-header" href="veterans/">Veterans</a>
-            <a class="menu-header" href="#">Blog</a>
-            <a class="menu-header dropdown" href="#">About Us</a>
+            <a class="menu-header" href="<?php echo $rootPath ?>veterans/">Veterans</a>
+            <a class="menu-header" href="<?php echo $rootPath ?>#">Blog</a>
+            <a class="menu-header dropdown" href="<?php echo $rootPath ?>#">About Us</a>
             <div class="menu-list">
-                <a href="#">Why TechLaunch</a>
-                <a href="#">Blog</a>
-                <a href="#">Our Team</a>
-                <a href="#">Events</a>
-                <a href="#">Contact Us</a>
+                <a href="<?php echo $rootPath ?>#">Why TechLaunch</a>
+                <a href="<?php echo $rootPath ?>#">Blog</a>
+                <a href="<?php echo $rootPath ?>#">Our Team</a>
+                <a href="<?php echo $rootPath ?>#">Events</a>
+                <a href="<?php echo $rootPath ?>#">Contact Us</a>
             </div>
         </div>
     </div>
