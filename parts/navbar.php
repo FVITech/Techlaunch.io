@@ -14,17 +14,21 @@
             <a class="menu-header dropdown" href="<?php echo $rootPath ?>programs/">Tech Career Programs</a>
             <div class="menu-list">
                 <a href="<?php echo $rootPath ?>web-developer/">Web Developer</a>
-                <a href="<?php echo $rootPath ?>web-design/">Web Design</a>
+                <a href="<?php echo $rootPath ?>#">Web Design</a>
                 <a href="<?php echo $rootPath ?>#">IT Help Desk</a>
                 <a href="<?php echo $rootPath ?>#">CyberSecurity and Network Technician</a>
             </div>
+        </div>
+        <div class="menu-section">
             <a class="menu-header dropdown" href="<?php echo $rootPath ?>short-programs/">Short Skills Programs</a>
             <div class="menu-list">
                 <a href="<?php echo $rootPath ?>#">Intro to DevOps - AWS</a>
                 <a href="<?php echo $rootPath ?>#">WordPress Development</a>
                 <a href="<?php echo $rootPath ?>#">Sign Up</a>
             </div>
-            <a class="menu-header dropdown" href="<?php echo $rootPath ?>#">CareerLaunch</a>
+        </div>
+        <div class="menu-section">
+            <a class="menu-header dropdown" href="<?php echo $rootPath ?>careerlaunch/">CareerLaunch</a>
             <div class="menu-list">
                 <a href="<?php echo $rootPath ?>#">Student Success</a>
                 <a href="<?php echo $rootPath ?>#">Hiring Partners</a>
@@ -33,14 +37,18 @@
         </div>
         <div class="menu-section">
             <a class="menu-header" href="<?php echo $rootPath ?>veterans/">Veterans</a>
+        </div>
+        <div class="menu-section">
             <a class="menu-header" href="<?php echo $rootPath ?>#">Blog</a>
+        </div>
+        <div class="menu-section">
             <a class="menu-header dropdown" href="<?php echo $rootPath ?>#">About Us</a>
             <div class="menu-list">
                 <a href="<?php echo $rootPath ?>#">Why TechLaunch</a>
                 <a href="<?php echo $rootPath ?>#">Blog</a>
                 <a href="<?php echo $rootPath ?>#">Our Team</a>
                 <a href="<?php echo $rootPath ?>#">Events</a>
-                <a href="<?php echo $rootPath ?>#">Contact Us</a>
+                <a href="<?php echo $rootPath ?>location/">Contact Us</a>
             </div>
         </div>
     </div>

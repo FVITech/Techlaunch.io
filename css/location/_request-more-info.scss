@@ -1,15 +1,18 @@
 section.request-more-info {
+    padding-bottom: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
 
-    .container {
-        display: flex;
-        flex-flow: row wrap;
-        align-items: flex-start;
-        justify-content: center;
+    .main,
+    aside {
+        margin-bottom: 40px;
     }
 
     .main {
         width: 100%;
-        max-width: 600px;
+        max-width: 580px;
 
         .section-title {
             color: $fvi-blue;
@@ -88,11 +91,12 @@ section.request-more-info {
     aside {
         background-color: #eee;
         width: 100%;
+        padding: 15px;
+        max-width: 580px;
 
         @media all and (min-width: 992px) {
-            width: 300px;
+            max-width: 300px;
             margin-left: 40px;
-            padding: 15px;
         }
 
         h3 {
