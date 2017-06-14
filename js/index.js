@@ -1,6 +1,6 @@
 require('./vendor.js');
 
-require('./navbar.js');
+require('./menu.js');
 
 require('./canvas.js');
 

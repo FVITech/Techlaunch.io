@@ -2,11 +2,11 @@
 @import "../normalize";
 @import "../base";
 @import "../helpers";
-
-// components
 @import "../footer";
-@import "../navbar";
-@import "../menu";
+@import "../navbar/navbar";
+@import "../navbar/menu-overlay";
+@import "../navbar/menu-button";
+@import "../navbar/menu";
 
 // sections
 @import "above-the-fold";

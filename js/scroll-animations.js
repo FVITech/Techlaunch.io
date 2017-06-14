@@ -4,7 +4,7 @@ const throttle = require('lodash.throttle')
 // Add selectors here and they will all have the class 'scroll-visible'
 // added to them when they scroll into view
 var selectors = [
-    $('.bar')
+    $('.graph .bar')
 ]
 
 var animElements = []
@@ -50,6 +50,7 @@ $(document).ready(function() {
         windowHeight = $(window).height()
         offset = windowHeight * .1
         _getPositions()
+        playAnimations()
     }, 1000)
 
     $(document).scroll(throttle(onScroll, 100))

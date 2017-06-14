@@ -3,6 +3,11 @@
 section.testimonials {
     background-color: #eee;
     padding: 0;
+
+    .carousel {
+        padding-bottom: 500px;
+        overflow: hidden;
+    }
 }
 
 section.testimonials .carousel-item {
