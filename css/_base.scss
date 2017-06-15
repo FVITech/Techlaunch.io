@@ -25,6 +25,10 @@ section {
     padding: 40px 20px;
     background-color: #fff;
 
+    &.bg-gray {
+        background-color: #eee;
+    }
+
     @media all and (min-width: 768px) {
         padding: 60px 30px;
     }
@@ -61,7 +65,7 @@ section {
     }
 }
 
-button {
+button, .btn {
     display: block;
     background-color: $fvi-blue;
     color: #fff;

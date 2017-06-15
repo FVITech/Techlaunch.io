@@ -1,0 +1,182 @@
+section.above-the-fold {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, .4) 0%, rgba(0, 0, 0, .4) 100%),
+        url('../../images/backgrounds/teaching.jpg');
+    background-size: cover;
+    background-position: center top;
+    min-height: 80vh;
+    padding-bottom: 20px;
+
+    @media all and (min-width: 992px) {
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .logo {
+        width: 140px;
+        margin-top: 60px;
+
+        @media all and (min-width: 600px) {
+            margin-top: 0;
+        }
+
+        @media all and (min-width: 992px) {
+            width: 180px;
+        }
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+        align-items: flex-start;
+    }
+}
+
+section.above-the-fold .text-box {
+    max-width: 600px;
+    margin-bottom: 30px;
+
+    h2 {
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 36px;
+        color: #fff;
+        margin-bottom: 0;
+        text-shadow: 0 1px 6px rgba(0, 0, 0, .3);
+
+        @media all and (min-width: 480px) {
+            font-size: 50px;
+        }
+    }
+
+    h4 {
+        max-width: 400px;
+        font-weight: 400;
+        color: #fff;
+        font-size: 22px;
+        line-height: 1.7;
+        text-shadow: 0 1px 5px rgba(0, 0, 0, .7);
+
+        @media all and (min-width: 480px) {
+            font-size: 28px;
+        }
+    }
+
+    .figures-container {
+        width: 100%;
+        max-width: 530px;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, .7);
+
+        .figure {
+            color: #fff;
+            text-align: center;
+
+            .number {
+                margin: 0;
+                font-size: 18px;
+                font-weight: 700;
+
+                @media all and (min-width: 500px) {
+                    font-size: 28px;
+                }
+            }
+
+            .label {
+                margin-top: 5px;
+                font-size: 14px;
+                max-width: 80px;
+
+                @media all and (min-width: 500px) {
+                    font-size: 20px;
+                    max-width: none;
+                }
+            }
+        }
+    }
+}
+
+section.above-the-fold .form-container {
+    background-color: #eee;
+    padding: 15px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 3px 8px -1px rgba(0, 0, 0, .7);
+
+    @media all and (min-width: 480px) {
+        padding: 30px;
+    }
+
+    .title {
+        max-width: 280px;
+        text-align: center;
+        font-weight: 300;
+        font-size: 32px;
+        margin: auto;
+        margin-top: 10px;
+        line-height: 1.4;
+    }
+
+    .subtitle {
+        max-width: 280px;
+        margin: 15px auto 30px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .form-input {
+        width: 100%;
+        margin: 18px 0;
+
+        label {
+            text-transform: uppercase;
+            font-weight: 700;
+            display: inline-block;
+            font-size: 14px;
+        }
+
+        input {
+            display: inline-block;
+            width: 100%;
+            margin-top: 8px;
+            border: 1px solid #ccc;
+            padding: 10px;
+
+            &::placeholder {
+                color: #999;
+            }
+        }
+    }
+
+    button {
+        display: block;
+        text-transform: uppercase;
+        color: #fff;
+        margin: 30px auto 0px;
+        width: 180px;
+        padding: 14px;
+        border: none;
+        background-color: $fvi-blue;
+        font-weight: 700;
+        font-size: 14px;
+        cursor: pointer;
+        box-shadow: 0 2px 3px -1px rgba(0, 0, 0, .8);
+        transform: translateY(-2px);
+
+        &:focus,
+        &:hover {
+            outline: none;
+            background-color: darken($fvi-blue, 10%);
+        }
+
+        &:active {
+            transition: all 0s;
+            box-shadow: none;
+            transform: translateY(0);
+        }
+    }
+}
