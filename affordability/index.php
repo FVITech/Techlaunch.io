@@ -5,7 +5,7 @@
     <section class="above-the-fold">
         <div class="container">
             <a href="<?php echo $rootPath ?>">
-                <img src="../images/logos/techlaunch-blackbg.svg" alt="Techlaunch logo" class="logo">
+                <img src="../images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
             <h1 class="page-title">affordability</h1>
         </div>

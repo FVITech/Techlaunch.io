@@ -1,0 +1,25 @@
+section.cta {
+    background-color: #333;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+
+    p {
+        margin: 0;
+        margin-bottom: 30px;
+        color: #fff;
+
+        @media all and (min-width: 790px) {
+            max-width: calc(100% - 260px);
+            margin-bottom: 0;
+        }
+    }
+
+    .btn {
+        display: inline-block;
+    }
+}

@@ -5,7 +5,7 @@
     <section class="above-the-fold">
         <div class="container">
             <a href="<?php echo $rootPath ?>">
-                <img src="../images/logos/techlaunch-blackbg.svg" alt="Techlaunch logo" class="logo">
+                <img src="../images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
             <h1 class="page-title">Careerlaunch</h1>
         </div>
@@ -16,8 +16,8 @@
             <div class="split">
                 <div class="left">
                     <h2 class="section-title">benefits of techlaunch</h2>
-                    <p>TechLaunch at FVI is committed to providing you a quality education in a lifelong, rewarding career. We take pride in offering first-class training and the guidance, tools and support needed to prepare you for the job you want.</p>
-                    <p>We are real developers dedicated to giving you a quality education to prepare you to get a job. We don't waste your time making you jump through hoops or taking a bunch of boring classes you don't need.</p>
+                    <p>At TechLaunch @ Florida Vocational Institute, our goal is to train you for a high-tech career in less than a year. Every industry is evolving because of technology, and at TechLaunch we can help you understand the opportunities that this evolution is creating. Then, we’ll give you with the tools and training you need to start a new career that grows with you.</p>
+                    <p>If you’re new to the tech industry and are ready to learn about technology, we offer six and nine month programs. If you already have experience in the industry, we also offer short-term coding bootcamps and accelerated tech classes.</p>
                 </div>
                 <div class="right"></div>
             </div>
@@ -29,7 +29,14 @@
             <img src="../images/people/people-2.png" alt="">
         </div>
         <div class="right">
-            <p>Hialeah sweetwater quis guy MiMo, fugiat velit ut sint dassitttt little haiti. Design district fire bird road ullamco UM Miami time Marlins id traffic qui cupidatat pariatur. Souwesera literally exercitation ut, domino gorda que fancy Mr. 305/Worldwide reprehenderit dolor park west coral way. Ocean drive tiki tiki music gorda, power love hour flagami flaca ut kendall dolore Pepe Billete abuelita.</p>
+            <p>When you start in one of our programs, you’ll notice that we use an extensive hands-on approach. In our dynamic classroom environment, our instructors will work by your side to help you learn. As a student, you’ll work on many projects so that you can learn by doing. You’ll also build and solve technological solutions that are similar to what our hiring partners use in their organizations.</p>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <p>We’ll prepare you for a career in the fast-growing fields of web development and design, coding, cybersecurity, network administration, cloud technologies and help desk support.</p>
+            <a href="" class="btn">get more information</a>
         </div>
     </section>
 
@@ -38,7 +45,7 @@
             <div class="card how-we-can-help">
                 <div class="image"></div>
                 <div class="text">
-                    <h2 class="card-title">how we can help (career services team)</h2>
+                    <h2 class="card-title">how we help</h2>
                     <ul>
                         <li>Dedicated career Services team</li>
                         <li>Work to connect the right graduate with the right career opportunity </li>

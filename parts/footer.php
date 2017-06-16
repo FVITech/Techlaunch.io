@@ -1,6 +1,6 @@
 <footer>
     <div class="first">
-        <img src="<?php echo $rootPath ?>images/logos/techlaunch-blackbg.svg" alt="Techlaunch logo" class="logo">
+        <img src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
         <address>
             8400 NW 36th St #450,<br>
             Doral, FL 33166<br>
