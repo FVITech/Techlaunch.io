@@ -4,7 +4,9 @@
 
     <section class="above-the-fold">
         <div class="container">
-            <img src="../images/logos/techlaunch-blackbg.svg" alt="Techlaunch logo" class="logo">
+            <a href="<?php echo $rootPath ?>">
+                <img src="../images/logos/techlaunch-blackbg.svg" alt="Techlaunch logo" class="logo">
+            </a>
             <h1 class="page-title">affordability</h1>
         </div>
     </section>

@@ -1,0 +1,74 @@
+@import "../../node_modules/carousel-slider/src/css/index.scss";
+
+section.testimonials {
+    background-color: #eee;
+    padding: 0;
+
+    .carousel {
+        padding-bottom: 500px;
+        overflow: hidden;
+    }
+}
+
+section.testimonials .carousel-item {
+
+    .left {
+        width: 100%;
+        max-width: 500px;
+
+        @media all and (min-width: 768px) {
+            width: 45%;
+        }
+
+        img {
+            width: 100%;
+            padding: 30px;
+            padding-bottom: 0;
+
+            @media all and (min-width: 768px) {
+                position: absolute;
+                bottom: 0;
+            }
+        }
+    }
+
+    .right {
+        width: 100%;
+        max-width: 500px;
+        padding: 20px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        @media all and (min-width: 786px) {
+            width: 55%;
+            padding-bottom: 20px;
+        }
+
+        .heading {
+            font-size: 24px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            margin: 0;
+
+            @media all and (min-width: 768px) {
+                font-size: 32px;
+            }
+        }
+
+        .quote {
+            line-height: 1.4;
+
+            @media all and (min-width: 768px) {
+                margin: 30px 0;
+            }
+        }
+
+        .author {
+            margin: 0;
+            font-style: italic;
+            color: #888;
+        }
+    }
+}

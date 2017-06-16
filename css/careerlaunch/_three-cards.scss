@@ -1,0 +1,96 @@
+section.three-cards {
+
+    .cards-container {
+
+        @media all and (min-width: 992px) {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1400px;
+            margin: auto;
+        }
+    }
+}
+
+section.three-cards .card {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 30px 0;
+    background-color: #eee;
+
+    @media all and (min-width: 992px) {
+        display: block;
+        width: 30%;
+    }
+
+    .image {
+        width: 100%;
+        background-size: cover;
+        padding-bottom: 60%;
+
+        @media all and (min-width: 768px) {
+            width: 50%;
+            padding-bottom: 0;
+        }
+
+        @media all and (min-width: 992px) {
+            width: auto;
+            padding-bottom: 60%;
+        }
+    }
+
+    .text {
+        width: 100%;
+        padding: 20px;
+
+        @media all and (min-width: 768px) {
+            width: 50%;
+        }
+
+        @media all and (min-width: 992px) {
+            width: auto;
+        }
+
+        .card-title {
+            margin-top: 0;
+            text-transform: uppercase;
+        }
+
+        p, li {
+            font-size: 14px;
+            margin: 15px 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+    }
+}
+
+section.three-cards .card.how-we-can-help {
+
+    .image {
+        background-image: url('https://as1.ftcdn.net/jpg/00/89/66/78/500_F_89667860_pNqfH97XOiFTUL6X1mzlcEmDsL8tEIIt.jpg');
+        background-position: center;
+    }
+}
+
+section.three-cards .card.hiring-partners {
+
+    .image {
+        background-image: url('https://as2.ftcdn.net/jpg/00/67/96/93/500_F_67969378_pP3WbTMpQBn5OI6sxekNd0HEUuaHfrBK.jpg');
+        background-position: center top;
+    }
+}
+
+section.three-cards .card.internships {
+
+    .image {
+        background-image: url('https://as2.ftcdn.net/jpg/01/18/27/55/500_F_118275578_KmK5YUyx1eC8RawMcM8ouhxAeY9wVJug.jpg');
+        background-position: center top;
+    }
+
+    .text p {
+        font-size: 16px;
+    }
+}

@@ -4,7 +4,9 @@
 
     <section class="above-the-fold">
         <div class="container">
-            <img src="../images/logos/techlaunch-blackbg.svg" alt="Techlaunch logo" class="logo">
+            <a href="<?php echo $rootPath ?>">
+                <img src="../images/logos/techlaunch-blackbg.svg" alt="Techlaunch logo" class="logo">
+            </a>
             <div class="content">
                 <div class="text-box">
                     <h2>become a software developer</h2>
@@ -25,17 +27,29 @@
                     </div>
                 </div>
                 <div class="form-container">
-                    <h2 class="title">Find out more about Techlaunch</h2>
-                    <p class="subtitle">Get your questions answered and find out if Techlaunch is for you.</p>
+                    <h2 class="title">Learn how to get started</h2>
                     <form id="web-dev-form">
                         <div class="form-input">
-                            <label>name</label>
-                            <input type="text" name="name" placeholder="Enter your name here">
+                            <label>first name</label>
+                            <input type="text" name="first_name">
+                        </div>
+                        <div class="form-input">
+                            <label>last name</label>
+                            <input type="text" name="last_name">
+                        </div>
+                        <div class="form-input">
+                            <label>phone</label>
+                            <input type="tel" name="phone">
                         </div>
                         <div class="form-input">
                             <label>email</label>
-                            <input type="email" name="email" placeholder="Enter your email here">
+                            <input type="email" name="email">
                         </div>
+                        <div class="form-input">
+                            <label>zip code</label>
+                            <input type="number" name="zip">
+                        </div>
+                        <input type="text" name="program" value="Web Developer" hidden>
                         <button type="submit">get info</button>
                     </form>
                 </div>

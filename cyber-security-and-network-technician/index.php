@@ -4,38 +4,52 @@
 
     <section class="above-the-fold">
         <div class="container">
-            <img src="../images/logos/techlaunch-blackbg.svg" alt="Techlaunch logo" class="logo">
+            <a href="<?php echo $rootPath ?>">
+                <img src="../images/logos/techlaunch-blackbg.svg" alt="Techlaunch logo" class="logo">
+            </a>
             <div class="content">
                 <div class="text-box">
                     <h2>become a Cyber Security Professional</h2>
-                    <h4>Join the most in-demand profession on the planet.</h4>
+                    <h4>Join one of the fastest growing professions on the planet.</h4>
                     <div class="figures-container">
                         <div class="figure">
-                            <p class="number">$97,990</p>
+                            <p class="number">$92,600</p>
                             <p class="label">Median Salary</p>
                         </div>
                         <div class="figure">
-                            <p class="number">1,018,000</p>
+                            <p class="number">82,900</p>
                             <p class="label">Job Openings</p>
                         </div>
                         <div class="figure">
-                            <p class="number">17%</p>
+                            <p class="number">18%</p>
                             <p class="label">Annual Growth</p>
                         </div>
                     </div>
                 </div>
                 <div class="form-container">
-                    <h2 class="title">Find out more about Techlaunch</h2>
-                    <p class="subtitle">Get your questions answered and find out if Techlaunch is for you.</p>
+                    <h2 class="title">Learn how to get started</h2>
                     <form id="web-dev-form">
                         <div class="form-input">
-                            <label>name</label>
-                            <input type="text" name="name" placeholder="Enter your name here">
+                            <label>first name</label>
+                            <input type="text" name="first_name">
+                        </div>
+                        <div class="form-input">
+                            <label>last name</label>
+                            <input type="text" name="last_name">
+                        </div>
+                        <div class="form-input">
+                            <label>phone</label>
+                            <input type="tel" name="phone">
                         </div>
                         <div class="form-input">
                             <label>email</label>
-                            <input type="email" name="email" placeholder="Enter your email here">
+                            <input type="email" name="email">
                         </div>
+                        <div class="form-input">
+                            <label>zip code</label>
+                            <input type="number" name="zip">
+                        </div>
+                        <input type="text" name="program" value="Cyber Security and Network Technician" hidden>
                         <button type="submit">get info</button>
                     </form>
                 </div>
