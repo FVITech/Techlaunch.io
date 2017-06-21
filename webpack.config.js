@@ -30,7 +30,7 @@ module.exports = {
         //   target: "http://localhost/Techlaunch.io/index.php",
         // },
         "*":{
-          target: `http://localhost/${COMPUTER === 'brentsMac' && '~brenton/'}Techlaunch.io/`
+          target: `http://localhost/${(COMPUTER === 'brentsMac') ? '~brenton/' : ''}Techlaunch.io/`
         }
       }
     }
