@@ -21,7 +21,7 @@
             <h2 class="appear">launch a great tech career in under a year</h2>
         </div>
         <div class="right">
-            <p class="appear">When you’re a student at TechLaunch @ FVI, you’ll get the training you need to enter the world of tech within six to nine months. With a dynamic classroom environment, our instructors use an extensive hands-on approach and work by your side to teach you the ins and outs of the technological industry.</p>
+            <p class="appear">When you’re a student at TechLaunch @ FVI, you’ll get the training you need to enter the world of tech within six to nine months. With a dynamic classroom environment, our instructors use an extensive hands-on approach and work by your side to teach you the ins and outs of the technology industry.</p>
         </div>
     </section>
 

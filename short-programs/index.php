@@ -16,9 +16,9 @@
 
     <div class="programs-bar">
         <div class="container">
-            <button data-program="intro" class="active">Introduction</button>
             <button data-program="aws">Amazon Web Services</button>
             <button data-program="wordpress">WordPress</button>
+            <button data-program="intro" class="active">Introduction</button>
         </div>
     </div>
 
@@ -27,66 +27,66 @@
             <div class="split-4 intro-content switchable">
                 <div class="split-box appear">
                     <img src='../images/icons/database.svg' alt='' class="icon">
-                    <h4>Miami Ipsum</h4>
+                    <h4>Intro Ipsum</h4>
                     <p>Magna hialeah upper east side ño ex. Pata sucia aliqua consequat la 20 y 20 ya tu sabes Marlins gorda ut. Calle ocho Heat PubSub.</p>
                 </div>
                 <div class="split-box appear delay-200">
                     <img src='../images/icons/smartphone.svg' alt='' class="icon">
-                    <h4>Miami Ipsum</h4>
+                    <h4>Intro Ipsum</h4>
                     <p>Magna hialeah upper east side ño ex. Pata sucia aliqua consequat la 20 y 20 ya tu sabes Marlins gorda ut. Calle ocho Heat PubSub.</p>
                 </div>
                 <div class="split-box appear delay-400">
                     <img src='../images/icons/server.svg' alt='' class="icon">
-                    <h4>Miami Ipsum</h4>
+                    <h4>Intro Ipsum</h4>
                     <p>Magna hialeah upper east side ño ex. Pata sucia aliqua consequat la 20 y 20 ya tu sabes Marlins gorda ut. Calle ocho Heat PubSub.</p>
                 </div>
                 <div class="split-box appear delay-600">
                     <img src='../images/icons/monitor.svg' alt='' class="icon">
-                    <h4>Miami Ipsum</h4>
+                    <h4>Intro Ipsum</h4>
                     <p>Magna hialeah upper east side ño ex. Pata sucia aliqua consequat la 20 y 20 ya tu sabes Marlins gorda ut. Calle ocho Heat PubSub.</p>
                 </div>
             </div>
             <div class="split-4 aws-content switchable">
                 <div class="split-box appear">
                     <img src='../images/icons/database.svg' alt='' class="icon">
-                    <h4>Miami Ipsum</h4>
+                    <h4>AWS Ipsum</h4>
                     <p>Magna hialeah upper east side ño ex. Pata sucia aliqua consequat la 20 y 20 ya tu sabes Marlins gorda ut. Calle ocho Heat PubSub.</p>
                 </div>
                 <div class="split-box appear delay-200">
                     <img src='../images/icons/smartphone.svg' alt='' class="icon">
-                    <h4>Miami Ipsum</h4>
+                    <h4>AWS Ipsum</h4>
                     <p>Magna hialeah upper east side ño ex. Pata sucia aliqua consequat la 20 y 20 ya tu sabes Marlins gorda ut. Calle ocho Heat PubSub.</p>
                 </div>
                 <div class="split-box appear delay-400">
                     <img src='../images/icons/server.svg' alt='' class="icon">
-                    <h4>Miami Ipsum</h4>
+                    <h4>AWS Ipsum</h4>
                     <p>Magna hialeah upper east side ño ex. Pata sucia aliqua consequat la 20 y 20 ya tu sabes Marlins gorda ut. Calle ocho Heat PubSub.</p>
                 </div>
                 <div class="split-box appear delay-600">
                     <img src='../images/icons/monitor.svg' alt='' class="icon">
-                    <h4>Miami Ipsum</h4>
+                    <h4>AWS Ipsum</h4>
                     <p>Magna hialeah upper east side ño ex. Pata sucia aliqua consequat la 20 y 20 ya tu sabes Marlins gorda ut. Calle ocho Heat PubSub.</p>
                 </div>
             </div>
             <div class="split-4 wordpress-content switchable">
                 <div class="split-box appear">
                     <img src='../images/icons/database.svg' alt='' class="icon">
-                    <h4>Miami Ipsum</h4>
+                    <h4>Wordpress Ipsum</h4>
                     <p>Magna hialeah upper east side ño ex. Pata sucia aliqua consequat la 20 y 20 ya tu sabes Marlins gorda ut. Calle ocho Heat PubSub.</p>
                 </div>
                 <div class="split-box appear delay-200">
                     <img src='../images/icons/smartphone.svg' alt='' class="icon">
-                    <h4>Miami Ipsum</h4>
+                    <h4>Wordpress Ipsum</h4>
                     <p>Magna hialeah upper east side ño ex. Pata sucia aliqua consequat la 20 y 20 ya tu sabes Marlins gorda ut. Calle ocho Heat PubSub.</p>
                 </div>
                 <div class="split-box appear delay-400">
                     <img src='../images/icons/server.svg' alt='' class="icon">
-                    <h4>Miami Ipsum</h4>
+                    <h4>Wordpress Ipsum</h4>
                     <p>Magna hialeah upper east side ño ex. Pata sucia aliqua consequat la 20 y 20 ya tu sabes Marlins gorda ut. Calle ocho Heat PubSub.</p>
                 </div>
                 <div class="split-box appear delay-600">
                     <img src='../images/icons/monitor.svg' alt='' class="icon">
-                    <h4>Miami Ipsum</h4>
+                    <h4>Wordpress Ipsum</h4>
                     <p>Magna hialeah upper east side ño ex. Pata sucia aliqua consequat la 20 y 20 ya tu sabes Marlins gorda ut. Calle ocho Heat PubSub.</p>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                 <p>Miami irregardless south beach edgewater pastelitos flaca cillum aliquip. Ea ricer gorda flagami cillum excepteur Pitbull little haiti. Tempor 836 in, pata sucia laborum miami midtown de pinga calle ocho do cafecito omni. Pata sucia exercitation west flagler little haiti.</p>
             </div>
             <div class="content aws-content switchable">
-                <h3>Syllabus</h3>
+                <h3>AWS Syllabus</h3>
                 <div class="split-2">
                     <div class="split-box">
                         <div class="item appear">
@@ -134,7 +134,7 @@
                 </div>
             </div>
             <div class="content wordpress-content switchable">
-                <h3>Syllabus</h3>
+                <h3>WordPress Syllabus</h3>
                 <div class="split-2">
                     <div class="split-box">
                         <div class="item appear">

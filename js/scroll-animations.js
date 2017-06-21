@@ -46,13 +46,24 @@ function onScroll() {
     playAnimations()
 }
 
+function _showItemsInView() {
+    windowHeight = $(window).height()
+    offset = windowHeight * .1
+    _getPositions()
+    playAnimations()
+}
+
 $(document).ready(function() {
+    // make sure items in view when page loads become visible
+    setTimeout(_showItemsInView, 300)
+    setTimeout(_showItemsInView, 600)
+    setTimeout(_showItemsInView, 900)
+    setTimeout(_showItemsInView, 1200)
+
+    // re-initialize every 2 seconds in case of page resizing
     setInterval(function() {
-        windowHeight = $(window).height()
-        offset = windowHeight * .1
-        _getPositions()
-        playAnimations()
-    }, 1000)
+        _showItemsInView()
+    }, 2000)
 
     $(document).scroll(throttle(onScroll, 100))
 })
