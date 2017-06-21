@@ -27,13 +27,14 @@ section.benefits .split {
     }
 
     .right {
-        background-image: url('https://as2.ftcdn.net/jpg/00/80/50/15/500_F_80501595_gHkR5J6z6OrhjSnfGPvY2WlwBpRqZWy6.jpg');
+        background-image: url('https://as2.ftcdn.net/jpg/01/39/28/39/500_F_139283967_95x8vN1CKTUNLvHABL95I0BtX82dZAYY.jpg');
         background-size: cover;
-        background-position: center top;
+        background-position: right top;
         padding-bottom: 50%;
 
         @media all and (min-width: 992px) {
             padding-bottom: 0;
+            align-self: stretch;
         }
     }
 }

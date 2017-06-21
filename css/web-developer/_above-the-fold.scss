@@ -5,6 +5,7 @@ section.above-the-fold {
     background-size: cover;
     background-position: center top;
     min-height: 80vh;
+    padding: 0;
     padding-bottom: 20px;
 
     @media all and (min-width: 992px) {
@@ -45,6 +46,7 @@ section.above-the-fold .text-box {
         color: #fff;
         margin-bottom: 0;
         text-shadow: 0 1px 6px rgba(0, 0, 0, .3);
+        @include slide-up-fade-in(0s);
 
         @media all and (min-width: 480px) {
             font-size: 50px;
@@ -58,6 +60,7 @@ section.above-the-fold .text-box {
         font-size: 22px;
         line-height: 1.7;
         text-shadow: 0 1px 5px rgba(0, 0, 0, .7);
+        @include slide-up-fade-in(500ms);
 
         @media all and (min-width: 480px) {
             font-size: 28px;

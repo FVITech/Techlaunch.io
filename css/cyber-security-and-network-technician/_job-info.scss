@@ -13,7 +13,6 @@ section.job-info {
         margin: 30px auto;
         line-height: 1.7;
         color: #555;
-        text-align: center;
     }
 
     .image-section {
@@ -25,7 +24,6 @@ section.job-info {
         .left,
         .right {
             width: 100%;
-            padding: 15px;
 
             @media all and (min-width: 768px) {
                 width: 50%;

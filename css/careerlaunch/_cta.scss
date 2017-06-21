@@ -13,8 +13,8 @@ section.cta {
         margin-bottom: 30px;
         color: #fff;
 
-        @media all and (min-width: 790px) {
-            max-width: calc(100% - 260px);
+        @media all and (min-width: 992px) {
+            max-width: 600px;
             margin-bottom: 0;
         }
     }

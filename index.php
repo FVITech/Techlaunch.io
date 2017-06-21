@@ -7,8 +7,8 @@
                 <img src="images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
             <div class="cta-box">
-                <h2>launch a career in technology</h2>
-                <p>Techlaunch offers programs in Web Development, Web Design, and IT Security. We teach more than short-term coding bootcamps to ensure that you will not only be prepared to get a new career, but will also thrive.</p>
+                <h2>START YOUR CAREER IN TECHNOLOGY</h2>
+                <p>With programs in Web Development, Web Design, and IT Security, TechLaunch @ FVI offers a lot more than short-term coding bootcamps. We go above and beyond to make sure you’re prepared for a new career where you can grow and thrive.</p>
                 <button class="browse-programs">Browse Programs</button>
                 <button class="get-more-info">Get More Info</button>
             </div>
@@ -18,10 +18,10 @@
     <section class="launch">
         <div class="left">
             <img src="images/rocket.svg" alt="Techlaunch logo">
-            <h2>launch a great tech career in under a year</h2>
+            <h2 class="appear">launch a great tech career in under a year</h2>
         </div>
         <div class="right">
-            <p>Miami springs critical mass dale cafe llave leah arts district upper east side, Pepe Billete art basel. Arroz con mango cafe bustelo LIV pero like abuelita meng bulykkk. West flagler sweetwater westchester south beach downtown dale tiki tiki music Marlins cafe llave bird road Dolphins. Gorda bottles calle ocho critical mass ya tu sabes power love hour LIV Azucar bulykkk cafecito MiMo.</p>
+            <p class="appear">When you’re a student at TechLaunch @ FVI, you’ll get the training you need to enter the world of tech within six to nine months. With a dynamic classroom environment, our instructors use an extensive hands-on approach and work by your side to teach you the ins and outs of the technological industry.</p>
         </div>
     </section>
 
@@ -43,7 +43,7 @@
     </section>
 
     <section class="tech-industry">
-        <h2 class="section-title">tech industry outlook</h2>
+        <h2 class="section-title">THE GREAT TECH BOOM</h2>
         <div class="container">
             <div class="graph-container">
                 <div class="graph">
@@ -80,7 +80,7 @@
                 </div>
                 <p class="graph-label">job growth 2014-2024</p>
             </div>
-            <p class="explanation">Miami springs critical mass dale cafe llave leah arts district upper east side, Pepe Billete art basel. Arroz con mango cafe bustelo LIV pero like abuelita meng bulykkk. West flagler sweetwater westchester south beach downtown dale tiki tiki music Marlins cafe llave bird road Dolphins. Gorda bottles calle ocho critical mass ya tu sabes power love hour LIV Azucar bulykkk cafecito MiMo.</p>
+            <p class="explanation">The tech industry is continuing to grow at warp speed and demand for qualified employees is growing just as quickly. By working with our hiring partners, we regularly revise our curriculum to meet industry standards so that our grads learn how to use the latest, cutting-edge technology and become vital assets to any company looking for new talent.</p>
             <div class="income-div">
                 <h4>median tech income</h4>
                 <p class="income one">$102K</p>
@@ -142,31 +142,31 @@
     </section>
 
     <section class="benefits">
-        <h2 class="section-title">benefits of techlaunch</h2>
+        <h2 class="section-title appear">AN EDUCATION THAT WORKS FOR YOU</h2>
         <div class="benefits-container">
             <div class="left">
-                <p>Rationis enim perfectio est virtus; Universa enim illorum ratione cum tota vestra confligendum puto. Etsi qui potest intellegi aut cogitari esse aliquod animal, quod se oderit? Sic, et quidem diligentius saepiusque ista loquemur inter nos agemusque communiter. Non autem hoc: igitur ne illud quidem. Nondum autem explanatum satis, erat, quid maxime natura vellet. Tertium autem omnibus aut maximis rebus iis, quae secundum naturam sint, fruentem vivere.</p>
+                <p class="appear">There are many benefits of getting your education at TechLaunch @ FVI. With our dedicated instructors, understanding support staff, and Career Services team on your side, you’ll learn the skills you need for a new career in tech.</p>
             </div>
             <div class="middle">
-                <img src="images/phone-and-laptop.jpg" alt="phone and laptop">
+                <img class="appear" src="images/phone-and-laptop.jpg" alt="phone and laptop">
             </div>
             <div class="right">
                 <ul>
-                    <li>
+                    <li class="appear">
                         <img class="icon" src="images/icons/atom.svg" alt="atom icon">
-                        <p>Arroz con mango cafe bustelo LIV pero like abuelita meng bulykkk.</p>
+                        <p>Train for a career in technology in less than a year</p>
                     </li>
-                    <li>
-                        <img class="icon" src="images/icons/calculator.svg" alt="calculator icon">
-                        <p>Arroz con mango cafe bustelo LIV pero like abuelita meng bulykkk.</p>
-                    </li>
-                    <li>
-                        <img class="icon" src="images/icons/statistics.svg" alt="statistics icon">
-                        <p>Arroz con mango cafe bustelo LIV pero like abuelita meng bulykkk.</p>
-                    </li>
-                    <li>
+                    <li class="appear">
                         <img class="icon" src="images/icons/clipboard.svg" alt="clipboard icon">
-                        <p>Arroz con mango cafe bustelo LIV pero like abuelita meng bulykkk.</p>
+                        <p>Get real-world experience in a hands-on environment</p>
+                    </li>
+                    <li class="appear">
+                        <img class="icon" src="images/icons/statistics.svg" alt="statistics icon">
+                        <p>Work with our Career Services Team to find great job opportunities</p>
+                    </li>
+                    <li class="appear">
+                        <img class="icon" src="images/icons/calculator.svg" alt="calculator icon">
+                        <p>Enter a growing field where your skills are vital</p>
                     </li>
                 </ul>
             </div>
@@ -186,10 +186,10 @@
     </section>
 
     <section class="stacks">
-        <h2 class="section-title">stacks we teach</h2>
+        <h2 class="section-title appear">stacks we teach</h2>
         <div class="stacks-container">
             <div class="stack">
-                <div class="box">
+                <div class="box appear">
                     <h3 class="title">mern</h3>
                     <div class="tech">
                         <span>MongoDB</span>
@@ -218,10 +218,10 @@
                         </div>
                     </div>
                 </div>
-                <button>read more</button>
+                <a class="appear read-more">read more</a>
             </div>
             <div class="stack">
-                <div class="box">
+                <div class="box appear delay-200">
                     <h3 class="title">lamp</h3>
                     <div class="tech">
                         <span>Linux</span>
@@ -253,17 +253,17 @@
                         </div>
                     </div>
                 </div>
-                <button>read more</button>
+                <a class="appear read-more">read more</a>
             </div>
         </div>
     </section>
 
     <section class="partners">
         <div class="logos-container">
-            <img src="images/logos/cssf.png" alt="Career Source South Florida logo">
-            <img src="images/logos/coe.jpg" alt="Council on Occupational Education logo">
-            <img src="images/logos/fl-doe.jpg" alt="Florida Department of Education logo">
-            <img src="images/logos/fapsc.jpeg" alt="FAPSC logo">
+            <img class="appear" src="images/logos/cssf.png" alt="Career Source South Florida logo">
+            <img class="appear" src="images/logos/coe.jpg" alt="Council on Occupational Education logo">
+            <img class="appear" src="images/logos/fl-doe.jpg" alt="Florida Department of Education logo">
+            <img class="appear" src="images/logos/fapsc.jpeg" alt="FAPSC logo">
         </div>
     </section>
 

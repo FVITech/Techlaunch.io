@@ -28,7 +28,7 @@
                 <div class="form-input">
                     <div>
                         <label>Email</label>
-                        <input type="tel" name="email">
+                        <input type="email" name="email">
                     </div>
                     <div>
                         <label>Phone</label>
@@ -38,7 +38,7 @@
                 <div class="form-input">
                     <div>
                         <label>City</label>
-                        <input type="text" name="zip">
+                        <input type="text" name="city">
                     </div>
                     <div>
                         <label>Zip</label>

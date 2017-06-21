@@ -1,5 +1,5 @@
 section.students-success {
-    background-color: #444;
+    background-color: $dark-blue;
 
     .section-title {
         color: #fff;
@@ -27,7 +27,7 @@ section.students-success .testimonials-container {
         line-height: 1.6;
         font-weight: bolder;
         margin: 0;
-        height: 185px;
+        height: 170px;
     }
 
     img {

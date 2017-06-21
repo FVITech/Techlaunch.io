@@ -32,7 +32,7 @@
         <div class="menu-section">
             <a class="menu-header dropdown" href="<?php echo $rootPath ?>about-us/">About Us</a>
             <div class="menu-list">
-                <a class="mobile-link" href="<?php echo $rootPath ?>about/">About Us Summary</a>
+                <a class="mobile-link" href="<?php echo $rootPath ?>about-us/">About Us Summary</a>
                 <a href="<?php echo $rootPath ?>#">Why TechLaunch</a>
                 <a href="<?php echo $rootPath ?>#">Blog</a>
                 <a href="<?php echo $rootPath ?>#">Our Team</a>

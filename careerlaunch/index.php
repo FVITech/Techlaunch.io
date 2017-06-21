@@ -15,9 +15,9 @@
         <div class="container">
             <div class="split">
                 <div class="left">
-                    <h2 class="section-title">benefits of techlaunch</h2>
-                    <p>At TechLaunch @ Florida Vocational Institute, our goal is to train you for a high-tech career in less than a year. Every industry is evolving because of technology, and at TechLaunch we can help you understand the opportunities that this evolution is creating. Then, we’ll give you with the tools and training you need to start a new career that grows with you.</p>
-                    <p>If you’re new to the tech industry and are ready to learn about technology, we offer six and nine month programs. If you already have experience in the industry, we also offer short-term coding bootcamps and accelerated tech classes.</p>
+                    <h2 class="section-title appear">benefits of techlaunch</h2>
+                    <p class="appear">At TechLaunch @ Florida Vocational Institute, our goal is to train you for a high-tech career in less than a year. Every industry is evolving because of technology, and at TechLaunch we can help you understand the opportunities that this evolution is creating. Then, we’ll give you with the tools and training you need to start a new career that grows with you.</p>
+                    <p class="appear">If you’re new to the tech industry and are ready to learn about technology, we offer six and nine month programs. If you already have experience in the industry, we also offer short-term coding bootcamps and accelerated tech classes.</p>
                 </div>
                 <div class="right"></div>
             </div>
@@ -35,44 +35,41 @@
 
     <section class="cta">
         <div class="container">
-            <p>We’ll prepare you for a career in the fast-growing fields of web development and design, coding, cybersecurity, network administration, cloud technologies and help desk support.</p>
-            <a href="" class="btn">get more information</a>
+            <p class="appear">We’ll prepare you for a career in the fast-growing fields of web development and design, coding, cybersecurity, network administration, cloud technologies and help desk support.</p>
+            <a href="" class="btn appear">get more information</a>
         </div>
     </section>
 
     <section class="three-cards">
         <div class="cards-container">
-            <div class="card how-we-can-help">
+            <div class="card appear delay-200 how-we-can-help">
                 <div class="image"></div>
                 <div class="text">
                     <h2 class="card-title">how we help</h2>
+                    <p>As part of our programs, we include career services designed to help you find the perfect position after graduation. Our dedicated Career Services Team will:</p>
                     <ul>
-                        <li>Dedicated career Services team</li>
-                        <li>Work to connect the right graduate with the right career opportunity </li>
-                        <li>Our career services team will help you promote the success you have achieved in the classroom.</li>
-                        <li>The career services team will provide introductions and connections to potential employers.</li>
+                        <li>Work to connect the right graduate with the right career opportunity</li>
+                        <li>Help promote the success you’ve had in the classroom</li>
+                        <li>Provide introductions and connections to potential employers</li>
                     </ul>
                 </div>
             </div>
 
-            <div class="card hiring-partners">
+            <div class="card appear delay-400 hiring-partners">
                 <div class="image"></div>
                 <div class="text">
                     <h2 class="card-title">hiring partners info</h2>
-                    <ul>
-                        <li>Maintain relationships with local technology hiring partners</li>
-                        <li>Hiring partners save money by working with TechLaunch in finding qualified talent so its a win win for everyone and our students benefit</li>
-                        <li>Helping students find quality careers</li>
-                        <li>Using feedback from hiring partners to structure curriculum</li>
-                    </ul>
+                    <p>By maintaining relationships with local technology hiring partners, we can help our students find quality careers. We use the feedback from our hiring partners to structure our curriculum, keeping our students up-to-date with the latest industry standards.</p>
+                    <p>Our hiring partners also benefit by working with TechLaunch and saving money when looking for qualified talent. It’s a win-win for both our hiring partners and our students.</p>
                 </div>
             </div>
 
-            <div class="card internships">
+            <div class="card appear delay-600 internships">
                 <div class="image"></div>
                 <div class="text">
                     <h2 class="card-title">internships</h2>
-                    <p>The career services team at TechLaunch will work with you to provide internships during training and upon graduation assist you in finding a great career as a web developer. TechLaunch has strong hiring partner relationships with top Miami companies so we can match your passion and ability to career opportunities.</p>
+                    <p>During your training, the Career Services Team at TechLaunch will work with you to find internship opportunities that are right for you. Once you graduate, we’ll help you find a great career in the tech industry.</p>
+                    <p>At TechLaunch, we have strong hiring partner relationships with top companies in Miami, so we can match you with a career opportunity that blends your abilities with your passion.</p>
                 </div>
             </div>
         </div>

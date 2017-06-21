@@ -104,7 +104,8 @@ section.stacks .stacks-container .stack {
         }
     }
 
-    button {
+    .read-more {
+        display: inline-block;
         margin: 30px auto;
         margin-bottom: 60px;
         border-radius: 3px;
@@ -142,7 +143,7 @@ section.stacks .stacks-container .stack {
             background-color: darken($fvi-blue, 15%);
         }
 
-        button {
+        .read-more {
             background-color: darken($fvi-blue, 15%);
 
             &:hover,

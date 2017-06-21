@@ -60,21 +60,27 @@
     <section class="reasons">
         <div class="container">
             <h2 class="section-title">Reasons To Hire A TechLaunch Graduate</h2>
-            <p>In a world of ever-changing technology, many corporations are using a larger array of tools and technologies in their daily operations. This makes the hiring process more challenging because, as technology progresses, many candidates have gaps in their knowledge. At TechLaunch @ FVI, we pride ourselves on continually refining our curriculum to give our graduates the real, tangible, relevant skills they will need to complete day-to-day assignments in a working environment. </p>
-            <p>Our course provides students with in-depth learning that’s accelerated over six to nine months, going far beyond eight- to ten-week bootcamps that focus on broader technical skills. Before enrolling, potential students undergo a rigorous assessment, and the majority of TechLaunch @ FVI grads stick through nine months of 25+ hours a week of coding while holding down full-time jobs. This grit and determination is a tremendous asset to our hiring partners and their businesses. </p>
-            <p>Our training sets our students apart and is designed to prepare them to work in the tech industry. We do this by </p>
-            <ul>
-                <li>Using group projects to teach our students to work in teams </li>
-                <li>Teaching popular software applications</li>
-                <li>Immersing our students in a nine-month program </li>
-                <li>Providing more in-depth training than 10-week bootcamps</li>
-                <li>Using extensive hands-on learning </li>
-                <li>Providing problem-solving opportunities in our problem resolution labs</li>
-                <li>Helping students design a portfolio of work to show hiring partners</li>
-                <li>Basing our curriculum on feedback from hiring partners and local businesses</li>
-                <li>Providing internship opportunities</li>
-                <li>Giving our partners access to our Zero-Cost Tech Recruiting program</li>
-            </ul>
+            <div class="split">
+                <div class="left">
+                    <p>In a world of ever-changing technology, many corporations are using a larger array of tools and technologies in their daily operations. This makes the hiring process more challenging because, as technology progresses, many candidates have gaps in their knowledge. At TechLaunch @ FVI, we pride ourselves on continually refining our curriculum to give our graduates the real, tangible, relevant skills they will need to complete day-to-day assignments in a working environment. </p>
+                    <p>Our course provides students with in-depth learning that’s accelerated over six to nine months, going far beyond eight- to ten-week bootcamps that focus on broader technical skills. Before enrolling, potential students undergo a rigorous assessment, and the majority of TechLaunch @ FVI grads stick through nine months of 25+ hours a week of coding while holding down full-time jobs. This grit and determination is a tremendous asset to our hiring partners and their businesses. </p>
+                </div>
+                <div class="right">
+                    <p>Our training sets our students apart and is designed to prepare them to work in the tech industry. We do this by </p>
+                    <ul>
+                        <li>Using group projects to teach our students to work in teams </li>
+                        <li>Teaching popular software applications</li>
+                        <li>Immersing our students in a nine-month program </li>
+                        <li>Providing more in-depth training than 10-week bootcamps</li>
+                        <li>Using extensive hands-on learning </li>
+                        <li>Providing problem-solving opportunities in our problem resolution labs</li>
+                        <li>Helping students design a portfolio of work to show hiring partners</li>
+                        <li>Basing our curriculum on feedback from hiring partners and local businesses</li>
+                        <li>Providing internship opportunities</li>
+                        <li>Giving our partners access to our Zero-Cost Tech Recruiting program</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
