@@ -1,7 +1,9 @@
-require('./vendor.js');
+require('./vendor.js')
 
-require('./menu.js');
+require('./menu.js')
 
-require('./canvas.js');
+require('./canvas.js')
 
-require('./scroll-animations.js');
+require('./scroll-animations.js')
+
+require('./short-programs.js')

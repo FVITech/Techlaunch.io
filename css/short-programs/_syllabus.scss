@@ -1,0 +1,47 @@
+section.syllabus {
+    background-color: #222;
+    color: #fff;
+
+    .download {
+        margin: auto;
+        margin-top: 50px;
+    }
+}
+
+section.syllabus .item {
+    border-left: 2px solid $fvi-blue;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+
+    &::before {
+        content: '';
+        width: 20px;
+        height: 20px;
+        display: block;
+        position: absolute;
+        left: -14px;
+        border: 4px solid $fvi-blue;
+        background-color: #222;
+        border-radius: 100%;
+    }
+
+    &:last-of-type {
+
+        &::after {
+            content: '';
+            width: 20px;
+            height: 2px;
+            display: block;
+            position: absolute;
+            left: -15px;
+            bottom: -5px;
+            border: 4px solid $fvi-blue;
+            background-color: #222;
+        }
+    }
+
+    p {
+        margin: 0;
+    }
+}

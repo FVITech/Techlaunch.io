@@ -28,6 +28,7 @@ section.above-the-fold {
     max-width: 400px;
     border-radius: 6px;
     padding: 15px;
+    @include slide-up-fade-in(200ms);
 
     @media all and (min-width: 768px) {
         padding: 30px 50px;

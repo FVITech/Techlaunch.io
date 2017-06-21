@@ -15,8 +15,6 @@
             <div class="menu-list">
                 <a class="mobile-link" href="<?php echo $rootPath ?>programs/">Programs Summary</a>
                 <a href="<?php echo $rootPath ?>web-developer/">Web Developer</a>
-                <a href="<?php echo $rootPath ?>#">Web Design</a>
-                <a href="<?php echo $rootPath ?>#">IT Help Desk</a>
                 <a href="<?php echo $rootPath ?>cyber-security-and-network-technician/">CyberSecurity and Network Technician</a>
             </div>
         </div>

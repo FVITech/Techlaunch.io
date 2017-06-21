@@ -33,6 +33,7 @@ section.launch {
 
         img {
             width: 120px;
+            @include slide-up-fade-in(700ms);
         }
 
         h2 {

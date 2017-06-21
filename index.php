@@ -80,8 +80,8 @@
                 </div>
                 <p class="graph-label">job growth 2014-2024</p>
             </div>
-            <p class="explanation">The tech industry is continuing to grow at warp speed and demand for qualified employees is growing just as quickly. By working with our hiring partners, we regularly revise our curriculum to meet industry standards so that our grads learn how to use the latest, cutting-edge technology and become vital assets to any company looking for new talent.</p>
-            <div class="income-div">
+            <p class="explanation appear delay-300">The tech industry is continuing to grow at warp speed and demand for qualified employees is growing just as quickly. By working with our hiring partners, we regularly revise our curriculum to meet industry standards so that our grads learn how to use the latest, cutting-edge technology and become vital assets to any company looking for new talent.</p>
+            <div class="income-div appear delay-600">
                 <h4>median tech income</h4>
                 <p class="income one">$102K</p>
                 <p class="position one">software developer</p>
