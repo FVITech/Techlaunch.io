@@ -2,21 +2,12 @@
 @import "../normalize";
 @import "../base";
 @import "../helpers";
-@import "../testimonials";
 @import "../footer";
 @import "../navbar/navbar";
 @import "../navbar/menu-overlay";
 @import "../navbar/menu-button";
 @import "../navbar/menu";
-@import "../pop-up-form";
 
 // sections
 @import "above-the-fold";
-@import "launch-section";
-@import "programs-section";
-@import "tech-industry";
-@import "testimonials";
-@import "benefits";
-@import "celebrity";
-@import "stacks";
-@import "partners";
+@import "content";

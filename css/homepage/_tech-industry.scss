@@ -112,35 +112,21 @@ section.tech-industry .graph {
         .rocket {
             animation-delay: 400ms;
         }
-
-        &.scroll-visible {
-            height: 190px;
-        }
     }
 
     .bar-container.middle .bar {
         background-image: linear-gradient(#76ff51 30%, #187000 100%);
-        transition-delay: 300ms;
 
         .rocket {
             animation-delay: 700ms;
-        }
-
-        &.scroll-visible {
-            height: 160px;
         }
     }
 
     .bar-container.right .bar {
         background-image: linear-gradient(#6df2ff 30%, #004ba8 100%);
-        transition-delay: 600ms;
 
         .rocket {
             animation-delay: 1000ms;
-        }
-
-        &.scroll-visible {
-            height: 130px;
         }
     }
 
@@ -173,16 +159,6 @@ section.tech-industry .graph {
         }
     }
 
-    .bar.scroll-visible .rocket-container {
-        opacity: 1;
-
-        .rocket {
-            animation-name: rocket-grow;
-            animation-duration: 600ms;
-            animation-timing-function: linear;
-        }
-    }
-
     .bar span {
         font-size: 16px;
         font-weight: bolder;
@@ -203,6 +179,33 @@ section.tech-industry .graph {
         margin-top: 5px;
         line-height: 1.2;
         font-weight: bolder;
+    }
+
+    &.scroll-visible {
+
+        .bar-container.left .bar {
+            height: 190px;
+        }
+
+        .bar-container.middle .bar {
+            height: 160px;
+            transition-delay: 300ms;
+        }
+
+        .bar-container.right .bar {
+            height: 130px;
+            transition-delay: 600ms;
+        }
+
+        .bar .rocket-container {
+            opacity: 1;
+
+            .rocket {
+                animation-name: rocket-grow;
+                animation-duration: 600ms;
+                animation-timing-function: linear;
+            }
+        }
     }
 }
 

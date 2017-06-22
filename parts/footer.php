@@ -13,47 +13,47 @@
         <h3 class="heading">Useful Links</h3>
         <ul>
             <li>
-                <a href="">
+                <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>">
                     Blog
                 </a>
             </li>
             <li>
-                <a href="">
+                <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>student-disclosures/">
                     Student Disclosures
                 </a>
             </li>
             <li>
-                <a href="">
+                <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>fvi_catalog.pdf">
                     Catalog
                 </a>
             </li>
             <li>
-                <a href="">
+                <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>">
                     Net Price Calculator
                 </a>
             </li>
             <li>
-                <a href="">
+                <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>privacy-policy/">
                     Privacy Policy
                 </a>
             </li>
             <li>
-                <a href="">
-                    Terms of Use
+                <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>sitemap.html">
+                    Sitemap
                 </a>
             </li>
         </ul>
         <div class="social-media">
-            <a href="">
+            <a href="<?php echo $rootPath ?>">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
-            <a href="">
+            <a href="<?php echo $rootPath ?>">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
-            <a href="">
+            <a href="<?php echo $rootPath ?>">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
-            <a href="">
+            <a href="<?php echo $rootPath ?>">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
         </div>
@@ -87,10 +87,10 @@
     <div class="fourth">
         <h3 class="heading">Latest Posts</h3>
         <div class="blog-posts">
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+            <a href="<?php echo $rootPath ?>"></a>
+            <a href="<?php echo $rootPath ?>"></a>
+            <a href="<?php echo $rootPath ?>"></a>
+            <a href="<?php echo $rootPath ?>"></a>
         </div>
         <br>
         <h3 class="heading">Newsletter</h3>

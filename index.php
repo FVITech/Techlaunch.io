@@ -1,23 +1,24 @@
 <?php $rootPath = ''; $page = "homepage"; include('parts/head.php'); ?>
 <body>
     <?php include('parts/navbar.php'); ?>
+    <?php include('parts/pop-up-form.php'); ?>
     <section class="above-the-fold">
         <div class="container">
             <a href="<?php echo $rootPath ?>">
-                <img src="images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
             <div class="cta-box">
                 <h2>START YOUR CAREER IN TECHNOLOGY</h2>
                 <p>With programs in Web Development, Web Design, and IT Security, TechLaunch @ FVI offers a lot more than short-term coding bootcamps. We go above and beyond to make sure you’re prepared for a new career where you can grow and thrive.</p>
-                <button class="browse-programs">Browse Programs</button>
-                <button class="get-more-info">Get More Info</button>
+                <a class="btn browse-programs" href="<?php echo $rootPath ?>programs/">Browse Programs</a>
+                <a class="btn get-more-info">Get More Info</a>
             </div>
         </div>
     </section>
 
     <section class="launch">
         <div class="left">
-            <img class="appear delay-200" src="images/rocket.svg" alt="Techlaunch logo">
+            <img class="appear delay-200" src="<?php echo $rootPath ?>images/rocket.svg" alt="Techlaunch logo">
             <h2 class="appear delay-400">launch a great tech career in under a year</h2>
         </div>
         <div class="right">
@@ -27,18 +28,14 @@
 
     <section class="programs">
         <div class="left">
-            <div class="program-title">
-              <a href="programs/">
+            <a class="program-title" href="<?php echo $rootPath ?>programs/">
                 tech career programs
-              </a>
-            </div>
+            </a>
         </div>
         <div class="right">
-            <div class="program-title">
-              <a href="short-programs/">
-                short skills programs
-              </a>
-            </div>
+            <a class="program-title" href="<?php echo $rootPath ?>short-programs/">
+                short programs
+            </a>
         </div>
     </section>
 
@@ -50,8 +47,8 @@
                     <div class="bar-container left">
                         <div class="bar">
                             <div class="rocket-container">
-                                <img src="images/rocket2.svg" alt="rocket" class="rocket">
-                                <img src="images/fire.svg" alt="flame" class="flame">
+                                <img src="<?php echo $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket">
+                                <img src="<?php echo $rootPath ?>images/fire.svg" alt="flame" class="flame">
                             </div>
                             <span>27%</span>
                         </div>
@@ -60,8 +57,8 @@
                     <div class="bar-container middle">
                         <div class="bar">
                             <div class="rocket-container">
-                                <img src="images/rocket2.svg" alt="rocket" class="rocket">
-                                <img src="images/fire.svg" alt="flame" class="flame">
+                                <img src="<?php echo $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket">
+                                <img src="<?php echo $rootPath ?>images/fire.svg" alt="flame" class="flame">
                             </div>
                             <span>17%</span>
                         </div>
@@ -70,8 +67,8 @@
                     <div class="bar-container right">
                         <div class="bar">
                             <div class="rocket-container">
-                                <img src="images/rocket2.svg" alt="rocket" class="rocket">
-                                <img src="images/fire.svg" alt="flame" class="flame">
+                                <img src="<?php echo $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket">
+                                <img src="<?php echo $rootPath ?>images/fire.svg" alt="flame" class="flame">
                             </div>
                             <span>7%</span>
                         </div>
@@ -105,24 +102,24 @@
                 <p class="appear">There are many benefits of getting your education at TechLaunch @ FVI. With our dedicated instructors, understanding support staff, and Career Services team on your side, you’ll learn the skills you need for a new career in tech.</p>
             </div>
             <div class="middle">
-                <img class="appear" src="images/phone-and-laptop.jpg" alt="phone and laptop">
+                <img class="appear" src="<?php echo $rootPath ?>images/phone-and-laptop.jpg" alt="phone and laptop">
             </div>
             <div class="right">
                 <ul>
                     <li class="appear">
-                        <img class="icon" src="images/icons/atom.svg" alt="atom icon">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/atom.svg" alt="atom icon">
                         <p>Train for a career in technology in less than a year</p>
                     </li>
                     <li class="appear">
-                        <img class="icon" src="images/icons/clipboard.svg" alt="clipboard icon">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/clipboard.svg" alt="clipboard icon">
                         <p>Get real-world experience in a hands-on environment</p>
                     </li>
                     <li class="appear">
-                        <img class="icon" src="images/icons/statistics.svg" alt="statistics icon">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/statistics.svg" alt="statistics icon">
                         <p>Work with our Career Services Team to find great job opportunities</p>
                     </li>
                     <li class="appear">
-                        <img class="icon" src="images/icons/calculator.svg" alt="calculator icon">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/calculator.svg" alt="calculator icon">
                         <p>Enter a growing field where your skills are vital</p>
                     </li>
                 </ul>
@@ -156,26 +153,26 @@
                     </div>
                     <div class="company-logos">
                         <div class="logo">
-                            <img src="images/logos/khan-academy.png" alt="khan academy logo">
+                            <img src="<?php echo $rootPath ?>images/logos/khan-academy.png" alt="khan academy logo">
                         </div>
                         <div class="logo">
-                            <img src="images/logos/netflix.png" alt="netflix logo">
+                            <img src="<?php echo $rootPath ?>images/logos/netflix.png" alt="netflix logo">
                         </div>
                         <div class="logo">
-                            <img src="images/logos/yahoo.png" alt="yahoo logo">
+                            <img src="<?php echo $rootPath ?>images/logos/yahoo.png" alt="yahoo logo">
                         </div>
                         <div class="logo uber">
-                            <img src="images/logos/uber.jpg" alt="uber logo">
+                            <img src="<?php echo $rootPath ?>images/logos/uber.jpg" alt="uber logo">
                         </div>
                         <div class="logo">
-                            <img src="images/logos/paypal.png" alt="paypal logo">
+                            <img src="<?php echo $rootPath ?>images/logos/paypal.png" alt="paypal logo">
                         </div>
                         <div class="logo facebook">
-                            <img src="images/logos/facebook.png" alt="facebook logo">
+                            <img src="<?php echo $rootPath ?>images/logos/facebook.png" alt="facebook logo">
                         </div>
                     </div>
                 </div>
-                <a class="appear read-more">read more</a>
+                <a class="appear read-more" href="<?php echo $rootPath ?>">read more</a>
             </div>
             <div class="stack">
                 <div class="box appear delay-200">
@@ -191,36 +188,36 @@
                             <img src="images/logos/rackspace.png" alt="rackspace logo">
                         </div> -->
                         <div class="logo">
-                            <img src="images/logos/zynga.png" alt="zynga logo">
+                            <img src="<?php echo $rootPath ?>images/logos/zynga.png" alt="zynga logo">
                         </div>
                         <div class="logo tesla">
-                            <img src="images/logos/tesla.png" alt="tesla logo">
+                            <img src="<?php echo $rootPath ?>images/logos/tesla.png" alt="tesla logo">
                         </div>
                         <div class="logo">
-                            <img src="images/logos/wordpress.png" alt="wordpress logo">
+                            <img src="<?php echo $rootPath ?>images/logos/wordpress.png" alt="wordpress logo">
                         </div>
                         <div class="logo udemy">
-                            <img src="images/logos/udemy.png" alt="udemy logo">
+                            <img src="<?php echo $rootPath ?>images/logos/udemy.png" alt="udemy logo">
                         </div>
                         <div class="logo lyft">
-                            <img src="images/logos/lyft.png" alt="lyft logo">
+                            <img src="<?php echo $rootPath ?>images/logos/lyft.png" alt="lyft logo">
                         </div>
                         <div class="logo">
-                            <img src="images/logos/tumblr.png" alt="tumblr logo">
+                            <img src="<?php echo $rootPath ?>images/logos/tumblr.png" alt="tumblr logo">
                         </div>
                     </div>
                 </div>
-                <a class="appear read-more">read more</a>
+                <a class="appear read-more" href="<?php echo $rootPath ?>">read more</a>
             </div>
         </div>
     </section>
 
     <section class="partners">
         <div class="logos-container">
-            <img class="appear" src="images/logos/cssf.png" alt="Career Source South Florida logo">
-            <img class="appear" src="images/logos/coe.jpg" alt="Council on Occupational Education logo">
-            <img class="appear" src="images/logos/fl-doe.jpg" alt="Florida Department of Education logo">
-            <img class="appear" src="images/logos/fapsc.jpeg" alt="FAPSC logo">
+            <img class="appear" src="<?php echo $rootPath ?>images/logos/cssf.png" alt="Career Source South Florida logo">
+            <img class="appear" src="<?php echo $rootPath ?>images/logos/coe.jpg" alt="Council on Occupational Education logo">
+            <img class="appear" src="<?php echo $rootPath ?>images/logos/fl-doe.jpg" alt="Florida Department of Education logo">
+            <img class="appear" src="<?php echo $rootPath ?>images/logos/fapsc.jpeg" alt="FAPSC logo">
         </div>
     </section>
 

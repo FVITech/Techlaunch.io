@@ -10,14 +10,14 @@
             <div class="content">
                 <div class="text-box">
                     <h2>become a software developer</h2>
-                    <h4>Join the most in-demand profession on the planet.</h4>
+                    <h4>Join the most in-demand profession on the planet<small>*</small></h4>
                     <div class="figures-container">
                         <div class="figure appear">
-                            <p class="number">$97,990</p>
+                            <p class="number">$102,280</p>
                             <p class="label">Median Salary</p>
                         </div>
                         <div class="figure appear delay-200">
-                            <p class="number">1,018,000</p>
+                            <p class="number">1,114,000</p>
                             <p class="label">Job Openings</p>
                         </div>
                         <div class="figure appear delay-400">
@@ -25,6 +25,7 @@
                             <p class="label">Annual Growth</p>
                         </div>
                     </div>
+                    <p class="disclosure">* <a target="_blank" rel="noopener" href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm">BLS.gov</a></p>
                 </div>
                 <div class="form-container">
                     <h2 class="title">Learn how to get started</h2>

@@ -1,0 +1,39 @@
+section.above-the-fold {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+        url('https://as2.ftcdn.net/jpg/00/46/00/71/500_F_46007175_ZAz5VwNMKiLvsMcqMD2m4gl4bwUxU4Ht.jpg');
+    background-size: cover;
+    background-position: center 80%;
+    min-height: 45vw;
+    padding-bottom: 20px;
+
+    @media all and (min-width: 992px) {
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .logo {
+        width: 140px;
+        margin-top: 60px;
+        display: block;
+
+        @media all and (min-width: 600px) {
+            margin-top: 0;
+        }
+
+        @media all and (min-width: 992px) {
+            width: 180px;
+        }
+    }
+
+    .page-title {
+        display: inline-block;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #fff;
+        background-color: $fvi-blue;
+        font-size: 34px;
+        padding: 15px;
+    }
+}

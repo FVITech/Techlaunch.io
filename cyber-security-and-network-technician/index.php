@@ -25,7 +25,7 @@
                             <p class="label">Annual Growth</p>
                         </div>
                     </div>
-                    <p class="disclosure">* <a href="https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm">BLS.gov</a></p>
+                    <p class="disclosure">* <a target="_blank" rel="noopener" href="https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm">BLS.gov</a></p>
                 </div>
                 <div class="form-container">
                     <h2 class="title">Learn how to get started</h2>

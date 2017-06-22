@@ -7,3 +7,5 @@ require('./canvas.js')
 require('./scroll-animations.js')
 
 require('./short-programs.js')
+
+require('./forms.js')

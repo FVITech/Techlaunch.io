@@ -26,12 +26,8 @@ section.programs {
             font-weight: 700;
             text-align: center;
             padding: 20px 10px;
-            cursor: pointer;
-
-            a{
-              color: #fff;
-              text-decoration: none;
-            }
+            text-decoration: none;
+            color: #fff;
 
             &:hover,
             &:focus {
