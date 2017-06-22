@@ -60,31 +60,31 @@
     @include appear(30px, 700ms);
 
     @media all and (min-width: 992px) {
-        &.delay-200 {
+        &.scroll-visible.delay-200 {
             transition-delay: 200ms;
         }
 
-        &.delay-300 {
+        &.scroll-visible.delay-300 {
             transition-delay: 300ms;
         }
 
-        &.delay-400 {
+        &.scroll-visible.delay-400 {
             transition-delay: 400ms;
         }
 
-        &.delay-600 {
+        &.scroll-visible.delay-600 {
             transition-delay: 600ms;
         }
 
-        &.delay-800 {
+        &.scroll-visible.delay-800 {
             transition-delay: 800ms;
         }
 
-        &.delay-900 {
+        &.scroll-visible.delay-900 {
             transition-delay: 900ms;
         }
 
-        &.delay-1200 {
+        &.scroll-visible.delay-1200 {
             transition-delay: 1200ms;
         }
     }

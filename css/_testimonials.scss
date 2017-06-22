@@ -1,4 +1,6 @@
-.testimonials {
+@import "../node_modules/carousel-slider/src/css/index.scss";
+
+section.testimonials {
     background-color: #eee;
     padding: 0;
 
@@ -10,7 +12,7 @@
     }
 }
 
-.testimonials .carousel-item {
+section.testimonials .carousel-item {
 
     .left {
         width: 100%;

@@ -17,11 +17,11 @@
 
     <section class="launch">
         <div class="left">
-            <img src="images/rocket.svg" alt="Techlaunch logo">
-            <h2 class="appear">launch a great tech career in under a year</h2>
+            <img class="appear delay-200" src="images/rocket.svg" alt="Techlaunch logo">
+            <h2 class="appear delay-400">launch a great tech career in under a year</h2>
         </div>
         <div class="right">
-            <p class="appear">When you’re a student at TechLaunch @ FVI, you’ll get the training you need to enter the world of tech within six to nine months. With a dynamic classroom environment, our instructors use an extensive hands-on approach and work by your side to teach you the ins and outs of the technology industry.</p>
+            <p class="appear delay-600">When you’re a student at TechLaunch @ FVI, you’ll get the training you need to enter the world of tech within six to nine months. With a dynamic classroom environment, our instructors use an extensive hands-on approach and work by your side to teach you the ins and outs of the technology industry.</p>
         </div>
     </section>
 
@@ -93,53 +93,10 @@
         </div>
     </section>
 
-    <section class="testimonials homepage">
-        <div class="carousel">
-            <div id="left-btn" class="left-btn">‹</div>
-            <div id="right-btn" class="right-btn">›</div>
-            <div class="dots"></div>
-            <div class="carousel-item">
-                <div class="left">
-                    <img src="images/people/person-holding-computer.png" alt="person holding computer">
-                </div>
-                <div class="right">
-                    <h3 class="heading">some heading text</h3>
-                    <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you’ll find every step of the learning process."</p>
-                    <p class="author">- John Doe Smith Rodriguez</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="left">
-                    <img src="images/people/suit-guy.png" alt="suit guy">
-                </div>
-                <div class="right">
-                    <h3 class="heading">some heading text</h3>
-                    <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you’ll find every step of the learning process."</p>
-                    <p class="author">- Johnny Bravo Dominguez</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="left">
-                    <img src="images/people/guy-on-laptop.jpeg" alt="">
-                </div>
-                <div class="right">
-                    <h3 class="heading">some heading text</h3>
-                    <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you’ll find every step of the learning process."</p>
-                    <p class="author">- Johnny Bravo Dominguez</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="left">
-                    <img src="images/people/girl-on-laptop.jpg" alt="">
-                </div>
-                <div class="right">
-                    <h3 class="heading">some heading text</h3>
-                    <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you’ll find every step of the learning process."</p>
-                    <p class="author">- Johnny Bravo Dominguez</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php
+        $testimonials = array('guy1', 'guy2', 'guy3', 'girl1');
+        include('parts/testimonials/index.php');
+    ?>
 
     <section class="benefits">
         <h2 class="section-title appear">AN EDUCATION THAT WORKS FOR YOU</h2>
