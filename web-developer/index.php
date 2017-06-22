@@ -52,6 +52,7 @@
                         <input type="text" name="program" value="Web Developer" hidden>
                         <button type="submit">get info</button>
                     </form>
+                    <p class="disclosure">By clicking "Get Info", you agree for TechLaunch@FVI to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list.</p>
                 </div>
             </div>
         </div>

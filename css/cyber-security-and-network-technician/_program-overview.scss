@@ -7,12 +7,17 @@ section.program-overview {
     }
 
     .subtitle {
-        max-width: 800px;
-        text-align: center;
+        text-align: left;
+        max-width: 900px;
         line-height: 1.7;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 300;
-        margin: 40px auto 60px;
+        margin: 40px auto 40px;
+
+        @media all and (min-width: 992px) {
+            text-align: center;
+            margin-bottom: 60px;
+        }
     }
 }
 
