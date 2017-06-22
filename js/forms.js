@@ -16,7 +16,7 @@ function resetSubmitBtn() {
 
     $popUpForm.find('.user-feedback').removeClass('success error').text('')
     setTimeout(function() {
-        $popUpForm.find('.submit-btn').fadeIn(600)
+        $popUpForm.find('.submit-btn').fadeIn(100)
     }, 200)
 }
 
