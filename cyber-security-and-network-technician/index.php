@@ -10,7 +10,7 @@
             <div class="content">
                 <div class="text-box">
                     <h2>become a Cyber Security Professional</h2>
-                    <h4>Join one of the fastest growing professions on the planet.</h4>
+                    <h4>Join one of the fastest growing professions on the planet<small>*</small></h4>
                     <div class="figures-container">
                         <div class="figure appear">
                             <p class="number">$92,600</p>
@@ -25,6 +25,7 @@
                             <p class="label">Annual Growth</p>
                         </div>
                     </div>
+                    <p class="disclosure">* <a href="https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm">BLS.gov</a></p>
                 </div>
                 <div class="form-container">
                     <h2 class="title">Learn how to get started</h2>
@@ -60,12 +61,12 @@
     <section class="program-overview">
         <div class="container">
             <h2 class="section-title appear">program overview</h2>
-            <p class="subtitle appear">Techlaunch offers a more robust program than traditional short-term coding boot camps. Come with passion and leave with a valuable skill set you can put to work.</p>
+            <p class="subtitle appear">As a Cyber Security Network Technician you will learn to handle software distribution and updates; monitor servers; provide troubleshooting support; build and configure servers; implement auditing policy; perform scheduled vulnerability-assessment scans; and monitor logs for firewalls and intrusion-detection systems. At the completion of this program you are qualified to manage, support, and troubleshoot information systems in a wide range of computing environments with Microsoft Windows Server 2012 and Linux as well as configuring Cisco switches and routers. Students also get an introduction to the 21st century could-based systems administration on Azure and AWS. This course is based on lectures, discussions, demonstrations, exercises, and laboratory projects. Students perform all basic configuration procedures to build LAN and WAN interfaces for the most commonly used router protocols.</p>
             <div class="cards-container">
                 <div class="left">
                     <div class="card appear">
                         <img src="../images/icons/atom.svg" alt="">
-                        <p>Full-Stack Web Development</p>
+                        <p>Hands-On Cyber Security Program</p>
                     </div>
                     <div class="card appear">
                         <img src="../images/icons/calculator.svg" alt="">
@@ -95,7 +96,7 @@
                     </div>
                     <div class="card appear">
                         <img src="../images/icons/calculator.svg" alt="">
-                        <p>Complete the program with a Diploma and a Portfolio of work to show prospective employers</p>
+                        <p>Designed to help you enter the tech industry in under a year</p>
                     </div>
                 </div>
             </div>
@@ -130,18 +131,17 @@
             <h2 class="section-title appear">what kind of job can i get as a graduate?</h2>
             <div class="split">
                 <div class="left">
-                    <p class="appear">The <strong>Web Developer Program</strong> from Techlaunch at FVI will prepare graduates to develop practical skills and knowledge needed or entry-level career opportunities in areas involving sotware design and development, systems analysis, programming, process design and management, and other areas related to computer software production and deployment. The fast growth in web and mobile development, combined with the increasing use of software, continues to create <strong>strong demand for software developers</strong>.</p>
+                    <p class="appear">Equipped with the training from the Cyber Security Network Technician Program, graduates are qualified for high demand careers in IT security and cloud computing. As organizations move their IT systems into the cloud, the need for engineers and technicians trained on cloud computing will increase.</p>
                 </div>
                 <div class="right">
-                    <p class="appear">The career services team at FVI will work with you to provide internships during training and upon graduation assist you in finding a great career as a web developer.</p>
-                    <p class="appear">FVI maintains strong working relationships with top companies in the area so we can match your passion and ability to career opportunities.</p>
+                    <p class="appear">FVI's career services team will assist you in finding a career in IT by working to match you to open positions, connect you to local employers, and ensure your resume and professional readiness are a match for any open positions in IT. Potential jobs include, but are not limited to Security Engineer, Security Consultant, Network Administrator, or an IA Technician or Manager.</p>
                 </div>
             </div>
             <div class="image-section">
                 <div class="left appear"></div>
                 <div class="right">
                     <h3 class="appear">will i obtain any certifications?</h3>
-                    <p class="appear">Upon graduation from the <strong>Web Developer Program</strong>, students will receive a diploma. Additionally, students will have a portfolio of work showcasing their abilities in order to aid them in finding full-time jobs or freelance web development contracts.</p>
+                    <p class="appear">Students will be equipped to sit for the following certification exams: Network+, Security+ and Window Server Administration Fundamentals (MTA-365). In addition, the curriculum will also cover a portion of Cisco CCNA and CompTIA Cloud+.</p>
                     <button class="appear">get info</button>
                 </div>
             </div>
@@ -155,23 +155,31 @@
                 <div class="cards-container">
                     <div class="card appear">
                         <img src="../images/icons/clipboard.svg" alt="">
-                        <p>Frontend web development with HTML5, CSS3, JavaScript, and modern JavaScript frameworks</p>
+                        <p>Maintaining Computers and Operating Systems</p>
                     </div>
                     <div class="card appear">
                         <img src="../images/icons/atom.svg" alt="">
-                        <p>AJAX programming and best practices to manage the request-response model within the context of the web browser</p>
+                        <p>Advanced Networking</p>
                     </div>
                     <div class="card appear">
                         <img src="../images/icons/calculator.svg" alt="">
-                        <p>How to effectively use CSS media queries to create fully response, mobile-friendly websites and web apps</p>
+                        <p>Network and Computer Security+</p>
                     </div>
                     <div class="card appear">
                         <img src="../images/icons/statistics.svg" alt="">
-                        <p>Frontend programming in plain JavaScript and jQuery, as well as advanced JavaScript design patterns under MV* frameworks</p>
+                        <p>Cisco Routing and Switching</p>
                     </div>
                     <div class="card appear">
                         <img src="../images/icons/clipboard.svg" alt="">
-                        <p>How to optimize web pages and employ popular optimization worklows such as Gulp and Apache's mod_pagespeed for blazing fast page load times</p>
+                        <p>Administering Windows Server</p>
+                    </div>
+                    <div class="card appear">
+                        <img src="../images/icons/atom.svg" alt="">
+                        <p>Linux</p>
+                    </div>
+                    <div class="card appear">
+                        <img src="../images/icons/statistics.svg" alt="">
+                        <p>Cloud Technologies like AWS &amp; Azure</p>
                     </div>
                 </div>
                 <div class="image-container">
@@ -186,7 +194,7 @@
             <div class="content">
                 <div class="left">
                     <h2 class="section-title appear">our instructors</h2>
-                    <p class="appear">Our instructors take a <strong>hands-on</strong> approach and work closely with you to ensure that you gain the necessary skills to succeed. Our students will learn how to <strong>work in teams</strong> using git-based workflows that are commonly employed in software companies.</p>
+                    <p class="appear">Our instructors take a <strong>hands-on</strong> approach and work closely with you to ensure that you gain the necessary skills to succeed. With real world industry experience, the instructors will get you up to speed with the latest in industry best practices and help to quickly diagnose and tackle the toughest IT Security issues that come your way.  This level of instruction creates great value to hiring companies and can help to launch your career in under a year!</p>
                     <button class="appear">get info</button>
                 </div>
                 <div class="right"></div>

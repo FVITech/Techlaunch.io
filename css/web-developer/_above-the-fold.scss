@@ -152,7 +152,7 @@ section.above-the-fold .form-container {
         display: block;
         text-transform: uppercase;
         color: #fff;
-        margin: 30px auto 0px;
+        margin: 30px auto;
         width: 180px;
         padding: 14px;
         border: none;
@@ -174,5 +174,12 @@ section.above-the-fold .form-container {
             box-shadow: none;
             transform: translateY(0);
         }
+    }
+
+    .disclosure {
+        font-size: 10px;
+        line-height: 1.2;
+        margin: 0;
+        color: #666;
     }
 }

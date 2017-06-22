@@ -1,0 +1,72 @@
+section.content {
+
+    a {
+        text-decoration: none;
+    }
+
+    .pdfs {
+        list-style-type: none;
+        padding-left: 14px;
+
+        li {
+            margin: 15px 0;
+        }
+
+        i {
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    h3 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    #net-price-calculator {
+        display: inline-block;
+        padding-right: 50px;
+
+        .arrow {
+            font-size: 40px;
+            line-height: 1;
+            position: absolute;
+            top: 6px;
+            right: 5px;
+        }
+    }
+}
+
+table.placement-rate {
+    display: none;
+    border-collapse: collapse;
+    width: 100%;
+
+    @media all and (min-width: 992px) {
+        display: table;
+    }
+
+    td, th {
+        border: 1px solid #999;
+        padding: 8px;
+    }
+
+    th {
+        background-color: #eee;
+        text-align: left;
+    }
+
+    td {
+        background-color: #fff;
+    }
+
+    .title {
+        font-size: 24px;
+        background-color: #ddd;
+        color: #000;
+    }
+}

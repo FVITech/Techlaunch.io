@@ -14,6 +14,7 @@
             <a class="menu-header dropdown" href="<?php echo $rootPath ?>programs/">Tech Career Programs</a>
             <div class="menu-list">
                 <a class="mobile-link" href="<?php echo $rootPath ?>programs/">Programs Summary</a>
+                <a href="<?php echo $rootPath ?>short-programs/">Short Programs</a>
                 <a href="<?php echo $rootPath ?>web-developer/">Web Developer</a>
                 <a href="<?php echo $rootPath ?>cyber-security-and-network-technician/">CyberSecurity and Network Technician</a>
             </div>
@@ -37,9 +38,6 @@
                 <a href="<?php echo $rootPath ?>#">Events</a>
                 <a href="<?php echo $rootPath ?>location/">Contact Us</a>
             </div>
-        </div>
-        <div class="menu-section">
-            <a class="menu-header" href="<?php echo $rootPath ?>short-programs/">Short Skills Programs</a>
         </div>
         <div class="menu-section">
             <a class="menu-header" href="<?php echo $rootPath ?>veterans/">Veterans</a>

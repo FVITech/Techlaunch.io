@@ -29,7 +29,7 @@
             </li>
             <li>
                 <a href="">
-                    Net Pay Calculator
+                    Net Price Calculator
                 </a>
             </li>
             <li>
