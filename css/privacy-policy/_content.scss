@@ -4,69 +4,8 @@ section.content {
         text-decoration: none;
     }
 
-    .pdfs {
-        list-style-type: none;
-        padding-left: 14px;
-
-        li {
-            margin: 15px 0;
-        }
-
-        i {
-            display: inline-block;
-            margin-right: 5px;
-        }
-
-        a {
-            text-decoration: none;
-        }
-    }
-
     h3 {
         font-size: 30px;
         margin-top: 55px;
-    }
-
-    #net-price-calculator {
-        display: inline-block;
-        padding-right: 56px;
-
-        .arrow {
-            font-size: 36px;
-            line-height: 1;
-            position: absolute;
-            top: 11px;
-            right: 12px;
-        }
-    }
-}
-
-table.placement-rate {
-    display: none;
-    border-collapse: collapse;
-    width: 100%;
-
-    @media all and (min-width: 992px) {
-        display: table;
-    }
-
-    td, th {
-        border: 1px solid #999;
-        padding: 8px;
-    }
-
-    th {
-        background-color: #eee;
-        text-align: left;
-    }
-
-    td {
-        background-color: #fff;
-    }
-
-    .title {
-        font-size: 24px;
-        background-color: #ddd;
-        color: #000;
     }
 }
