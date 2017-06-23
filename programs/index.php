@@ -21,7 +21,7 @@
                 <div class="program web-dev appear">
                     <a href="<?php echo $rootPath ?>web-developer/">
                         <div class="image"></div>
-                        <h3>web development</h3>
+                        <h3>web development program</h3>
                     </a>
                     <p>As a Web Developer, you will gain a wide array of fundamental and in-depth training on front end web development, as well as fundamentals of back end development. You will learn how to effectively write front-end programs which interact with servers and load asynchronously. You will also learn to design and implement graphical interfaces which follow best practices of UX design and are mobile-friendly.</p>
                 </div>

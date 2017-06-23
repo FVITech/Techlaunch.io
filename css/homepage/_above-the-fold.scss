@@ -4,13 +4,13 @@ section.above-the-fold {
         url('../../images/backgrounds/teaching-flipped.jpg');
     background-size: cover;
     background-position: center top;
-    min-height: 60vh;
+    min-height: 80vh;
     padding: 0;
     padding-bottom: 20px;
 
     @media all and (min-width: 992px) {
         padding-top: 40px;
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
 
     .logo {

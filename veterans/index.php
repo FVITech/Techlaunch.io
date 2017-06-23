@@ -62,8 +62,27 @@
     <section>
         <div class="container">
             <h2 class="section-title">veterans services</h2>
-            <p>PLP Pitbull doralzuela FIU. Allapattah abuelita 826, miami springs the roads midtown lonche flagler casa de carajo. Casa de carajo oye morena Pepe Billete, Dolphins abuelita vizcaya cafe con leche no yeah, yeah no que cute Heat park west supposably. Coconut grove doral bro calle ocho. South beach MiMo Haslem, besito girl meng venetian causeway lummus park de pinga tiki tiki music telly Miami time. Casa de carajo oye morena Pepe Billete, Dolphins abuelita vizcaya cafe con leche no yeah, yeah no que cute Heat park west supposably. Coconut grove doral bro calle ocho. South beach MiMo Haslem, besito girl meng venetian causeway lummus park de pinga tiki tiki music telly Miami time JWB. Completo botanica gorda sall-mon cafe llave traffic getty MDC miami time 826 literally guateber art deco bro.</p>
-            <p>Westchester irregardless booty bass, flagami wynwood super meng doralzuela Deco Drive 826 miami time bro. Caja china dassitttt LIV, 826 pops porter Ultra ricer casa de carajo cafe bustelo girl coral way promoter friend art deco. Miami time ocean drive mission bro bfe jackson memorial, Marlins ya tu sabes meng doralzuela Heat Mr. 305/Worldwide Allapattah pops porter. Dolphin mall Allapattah botanica, south beach north beach metrorail souwesera civic center cafe bustelo hialeah cafe llave gorda coconut grove telly.</p>
+            <h3>Career Training For Veterans</h3>
+            <p>Serving Those Who Served</p>
+            <p>At TechLaunch @ FVI we’re dedicated to providing career education and training to members of the military, both past and present, as well as their dependents. Our programs are designed to help you get the training and skills you need so you can land your dream job in the tech industry.</p>
+            <p>You sacrificed for our country, and at TechLaunch we think that effort should be rewarded. That’s why, when you enter one of our programs, you’ll receive:</p>
+            <ul>
+                <li>Specialized career training that fits your skills and your schedule</li>
+                <li>Preferential placement opportunities</li>
+                <li>Specialty support to assist you and your family while transitioning to civilian life and a new career</li>
+            </ul>
+            <p>With a focus on training Veterans for the next phase of their life, we’re proud to help prepare you for a career in the growing tech industry. We’ve also made an effort to ensure that the Veterans Administration approves of all of our programs.</p>
+            <p>The TechLaunch team provides more than an education – we’ve committed to seeing you succeed, which is why, when you become a TechLaunch student, we’ll arrange for a student services support team member and a career services support team member to work with you so you can reach your training goals and feel prepared for new career opportunities.</p>
+            <p>You can count on our team to help you with:</p>
+            <ul>
+                <li>Resume writing services</li>
+                <li>Developing interviewing skills and techniques</li>
+                <li>Updating your LinkedIn page</li>
+                <li>Highlighting your certifications and projects</li>
+            </ul>
+            <p>At TechLaunch, we want to make sure you reach your dreams. Our mission is to prepare and support you on your journey to a new career in the tech industry. To do this, our career services team will promote your success in the classroom, and use this to make important introductions so you can build connections with potential employers.</p>
+            <p>Find out more about our programs today and discover the possibilities. And if you have questions about your Veterans benefits, please follow the link below.</p>
+            <p><a href="">U.S. Department | VA | Post-9/11 GI Bill®</a></p>
         </div>
     </section>
 

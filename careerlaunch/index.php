@@ -58,7 +58,7 @@
             <div class="card appear delay-400 hiring-partners">
                 <div class="image"></div>
                 <div class="text">
-                    <h2 class="card-title">hiring partners info</h2>
+                    <h2 class="card-title">hiring partners</h2>
                     <p>By maintaining relationships with local technology hiring partners, we can help our students find quality careers. We use the feedback from our hiring partners to structure our curriculum, keeping our students up-to-date with the latest industry standards.</p>
                     <p>Our hiring partners also benefit by working with TechLaunch and saving money when looking for qualified talent. It’s a win-win for both our hiring partners and our students.</p>
                 </div>

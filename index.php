@@ -26,6 +26,19 @@
         </div>
     </section>
 
+    <section class="programs">
+        <div class="left">
+            <a class="program-title" href="<?php echo $rootPath ?>programs/">
+                tech career programs
+            </a>
+        </div>
+        <div class="right">
+            <a class="program-title" href="<?php echo $rootPath ?>short-programs/">
+                short programs
+            </a>
+        </div>
+    </section>
+
     <section class="tech-industry">
         <h2 class="section-title">THE GREAT TECH BOOM</h2>
         <div class="container">
@@ -74,19 +87,6 @@
                 <p class="income three">$66K</p>
                 <p class="position three">web developer</p>
             </div>
-        </div>
-    </section>
-
-    <section class="programs">
-        <div class="left">
-            <a class="program-title" href="<?php echo $rootPath ?>programs/">
-                tech career programs
-            </a>
-        </div>
-        <div class="right">
-            <a class="program-title" href="<?php echo $rootPath ?>short-programs/">
-                short programs
-            </a>
         </div>
     </section>
 

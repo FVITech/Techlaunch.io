@@ -49,5 +49,10 @@
                 <a class="menu-header" href="<?php echo $rootPath ?>#">Blog</a>
             </div>
         </div>
+        <div class="logo-box">
+            <a class="home-btn-logo" href="<?php echo $rootPath ?>">
+                <img src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+            </a>
+        </div>
     </div>
 </nav>

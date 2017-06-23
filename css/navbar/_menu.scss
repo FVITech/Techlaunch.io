@@ -7,6 +7,9 @@
     box-shadow: 10px 0 40px 10px #000;
     padding-top: 45px;
     transform: translateY(-110%);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 
     @media all and (min-width: 992px) {
         padding-bottom: 20px;
@@ -22,6 +25,26 @@
         justify-content: flex-start;
         align-items: flex-start;
         max-width: 1200px;
+    }
+
+    .logo-box {
+        display: none;
+        width: calc(100% - 1200px);
+
+        @media all and (min-width: 1300px) {
+            display: block;
+        }
+
+        .home-btn-logo {
+            display: block;
+            width: 80%;
+            max-width: 200px;
+            margin: 60px auto 0;
+
+            img {
+                width: 100%;
+            }
+        }
     }
 }
 
