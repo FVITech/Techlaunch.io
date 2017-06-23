@@ -179,16 +179,16 @@
                 </li>
             </ul>
 
-            <p><a href="" class="btn" id="net-price-calculator">NET PRICE CALCULATOR <span class="arrow">→</span></a></p>
+            <p><a target="_blank" rel="noopener" href="http://www.fvi.edu/calculator/npcalc.htm" class="btn" id="net-price-calculator">NET PRICE CALCULATOR <span class="arrow">→</span></a></p>
 
             <h3 id="gainful-employment-disclosures">Gainful Employment Disclosures</h3>
             <ul>
-                <li><a target="_blank" rel="noopener" href="<?php echo $rootPath ?>">Cyber Security and Network Technician</a> - Diploma (CIP Code: 11.0901)</li>
-                <li><a target="_blank" rel="noopener" href="<?php echo $rootPath ?>">Web Developer</a> - Diploma (CIP Code: 11.0201)</li>
-                <li><a target="_blank" rel="noopener" href="<?php echo $rootPath ?>">Pharmacy Technician</a> - Diploma (CIP Code: 51.0805)</li>
-                <li><a target="_blank" rel="noopener" href="<?php echo $rootPath ?>">Medical Assistant</a> - Diploma (CIP Code: 51.0801) </li>
-                <li><a target="_blank" rel="noopener" href="<?php echo $rootPath ?>">Patient Care Technician</a> - Diploma (CIP Code: 17.0699)</li>
-                <li><a target="_blank" rel="noopener" href="<?php echo $rootPath ?>">Nursing Assistant / Home Heatlh Aide</a> - Diploma (CIP Code: 17.0699) </li>
+                <li><a target="_blank" rel="noopener" href="http://www.fvi.edu/ge/IT/Gedt.html">Cyber Security and Network Technician</a> - Diploma (CIP Code: 11.0901)</li>
+                <li><a target="_blank" rel="noopener" href="http://www.fvi.edu/ge/WEB/Gedt.html">Web Developer</a> - Diploma (CIP Code: 11.0201)</li>
+                <li><a target="_blank" rel="noopener" href="http://www.fvi.edu/ge/PHA/Gedt.html">Pharmacy Technician</a> - Diploma (CIP Code: 51.0805)</li>
+                <li><a target="_blank" rel="noopener" href="http://www.fvi.edu/ge/MA/Gedt.html">Medical Assistant</a> - Diploma (CIP Code: 51.0801) </li>
+                <li><a target="_blank" rel="noopener" href="http://www.fvi.edu/ge/PCT/Gedt.html">Patient Care Technician</a> - Diploma (CIP Code: 17.0699)</li>
+                <li><a target="_blank" rel="noopener" href="http://www.fvi.edu/ge/NA/Gedt.html">Nursing Assistant / Home Heatlh Aide</a> - Diploma (CIP Code: 17.0699) </li>
             </ul>
         </div>
     </section>

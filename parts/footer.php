@@ -28,7 +28,7 @@
                 </a>
             </li>
             <li>
-                <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>">
+                <a target="_blank" rel="noopener" href="http://www.fvi.edu/calculator/npcalc.htm">
                     Net Price Calculator
                 </a>
             </li>
