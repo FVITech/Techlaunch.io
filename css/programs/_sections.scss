@@ -1,11 +1,11 @@
 section {
 
     .section-title {
-        color: $fvi-blue;
         letter-spacing: 0px;
+        text-align: center;
     }
 
-    .container.programs {
+    .programs-container {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
@@ -21,25 +21,49 @@ section {
         .image {
             width: 100%;
             padding-bottom: 60%;
-            background-image: url('../../images/people/girl-on-laptop.jpg');
             background-size: cover;
             background-position: center;
+            box-shadow: 0 2px 7px -1px rgba(0, 0, 0, .5);
         }
 
-        h3 a {
-            text-decoration: none;
+        h3 {
             color: $fvi-blue;
             font-size: 28px;
             text-transform: uppercase;
-
-            &:hover,
-            &:focus {
-                color: $dark-blue;
-            }
         }
 
         p {
             font-size: 16px;
+        }
+
+        a {
+            text-decoration: none;
+
+            &:hover,
+            &:focus {
+
+                .image {
+                    box-shadow: 0 5px 10px -1px rgba(0, 0, 0, .7);
+                }
+
+                h3 {
+                    color: darken($fvi-blue, 20%);
+                }
+            }
+        }
+    }
+
+    .web-dev {
+
+        .image {
+            background-image: url('../../images/backgrounds/computer-background.jpg');
+        }
+    }
+
+    .cyber {
+
+        .image {
+            background-image: url('https://as2.ftcdn.net/jpg/01/60/94/51/500_F_160945177_QsAPAwo3Qt3ux9s0BHcqJXcLV707DtlT.jpg');
         }
     }
 }

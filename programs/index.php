@@ -12,16 +12,26 @@
     </section>
 
     <section>
-        <div class="container programs">
-            <div class="program appear">
-                <a href=""><div class="image"></div></a>
-                <h3><a href="">web development program</a></h3>
-                <p><strong>Papo doral flagler literally souwesera flagami booty bass wynwood caja china tiki tiki music.</strong> Croquetica miami MiMo, casa de carajo irregardless wynwood LIV Ultra cafecito que cute miami springs venetian causeway no yeah, yeah no. Miami time vizcaya PubSub Pitbull, pero like besito Azucar downtown UM wynwood collins ave critical mass westchester venetian causeway south beach. UM power 96 leah arts district super la 20 y 20 calle ocho bulykkk supposably dale caja china Deco Drive Heat.</p>
-            </div>
-            <div class="program appear delay-300">
-                <a href=""><div class="image"></div></a>
-                <h3><a href="">cyber security network technician</a></h3>
-                <p><strong>Papo doral flagler literally souwesera flagami booty bass wynwood caja china tiki tiki music.</strong> Croquetica miami MiMo, casa de carajo irregardless wynwood LIV Ultra cafecito que cute miami springs venetian causeway no yeah, yeah no. Miami time vizcaya PubSub Pitbull, pero like besito Azucar downtown UM wynwood collins ave critical mass westchester venetian causeway south beach. UM power 96 leah arts district super la 20 y 20 calle ocho bulykkk supposably dale caja china Deco Drive Heat.</p>
+        <div class="container">
+            <h2 class="section-title">Tech Career Programs</h2>
+            <p>Join Florida Vocational Institute for technology training in the rapidly changing field of computer programming, I.T. security, cloud computing, and other areas of Information Technology. Learn from experienced instructors the essential technical skills and expertise to gain a career in I.T.</p>
+        </div>
+        <div class="container">
+            <div class="programs-container">
+                <div class="program web-dev appear">
+                    <a href="<?php echo $rootPath ?>web-developer/">
+                        <div class="image"></div>
+                        <h3>web development</h3>
+                    </a>
+                    <p>As a Web Developer, you will gain a wide array of fundamental and in-depth training on front end web development, as well as fundamentals of back end development. You will learn how to effectively write front-end programs which interact with servers and load asynchronously. You will also learn to design and implement graphical interfaces which follow best practices of UX design and are mobile-friendly.</p>
+                </div>
+                <div class="program cyber appear delay-300">
+                    <a href="<?php echo $rootPath ?>cyber-security-and-network-technician/">
+                        <div class="image"></div>
+                        <h3>cyber security network technician</h3>
+                    </a>
+                    <p>As a IT Security and Cloud Professional, you are able to validate your ability to handle day-to-day management of the server operating system, file structure, and directory services. You will also learn to handle software distribution and updates; monitor servers; provide troubleshooting support; build and configure servers; implement auditing policy; perform scheduled vulnerability-assessment scans; and monitor logs for firewalls and intrusion-detection systems.</p>
+                </div>
             </div>
         </div>
     </section>

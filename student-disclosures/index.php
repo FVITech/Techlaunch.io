@@ -43,14 +43,10 @@
             </ul>
 
             <h3 id="occupations">1. Occupatons By Program</h3>
-            <p>Florida Vocational Institute offers the following approved programs:</p>
+            <p>Florida Vocational Institute offers the following approved tech programs:</p>
             <ul>
                 <li><strong>15-1142:</strong> <a target="_blank" rel="noopener" href="https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm">Cyber Security Network Technician</a></li>
                 <li><strong>15-1134:</strong> <a target="_blank" rel="noopener" href="https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm">Web Developer</a></li>
-                <li><strong>29-2052:</strong> <a target="_blank" rel="noopener" href="https://www.bls.gov/ooh/healthcare/pharmacy-technicians.htm">Pharmacy Technicians</a></li>
-                <li><strong>31-9092:</strong> <a target="_blank" rel="noopener" href="https://www.bls.gov/ooh/healthcare/medical-assistants.htm">Medical Assistants</a></li>
-                <li><strong>31-2000:</strong> <a target="_blank" rel="noopener" href="https://www.bls.gov/ooh/healthcare/nursing-assistants.htm">Patient Care Technician</a></li>
-                <li><strong>31-2000:</strong> <a target="_blank" rel="noopener" href="https://www.bls.gov/ooh/healthcare/home-health-aides.htm">Nursing Assistant/ Home Health Aide</a></li>
             </ul>
 
             <h3 id="retention-rate">2. Retention Rate</h3>
@@ -97,42 +93,6 @@
                         <th>Total Placement Rate (%)</th>
                     </tr>
                     <tr>
-                        <th>Medical Assistant</th>
-                        <td>Diploma</td>
-                        <td>&nbsp;31</td>
-                        <td>&nbsp;57</td>
-                        <td>&nbsp;14</td>
-                        <td>71%</td>
-                        <td>72%</td>
-                    </tr>
-                    <tr>
-                        <th>Nursing Assistant/ Home Health Aide</th>
-                        <td>Diploma</td>
-                        <td>11</td>
-                        <td>&nbsp;17</td>
-                        <td>&nbsp;2</td>
-                        <td>85%</td>
-                        <td>73%</td>
-                    </tr>
-                    <tr>
-                        <th>Patient Care Technician</th>
-                        <td>Diploma</td>
-                        <td>&nbsp;36</td>
-                        <td>&nbsp;54</td>
-                        <td>8</td>
-                        <td>66%</td>
-                        <td>78%</td>
-                    </tr>
-                    <tr>
-                        <th>Pharmacy Technician</th>
-                        <td>Diploma</td>
-                        <td>n/a</td>
-                        <td>0</td>
-                        <td>&nbsp;0</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
                         <th>IT Security Cloud Professional Engineer</th>
                         <td>Diploma</td>
                         <td>N/A</td>
@@ -173,10 +133,6 @@
                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                     <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>it_programs.pdf">2016 Textbook and Resource List- IT Programs</a>
                 </li>
-                <li>
-                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                    <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>2016-Textbook-and-Resource-List-Allied-Health-Programs9.pdf">2016 Textbook and Resource List- Allied Health Programs</a>
-                </li>
             </ul>
 
             <p><a target="_blank" rel="noopener" href="http://www.fvi.edu/calculator/npcalc.htm" class="btn" id="net-price-calculator">NET PRICE CALCULATOR <span class="arrow">→</span></a></p>
@@ -185,10 +141,6 @@
             <ul>
                 <li><a target="_blank" rel="noopener" href="http://www.fvi.edu/ge/IT/Gedt.html">Cyber Security and Network Technician</a> - Diploma (CIP Code: 11.0901)</li>
                 <li><a target="_blank" rel="noopener" href="http://www.fvi.edu/ge/WEB/Gedt.html">Web Developer</a> - Diploma (CIP Code: 11.0201)</li>
-                <li><a target="_blank" rel="noopener" href="http://www.fvi.edu/ge/PHA/Gedt.html">Pharmacy Technician</a> - Diploma (CIP Code: 51.0805)</li>
-                <li><a target="_blank" rel="noopener" href="http://www.fvi.edu/ge/MA/Gedt.html">Medical Assistant</a> - Diploma (CIP Code: 51.0801) </li>
-                <li><a target="_blank" rel="noopener" href="http://www.fvi.edu/ge/PCT/Gedt.html">Patient Care Technician</a> - Diploma (CIP Code: 17.0699)</li>
-                <li><a target="_blank" rel="noopener" href="http://www.fvi.edu/ge/NA/Gedt.html">Nursing Assistant / Home Heatlh Aide</a> - Diploma (CIP Code: 17.0699) </li>
             </ul>
         </div>
     </section>
