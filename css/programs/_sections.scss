@@ -13,9 +13,12 @@ section {
 
     .program {
         padding: 15px;
+        background-color: #555;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .3);
 
         @media all and (min-width: 768px) {
             width: 33%;
+            padding: 25px;
         }
 
         .image {
@@ -23,17 +26,18 @@ section {
             padding-bottom: 60%;
             background-size: cover;
             background-position: center;
-            box-shadow: 0 2px 7px -1px rgba(0, 0, 0, .5);
+            box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .3);
         }
 
         h3 {
-            color: $fvi-blue;
+            color: #fff;
             font-size: 28px;
             text-transform: uppercase;
         }
 
         p {
             font-size: 16px;
+            color: #fff;
         }
 
         a {
@@ -42,12 +46,8 @@ section {
             &:hover,
             &:focus {
 
-                .image {
-                    box-shadow: 0 5px 10px -1px rgba(0, 0, 0, .7);
-                }
-
                 h3 {
-                    color: darken($fvi-blue, 20%);
+                    color: lighten($fvi-blue, 15%);
                 }
             }
         }
