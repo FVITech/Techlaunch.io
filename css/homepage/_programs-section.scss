@@ -49,9 +49,13 @@ section.programs {
     }
 
     .left {
-        background-image: url('../../images/code-on-screen.jpeg');
+        background-image:
+            linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
+            url('../../images/code-on-screen.jpeg');
     }
     .right {
-        background-image: url('../../images/people/guy-on-laptop.jpeg');
+        background-image:
+            linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
+            url('../../images/people/guy-on-laptop.jpeg');
     }
 }

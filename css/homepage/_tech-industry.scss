@@ -1,6 +1,10 @@
 section.tech-industry {
     background-color: #fff;
 
+    @media all and (min-width: 992px) {
+        padding: 120px 0;
+    }
+
     .container {
         display: flex;
         flex-flow: row wrap;
@@ -11,6 +15,10 @@ section.tech-industry {
 
     .section-title {
         text-align: center;
+
+        @media all and (min-width: 992px) {
+            top: -50px;
+        }
     }
 
     .graph-container,
