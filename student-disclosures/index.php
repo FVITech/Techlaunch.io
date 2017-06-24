@@ -93,19 +93,19 @@
                         <th>Total Placement Rate (%)</th>
                     </tr>
                     <tr>
-                        <th>IT Security Cloud Professional Engineer</th>
+                        <th>Web Developer</th>
                         <td>Diploma</td>
-                        <td>N/A</td>
-                        <td>&nbsp;0</td>
+                        <td>n/a</td>
+                        <td>0</td>
                         <td>0</td>
                         <td>N/A</td>
                         <td>N/A</td>
                     </tr>
                     <tr>
-                        <th>Web Applications Development Engineer</th>
+                        <th>Cyber Security and Network Technician</th>
                         <td>Diploma</td>
-                        <td>n/a</td>
-                        <td>0</td>
+                        <td>N/A</td>
+                        <td>&nbsp;0</td>
                         <td>0</td>
                         <td>N/A</td>
                         <td>N/A</td>

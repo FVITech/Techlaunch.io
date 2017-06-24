@@ -34,16 +34,69 @@ section {
     }
 }
 
-.section-title {
-    font-size: 28px;
-    text-align: left;
-    font-weight: 700;
+section.above-the-fold {
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    min-height: 80vh;
+
+    @media all and (min-width: 768px) {
+        min-height: 35vw;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .logo {
+        width: 140px;
+        display: block;
+
+        @media all and (min-width: 992px) {
+            width: 180px;
+        }
+    }
+}
+
+.page-title {
+    display: block;
+    text-align: center;
     text-transform: uppercase;
+    font-weight: 300;
+    color: #fff;
+    font-size: 34px;
+    letter-spacing: 4px;
+    padding-top: 30%;
+    margin: 0;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, .8);
+    @include slide-up-fade-in(200ms);
+
+    @media all and (min-width: 768px) {
+        padding-top: 10%;
+        font-size: 56px;
+    }
+}
+
+.page-subtitle {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 1px 2px 4px rgba(0, 0, 0, .7);
+    line-height: 1.7;
+    max-width: 800px;
+    margin: 30px auto;
+    @include slide-up-fade-in(400ms);
+}
+
+.section-title {
+    font-size: 34px;
+    text-align: left;
+    font-weight: 300;
     letter-spacing: 1px;
     margin-top: 0;
 
     @media all and (min-width: 768px) {
-        font-size: 36px;
+        font-size: 46px;
     }
 }
 

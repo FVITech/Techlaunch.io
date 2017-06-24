@@ -15,7 +15,7 @@
         <div class="container">
             <div class="split">
                 <div class="left">
-                    <h2 class="section-title appear">benefits of techlaunch</h2>
+                    <h2 class="section-title appear">Benefits of Techlaunch</h2>
                     <p class="appear">At TechLaunch @ Florida Vocational Institute, our goal is to train you for a high-tech career in less than a year. Every industry is evolving because of technology, and at TechLaunch we can help you understand the opportunities that this evolution is creating. Then, we’ll give you with the tools and training you need to start a new career that grows with you.</p>
                     <p class="appear">If you’re new to the tech industry and are ready to learn about technology, we offer six and nine month programs. If you already have experience in the industry, we also offer short-term coding bootcamps and accelerated tech classes.</p>
                 </div>
@@ -45,7 +45,7 @@
             <div class="card appear delay-200 how-we-can-help">
                 <div class="image"></div>
                 <div class="text">
-                    <h2 class="card-title">how we help</h2>
+                    <h2 class="card-title">How We Help</h2>
                     <p>As part of our programs, we include career services designed to help you find the perfect position after graduation. Our dedicated Career Services Team will:</p>
                     <ul>
                         <li>Work to connect the right graduate with the right career opportunity</li>
@@ -58,7 +58,7 @@
             <div class="card appear delay-400 hiring-partners">
                 <div class="image"></div>
                 <div class="text">
-                    <h2 class="card-title">hiring partners</h2>
+                    <h2 class="card-title">Hiring Partners</h2>
                     <p>By maintaining relationships with local technology hiring partners, we can help our students find quality careers. We use the feedback from our hiring partners to structure our curriculum, keeping our students up-to-date with the latest industry standards.</p>
                     <p>Our hiring partners also benefit by working with TechLaunch and saving money when looking for qualified talent. It’s a win-win for both our hiring partners and our students.</p>
                 </div>
@@ -67,7 +67,7 @@
             <div class="card appear delay-600 internships">
                 <div class="image"></div>
                 <div class="text">
-                    <h2 class="card-title">internships</h2>
+                    <h2 class="card-title">Internships</h2>
                     <p>During your training, the Career Services Team at TechLaunch will work with you to find internship opportunities that are right for you. Once you graduate, we’ll help you find a great career in the tech industry.</p>
                     <p>At TechLaunch, we have strong hiring partner relationships with top companies in Miami, so we can match you with a career opportunity that blends your abilities with your passion.</p>
                 </div>
@@ -115,7 +115,7 @@
 
     <section class="student-projects">
         <div class="container">
-            <h2 class="section-title">student projects</h2>
+            <h2 class="section-title">Student Projects</h2>
             <p>Promoter friend gorda fugiat cupidatat commodo little havana aute dassitttt enim upper east side Miami time abuelita cocowalk in. Doralzuela eu Allapattah, collins ave sweetwater pata sucia kendall Haslem literally culpa. Dolore in que pena cafe bustelo cafe con leche non bird road omni et. Marlins casa de carajo dolor eiusmod. Bulykkk buena vista FIU, fontainebleau north beach culpa west flagler quis ño omni coconut grove art deco mollit labore miami springs. Enim aliqua kendall, cafecito wynwood lorem ipsum laboris the roads. Design district non deserunt miami. Dolore ea super, flagler cafe con leche botanica FIU proident souwesera wynwood et critical mass. FIU ex bfe pastelitos. Que fancy yahs metromover ya tu sabes.</p>
             <p>Little havana aute dassitttt enim upper east side Miami time abuelita cocowalk in. Doralzuela eu Allapattah, collins ave sweetwater pata sucia kendall Haslem literally culpa. Dolore in que pena cafe bustelo cafe con leche non bird road omni et. Marlins casa de carajo dolor eiusmod.</p>
             <p>Design district pata sucia art basel bfe, irregardless girl jackson memorial fire upper east side consectetur basel cafe llave literally elit. Ricer JWB velit, anim cocowalk officia pariatur girl calle ocho est the roads consectetur super.</p>

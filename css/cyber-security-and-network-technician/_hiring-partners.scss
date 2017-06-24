@@ -4,6 +4,14 @@ section.hiring-partners {
 
     .section-title {
         text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 400;
+        font-size: 28px;
+
+        @media all and (min-width: 768px) {
+            font-size: 32px;
+        }
     }
 
     .logos-container {

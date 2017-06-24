@@ -10,7 +10,7 @@
                 <img src="../images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
             <h1 class="page-title">short programs</h1>
-            <h2 class="subtitle">Get the skills to push your business or career to the next level</h2>
+            <p class="page-subtitle">Get the skills to push your business or career to the next level</p>
         </div>
     </section>
 

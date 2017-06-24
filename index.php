@@ -7,9 +7,9 @@
             <a href="<?php echo $rootPath ?>">
                 <img src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
-            <div class="cta-box">
-                <h2>START YOUR CAREER IN TECHNOLOGY</h2>
-                <p>With programs in Web Development, Web Design, and IT Security, TechLaunch @ FVI offers a lot more than short-term coding bootcamps. We go above and beyond to make sure you’re prepared for a new career where you can grow and thrive.</p>
+            <h2 class="page-title">Start Your Career in Technology</h2>
+            <p class="page-subtitle">With programs in Web Development, IT Security, and Amazon Web Services, TechLaunch @ FVI offers a lot more than short-term coding bootcamps. We go above and beyond to make sure you’re prepared for a new career where you can grow and thrive.</p>
+            <div class="buttons-box">
                 <a class="btn browse-programs" href="<?php echo $rootPath ?>programs/">Browse Programs</a>
                 <a class="btn get-more-info">Get More Info</a>
             </div>
@@ -40,7 +40,7 @@
     </section>
 
     <section class="tech-industry">
-        <h2 class="section-title">THE GREAT TECH BOOM</h2>
+        <h2 class="section-title">The Great Tech Boom</h2>
         <div class="container">
             <div class="graph-container">
                 <div class="graph">
@@ -96,7 +96,7 @@
     ?>
 
     <section class="benefits">
-        <h2 class="section-title appear">AN EDUCATION THAT WORKS FOR YOU</h2>
+        <h2 class="section-title appear">An Education That Works For You</h2>
         <div class="benefits-container">
             <div class="left">
                 <p class="appear">There are many benefits of getting your education at TechLaunch @ FVI. With our dedicated instructors, understanding support staff, and Career Services team on your side, you’ll learn the skills you need for a new career in tech.</p>
@@ -140,7 +140,7 @@
     </section>
 
     <section class="stacks">
-        <h2 class="section-title appear">stacks we teach</h2>
+        <h2 class="section-title appear">Software Stacks We Teach</h2>
         <div class="stacks-container">
             <div class="stack">
                 <div class="box appear">

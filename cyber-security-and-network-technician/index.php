@@ -9,7 +9,7 @@
             </a>
             <div class="content">
                 <div class="text-box">
-                    <h2>become a Cyber Security Professional</h2>
+                    <h2>Become a Cyber Security Professional</h2>
                     <h4>Join one of the fastest growing professions on the planet<small>*</small></h4>
                     <div class="figures-container">
                         <div class="figure appear">
@@ -53,7 +53,7 @@
                         <input type="text" name="program" value="Cyber Security and Network Technician" hidden>
                         <button type="submit">get info</button>
                     </form>
-                    <p class="disclosure">By clicking "Get Info", you agree for TechLaunch@FVI to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list.</p>
+                    <p class="disclosure">By clicking "Get Info", you agree for TechLaunch @ FVI to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list.</p>
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
 
     <section class="program-overview">
         <div class="container">
-            <h2 class="section-title appear">program overview</h2>
+            <h2 class="section-title appear">Program Overview</h2>
             <p class="subtitle appear">As a Cyber Security Network Technician you will learn to handle software distribution and updates; monitor servers; provide troubleshooting support; build and configure servers; implement auditing policy; perform scheduled vulnerability-assessment scans; and monitor logs for firewalls and intrusion-detection systems. At the completion of this program you are qualified to manage, support, and troubleshoot information systems in a wide range of computing environments with Microsoft Windows Server 2012 and Linux as well as configuring Cisco switches and routers. Students also get an introduction to the 21st century could-based systems administration on Azure and AWS. This course is based on lectures, discussions, demonstrations, exercises, and laboratory projects. Students perform all basic configuration procedures to build LAN and WAN interfaces for the most commonly used router protocols.</p>
             <div class="cards-container">
                 <div class="left">
@@ -105,7 +105,7 @@
     </section>
 
     <section class="students-success">
-        <h2 class="section-title appear">student's success</h2>
+        <h2 class="section-title appear">Student Success</h2>
         <div class="container">
             <div class="testimonials-container">
                 <div class="testimonial appear">
@@ -129,7 +129,7 @@
 
     <section class="job-info">
         <div class="container">
-            <h2 class="section-title appear">what kind of job can i get as a graduate?</h2>
+            <h2 class="section-title appear">What kind of job can I get as a graduate?</h2>
             <div class="split">
                 <div class="left">
                     <p class="appear">Equipped with the training from the Cyber Security Network Technician Program, graduates are qualified for high demand careers in IT security and cloud computing. As organizations move their IT systems into the cloud, the need for engineers and technicians trained on cloud computing will increase.</p>
@@ -141,7 +141,7 @@
             <div class="image-section">
                 <div class="left appear"></div>
                 <div class="right">
-                    <h3 class="appear">will i obtain any certifications?</h3>
+                    <h3 class="appear">Will I obtain any certifications?</h3>
                     <p class="appear">Students will be equipped to sit for the following certification exams: Network+, Security+ and Window Server Administration Fundamentals (MTA-365). In addition, the curriculum will also cover a portion of Cisco CCNA and CompTIA Cloud+.</p>
                     <button class="appear">get info</button>
                 </div>
@@ -151,7 +151,7 @@
 
     <section class="what-you-will-learn">
         <div class="container">
-            <h2 class="section-title appear">what you will learn</h2>
+            <h2 class="section-title appear">What You Will Learn</h2>
             <div class="content">
                 <div class="cards-container">
                     <div class="card appear">
@@ -194,7 +194,7 @@
         <div class="container">
             <div class="content">
                 <div class="left">
-                    <h2 class="section-title appear">our instructors</h2>
+                    <h2 class="section-title appear">Our Instructors</h2>
                     <p class="appear">Our instructors take a <strong>hands-on</strong> approach and work closely with you to ensure that you gain the necessary skills to succeed. With real world industry experience, the instructors will get you up to speed with the latest in industry best practices and help to quickly diagnose and tackle the toughest IT Security issues that come your way.  This level of instruction creates great value to hiring companies and can help to launch your career in under a year!</p>
                     <button class="appear">get info</button>
                 </div>
@@ -204,7 +204,7 @@
     </section>
 
     <section class="hiring-partners">
-        <h2 class="section-title appear">hiring partners</h2>
+        <h2 class="section-title appear">Hiring Partners</h2>
         <div class="logos-container">
             <img class="appear" src="../images/logos/microsoft.png" alt="Microsoft logo">
             <img class="appear" src="../images/logos/google.png" alt="Google logo">

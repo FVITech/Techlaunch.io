@@ -13,7 +13,7 @@
 
     <section class="talent">
         <div class="container">
-            <h2 class="section-title">find the talent that you need</h2>
+            <h2 class="section-title">Find the Talent That You Need</h2>
             <p>Becoming a hiring partner for TechLaunch @ Florida Vocational Institute (FVI) gives your business access to highly trained candidates with our Zero Cost Recruiting program. There’s no need to place an ad or hire a recruiter. We’ll take responsibility for understanding the needs of your company and matching you with the ideal candidate. </p>
             <p>Our career services department has experience working closely with our hiring partners to understand their company culture, business needs, and technology stack. Our team then matches our partners with TechLaunch @ FVI graduates who have the skills their business is looking for. We can help our hiring partners find qualified candidates for temp-to-perm opportunities, paid internships, and unpaid internships while minimizing business risk, turnover rates, and costs. </p>
         </div>
@@ -93,7 +93,7 @@
 
     <section class="impact">
         <div class="container">
-            <h2 class="section-title">opportunities to have an impact</h2>
+            <h2 class="section-title">Opportunities to Have an Impact</h2>
             <p>In the fast-moving world of technology, it’s critical to build a team that can work together towards a common goal. After all, it doesn’t matter how skilled you are if you can’t work with others as a team. Throughout our program, we stress this to our students and spend a significant amount of time emphasizing the essential values that make a team player: humility, ambition, and interpersonal intelligence. By providing these soft skills, we help our grads fit into the world of tech and become valuable team members.</p>
             <p>Many companies and individuals in the tech industry are very socially conscious and understand the skills gap, the digital divide, and the under-representation of minorities in the world of tech. At TechLaunch @ FVI, we prepare every student who has the right combination of skills and grit to succeed in tech. By hiring our grads, you have the opportunity to bring people with diverse backgrounds and ideas into the industry and effect a change for the better that bridges the gaps in the world of tech.</p>
         </div>

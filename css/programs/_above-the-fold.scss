@@ -1,39 +1,5 @@
 section.above-the-fold {
     background-image:
-        linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+        linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
         url('../../images/backgrounds/computer-background.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 35vw;
-    padding-bottom: 20px;
-
-    @media all and (min-width: 992px) {
-        padding: 20px;
-        padding-top: 40px;
-        padding-bottom: 60px;
-    }
-
-    .logo {
-        width: 140px;
-        margin-top: 60px;
-        display: block;
-
-        @media all and (min-width: 600px) {
-            margin-top: 0;
-        }
-
-        @media all and (min-width: 992px) {
-            width: 180px;
-        }
-    }
-
-    .page-title {
-        display: inline-block;
-        text-transform: uppercase;
-        font-weight: 800;
-        color: #fff;
-        background-color: $fvi-blue;
-        font-size: 34px;
-        padding: 15px;
-    }
 }

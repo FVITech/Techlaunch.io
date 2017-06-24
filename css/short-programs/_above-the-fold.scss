@@ -2,57 +2,12 @@ section.above-the-fold {
     background-image:
         linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)),
         url('../../images/backgrounds/computer-background.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 35vw;
-    padding-bottom: 20px;
-
-    @media all and (min-width: 992px) {
-        padding: 20px;
-        padding-top: 40px;
-        padding-bottom: 60px;
-    }
 
     @media all and (min-width: 1300px) {
         min-height: 30vw;
     }
 
-    .logo {
-        width: 140px;
-        margin-top: 60px;
-        display: block;
-
-        @media all and (min-width: 600px) {
-            margin-top: 0;
-        }
-
-        @media all and (min-width: 992px) {
-            width: 180px;
-        }
-    }
-
     .page-title {
-        display: block;
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: $fvi-blue;
-        font-size: 34px;
-        @include slide-up-fade-in(200ms);
-
-        @media all and (min-width: 992px) {
-            font-size: 44px;
-        }
-    }
-
-    .subtitle {
-        text-align: center;
-        letter-spacing: 1px;
-        color: #fff;
-        font-weight: 400;
-        max-width: 450px;
-        margin: auto;
-        line-height: 1.7;
-        @include slide-up-fade-in(400ms);
+        font-size: 46px;
     }
 }

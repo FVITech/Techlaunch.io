@@ -1,9 +1,14 @@
 section.request-more-info {
-    padding-bottom: 0;
+    padding: 0 15px;
+    padding-top: 40px;
     display: flex;
     flex-flow: row wrap;
     align-items: flex-start;
     justify-content: center;
+
+    @media all and (min-width: 768px) {
+        padding: 80px 0 40px;
+    }
 
     .main,
     aside {
@@ -14,8 +19,9 @@ section.request-more-info {
         max-width: 580px;
 
         .section-title {
-            color: $fvi-blue;
+            color: #888;
             font-weight: 400;
+            text-transform: none;
         }
 
         .form-input {
@@ -85,6 +91,10 @@ section.request-more-info {
                 transform: translateY(0);
             }
         }
+
+        .disclosure {
+            font-size: 10px;
+        }
     }
 
     aside {
@@ -101,11 +111,11 @@ section.request-more-info {
             margin-top: 0;
             margin-bottom: 15px;
             font-size: 26px;
-            color: $fvi-blue;
+            color: #777;
         }
 
         p {
-            font-size: 16px;
+            font-size: 14px;
             margin: 15px 0;
 
             &.contact {

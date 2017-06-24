@@ -1,31 +1,8 @@
 section.above-the-fold {
     background-image:
-        linear-gradient(rgba(0, 0, 0, .4) 0%, rgba(0, 0, 0, .4) 100%),
+        linear-gradient(rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .5) 100%),
         url('https://as2.ftcdn.net/jpg/01/60/94/51/500_F_160945177_QsAPAwo3Qt3ux9s0BHcqJXcLV707DtlT.jpg');
-    background-size: cover;
-    background-position: center top;
     min-height: 80vh;
-    padding: 0;
-    padding-bottom: 20px;
-
-    @media all and (min-width: 992px) {
-        padding: 20px;
-        padding-top: 40px;
-        padding-bottom: 60px;
-    }
-
-    .logo {
-        width: 140px;
-        margin-top: 60px;
-
-        @media all and (min-width: 600px) {
-            margin-top: 0;
-        }
-
-        @media all and (min-width: 992px) {
-            width: 180px;
-        }
-    }
 
     .content {
         display: flex;
@@ -40,16 +17,19 @@ section.above-the-fold .text-box {
     margin-bottom: 30px;
 
     h2 {
-        text-transform: uppercase;
-        font-weight: bolder;
-        font-size: 36px;
+        // text-transform: uppercase;
+        font-weight: 300;
+        font-size: 50px;
         color: #fff;
         margin-bottom: 0;
         text-shadow: 0 1px 6px rgba(0, 0, 0, .3);
-        @include slide-up-fade-in(0);
+        @include slide-up-fade-in(0s);
 
         @media all and (min-width: 480px) {
-            font-size: 50px;
+            max-width: 500px;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            font-size: 70px;
         }
     }
 
@@ -57,19 +37,25 @@ section.above-the-fold .text-box {
         max-width: 400px;
         font-weight: 400;
         color: #fff;
-        font-size: 22px;
+        font-size: 16px;
         line-height: 1.7;
         text-shadow: 0 1px 5px rgba(0, 0, 0, .7);
         @include slide-up-fade-in(500ms);
 
         @media all and (min-width: 480px) {
-            font-size: 28px;
+            font-weight: 300;
+            font-size: 24px;
         }
 
         small {
-            font-size: 16px;
-            top: -8px;
+            font-size: 10px;
+            top: -5px;
             left: 2px;
+
+            @media all and (min-width: 768px) {
+                font-size: 16px;
+                top: -8px;
+            }
         }
     }
 

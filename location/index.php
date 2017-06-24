@@ -7,13 +7,13 @@
             <a href="<?php echo $rootPath ?>">
                 <img src="../images/logos/techlaunch_at_fvi_vertical_light_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
-            <h1 class="page-title">location</h1>
+            <h1 class="page-title">Location</h1>
         </div>
     </section>
 
     <section class="request-more-info">
         <div class="main">
-            <h2 class="section-title">request more information</h2>
+            <h2 class="section-title">Request More Information</h2>
             <form>
                 <div class="form-input">
                     <div>
@@ -45,9 +45,9 @@
                         <input type="number" name="zip">
                     </div>
                 </div>
-                <p>Cafe con leche vizcaya basel doral. Sall-mon Dolphins hialeah cocowalk gramps, cafecito miami time arroz con mango basel JWB dale art deco vizcaya.</p>
                 <button type="submit">submit info</button>
             </form>
+            <p class="disclosure">By clicking "Submit Info" above, you agree for TechLaunch @ FVI to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list.</p>
         </div>
         <aside>
             <h3>Contact Us</h3>

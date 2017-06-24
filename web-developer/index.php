@@ -9,7 +9,7 @@
             </a>
             <div class="content">
                 <div class="text-box">
-                    <h2>become a software developer</h2>
+                    <h2>Become a Software Developer</h2>
                     <h4>Join the most in-demand profession on the planet<small>*</small></h4>
                     <div class="figures-container">
                         <div class="figure appear">
@@ -53,7 +53,7 @@
                         <input type="text" name="program" value="Web Developer" hidden>
                         <button type="submit">get info</button>
                     </form>
-                    <p class="disclosure">By clicking "Get Info", you agree for TechLaunch@FVI to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list.</p>
+                    <p class="disclosure">By clicking "Get Info", you agree for TechLaunch @ FVI to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list.</p>
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
 
     <section class="program-overview">
         <div class="container">
-            <h2 class="section-title appear">program overview</h2>
+            <h2 class="section-title appear">Program Overview</h2>
             <p class="subtitle appear">Techlaunch offers a more robust program than traditional short-term coding boot camps. Come with passion and leave with a valuable skill set you can put to work.</p>
             <div class="cards-container">
                 <div class="left">
@@ -105,7 +105,7 @@
     </section>
 
     <section class="students-success">
-        <h2 class="section-title appear">student's success</h2>
+        <h2 class="section-title appear">Student Success</h2>
         <div class="container">
             <div class="testimonials-container">
                 <div class="testimonial appear">
@@ -129,7 +129,7 @@
 
     <section class="job-info">
         <div class="container">
-            <h2 class="section-title appear">what kind of job can i get as a graduate?</h2>
+            <h2 class="section-title appear">What kind of job can I get as a graduate?</h2>
             <div class="split">
                 <div class="left">
                     <p class="appear">The <strong>Web Developer Program</strong> from Techlaunch at FVI will prepare graduates to develop practical skills and knowledge needed or entry-level career opportunities in areas involving sotware design and development, systems analysis, programming, process design and management, and other areas related to computer software production and deployment. The fast growth in web and mobile development, combined with the increasing use of software, continues to create <strong>strong demand for software developers</strong>.</p>
@@ -142,7 +142,7 @@
             <div class="image-section">
                 <div class="left appear"></div>
                 <div class="right">
-                    <h3 class="appear">will i obtain any certifications?</h3>
+                    <h3 class="appear">Will I obtain any certifications?</h3>
                     <p class="appear">Upon graduation from the <strong>Web Developer Program</strong>, students will receive a diploma. Additionally, students will have a portfolio of work showcasing their abilities in order to aid them in finding full-time jobs or freelance web development contracts.</p>
                     <button class="appear">get info</button>
                 </div>
@@ -152,7 +152,7 @@
 
     <section class="what-you-will-learn">
         <div class="container">
-            <h2 class="section-title appear">what you will learn</h2>
+            <h2 class="section-title appear">What You Will Learn</h2>
             <div class="content">
                 <div class="cards-container">
                     <div class="card appear">
@@ -187,7 +187,7 @@
         <div class="container">
             <div class="content">
                 <div class="left">
-                    <h2 class="section-title appear">our instructors</h2>
+                    <h2 class="section-title appear">Our Instructors</h2>
                     <p class="appear">Our instructors take a <strong>hands-on</strong> approach and work closely with you to ensure that you gain the necessary skills to succeed. Our students will learn how to <strong>work in teams</strong> using git-based workflows that are commonly employed in software companies.</p>
                     <button class="appear">get info</button>
                 </div>
@@ -198,7 +198,7 @@
 
     <section class="projects">
         <div class="container">
-            <h2 class="section-title">student projects</h2>
+            <h2 class="section-title">Student Projects</h2>
             <div class="projects-container">
                 <img src="../images/code-on-screen.jpeg" alt="">
             </div>
@@ -206,7 +206,7 @@
     </section>
 
     <section class="hiring-partners">
-        <h2 class="section-title appear">hiring partners</h2>
+        <h2 class="section-title appear">Hiring Partners</h2>
         <div class="logos-container">
             <img class="appear" src="../images/logos/microsoft.png" alt="Microsoft logo">
             <img class="appear" src="../images/logos/google.png" alt="Google logo">

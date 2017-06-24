@@ -61,7 +61,7 @@
 
     <section>
         <div class="container">
-            <h2 class="section-title">veterans services</h2>
+            <h2 class="section-title">Veterans Services</h2>
             <h3>Career Training For Veterans</h3>
             <p>Serving Those Who Served</p>
             <p>At TechLaunch @ FVI we’re dedicated to providing career education and training to members of the military, both past and present, as well as their dependents. Our programs are designed to help you get the training and skills you need so you can land your dream job in the tech industry.</p>
@@ -83,14 +83,6 @@
             <p>At TechLaunch, we want to make sure you reach your dreams. Our mission is to prepare and support you on your journey to a new career in the tech industry. To do this, our career services team will promote your success in the classroom, and use this to make important introductions so you can build connections with potential employers.</p>
             <p>Find out more about our programs today and discover the possibilities. And if you have questions about your Veterans benefits, please follow the link below.</p>
             <p><a href="">U.S. Department | VA | Post-9/11 GI Bill®</a></p>
-        </div>
-    </section>
-
-    <section class="bg-gray">
-        <div class="container">
-            <h2 class="section-title">scholarships</h2>
-            <p>Papo doral flagler literally souwesera flagami booty bass wynwood caja china tiki tiki music. Croquetica miami MiMo, casa de carajo irregardless wynwood LIV Ultra cafecito que cute miami springs venetian causeway no yeah, yeah no. Miami time vizcaya PubSub Pitbull, pero like besito Azucar downtown UM wynwood collins ave critical mass westchester venetian causeway south beach. UM power 96 leah arts district super la 20 y 20 calle ocho bulykkk supposably dale caja china Deco Drive Heat.</p>
-            <p>Pastelitos ocean drive girl, botanica FIU jackson memorial bird road upper east side. Bro croquetica venetian causeway ya tu sabes fire south beach. Abuelita guy casa de carajo fontainebleau UM art deco Mr. 305/Worldwide upper east side brickell bfe croquetica besito cocowalk MiMo. Coral way Pepe Billete bird road buena vista MiMo sweetwater midtown the roads. Chonga wynwood MDC botanica leah arts district Mr. 305/Worldwide mission bro westchester ocean drive. Design district mission bro ya tu sabes, papo sweetwater flagler Pepe Billete omni gorda chonga kendall.</p>
         </div>
     </section>
 

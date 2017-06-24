@@ -1,37 +1,22 @@
 section.above-the-fold {
     background-image: url('../../images/map.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 40vh;
-    padding-bottom: 20px;
 
     @media all and (min-width: 992px) {
-        padding: 20px;
-        padding-top: 40px;
-        padding-bottom: 60px;
-    }
-
-    .logo {
-        width: 140px;
-        margin-top: 60px;
-        display: block;
-
-        @media all and (min-width: 600px) {
-            margin-top: 0;
-        }
-
-        @media all and (min-width: 992px) {
-            width: 180px;
-        }
+        min-height: 40vh;
     }
 
     .page-title {
         display: inline-block;
-        text-transform: uppercase;
-        font-weight: 800;
-        color: #fff;
+        font-size: 36px;
+        letter-spacing: 1px;
         background-color: $fvi-blue;
-        font-size: 34px;
         padding: 15px;
+        margin-top: 50%;
+        text-shadow: none;
+        font-weight: 700;
+
+        @media all and (min-width: 768px) {
+            margin-top: 30px;
+        }
     }
 }

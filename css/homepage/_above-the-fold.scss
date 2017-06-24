@@ -1,64 +1,34 @@
 section.above-the-fold {
     background-image:
-        linear-gradient(rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, .3) 100%),
-        url('../../images/backgrounds/teaching-flipped.jpg');
-    background-size: cover;
+        linear-gradient(rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 100%),
+        url('../../images/backgrounds/teaching.jpg');
     background-position: center top;
-    min-height: 80vh;
-    padding: 0;
-    padding-bottom: 20px;
 
-    @media all and (min-width: 992px) {
-        padding-top: 40px;
-        padding-bottom: 60px;
+    @media all and (min-width: 768px) {
+        min-height: 75vh;
     }
 
-    .logo {
-        width: 140px;
-        margin-top: 80px;
+    .page-title {
+        text-transform: none;
+        letter-spacing: 1px;
+    }
 
-        @media all and (min-width: 600px) {
-            margin-top: 0;
+    .page-subtitle {
+
+        @media all and (min-width: 768px) {
+            font-size: 18px;
+            margin: 30px auto 45px;
         }
     }
 }
 
-.above-the-fold .cta-box {
-    background-color: rgba(255, 255, 255, .85);
-    max-width: 480px;
-    border-radius: 6px;
-    padding: 15px;
-    margin-top: 20px;
-    @include slide-up-fade-in(200ms);
-
-    @media all and (min-width: 768px) {
-        padding: 30px 40px;
-        margin-top: 80px;
-    }
-
-    h2 {
-        margin-top: 0;
-        text-transform: uppercase;
-        font-weight: 800;
-        letter-spacing: 1px;
-        line-height: 1.3;
-        margin-bottom: 15px;
-        font-size: 30px;
-        color: #000;
-    }
-
-    p {
-        line-height: 1.4;
-        font-size: 18px;
-        font-weight: 300;
-        color: #000;
-        margin-bottom: 25px;
-    }
+.above-the-fold .buttons-box {
+    text-align: center;
 
     .btn {
         display: inline-block;
-        background-color: #000;
-        color: #fff;
+        background-color: #ccc;
+        color: #000;
         border: none;
         border-radius: 3px;
         padding: 10px;
@@ -72,7 +42,8 @@ section.above-the-fold {
 
         &:hover,
         &:focus {
-            background-color: $fvi-blue;
+            background-color: #fff;
+            color:#000;
         }
 
         &:first-of-type {

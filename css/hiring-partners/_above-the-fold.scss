@@ -2,38 +2,9 @@ section.above-the-fold {
     background-image:
         linear-gradient(rgba(0, 0, 0, .4) 0%, rgba(0, 0, 0, .4) 100%),
         url('https://as2.ftcdn.net/jpg/00/71/62/63/500_F_71626349_xGi8fpghqY68Jvd3PrtgOw9fSjL64R2s.jpg');
-    background-size: cover;
     background-position: center top;
-    min-height: 50vw;
-    padding-bottom: 20px;
 
     @media all and (min-width: 992px) {
-        padding: 20px;
-        padding-top: 40px;
-        padding-bottom: 60px;
-    }
-
-    .logo {
-        width: 140px;
-        margin-top: 60px;
-        display: block;
-
-        @media all and (min-width: 600px) {
-            margin-top: 0;
-        }
-
-        @media all and (min-width: 992px) {
-            width: 180px;
-        }
-    }
-
-    .page-title {
-        display: inline-block;
-        text-transform: uppercase;
-        font-weight: 800;
-        color: #fff;
-        background-color: $fvi-blue;
-        font-size: 34px;
-        padding: 15px;
+        min-height: 40vw;
     }
 }

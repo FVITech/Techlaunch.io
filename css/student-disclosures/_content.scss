@@ -1,5 +1,12 @@
 section.content {
 
+    .section-title {
+
+        @media all and (min-width: 768px) {
+            font-size: 38px;
+        }
+    }
+
     a {
         text-decoration: none;
     }
@@ -68,5 +75,7 @@ table.placement-rate {
         font-size: 24px;
         background-color: #ddd;
         color: #000;
+        text-align: center;
+        padding: 12px;
     }
 }

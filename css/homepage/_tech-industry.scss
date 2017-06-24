@@ -1,8 +1,10 @@
 section.tech-industry {
     background-color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
 
     @media all and (min-width: 992px) {
-        padding: 120px 0;
+        padding: 100px 0;
     }
 
     .container {
@@ -17,7 +19,7 @@ section.tech-industry {
         text-align: center;
 
         @media all and (min-width: 992px) {
-            top: -50px;
+            top: -20px;
         }
     }
 

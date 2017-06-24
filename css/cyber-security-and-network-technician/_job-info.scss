@@ -6,6 +6,10 @@ section.job-info {
         font-weight: 400;
         font-size: 32px;
         text-align: center;
+
+        @media all and (min-width: 768px) {
+            font-size: 40px;
+        }
     }
 
     p {
@@ -49,15 +53,15 @@ section.job-info {
             padding-top: 0;
 
             h3 {
-                margin-top: 0;
-                text-transform: uppercase;
+                margin: 0;
                 color: #444;
                 font-weight: 400;
-                font-size: 28px;
+                font-size: 32px;
             }
 
             p {
                 text-align: left;
+                margin-top: 24px;
             }
 
             button {

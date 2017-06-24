@@ -5,8 +5,11 @@ section.what-you-will-learn {
     .section-title {
         color: #fff;
         text-align: left;
-        font-weight: 400;
         font-size: 32px;
+
+        @media all and (min-width: 768px) {
+            font-size: 46px;
+        }
     }
 
     .content {
