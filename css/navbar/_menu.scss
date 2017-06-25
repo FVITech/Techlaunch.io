@@ -10,6 +10,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    transition: all 400ms;
 
     @media all and (min-width: 992px) {
         padding-bottom: 20px;
