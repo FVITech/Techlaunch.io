@@ -1,6 +1,7 @@
 <?php $rootPath = '../'; $page = "programs"; include('../parts/head.php'); ?>
 <body>
     <?php include('../parts/navbar.php'); ?>
+    <?php include('../parts/pop-up-form.php'); ?>
 
     <section class="above-the-fold">
         <div class="container">

@@ -2,6 +2,7 @@ const $ = require('jquery')
 
 function togglePopUpForm() {
     const $popUpForm = $('#pop-up-form')
+    console.log('Pop up form doesn\'t exist on this page');
     if($popUpForm.length === 0) return false
 
     $popUpForm.toggleClass('open')
@@ -49,6 +50,7 @@ function onPopUpFormSubmit(e) {
 }
 
 $('.get-more-info').click(togglePopUpForm)
+$('#navbar .get-info').click(togglePopUpForm)
 $('#pop-up-form .close-btn').click(togglePopUpForm)
 $('.pop-up-form-overlay').click(togglePopUpForm)
 

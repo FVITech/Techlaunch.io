@@ -5,21 +5,32 @@
     right: 5%;
     z-index: 100;
 
-    .phone {
-        background-color: $fvi-blue;
-        font-size: 18px;
+    .get-info {
+        display: inline-block;
         text-align: center;
+        background-color: $fvi-blue;
+        color: #fff;
+        cursor: pointer;
         padding: 11px;
-        z-index: 1;
-
-        a {
-            text-decoration: none;
-            color: #fff;
-        }
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 800;
     }
 
+    .phone {
+        background-color: $fvi-blue;
+        font-size: 14px;
+        text-align: center;
+        padding: 13px;
+        margin-left: 10px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .get-info,
     .phone,
     .menu-button {
         box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .4);
+        z-index: 1;
     }
 }

@@ -1,6 +1,7 @@
 <?php $rootPath = '../'; $page = "short-programs"; include('../parts/head.php'); ?>
 <body>
     <?php include('../parts/navbar.php'); ?>
+    <?php include('../parts/pop-up-form.php'); ?>
 
     <span class="hidden" id="short-programs-page"></span>
 
