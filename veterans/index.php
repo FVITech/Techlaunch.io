@@ -13,7 +13,7 @@
     </section>
 
     <?php
-        $testimonials = array('peter', 'guy1', 'guy2');
+        $testimonials = array('peter-vegliante', 'guy1', 'guy2');
         $classes = 'veterans';
         include('../parts/testimonials/index.php');
     ?>

@@ -91,7 +91,7 @@
     </section>
 
     <?php
-        $testimonials = array('guy1', 'guy2', 'guy3', 'girl1');
+        $testimonials = array('frank-veloz', 'peter-vegliante', 'lily-cantillo');
         include('parts/testimonials/index.php');
     ?>
 

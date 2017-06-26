@@ -1,7 +1,16 @@
+<?php
+    $options = "&";
+    $options .= "&rel=0";
+    $options .= "&showinfo=0";
+    $options .= "&fs=0";
+    $options .= "&iv_load_policy=3";
+    $options .= "&origin=1";
+?>
+
 <div class="carousel-item youtube">
     <div class="left">
         <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/GHzKGGoIgMo?ecver=2" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/GHzKGGoIgMo?ecver=2<?php echo $options ?>" frameborder="0"></iframe>
         </div>
     </div>
     <div class="right">
