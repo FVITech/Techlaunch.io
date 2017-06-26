@@ -1,0 +1,54 @@
+section.content {
+
+    .split-2 {
+        padding: 40px 0;
+        align-items: center;
+    }
+
+    .split-box.text {
+
+        .section-title {
+            margin-top: 20px;
+        }
+
+        p:last-of-type {
+            margin-bottom: 0;
+        }
+
+        @media all and (min-width: 992px) {
+            padding: 0 20px;
+
+            .section-title {
+                margin-top: 0;
+            }
+        }
+    }
+
+    .split-box.image {
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        padding-bottom: 70%;
+
+        @media all and (min-width: 992px) {
+            width: 50%;
+            padding-bottom: 35%;
+        }
+    }
+
+    .split-2:nth-of-type(1) .image {
+        background-image: url('https://as1.ftcdn.net/jpg/01/26/11/38/500_F_126113859_HZnwrSGCZBOOkkbIbJ4xzr0gcbXAEriM.jpg');
+    }
+
+    .split-2:nth-of-type(2) .image {
+        background-image: url('https://as2.ftcdn.net/jpg/01/40/51/99/500_F_140519990_5gzxLuBlRXjSA1DjFm6nXErLDAkPMQ6I.jpg');
+    }
+
+    .split-2:nth-of-type(3) .image {
+        background-image: url('https://external-lga3-1.xx.fbcdn.net/safe_image.php?d=AQDPcHXy8t-0woEu&w=487&h=255&url=http%3A%2F%2Fmedia.nbcmiami.com%2Fimages%2F1200%2A675%2Fcoding%2Bboot%2Bcamp.jpg&cfs=1&upscale=1&sx=0&sy=15&sw=1200&sh=628&_nc_hash=AQDBJzLr5tdVqjr4');
+    }
+
+    .split-2:nth-of-type(4) .image {
+        background-image: url('https://as1.ftcdn.net/jpg/00/76/80/12/500_F_76801219_XVSPkw8r06A9N7OCGCo2hXO2VhQfssqF.jpg');
+    }
+}
