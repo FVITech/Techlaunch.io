@@ -43,14 +43,14 @@ section.above-the-fold {
     min-height: 80vh;
 
     @media all and (min-width: 768px) {
-        min-height: 35vw;
+        min-height: 30vw;
         padding-top: 40px;
         padding-bottom: 60px;
     }
 
     .logo {
         width: 140px;
-        display: block;
+        display: inline-block;
 
         @media all and (min-width: 992px) {
             width: 180px;
@@ -72,8 +72,9 @@ section.above-the-fold {
     @include slide-up-fade-in(200ms);
 
     @media all and (min-width: 768px) {
-        padding-top: 10%;
+        padding-top: 5%;
         font-size: 56px;
+        letter-spacing: 8px;
     }
 }
 
@@ -89,10 +90,11 @@ section.above-the-fold {
 }
 
 .section-title {
+    color: #333;
     font-size: 34px;
     text-align: left;
-    font-weight: 300;
-    letter-spacing: 1px;
+    font-weight: 400;
+    letter-spacing: 0px;
     margin-top: 0;
 
     @media all and (min-width: 768px) {

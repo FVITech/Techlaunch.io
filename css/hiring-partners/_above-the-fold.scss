@@ -2,9 +2,5 @@ section.above-the-fold {
     background-image:
         linear-gradient(rgba(0, 0, 0, .4) 0%, rgba(0, 0, 0, .4) 100%),
         url('https://as2.ftcdn.net/jpg/00/71/62/63/500_F_71626349_xGi8fpghqY68Jvd3PrtgOw9fSjL64R2s.jpg');
-    background-position: center top;
-
-    @media all and (min-width: 992px) {
-        min-height: 40vw;
-    }
+    background-position: left 20%;
 }

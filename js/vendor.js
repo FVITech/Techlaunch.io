@@ -10,3 +10,7 @@ if($(window).width() < 768) {
         }
     })
 }
+
+if($('section.testimonials.veterans').length > 0) {
+    $('.carousel')[0].stopAutoSlide()
+}

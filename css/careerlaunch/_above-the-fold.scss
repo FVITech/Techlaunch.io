@@ -2,9 +2,5 @@ section.above-the-fold {
     background-image:
         linear-gradient(rgba(0, 0, 0, .4) 0%, rgba(0, 0, 0, .4) 100%),
         url('../../images/backgrounds/man-adjusting-tie.jpg');
-    background-position: center top;
-
-    @media all and (min-width: 992px) {
-        min-height: 40vw;
-    }
+    background-position: center 30%;
 }

@@ -30,15 +30,21 @@ section {
             background-size: cover;
             background-position: center;
             box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .3);
-        }
 
-        h3 {
-            color: #444;
-            font-size: 28px;
-            font-weight: 400;
+            h3 {
+                position: absolute;
+                color: #fff;
+                font-size: 28px;
+                font-weight: 400;
+                bottom: 0;
+                left: 0;
+                margin: 0;
+                padding: 15px;
+                text-shadow: 1px 2px 4px rgba(0, 0, 0, .8);
 
-            @media all and (min-width: 375px) {
-                font-size: 34px;
+                @media all and (min-width: 375px) {
+                    font-size: 34px;
+                }
             }
         }
 
@@ -64,14 +70,18 @@ section {
     .web-dev {
 
         .image {
-            background-image: url('../../images/backgrounds/computer-background.jpg');
+            background-image:
+                linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)),
+                url('../../images/backgrounds/computer-background.jpg');
         }
     }
 
     .cyber {
 
         .image {
-            background-image: url('https://as2.ftcdn.net/jpg/01/60/94/51/500_F_160945177_QsAPAwo3Qt3ux9s0BHcqJXcLV707DtlT.jpg');
+            background-image:
+                linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)),
+                url('https://as2.ftcdn.net/jpg/01/60/94/51/500_F_160945177_QsAPAwo3Qt3ux9s0BHcqJXcLV707DtlT.jpg');
         }
     }
 }

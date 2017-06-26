@@ -40,7 +40,7 @@
     </section>
 
     <section class="tech-industry">
-        <h2 class="section-title">The Great Tech Boom</h2>
+        <h2 class="section-title appear">The Great Tech Boom</h2>
         <div class="container">
             <div class="graph-container">
                 <div class="graph">

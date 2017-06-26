@@ -5,28 +5,23 @@ section.testimonials {
     padding: 0;
 
     .carousel {
-
         @media all and (min-width: 992px) {
-            padding-bottom: 500px;
+            padding-bottom: 28vw;
         }
     }
 }
 
 section.testimonials .carousel-item {
-
     .left {
         width: 100%;
         max-width: 500px;
-
         @media all and (min-width: 768px) {
             width: 45%;
         }
 
         img {
             width: 100%;
-            padding: 30px;
-            padding-bottom: 0;
-
+            padding: 30px 30px 0;
             @media all and (min-width: 768px) {
                 position: absolute;
                 bottom: 0;
@@ -37,12 +32,10 @@ section.testimonials .carousel-item {
     .right {
         width: 100%;
         max-width: 500px;
-        padding: 20px;
-        padding-bottom: 50px;
+        padding: 20px 20px 50px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-
         @media all and (min-width: 786px) {
             width: 55%;
             padding-bottom: 20px;
@@ -51,9 +44,7 @@ section.testimonials .carousel-item {
         .heading {
             font-size: 24px;
             text-transform: uppercase;
-            margin-bottom: 15px;
             margin: 0;
-
             @media all and (min-width: 768px) {
                 font-size: 32px;
             }
@@ -61,7 +52,6 @@ section.testimonials .carousel-item {
 
         .quote {
             line-height: 1.4;
-
             @media all and (min-width: 768px) {
                 margin: 30px 0;
             }
@@ -71,6 +61,54 @@ section.testimonials .carousel-item {
             margin: 0;
             font-style: italic;
             color: #888;
+        }
+    }
+}
+
+section.testimonials .carousel-item.youtube {
+
+    align-items: center;
+
+    .left,
+    .right {
+
+        @media all and (min-width: 768px) {
+            width: 50%;
+            max-width: none;
+        }
+    }
+
+    .left {
+        max-width: none;
+        background-color: #000;
+        align-self: stretch;
+        height: 100%;
+    }
+
+    .right {
+
+        @media all and (min-width: 768px) {
+            padding-right: 10%;
+        }
+    }
+
+    .video-container {
+        position: relative;
+        height: 0;
+        padding-bottom: 56.25%;
+
+        @media all and (min-width: 768px) {
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            position:absolute;
+            width:100%;
+            height:100%;
+            left:0;
         }
     }
 }
