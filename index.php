@@ -172,7 +172,7 @@
                         </div>
                     </div>
                 </div>
-                <a class="appear read-more" href="<?php echo $rootPath ?>">read more</a>
+                <a class="appear read-more" href="<?php echo $rootPath ?>web-developer/">read more</a>
             </div>
             <div class="stack">
                 <div class="box appear delay-200">
@@ -207,7 +207,7 @@
                         </div>
                     </div>
                 </div>
-                <a class="appear read-more" href="<?php echo $rootPath ?>">read more</a>
+                <a class="appear read-more" href="<?php echo $rootPath ?>web-developer/">read more</a>
             </div>
         </div>
     </section>

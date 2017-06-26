@@ -53,7 +53,7 @@
         </div>
         <aside>
             <h3>Contact Us</h3>
-            <p>Super booty bass Ultra literally, cafe con leche vizcaya basel doral. Sall-mon Dolphins hialeah cocowalk gramps, cafecito miami time arroz con mango basel JWB dale art deco vizcaya.</p>
+            <p>So now that you are ready to take that first step to changing your life, come meet with one of our admissions representatives and enroll today! Our admissions process is simple and easy to get you started on the path to success.</p>
             <p class="contact"><strong>Email:</strong> <a href="mailto:info@fvi.edu">info@fvi.edu</a></p>
             <p class="contact"><strong>Phone:</strong> <a href="tel:786-574-9511">786-574-9511</a></p>
             <img src="../images/people/students.jpeg" alt="">
