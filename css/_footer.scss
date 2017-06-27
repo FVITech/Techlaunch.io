@@ -91,6 +91,7 @@ footer .second {
             padding: 0 10px;
             text-align: center;
             border: 1px solid #fff;
+            border-right: none;
             cursor: pointer;
 
             &:hover,
@@ -99,20 +100,15 @@ footer .second {
                 color: #282828;
             }
 
-            &:nth-of-type(1),
-            &:nth-of-type(2),
-            &:nth-of-type(3) {
-                border-right: none;
-            }
-
             &:nth-of-type(1) {
                 border-top-left-radius: 3px;
                 border-bottom-left-radius: 3px;
             }
 
-            &:nth-of-type(4) {
+            &:last-of-type {
                 border-top-right-radius: 3px;
                 border-bottom-right-radius: 3px;
+                border-right: 1px solid #fff;
             }
         }
 

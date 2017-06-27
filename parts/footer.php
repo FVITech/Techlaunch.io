@@ -44,17 +44,20 @@
             </li>
         </ul>
         <div class="social-media">
-            <a href="<?php echo $rootPath ?>">
+            <a target="_blank" rel="noopener" href="https://www.facebook.com/FVITech/?ref=br_rs">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
-            <a href="<?php echo $rootPath ?>">
+            <a target="_blank" rel="noopener" href="https://twitter.com/techlaunchmiami">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
-            <a href="<?php echo $rootPath ?>">
+            <a target="_blank" rel="noopener" href="https://www.linkedin.com/company-beta/3825643/">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
-            <a href="<?php echo $rootPath ?>">
+            <a target="_blank" rel="noopener" href="https://www.instagram.com/techlaunchmiami/">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCGJcXuVSkHrNSzXsM_lBZ4w">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
             </a>
         </div>
     </div>

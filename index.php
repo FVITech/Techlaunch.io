@@ -17,12 +17,26 @@
     </section>
 
     <section class="launch">
-        <div class="left">
-            <img class="appear delay-200" src="<?php echo $rootPath ?>images/rocket.svg" alt="Techlaunch logo">
-            <h2 class="appear delay-400">launch a great tech career in under a year</h2>
-        </div>
-        <div class="right">
-            <p class="appear delay-600">When you’re a student at TechLaunch @ FVI, you’ll get the training you need to enter the world of tech within six to nine months. With a dynamic classroom environment, our instructors use an extensive hands-on approach and work by your side to teach you the ins and outs of the technology industry.</p>
+        <div class="split-3">
+            <div class="split-box">
+                <img class="appear delay-200" src="<?php echo $rootPath ?>images/rocket.svg" alt="Techlaunch logo">
+                <h2 class="appear delay-400">launch a great tech career in under a year</h2>
+            </div>
+            <div class="split-box">
+                <div class="video-container appear delay-900">
+                    <?php
+                        $options = "&";
+                        $options .= "&rel=0";
+                        $options .= "&showinfo=0";
+                        $options .= "&iv_load_policy=3";
+                        $options .= "&origin=1";
+                    ?>
+                    <iframe src="https://www.youtube.com/embed/6eS5xHsJCPs?ecver=2<?php echo $options ?>" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="split-box">
+                <p class="appear delay-600">When you’re a student at TechLaunch @ FVI, you’ll get the training you need to enter the world of tech within six to nine months. With a dynamic classroom environment, our instructors use an extensive hands-on approach and work by your side to teach you the ins and outs of the technology industry.</p>
+            </div>
         </div>
     </section>
 
