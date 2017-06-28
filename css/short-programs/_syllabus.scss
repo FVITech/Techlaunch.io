@@ -4,7 +4,7 @@ section.syllabus {
 
     .download {
         margin: auto;
-        margin-top: 50px;
+        margin-top: 10px;
     }
 }
 
@@ -27,6 +27,7 @@ section.syllabus .item {
     }
 
     &:last-of-type {
+        margin-bottom: 40px;
 
         &::after {
             content: '';

@@ -15,7 +15,7 @@
     </div>
     <div class="right">
         <h3 class="heading">Web Developer Student</h3>
-        <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you’ll find every step of the learning process."</p>
-        <p class="author">- Peter Vegliante</p>
+        <p class="quote">"Before TechLaunch, I was in the Marine Corps and when I got out of the Marines, I struggled to find a place to work. I jumped from job to job, and I finally started doing Audio/Video for events. Long hours, not lot of pay, and didn’t get to see my family a lot--that's why I decided to enroll at TechLaunch. So far, the experience has been amazing. The instructors have a lot of knowledge, and they are willing to share everything they know. The class size is small, so you get good, one-on-one personal attention with the instructors. They are also available during after hours. At Techlaunch, you get real-world experience--you are making an actual app; you are making a chat application; you are making a simple video game; you are making a web page that can be used by someone out in the real world. It doesn’t seem fake, it is something you can use as soon as you are done with school."</p>
+        <p class="author"> - Peter Vegliante</p>
     </div>
 </div>

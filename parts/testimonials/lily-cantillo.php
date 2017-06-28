@@ -15,7 +15,7 @@
     </div>
     <div class="right">
         <h3 class="heading">Web Developer Student</h3>
-        <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you’ll find every step of the learning process."</p>
-        <p class="author">- Lilian Cantillo</p>
+        <p class="quote">"Hello, my name is Lilianne Cantillo, I am from Cuba. Since I moved to United States I have been working in the hospitality business, but this has never been my passion. My passion is in computers, and one day I will become software developer. I did some research and I found TechLaunch. I decided to enroll in the school and since I started there, I have had an amazing experience.  One of the things I love about the school is that classes are small, and anytime that I have a question, the instructors are there to help me. Before I started at TechLaunch I was concerned. I thought that coding was difficult and I didn’t know what to expect. Now I feel that it is easier than everybody thinks. You need to put a little bit of effort and time; but if I can do it, you can do it too. So far it has been a great experience and I am looking forward to finally finding my dream job as a web developer."</p>
+        <p class="author"> - Lilianne Cantillo</p>
     </div>
 </div>

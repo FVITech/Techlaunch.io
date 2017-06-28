@@ -21,23 +21,7 @@
         </div>
     </section>
 
-    <section class="bg-gray">
-        <div class="container">
-            <h2 class="section-title">Value For Your Education</h2>
-            <p>Papo doral flagler literally souwesera flagami booty bass wynwood caja china tiki tiki music. Croquetica miami MiMo, casa de carajo irregardless wynwood LIV Ultra cafecito que cute miami springs venetian causeway no yeah, yeah no. Miami time vizcaya PubSub Pitbull, pero like besito Azucar downtown UM wynwood collins ave critical mass westchester venetian causeway south beach. UM power 96 leah arts district super la 20 y 20 calle ocho bulykkk supposably dale caja china Deco Drive Heat.</p>
-            <p>Pastelitos ocean drive girl, botanica FIU jackson memorial bird road upper east side. Bro croquetica venetian causeway ya tu sabes fire south beach. Abuelita guy casa de carajo fontainebleau UM art deco Mr. 305/Worldwide upper east side brickell bfe croquetica besito cocowalk MiMo. Coral way Pepe Billete bird road buena vista MiMo sweetwater midtown the roads. Chonga wynwood MDC botanica leah arts district Mr. 305/Worldwide mission bro westchester ocean drive. Design district mission bro ya tu sabes, papo sweetwater flagler Pepe Billete omni gorda chonga kendall.</p>
-        </div>
-    </section>
-
     <section class="banner teaching"></section>
-
-    <section>
-        <div class="container">
-            <h2 class="section-title">Financial-aid</h2>
-            <p>Papo doral flagler literally souwesera flagami booty bass wynwood caja china tiki tiki music. Croquetica miami MiMo, casa de carajo irregardless wynwood LIV Ultra cafecito que cute miami springs venetian causeway no yeah, yeah no. Miami time vizcaya PubSub Pitbull, pero like besito Azucar downtown UM wynwood collins ave critical mass westchester venetian causeway south beach. UM power 96 leah arts district super la 20 y 20 calle ocho bulykkk supposably dale caja china Deco Drive Heat.</p>
-            <p>Pastelitos ocean drive girl, botanica FIU jackson memorial bird road upper east side. Bro croquetica venetian causeway ya tu sabes fire south beach. Abuelita guy casa de carajo fontainebleau UM art deco Mr. 305/Worldwide upper east side brickell bfe croquetica besito cocowalk MiMo. Coral way Pepe Billete bird road buena vista MiMo sweetwater midtown the roads. Chonga wynwood MDC botanica leah arts district Mr. 305/Worldwide mission bro westchester ocean drive. Design district mission bro ya tu sabes, papo sweetwater flagler Pepe Billete omni gorda chonga kendall.</p>
-        </div>
-    </section>
 
     <section class="net-price-calculator bg-gray">
         <div class="container">
@@ -45,8 +29,6 @@
             <button>use calculator</button>
         </div>
     </section>
-
-    <section class="banner calculator"></section>
 
     <?php $rootPath = '../'; include('../parts/footer.php') ?>
 

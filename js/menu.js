@@ -25,7 +25,7 @@ $(document).ready(function() {
     })
 
     // open/close submenus
-    $('.menu-header').on('click', e => {
+    $('.menu-header.dropdown').on('click', e => {
         if($(window).width() < 992) {
             e.preventDefault()
 

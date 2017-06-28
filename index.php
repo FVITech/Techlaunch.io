@@ -58,7 +58,7 @@
         <div class="container">
             <div class="graph-container">
                 <div class="graph">
-                    <div class="bar-container left">
+                    <div class="bar-container">
                         <div class="bar">
                             <div class="rocket-container">
                                 <img src="<?php echo $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket">
@@ -68,7 +68,7 @@
                         </div>
                         <label>Web<br>Developers</label>
                     </div>
-                    <div class="bar-container middle">
+                    <div class="bar-container">
                         <div class="bar">
                             <div class="rocket-container">
                                 <img src="<?php echo $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket">
@@ -78,7 +78,17 @@
                         </div>
                         <label>Software<br>Developers</label>
                     </div>
-                    <div class="bar-container right">
+                    <div class="bar-container">
+                        <div class="bar">
+                            <div class="rocket-container">
+                                <img src="<?php echo $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket">
+                                <img src="<?php echo $rootPath ?>images/fire.svg" alt="flame" class="flame">
+                            </div>
+                            <span>18%</span>
+                        </div>
+                        <label>Cyber<br>Security</label>
+                    </div>
+                    <div class="bar-container">
                         <div class="bar">
                             <div class="rocket-container">
                                 <img src="<?php echo $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket">
@@ -95,10 +105,13 @@
             <div class="income-div appear delay-600">
                 <h4>median tech income</h4>
                 <p class="income one">$102K</p>
+                <p class="citation"><a target="_blank" rel="noopener" href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm">BLS.gov</a></p>
                 <p class="position one">software developer</p>
                 <p class="income two">$92K</p>
+                <p class="citation"><a target="_blank" rel="noopener" href="https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm">BLS.gov</a></p>
                 <p class="position two">cyber security technician</p>
                 <p class="income three">$66K</p>
+                <p class="citation"><a target="_blank" rel="noopener" href="https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm">BLS.gov</a></p>
                 <p class="position three">web developer</p>
             </div>
         </div>
