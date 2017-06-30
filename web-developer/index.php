@@ -197,14 +197,7 @@
         </div>
     </section>
 
-    <section class="projects">
-        <div class="container">
-            <h2 class="section-title">Student Projects</h2>
-            <div class="projects-container">
-                <img src="../images/code-on-screen.jpeg" alt="">
-            </div>
-        </div>
-    </section>
+    <?php include('../parts/student-projects/index.php') ?>
 
     <section class="hiring-partners">
         <h2 class="section-title appear">Hiring Partners</h2>

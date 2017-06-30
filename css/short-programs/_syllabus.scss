@@ -1,6 +1,16 @@
 section.syllabus {
     background-color: #222;
     color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .section-title {
+        color: #eee;
+
+        @media all and (min-width: 768px) {
+            margin-bottom: 60px;
+        }
+    }
 
     .download {
         margin: auto;
@@ -12,7 +22,7 @@ section.syllabus .item {
     border-left: 2px solid $fvi-blue;
     padding-left: 25px;
     padding-right: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 
     &::before {
         content: '';

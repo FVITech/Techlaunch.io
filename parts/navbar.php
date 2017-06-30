@@ -25,7 +25,6 @@
                 <a class="menu-header dropdown" href="<?php echo $rootPath ?>careerlaunch/">CareerLaunch</a>
                 <div class="menu-list">
                     <a class="mobile-link" href="<?php echo $rootPath ?>careerlaunch/">Careerlaunch Summary</a>
-                    <a href="<?php echo $rootPath ?>#">Student Success</a>
                     <a href="<?php echo $rootPath ?>hiring-partners/">Hiring Partners</a>
                     <a href="<?php echo $rootPath ?>affordability/">Affordability</a>
                 </div>
@@ -34,10 +33,7 @@
                 <a class="menu-header dropdown" href="<?php echo $rootPath ?>about-us/">About Us</a>
                 <div class="menu-list">
                     <a class="mobile-link" href="<?php echo $rootPath ?>about-us/">About Us Summary</a>
-                    <a href="<?php echo $rootPath ?>#">Why TechLaunch</a>
-                    <a href="<?php echo $rootPath ?>#">Blog</a>
-                    <a href="<?php echo $rootPath ?>#">Our Team</a>
-                    <a href="<?php echo $rootPath ?>#">Events</a>
+                    <a target="_blank" rel="noopener" href="https://brentoncozby.com/blog-react-redux/posts">Blog</a>
                     <a href="<?php echo $rootPath ?>location/">Contact Us</a>
                 </div>
             </div>

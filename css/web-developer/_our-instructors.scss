@@ -1,6 +1,7 @@
 section.our-instructors {
-    background-color: #fff;
+    background-color: #222;
     padding: 50px 0;
+    color: #fff;
 
     @media all and (min-width: 992px) {
         padding: 80px 0;
@@ -21,21 +22,24 @@ section.our-instructors {
         }
     }
 
+    .section-title {
+        color: #eee;
+    }
+
     .left {
+        color: #aaa;
 
         @media all and (min-width: 768px) {
             padding-right: 40px;
         }
 
         .section-title {
-            color: #444;
             padding: 0;
             margin: 0;
             text-align: left;
         }
 
         p {
-            color: #666;
             margin: 35px 0;
             line-height: 1.6;
             font-size: 18px;

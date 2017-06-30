@@ -76,52 +76,12 @@
         </div>
     </section>
 
-    <section class="testimonials">
-        <div class="carousel">
-            <div id="left-btn" class="left-btn">‹</div>
-            <div id="right-btn" class="right-btn">›</div>
-            <div class="dots"></div>
-            <div class="carousel-item">
-                <div class="left">
-                    <img src="../images/people/person-holding-computer.png" alt="person holding computer">
-                </div>
-                <div class="right">
-                    <h3 class="heading">some heading text</h3>
-                    <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you’ll find every step of the learning process."</p>
-                    <p class="author">- John Doe Smith Rodriguez</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="left">
-                    <img src="../images/people/suit-guy.png" alt="suit guy">
-                </div>
-                <div class="right">
-                    <h3 class="heading">some heading text</h3>
-                    <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you’ll find every step of the learning process."</p>
-                    <p class="author">- Johnny Bravo Dominguez</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="left">
-                    <img src="../images/people/guy-on-laptop.jpeg" alt="">
-                </div>
-                <div class="right">
-                    <h3 class="heading">some heading text</h3>
-                    <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you’ll find every step of the learning process."</p>
-                    <p class="author">- Johnny Bravo Dominguez</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php
+        $testimonials = array('frank-veloz', 'peter-vegliante', 'lily-cantillo');
+        include('../parts/testimonials/index.php');
+    ?>
 
-    <section class="student-projects">
-        <div class="container">
-            <h2 class="section-title">Student Projects</h2>
-            <p>Promoter friend gorda fugiat cupidatat commodo little havana aute dassitttt enim upper east side Miami time abuelita cocowalk in. Doralzuela eu Allapattah, collins ave sweetwater pata sucia kendall Haslem literally culpa. Dolore in que pena cafe bustelo cafe con leche non bird road omni et. Marlins casa de carajo dolor eiusmod. Bulykkk buena vista FIU, fontainebleau north beach culpa west flagler quis ño omni coconut grove art deco mollit labore miami springs. Enim aliqua kendall, cafecito wynwood lorem ipsum laboris the roads. Design district non deserunt miami. Dolore ea super, flagler cafe con leche botanica FIU proident souwesera wynwood et critical mass. FIU ex bfe pastelitos. Que fancy yahs metromover ya tu sabes.</p>
-            <p>Little havana aute dassitttt enim upper east side Miami time abuelita cocowalk in. Doralzuela eu Allapattah, collins ave sweetwater pata sucia kendall Haslem literally culpa. Dolore in que pena cafe bustelo cafe con leche non bird road omni et. Marlins casa de carajo dolor eiusmod.</p>
-            <p>Design district pata sucia art basel bfe, irregardless girl jackson memorial fire upper east side consectetur basel cafe llave literally elit. Ricer JWB velit, anim cocowalk officia pariatur girl calle ocho est the roads consectetur super.</p>
-        </div>
-    </section>
+    <?php include('../parts/student-projects/index.php') ?>
 
     <?php $rootPath = '../'; include('../parts/footer.php') ?>
 

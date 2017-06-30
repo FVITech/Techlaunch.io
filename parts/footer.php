@@ -13,7 +13,7 @@
         <h3 class="heading">Useful Links</h3>
         <ul>
             <li>
-                <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>">
+                <a target="_blank" rel="noopener" href="https://brentoncozby.com/blog-react-redux/posts">
                     Blog
                 </a>
             </li>

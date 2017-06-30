@@ -1,0 +1,76 @@
+section.student-projects {
+
+    .section-title {
+        text-align: center;
+    }
+
+    .projects-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        margin-top: 50px;
+
+        @media all and (min-width: 768px) {
+            margin-top: 80px;
+        }
+    }
+
+    .project {
+        display: block;
+        text-decoration: none;
+        width: 280px;
+        box-shadow: 0 25px 30px -10px rgba(0, 0, 0, .5);
+        margin-bottom: 50px;
+
+        @media all and (min-width: 375px) {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        .image {
+            width: 100%;
+            height: 200px;
+            background-size: cover;
+        }
+
+        .title {
+            font-size: 18px;
+            text-align: center;
+            padding: 15px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #555;
+        }
+
+        &::before {
+            content: '';
+            padding: 7px;
+            border: 3px solid #777;
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 100%;
+            top: -10px;
+            left: -10px;
+        }
+
+        &:hover,
+        &:focus {
+            transform: scale(1.02) translateY(-4px);
+            box-shadow: 0 27px 35px -10px rgba(0, 0, 0, .6);
+        }
+    }
+}
+
+.student-projects .project:nth-of-type(1) .image {
+    background-image: url('../../images/student-projects/memory-card-game.jpg');
+}
+.student-projects .project:nth-of-type(2) .image {
+    background-image: url('../../images/student-projects/msm-ad-logistics.jpg');
+}
+.student-projects .project:nth-of-type(3) .image {
+    background-image: url('../../images/student-projects/music-player.jpg');
+}
+.student-projects .project:nth-of-type(4) .image {
+    background-image: url('../../images/student-projects/mini-piano.jpg');
+}

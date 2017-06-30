@@ -94,9 +94,8 @@
 
     <section class="impact">
         <div class="container">
-            <h2 class="section-title">Opportunities to Have an Impact</h2>
-            <p>In the fast-moving world of technology, it’s critical to build a team that can work together towards a common goal. After all, it doesn’t matter how skilled you are if you can’t work with others as a team. Throughout our program, we stress this to our students and spend a significant amount of time emphasizing the essential values that make a team player: humility, ambition, and interpersonal intelligence. By providing these soft skills, we help our grads fit into the world of tech and become valuable team members.</p>
-            <p>Many companies and individuals in the tech industry are very socially conscious and understand the skills gap, the digital divide, and the under-representation of minorities in the world of tech. At TechLaunch @ FVI, we prepare every student who has the right combination of skills and grit to succeed in tech. By hiring our grads, you have the opportunity to bring people with diverse backgrounds and ideas into the industry and effect a change for the better that bridges the gaps in the world of tech.</p>
+            <h2 class="section-title">Bridging the Skills Gap</h2>
+            <p>Many companies and individuals in the tech industry are very socially conscious and understand the skills gap, the digital divide, and the under-representation of minorities in the world of tech. At TechLaunch, we prepare every student who has the right combination of skills and grit to succeed in tech. By hiring our grads, you have the opportunity to have an impact by bringing people with diverse backgrounds and ideas into the industry and effect change for the better that bridges the gaps in the world of tech.</p>
         </div>
     </section>
 
