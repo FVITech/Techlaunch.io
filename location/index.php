@@ -61,7 +61,7 @@
     </section>
 
     <?php $rootPath = '../'; include('../parts/footer.php') ?>
+    <?php $rootPath = '../'; include('../parts/bottom.php') ?>
 
-    <script src="../js/bundle.js"></script>
 </body>
 </html>

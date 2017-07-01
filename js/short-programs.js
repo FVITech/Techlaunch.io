@@ -18,7 +18,10 @@ function initProgramSwitcher() {
         _switchPrograms(active)
     })
 
-
+    $('.program-card').click(e => {
+        active = $(e.currentTarget).data('program')
+        _switchPrograms(active)
+    })
 }
 
 initProgramSwitcher()

@@ -185,6 +185,29 @@ section.above-the-fold .form-container {
         }
     }
 
+    .success,
+    .error {
+        background-color: #61C754;
+        color: #fff;
+        border-radius: 3px;
+        padding: 10px;
+        width: 100%;
+        display: block;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        margin: 20px auto;
+
+        @media all and (min-width: 375px) {
+            padding: 14px;
+            margin: 30px auto;
+        }
+    }
+
+    .error {
+        background-color: #EC6B60;
+    }
+
     .disclosure {
         font-size: 10px;
         line-height: 1.2;

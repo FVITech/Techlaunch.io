@@ -1,0 +1,35 @@
+section.learning {
+    min-height: 100vh;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
+        linear-gradient(rgba(62, 142, 229, .6), rgba(62, 142, 229, .6)),
+        url('https://as2.ftcdn.net/jpg/00/00/54/95/500_F_549592_F0j2heRFB7vjWyGDexOh8n6tC8RNgc.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    .content {
+        position: absolute;
+        max-width: 700px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .section-title {
+        color: #fff;
+        text-shadow: 1px 2px 4px rgba(0, 0, 0, .8);
+        text-align: center;
+
+        @media all and (min-width: 768px) {
+            font-size: 64px;
+        }
+    }
+
+    p, li {
+        color: #fff;
+        text-shadow: 1px 2px 4px rgba(0, 0, 0, .8);
+        line-height: 1.7;
+    }
+}

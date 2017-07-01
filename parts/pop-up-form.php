@@ -3,7 +3,7 @@
     <div class="form-container">
         <h2 class="title">Learn how to get started</h2>
         <i class="close-btn fa fa-times-circle" aria-hidden="true"></i>
-        <form data-rootpath="<?php echo $rootPath ?>lol">
+        <form class="get-info-form" data-rootpath="<?php echo $rootPath ?>" data-enroll="false">
             <div class="form-input">
                 <label>first name</label>
                 <input type="text" name="first_name" required>
@@ -24,6 +24,7 @@
                 <label>zip code</label>
                 <input type="number" name="zip">
             </div>
+            <input type="text" name="program" value="" hidden>
             <button class="submit-btn" type="submit">get info</button>
             <div class="user-feedback"></div>
         </form>

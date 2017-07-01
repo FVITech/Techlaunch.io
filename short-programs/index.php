@@ -2,6 +2,8 @@
 <body>
     <?php include('../parts/navbar.php'); ?>
     <?php include('../parts/pop-up-form.php'); ?>
+    <?php include('../parts/agreement.php'); ?>
+    <?php include('../parts/paypal-pop-up.php'); ?>
 
     <span class="hidden" id="short-programs-page"></span>
 
@@ -25,12 +27,17 @@
 
     <section class="summary">
         <div class="container">
-            <h2 class="section-title intro-content switchable appear">Introduction</h2>
             <h2 class="section-title aws-content switchable appear">Amazon Web Services (AWS)</h2>
             <h2 class="section-title wordpress-content switchable appear">WordPress</h2>
-            <div class="split-4 intro-content switchable">
-                <p>Miami ipsum D. Wade amet papo PLP in, cafe bustelo Pitbull occaecat aliquip west flagler tiki tiki music UM. Non basel ut duis, nostrud culpa coral way. 305 till I die botanica lorem officia midtown, elit sint guateber bottles incididunt Ultra power love hour. Kendall flagami bro voluptate croquetica gramps. Traffic bottles flagler in jackson memorial voluptate.</p>
-                <p>Miami irregardless south beach edgewater pastelitos flaca cillum aliquip. Ea ricer gorda flagami cillum excepteur Pitbull little haiti. Tempor 836 in, pata sucia laborum miami midtown de pinga calle ocho do cafecito omni. Pata sucia exercitation west flagler little haiti.</p>
+            <div class="split-2 intro-content switchable">
+                <div class="split-box program-card" data-program="aws">
+                    <img src="../images/logos/amazon-web-services.png" alt="Amazon Web Services" class="logo">
+                    <p class="start-date">Next Start Date - <span class="date">7/24/17</span></p>
+                </div>
+                <div class="split-box program-card" data-program="wordpress">
+                    <img src="../images/logos/wordpress-white.png" alt="WordPress" class="logo">
+                    <p class="start-date">Next Start Date - <span class="date">8/14/17</span></p>
+                </div>
             </div>
             <div class="split-4 aws-content switchable">
                 <div class="split-box appear">
@@ -158,7 +165,6 @@
                     </div>
                 </div>
             </div>
-            <button class="download switchable aws-content wordpress-content">download your curriculum</button>
         </div>
     </section>
 
@@ -180,14 +186,15 @@
                     </tr>
                 </tbody>
             </table>
-            <p class="disclaimer appear">*subject to demand</p>
-            <button class="enroll appear switchable aws-content">Enroll in AWS</button>
-            <button class="enroll appear switchable wordpress-content">Enroll in WordPress</button>
+            <!-- <p class="disclaimer appear">*subject to demand</p> -->
+            <button data-enroll="true" data-total-cost="$1200" data-form-program="aws" class="enroll appear switchable aws-content">Enroll in AWS</button>
+            <button data-enroll="true" data-total-cost="$1200" data-form-program="wordpress" class="enroll appear switchable wordpress-content">Enroll in WordPress</button>
         </div>
     </section>
 
     <?php $rootPath = '../'; include('../parts/footer.php') ?>
+    <script src="https://www.paypalobjects.com/api/checkout.js" data-version-4></script>
+    <?php $rootPath = '../'; include('../parts/bottom.php') ?>
 
-    <script src="../js/bundle.js"></script>
 </body>
 </html>

@@ -37,7 +37,7 @@
     <section class="cta">
         <div class="container">
             <p class="appear">We’ll prepare you for a career in the fast-growing fields of web development and design, coding, cybersecurity, network administration, cloud technologies and help desk support.</p>
-            <a href="" class="btn appear">get more information</a>
+            <a class="btn appear get-more-info">get more information</a>
         </div>
     </section>
 
@@ -84,7 +84,7 @@
     <?php include('../parts/student-projects/index.php') ?>
 
     <?php $rootPath = '../'; include('../parts/footer.php') ?>
+    <?php $rootPath = '../'; include('../parts/bottom.php') ?>
 
-    <script src="../js/bundle.js"></script>
 </body>
 </html>

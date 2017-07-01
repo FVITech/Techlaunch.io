@@ -30,7 +30,7 @@
                 </div>
                 <div class="form-container">
                     <h2 class="title">Learn how to get started</h2>
-                    <form id="web-dev-form">
+                    <form class="get-info-form">
                         <div class="form-input">
                             <label>first name</label>
                             <input type="text" name="first_name">
@@ -51,8 +51,9 @@
                             <label>zip code</label>
                             <input type="number" name="zip">
                         </div>
-                        <input type="text" name="program" value="Web Developer" hidden>
-                        <button type="submit">get info</button>
+                        <input type="text" name="program" value="web-developer" hidden>
+                        <button class="submit-btn" type="submit">get info</button>
+                        <div class="user-feedback"></div>
                     </form>
                     <p class="disclosure">By clicking "Get Info", you agree for TechLaunch @ FVI to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list.</p>
                 </div>
@@ -145,7 +146,7 @@
                 <div class="right">
                     <h3 class="appear">Will I obtain any certifications?</h3>
                     <p class="appear">Upon graduation from the <strong>Web Developer Program</strong>, students will receive a diploma. Additionally, students will have a portfolio of work showcasing their abilities in order to aid them in finding full-time jobs or freelance web development contracts.</p>
-                    <button class="appear">get info</button>
+                    <button data-form-program="web-developer" class="get-more-info appear">get info</button>
                 </div>
             </div>
         </div>
@@ -190,7 +191,7 @@
                 <div class="left">
                     <h2 class="section-title appear">Our Instructors</h2>
                     <p class="appear">Our instructors take a <strong>hands-on</strong> approach and work closely with you to ensure that you gain the necessary skills to succeed. Our students will learn how to <strong>work in teams</strong> using git-based workflows that are commonly employed in software companies.</p>
-                    <button class="appear">get info</button>
+                    <button data-form-program="web-developer" class="get-more-info appear">get info</button>
                 </div>
                 <div class="right"></div>
             </div>
@@ -210,7 +211,7 @@
     </section>
 
     <?php $rootPath = '../'; include('../parts/footer.php') ?>
-
-    <script src="../js/bundle.js"></script>
+    <?php $rootPath = '../'; include('../parts/bottom.php') ?>
+    
 </body>
 </html>

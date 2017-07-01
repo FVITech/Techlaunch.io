@@ -1,16 +1,17 @@
 section.cta {
     text-align: center;
 
-    .enroll {
-        font-size: 24px;
-        display: inline-block;
-    }
-
     .disclaimer {
         font-size: 12px;
         max-width: 400px;
-        margin: 5px auto 40px;
+        margin: 5px auto 0;
         text-align: left;
+    }
+
+    .enroll {
+        font-size: 24px;
+        display: inline-block;
+        margin-top: 40px;
     }
 }
 
