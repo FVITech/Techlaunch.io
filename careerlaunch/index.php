@@ -77,7 +77,7 @@
     </section>
 
     <?php
-        $testimonials = array('frank-veloz', 'peter-vegliante', 'lily-cantillo');
+        $testimonials = array('frank-veloz', 'peter-vegliante', 'lily-cantillo', 'yasiel-sanchez-caleo');
         include('../parts/testimonials/index.php');
     ?>
 

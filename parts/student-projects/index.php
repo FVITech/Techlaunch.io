@@ -9,9 +9,9 @@
             <div class="image"></div>
             <div class="title">MSM Ad Logistics</div>
         </a>
-        <a class="project" target="_blank" rel="noopener" href="http://riglesias.fvi-grad.com/player-web/">
+        <a class="project" target="_blank" rel="noopener" href="http://ybravo.fvi-grad.com/weather-app/">
             <div class="image"></div>
-            <div class="title">Music Player</div>
+            <div class="title">Weather App</div>
         </a>
         <a class="project" target="_blank" rel="noopener" href="http://pvegliante.fvi-grad.com/Music-Box/">
             <div class="image"></div>

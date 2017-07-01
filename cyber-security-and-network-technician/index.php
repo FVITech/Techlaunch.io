@@ -186,7 +186,7 @@
                     </div>
                 </div>
                 <div class="image-container">
-                    <img src="../images/people/suit-guy.png" alt="">
+                    <img src="../images/people/person-holding-computer.png" alt="">
                 </div>
             </div>
         </div>

@@ -179,7 +179,7 @@
                     </div>
                 </div>
                 <div class="image-container">
-                    <img src="../images/people/suit-guy.png" alt="">
+                    <img src="../images/people/group-at-pipeline.jpg" alt="Techlaunch students">
                 </div>
             </div>
         </div>
@@ -212,6 +212,6 @@
 
     <?php $rootPath = '../'; include('../parts/footer.php') ?>
     <?php $rootPath = '../'; include('../parts/bottom.php') ?>
-    
+
 </body>
 </html>
