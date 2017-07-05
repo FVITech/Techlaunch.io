@@ -153,40 +153,42 @@
 
     <section class="what-you-will-learn">
         <div class="container">
-            <h2 class="section-title appear">What You Will Learn</h2>
-            <div class="content">
-                <div class="cards-container">
-                    <div class="card appear">
-                        <img src="../images/icons/clipboard.svg" alt="">
-                        <p>Maintaining Computers and Operating Systems</p>
-                    </div>
-                    <div class="card appear">
-                        <img src="../images/icons/atom.svg" alt="">
-                        <p>Advanced Networking</p>
-                    </div>
-                    <div class="card appear">
-                        <img src="../images/icons/calculator.svg" alt="">
-                        <p>Network and Computer Security+</p>
-                    </div>
-                    <div class="card appear">
-                        <img src="../images/icons/statistics.svg" alt="">
-                        <p>Cisco Routing and Switching</p>
-                    </div>
-                    <div class="card appear">
-                        <img src="../images/icons/clipboard.svg" alt="">
-                        <p>Administering Windows Server</p>
-                    </div>
-                    <div class="card appear">
-                        <img src="../images/icons/atom.svg" alt="">
-                        <p>Linux</p>
-                    </div>
-                    <div class="card appear">
-                        <img src="../images/icons/statistics.svg" alt="">
-                        <p>Cloud Technologies like AWS &amp; Azure</p>
+            <div class="split-2">
+                <div class="split-box">
+                    <h2 class="section-title appear">What You Will Learn</h2>
+                    <div class="cards-container">
+                        <div class="card appear">
+                            <img src="../images/icons/clipboard.svg" alt="">
+                            <p>Maintaining Computers and Operating Systems</p>
+                        </div>
+                        <div class="card appear">
+                            <img src="../images/icons/atom.svg" alt="">
+                            <p>Advanced Networking</p>
+                        </div>
+                        <div class="card appear">
+                            <img src="../images/icons/calculator.svg" alt="">
+                            <p>Network and Computer Security+</p>
+                        </div>
+                        <div class="card appear">
+                            <img src="../images/icons/statistics.svg" alt="">
+                            <p>Cisco Routing and Switching</p>
+                        </div>
+                        <div class="card appear">
+                            <img src="../images/icons/clipboard.svg" alt="">
+                            <p>Administering Windows Server</p>
+                        </div>
+                        <div class="card appear">
+                            <img src="../images/icons/atom.svg" alt="">
+                            <p>Linux</p>
+                        </div>
+                        <div class="card appear">
+                            <img src="../images/icons/statistics.svg" alt="">
+                            <p>Cloud Technologies like AWS &amp; Azure</p>
+                        </div>
                     </div>
                 </div>
-                <div class="image-container">
-                    <img src="../images/people/person-holding-computer.png" alt="">
+                <div class="split-box">
+                    <img src="../images/people/techhire-student-coding.jpg" alt="Techlaunch student coding">
                 </div>
             </div>
         </div>

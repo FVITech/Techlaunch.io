@@ -21,6 +21,41 @@ div.paypal-pop-up {
         top: 0;
         left: 0;
     }
+
+    .steps {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 15px 10px;
+
+        .step {
+            display: inline-block;
+            background-color: #fff;
+            border: 3px solid #ccc;
+            font-size: 12px;
+            padding: 6px 10px;
+            border-radius: 100px;
+            text-transform: uppercase;
+            font-weight: 700;
+            width: 64px;
+
+            &.active {
+                border-color: $fvi-blue;
+            }
+        }
+
+        .connector {
+            content: '';
+            display: inline-block;
+            width: calc((100% - 192px) / 2);
+            height: 3px;
+            top: 14px;
+            background-color: #ccc;
+
+            &.active {
+                background-color: $fvi-blue;
+            }
+        }
+    }
 }
 
 div.paypal-pop-up .paypal-pop-up-container {
@@ -41,6 +76,7 @@ div.paypal-pop-up .paypal-pop-up-container {
         right: 5px;
         color: #EC6B60;
         cursor: pointer;
+        z-index: 1;
     }
 
     .title {

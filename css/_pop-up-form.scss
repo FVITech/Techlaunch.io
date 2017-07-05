@@ -15,7 +15,7 @@
 
 #pop-up-form .form-container {
     position: absolute;
-    top: 3%;
+    top: 3vw;
     left: 50%;
     transform: translateX(-50%);
     background-color: #eee;
@@ -41,6 +41,44 @@
 
         @media all and (min-width: 375px) {
             font-size: 26px;
+        }
+    }
+
+    .steps {
+        display: flex;
+        justify-content: space-between;
+
+        &.hidden {
+            display: none;
+        }
+
+        .step {
+            display: inline-block;
+            background-color: #fff;
+            border: 3px solid #ccc;
+            font-size: 12px;
+            padding: 6px 10px;
+            border-radius: 100px;
+            text-transform: uppercase;
+            font-weight: 700;
+            width: 64px;
+
+            &.active {
+                border-color: $fvi-blue;
+            }
+        }
+
+        .connector {
+            content: '';
+            display: inline-block;
+            width: calc((100% - 192px) / 2);
+            height: 3px;
+            top: 14px;
+            background-color: #ccc;
+
+            &.active {
+                background-color: $fvi-blue;
+            }
         }
     }
 

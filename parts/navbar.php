@@ -22,11 +22,10 @@
                 <a class="menu-header" href="<?php echo $rootPath ?>short-programs/">Short Programs</a>
             </div>
             <div class="menu-section">
-                <a class="menu-header dropdown" href="<?php echo $rootPath ?>careerlaunch/">CareerLaunch</a>
+                <a class="menu-header dropdown" href="<?php echo $rootPath ?>careerlaunch/">Career Launch &amp; Services</a>
                 <div class="menu-list">
-                    <a class="mobile-link" href="<?php echo $rootPath ?>careerlaunch/">Careerlaunch Summary</a>
+                    <a class="mobile-link" href="<?php echo $rootPath ?>careerlaunch/">Careerlaunch &amp; Career Services</a>
                     <a href="<?php echo $rootPath ?>hiring-partners/">Hiring Partners</a>
-                    <a href="<?php echo $rootPath ?>affordability/">Affordability</a>
                 </div>
             </div>
             <div class="menu-section">
@@ -36,6 +35,9 @@
                     <a target="_blank" rel="noopener" href="https://brentoncozby.com/blog-react-redux/posts">Blog</a>
                     <a href="<?php echo $rootPath ?>location/">Contact Us</a>
                 </div>
+            </div>
+            <div class="menu-section">
+                <a class="menu-header" href="<?php echo $rootPath ?>affordability/">Affordability</a>
             </div>
             <div class="menu-section">
                 <a class="menu-header" href="<?php echo $rootPath ?>veterans/">Veterans</a>

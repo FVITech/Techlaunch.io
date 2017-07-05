@@ -2,16 +2,12 @@ const $ = require('jquery')
 const { toggleAgreement } = require('./agreement.js')
 const escape = require('escape-html')
 
+let rootPath = null
 let program = null
 let totalCost = null
+const $popUpForm = $('#pop-up-form')
 
 function togglePopUpForm(e) {
-    const $popUpForm = $('#pop-up-form')
-    if($popUpForm.length === 0) {
-        console.log('Pop up form doesn\'t exist on this page');
-        return false
-    }
-
     $popUpForm.toggleClass('open')
     $popUpForm.find('.user-feedback').removeClass('success error').text('')
     $popUpForm.find('.submit-btn').show()
@@ -25,6 +21,11 @@ function togglePopUpForm(e) {
 
     if(e && e.target.dataset.enroll === 'true') {
         $popUpForm.find('.get-info-form')[0].dataset.enroll = 'true'
+        $popUpForm.find('.title').hide()
+        $popUpForm.find('.steps').removeClass('hidden')
+    } else {
+        $popUpForm.find('.title').show()
+        $popUpForm.find('.steps').addClass('hidden')
     }
 }
 
@@ -38,8 +39,36 @@ function resetForm($form) {
     }, 200)
 }
 
+function sendForm($form) {
+    const root = $form.data('rootpath')
+
+    $.ajax({
+        url: `${root}forms/get-info-form.php`,
+        type: 'POST',
+        data: $form.serialize(),
+        cache: false
+    })
+    .done(function(response) {
+        $form.find('.submit-btn').hide(0)
+        $form.find('.user-feedback').addClass('success').text('Message sent successfully!')
+        setTimeout(function() {
+            resetForm($form)
+        }, 2000)
+    })
+    .fail(function(err) {
+        console.log(err);
+        $form.find('.submit-btn').hide(0)
+        $form.find('.user-feedback').addClass('error').text('Sorry! This form is broken...')
+        setTimeout(function() {
+            resetForm($form)
+        }, 2000)
+    })
+}
+module.exports.sendForm = sendForm
+
 function onFormSubmit(e) {
     e.preventDefault()
+    rootPath = e.currentTarget.dataset.rootpath
 
     if(e.target.dataset.enroll === 'true') {
         const userData = {
@@ -47,53 +76,23 @@ function onFormSubmit(e) {
             lastName: escape($(e.target).find('input[name="last_name"]').val()),
             phone: escape($(e.target).find('input[name="phone"]').val()),
             email: escape($(e.target).find('input[name="email"]').val()),
-            zip: escape($(e.target).find('input[name="zip"]').val())
+            zip: escape($(e.target).find('input[name="zip_code"]').val())
         }
+
         togglePopUpForm(null)
         resetForm($(e.currentTarget))
         setTimeout(() => {
             toggleAgreement({
                 userData: userData,
                 program: program,
-                totalCost: totalCost
+                totalCost: totalCost,
+                rootPath: rootPath
             })
         }, 100)
         return false
     }
 
-    // temporary code to simulate successful form submission
-    $(e.currentTarget).find('.submit-btn').hide(0)
-    $(e.currentTarget).find('.user-feedback').addClass('success').text('Message sent successfully!')
-    setTimeout(function() {
-        resetForm($(e.currentTarget))
-    }, 2000)
-
-    // sendForm($(e.currentTarget))
-}
-
-module.exports.sendForm = function sendForm($form) {
-    const rootPath = $form.data('rootpath')
-
-    $.ajax({
-        url: `${rootPath}forms/get-info-form.php`,
-        type: 'POST',
-        data: $form.serialize(),
-        cache: false
-    })
-    .done(function() {
-        $form.find('.submit-btn').hide(0)
-        $form.find('.user-feedback').addClass('success').text('Message sent successfully!')
-        setTimeout(function() {
-            resetForm($form)
-        }, 2000)
-    })
-    .error(function() {
-        $form.find('.submit-btn').hide(0)
-        $form.find('.user-feedback').addClass('error').text('Sorry! This form is broken...')
-        setTimeout(function() {
-            resetForm($form)
-        }, 2000)
-    })
+    sendForm($(e.currentTarget))
 }
 
 $('.get-more-info').click(togglePopUpForm)

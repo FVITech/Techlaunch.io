@@ -2,7 +2,13 @@
     <div class="agreement-overlay"></div>
     <div class="agreement-container">
         <i class="close-btn fa fa-times-circle" aria-hidden="true"></i>
-        <h2 class="title">Agreement</h2>
+        <div class="steps">
+            <span class="step active">Step 1</span>
+            <span class="connector active"></span>
+            <span class="step active">Step 2</span>
+            <span class="connector"></span>
+            <span class="step">Step 3</span>
+        </div>
         <div class="agreement-content">
             <p style="margin: 0pt 0">
             	THIS AGREEMENT (“<u>Agreement</u>”) is made and entered as of <span class="first-name"></span> <span class="last-name"></span>, 2017, by and between Turing Pharmaceuticals, LLC, a Delaware limited liability company (the “<u>Service Provider</u>”) and KaloBios Pharmaceuticals, Inc. (the “<u>Company</u>”), a Delaware corporation. The Service Provider and the Company hereinafter sometimes referred to as a “<u>Party</u>” and, collectively, as “<u>Parties</u>”.
@@ -256,23 +262,6 @@
                 	</tr>
                 </tbody>
             </table>
-            <br>
-            <div style="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1pt solid">
-            	<br>
-            </div>
-            <div style="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt">
-            	<br>
-            </div>
-            <p style="margin: 0pt 0">
-            	&nbsp;&nbsp;
-            </p>
-            <p style="margin: 0pt 0; text-align: center">
-            	<b><u>SCHEDULE A</u></b>
-            </p>
-            <br>
-            <p style="margin: 0pt 0">
-            	<b><i>Updated as of July 1, 2017</i></b>
-            </p>
         </div>
         <div class="agreement-success hidden">
             <p>Agreement successfully saved!</p>

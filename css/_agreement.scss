@@ -21,6 +21,41 @@ div.agreement {
         top: 0;
         left: 0;
     }
+
+    .steps {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 10px 10px;
+
+        .step {
+            display: inline-block;
+            background-color: #fff;
+            border: 3px solid #ccc;
+            font-size: 12px;
+            padding: 6px 10px;
+            border-radius: 100px;
+            text-transform: uppercase;
+            font-weight: 700;
+            width: 64px;
+
+            &.active {
+                border-color: $fvi-blue;
+            }
+        }
+
+        .connector {
+            content: '';
+            display: inline-block;
+            width: calc((100% - 192px) / 2);
+            height: 3px;
+            top: 14px;
+            background-color: #ccc;
+
+            &.active {
+                background-color: $fvi-blue;
+            }
+        }
+    }
 }
 
 div.agreement .agreement-container {
@@ -30,12 +65,7 @@ div.agreement .agreement-container {
     margin: auto;
     top: 3%;
     background-color: #ddd;
-    height: 80vh;
     padding: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: stretch;
     box-shadow: 0 25px 30px 5px rgba(0, 0, 0, .9);
 
     .close-btn {
@@ -44,6 +74,7 @@ div.agreement .agreement-container {
         right: 5px;
         color: #EC6B60;
         cursor: pointer;
+        z-index: 1;
     }
 
     .title {
@@ -57,6 +88,7 @@ div.agreement .agreement-container {
         overflow: scroll;
         background-color: #fff;
         padding: 15px;
+        height: 60vh;
 
         * {
             font-size: 14px;

@@ -2,6 +2,13 @@
     <div class="pop-up-form-overlay"></div>
     <div class="form-container">
         <h2 class="title">Learn how to get started</h2>
+        <div class="steps">
+            <span class="step active">Step 1</span>
+            <span class="connector"></span>
+            <span class="step">Step 2</span>
+            <span class="connector"></span>
+            <span class="step">Step 3</span>
+        </div>
         <i class="close-btn fa fa-times-circle" aria-hidden="true"></i>
         <form class="get-info-form" data-rootpath="<?php echo $rootPath ?>" data-enroll="false">
             <div class="form-input">
@@ -22,7 +29,7 @@
             </div>
             <div class="form-input">
                 <label>zip code</label>
-                <input type="number" name="zip">
+                <input type="number" name="zip_code">
             </div>
             <input type="text" name="program" value="" hidden>
             <button class="submit-btn" type="submit">get info</button>

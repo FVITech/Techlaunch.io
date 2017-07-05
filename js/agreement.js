@@ -1,9 +1,11 @@
 const $ = require('jquery')
 const { togglePayPalPopUp } = require('./paypal.js')
 
+let rootPath = null
 let userData = null
 let program = null
 let totalCost = null
+
 const pad = document.querySelector("#signature")
 let signaturePad = null
 if(pad) {
@@ -23,19 +25,22 @@ function resizeCanvas() {
     signaturePad.clear()
 }
 
+function createPDF() {
+    const doc = new jsPDF({format: 'a4', unit: 'px'})
+    const PNG = signaturePad.toDataURL()
+    doc.addImage(PNG, 20, 20)
+    return doc.output('datauristring')
+}
+
 function onAccept(e) {
     const $agreement = $('div.agreement')
     const $agreementContent = $agreement.find('.agreement-content')
     if(signaturePad.isEmpty()) {
-        console.log('Please sign your signature first');
-        $agreementContent.scrollTop($(pad).offset().top)
+        $agreementContent.scrollTop(100000)
         return false
     }
 
-    // Returns signature image as data URL (see https://mdn.io/todataurl for the list of possible parameters)
-    const PNG = signaturePad.toDataURL() // save image as PNG
-    const JPEG = signaturePad.toDataURL("image/jpeg") // save image as JPEG
-    const SVG = signaturePad.toDataURL("image/svg+xml") // save image as SVG
+    const agreementPDF = createPDF()
 
     $agreement.find('.agreement-success').removeClass('hidden')
     $agreement.find('.buttons-container').addClass('hidden')
@@ -45,17 +50,21 @@ function onAccept(e) {
         togglePayPalPopUp({
             userData: userData,
             program: program,
-            totalCost: totalCost
+            totalCost: totalCost,
+            agreement: agreementPDF,
+            rootPath: rootPath
         })
     }, 100)
 }
 
 function toggleAgreement(data) {
     if(data) {
+        rootPath = data.rootPath
         userData = data.userData
         program = data.program
         totalCost = data.totalCost
     }
+
     const $agreement = $('div.agreement')
     if($agreement.length === 0) return false
 

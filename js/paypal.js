@@ -1,17 +1,21 @@
 const $ = require('jquery')
 
+let rootPath = null
 let program = null
 let totalCost = null
 let userData = null
+let agreement = null
 
 function togglePayPalPopUp(data) {
     if($('div.paypal-pop-up').length === 0) return false
 
     const $payPalPopUp = $('div.paypal-pop-up')
     if(data) {
+        rootPath = data.rootPath
         userData = data.userData
         program = data.program
         totalCost = data.totalCost
+        agreement = data.agreement
     }
 
     $payPalPopUp.find('span.program').text(program)
@@ -73,20 +77,18 @@ function initPayPalButton() {
             return actions.payment.execute().then(function(response) {
                 console.log('The payment was completed!');
 
-                console.log(userData);
-                // const rootPath = e.currentTarget.dataset.rootpath
-                // $.ajax({
-                //     url: `${rootPath}forms/signatures.php`,
-                //     type: 'POST',
-                //     data: userData,
-                //     cache: false
-                // })
-                // .done(function(data) {
-                //     console.log(data);
-                // })
-                // .error(function(err) {
-                //     console.log(err);
-                // })
+                $.ajax({
+                    url: `${rootPath}forms/signatures.php`,
+                    type: 'POST',
+                    data: userData,
+                    cache: false
+                })
+                .done(function(data) {
+                    console.log(data);
+                })
+                .error(function(err) {
+                    console.log(err);
+                })
             });
         },
 
