@@ -8,7 +8,7 @@
                 <img src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
             <h2 class="page-title">Start Your Career in Technology</h2>
-            <p class="page-subtitle">With programs in Web Development, IT Security, and Amazon Web Services, TechLaunch @ FVI offers a lot more than short-term coding bootcamps. We go above and beyond to make sure you’re prepared for a new career where you can grow and thrive.</p>
+            <p class="page-subtitle">With programs in Web Development, IT Security, and Amazon Web Services, TechLaunch offers a lot more than short-term coding bootcamps. We go above and beyond to make sure you’re prepared for a new career where you can grow and thrive.</p>
             <div class="buttons-box">
                 <a class="btn browse-programs" href="<?php echo $rootPath ?>programs/">Browse Programs</a>
                 <a class="btn get-more-info">Get More Info</a>
@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="split-box">
-                <p class="appear delay-600">When you’re a student at TechLaunch @ FVI, you’ll get the training you need to enter the world of tech within six to nine months. With a dynamic classroom environment, our instructors use an extensive hands-on approach and work by your side to teach you the ins and outs of the technology industry.</p>
+                <p class="appear delay-600">When you’re a student at TechLaunch, you’ll get the training you need to enter the world of tech within six to nine months. With a dynamic classroom environment, our instructors use an extensive hands-on approach and work by your side to teach you the ins and outs of the technology industry.</p>
             </div>
         </div>
     </section>
@@ -126,7 +126,7 @@
         <h2 class="section-title appear">An Education That Works For You</h2>
         <div class="benefits-container">
             <div class="left">
-                <p class="appear">There are many benefits of getting your education at TechLaunch @ FVI. With our dedicated instructors, understanding support staff, and Career Services team on your side, you’ll learn the skills you need for a new career in tech.</p>
+                <p class="appear">There are many benefits of getting your education at TechLaunch. With our dedicated instructors, understanding support staff, and Career Services team on your side, you’ll learn the skills you need for a new career in tech.</p>
             </div>
             <div class="middle">
                 <img class="appear" src="<?php echo $rootPath ?>images/phone-and-laptop.jpg" alt="phone and laptop">

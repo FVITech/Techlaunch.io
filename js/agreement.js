@@ -1,5 +1,6 @@
 const $ = require('jquery')
 const { togglePayPalPopUp } = require('./paypal.js')
+const { createPDF } = require('./html2pdf.js')
 
 let rootPath = null
 let userData = null
@@ -23,13 +24,6 @@ function resizeCanvas() {
     pad.height = pad.offsetHeight * ratio
     pad.getContext("2d").scale(ratio, ratio)
     signaturePad.clear()
-}
-
-function createPDF() {
-    const doc = new jsPDF({format: 'a4', unit: 'px'})
-    const PNG = signaturePad.toDataURL()
-    doc.addImage(PNG, 20, 20)
-    return doc.output('datauristring')
 }
 
 function onAccept(e) {

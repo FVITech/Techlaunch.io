@@ -10,23 +10,23 @@
             </a>
             <div class="content">
                 <div class="text-box">
-                    <h2>Become a Software Developer</h2>
-                    <h4>Join the most in-demand profession on the planet<small>†</small></h4>
+                    <h2>Become a<br>Web Developer</h2>
+                    <h4>Join one of the fastest-growing professions on the planet<small>†</small></h4>
                     <div class="figures-container">
                         <div class="figure appear">
-                            <p class="number">$102,280</p>
+                            <p class="number">$66,130</p>
                             <p class="label">Median Salary</p>
                         </div>
                         <div class="figure appear delay-200">
-                            <p class="number">1,114,000</p>
+                            <p class="number">148,500</p>
                             <p class="label">Job Openings</p>
                         </div>
                         <div class="figure appear delay-400">
-                            <p class="number">17%</p>
+                            <p class="number">27%</p>
                             <p class="label">Annual Growth</p>
                         </div>
                     </div>
-                    <p class="disclosure">† <a target="_blank" rel="noopener" href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm">BLS.gov</a></p>
+                    <p class="disclosure">† <a target="_blank" rel="noopener" href="https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm">BLS.gov</a></p>
                 </div>
                 <div class="form-container">
                     <h2 class="title">Learn how to get started</h2>
@@ -55,7 +55,7 @@
                         <button class="submit-btn" type="submit">get info</button>
                         <div class="user-feedback"></div>
                     </form>
-                    <p class="disclosure">By clicking "Get Info", you agree for TechLaunch @ FVI to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list.</p>
+                    <p class="disclosure">By clicking "Get Info", you agree for TechLaunch to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list.</p>
                 </div>
             </div>
         </div>
@@ -111,7 +111,7 @@
         <div class="container">
             <div class="testimonials-container">
                 <div class="testimonial appear">
-                    <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities."</p>
+                    <p class="quote">"I’m grateful to Techlaunch and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities."</p>
                     <img src="../images/people/frank.jpg" alt="Frank">
                     <span class="name">Frank Veloz</span>
                 </div>
@@ -134,11 +134,11 @@
             <h2 class="section-title appear">What kind of job can I get as a graduate?</h2>
             <div class="split">
                 <div class="left">
-                    <p class="appear">The <strong>Web Developer Program</strong> from Techlaunch at FVI will prepare graduates to develop practical skills and knowledge needed or entry-level career opportunities in areas involving sotware design and development, systems analysis, programming, process design and management, and other areas related to computer software production and deployment. The fast growth in web and mobile development, combined with the increasing use of software, continues to create <strong>strong demand for software developers</strong>.</p>
+                    <p class="appear">The <strong>Web Developer Program</strong> from Techlaunch will prepare graduates to develop practical skills and knowledge needed or entry-level career opportunities in areas involving sotware design and development, systems analysis, programming, process design and management, and other areas related to computer software production and deployment. The fast growth in web and mobile development, combined with the increasing use of software, continues to create <strong>strong demand for software developers</strong>.</p>
                 </div>
                 <div class="right">
-                    <p class="appear">The career services team at FVI will work with you to provide internships during training and upon graduation assist you in finding a great career as a web developer.</p>
-                    <p class="appear">FVI maintains strong working relationships with top companies in the area so we can match your passion and ability to career opportunities.</p>
+                    <p class="appear">The career services team at Techlaunch will work with you to provide internships during training and upon graduation assist you in finding a great career as a web developer.</p>
+                    <p class="appear">Techlaunch maintains strong working relationships with top companies in the area so we can match your passion and ability to career opportunities.</p>
                 </div>
             </div>
             <div class="image-section">

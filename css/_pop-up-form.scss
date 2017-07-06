@@ -118,6 +118,7 @@
             padding: 7px;
             -webkit-appearance: none;
             appearance: none;
+            font-size: 14px;
 
             &::placeholder {
                 color: #999;
@@ -126,6 +127,7 @@
             @media all and (min-width: 375px) {
                 padding: 10px;
                 margin-top: 3px;
+                font-size: 16px;
             }
         }
 

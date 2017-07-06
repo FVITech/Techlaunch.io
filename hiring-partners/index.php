@@ -15,7 +15,7 @@
     <section class="talent">
         <div class="container">
             <h2 class="section-title">Find the Talent That You Need</h2>
-            <p>Becoming a hiring partner for TechLaunch @ Florida Vocational Institute (FVI) gives your business access to highly trained candidates with our Zero Cost Recruiting program. There’s no need to place an ad or hire a recruiter. We’ll take responsibility for understanding the needs of your company and matching you with the ideal candidate. </p>
+            <p>Becoming a hiring partner for TechLaunch gives your business access to highly trained candidates with our Zero Cost Recruiting program. There’s no need to place an ad or hire a recruiter. We’ll take responsibility for understanding the needs of your company and matching you with the ideal candidate. </p>
             <p>Our career services department has experience working closely with our hiring partners to understand their company culture, business needs, and technology stack. Our team then matches our partners with TechLaunch @ FVI graduates who have the skills their business is looking for. We can help our hiring partners find qualified candidates for temp-to-perm opportunities, paid internships, and unpaid internships while minimizing business risk, turnover rates, and costs. </p>
         </div>
     </section>
@@ -81,7 +81,7 @@
     <section class="learning bg-gray">
         <div class="content">
             <h2 class="section-title appear">Culture of Learning</h2>
-            <p class="appear">At TechLaunch @ FVI, the primary skill we teach our students is to be life-long learners. By hiring our graduates and allowing them to grow within your organization, you will help foster a culture of teaching, learning, and collaboration amongst your team members. This often results in engaged, loyal employees who want to “pay it forward.”  </p>
+            <p class="appear">At TechLaunch, the primary skill we teach our students is to be life-long learners. By hiring our graduates and allowing them to grow within your organization, you will help foster a culture of teaching, learning, and collaboration amongst your team members. This often results in engaged, loyal employees who want to “pay it forward.”  </p>
         </div>
     </section>
 

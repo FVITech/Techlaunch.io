@@ -49,7 +49,7 @@
                 </div>
                 <button type="submit">submit info</button>
             </form>
-            <p class="disclosure">By clicking "Submit Info" above, you agree for TechLaunch @ FVI to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list.</p>
+            <p class="disclosure">By clicking "Submit Info" above, you agree for TechLaunch to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list.</p>
         </div>
         <aside>
             <h3>Contact Us</h3>

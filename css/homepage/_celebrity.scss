@@ -1,5 +1,11 @@
 section.celebrity {
     background-color: #111;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+        url('https://as1.ftcdn.net/jpg/01/57/53/60/500_F_157536040_zpH8asEsEisSbaRp1GZMgVMWMELW3tms.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     color: #fff;
     padding: 30px;
 

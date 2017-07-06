@@ -14,7 +14,7 @@
 
     <section class="content">
         <div class="container">
-            <h2 class="section-title">TechLaunch @ FVI Privacy Policy</h2>
+            <h2 class="section-title">TechLaunch Privacy Policy</h2>
             <p>This privacy policy discloses the privacy practices for <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>">Techlaunch.io</a>.</p>
             <p>This privacy policy applies solely to information collected by this web site. It will notify you of the following:</p>
             <ul>

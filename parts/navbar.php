@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="menu-section">
-                <a class="menu-header" href="<?php echo $rootPath ?>affordability/">Affordability</a>
+                <a class="menu-header" href="<?php echo $rootPath ?>financial-aid/">Financial Aid</a>
             </div>
             <div class="menu-section">
                 <a class="menu-header" href="<?php echo $rootPath ?>veterans/">Veterans</a>

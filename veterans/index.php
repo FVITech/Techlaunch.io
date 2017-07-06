@@ -12,18 +12,12 @@
         </div>
     </section>
 
-    <?php
-        $testimonials = array('peter-vegliante');
-        $classes = 'veterans';
-        include('../parts/testimonials/index.php');
-    ?>
-
     <section>
         <div class="container">
             <h2 class="section-title">Veterans Services</h2>
             <h3>Career Training For Veterans</h3>
             <p>Serving Those Who Served</p>
-            <p>At TechLaunch @ FVI we’re dedicated to providing career education and training to members of the military, both past and present, as well as their dependents. Our programs are designed to help you get the training and skills you need so you can land your dream job in the tech industry.</p>
+            <p>At TechLaunch we’re dedicated to providing career education and training to members of the military, both past and present, as well as their dependents. Our programs are designed to help you get the training and skills you need so you can land your dream job in the tech industry.</p>
             <p>You sacrificed for our country, and at TechLaunch we think that effort should be rewarded. That’s why, when you enter one of our programs, you’ll receive:</p>
             <ul>
                 <li>Specialized career training that fits your skills and your schedule</li>
@@ -44,6 +38,12 @@
             <p><a href="">U.S. Department | VA | Post-9/11 GI Bill®</a></p>
         </div>
     </section>
+
+    <?php
+        $testimonials = array('peter-vegliante');
+        $classes = 'veterans';
+        include('../parts/testimonials/index.php');
+    ?>
 
     <?php $rootPath = '../'; include('../parts/footer.php') ?>
     <?php $rootPath = '../'; include('../parts/bottom.php') ?>

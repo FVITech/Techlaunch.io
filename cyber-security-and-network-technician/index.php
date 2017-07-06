@@ -55,7 +55,7 @@
                         <button class="submit-btn" type="submit">get info</button>
                         <div class="user-feedback"></div>
                     </form>
-                    <p class="disclosure">By clicking "Get Info", you agree for TechLaunch @ FVI to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list.</p>
+                    <p class="disclosure">By clicking "Get Info", you agree for TechLaunch to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list.</p>
                 </div>
             </div>
         </div>
@@ -111,7 +111,7 @@
         <div class="container">
             <div class="testimonials-container">
                 <div class="testimonial appear">
-                    <p class="quote">"I’m grateful to FVI and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities."</p>
+                    <p class="quote">"I’m grateful to Techlaunch and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities."</p>
                     <img src="../images/people/frank.jpg" alt="Frank">
                     <span class="name">Frank Veloz</span>
                 </div>
@@ -137,7 +137,7 @@
                     <p class="appear">Equipped with the training from the Cyber Security Network Technician Program, graduates are qualified for high demand careers in IT security and cloud computing. As organizations move their IT systems into the cloud, the need for engineers and technicians trained on cloud computing will increase.</p>
                 </div>
                 <div class="right">
-                    <p class="appear">FVI's career services team will assist you in finding a career in IT by working to match you to open positions, connect you to local employers, and ensure your resume and professional readiness are a match for any open positions in IT. Potential jobs include, but are not limited to Security Engineer, Security Consultant, Network Administrator, or an IA Technician or Manager.</p>
+                    <p class="appear">Techlaunch's career services team will assist you in finding a career in IT by working to match you to open positions, connect you to local employers, and ensure your resume and professional readiness are a match for any open positions in IT. Potential jobs include, but are not limited to Security Engineer, Security Consultant, Network Administrator, or an IA Technician or Manager.</p>
                 </div>
             </div>
             <div class="image-section">

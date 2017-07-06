@@ -29,15 +29,10 @@
         <div class="container">
             <h2 class="section-title aws-content switchable appear">Amazon Web Services (AWS)</h2>
             <h2 class="section-title wordpress-content switchable appear">WordPress</h2>
-            <div class="split-2 intro-content switchable">
-                <div class="split-box program-card" data-program="aws">
-                    <img src="../images/logos/amazon-web-services.png" alt="Amazon Web Services" class="logo">
-                    <p class="start-date">Next Start Date - <span class="date">7/24/17</span></p>
-                </div>
-                <div class="split-box program-card" data-program="wordpress">
-                    <img src="../images/logos/wordpress-white.png" alt="WordPress" class="logo">
-                    <p class="start-date">Next Start Date - <span class="date">8/14/17</span></p>
-                </div>
+            <div class="intro-content switchable">
+                <p>Take your skills and knowledge to the next level with TechLaunch's short programs. We've designed them to be a great addition to our more immersive programs and they're perfect for those who who have prior experience in web development. The programs give an accelerated understanding without all the risks and frustration of trial and error.</p>
+                <p>Our short programs are made available through a quick and easy online enrollment process.</p>
+                <p><strong><em>Please note:</em></strong> Our programs may change from time to time so check back in the future for additions. If you want to know about new programs, subscribe to our newsletters at the bottom of the page and you'll be one of the first to know!</p>
             </div>
             <div class="split-4 aws-content switchable">
                 <div class="split-box appear">
@@ -89,9 +84,17 @@
     <section class="syllabus">
         <div class="container">
             <div class="content intro-content switchable">
-                <h2 class="section-title">Benefits of a Short Program</h2>
-                <p>Miami ipsum D. Wade amet papo PLP in, cafe bustelo Pitbull occaecat aliquip west flagler tiki tiki music UM. Non basel ut duis, nostrud culpa coral way. 305 till I die botanica lorem officia midtown, elit sint guateber bottles incididunt Ultra power love hour. Kendall flagami bro voluptate croquetica gramps. Traffic bottles flagler in jackson memorial voluptate.</p>
-                <p>Miami irregardless south beach edgewater pastelitos flaca cillum aliquip. Ea ricer gorda flagami cillum excepteur Pitbull little haiti. Tempor 836 in, pata sucia laborum miami midtown de pinga calle ocho do cafecito omni. Pata sucia exercitation west flagler little haiti.</p>
+                <h2 class="section-title">Select A Program</h2>
+                <div class="program-cards split-2">
+                    <div class="split-box program-card" data-program="aws">
+                        <img src="../images/logos/amazon-web-services.png" alt="Amazon Web Services" class="logo">
+                        <p class="start-date">Next Start Date - <span class="date">7/24/17</span></p>
+                    </div>
+                    <div class="split-box program-card" data-program="wordpress">
+                        <img src="../images/logos/wordpress-white.png" alt="WordPress" class="logo">
+                        <p class="start-date">Next Start Date - <span class="date">8/14/17</span></p>
+                    </div>
+                </div>
             </div>
             <div class="content aws-content switchable">
                 <h2 class="section-title">AWS Projects You Will Build</h2>
@@ -193,6 +196,7 @@
     </section>
 
     <?php $rootPath = '../'; include('../parts/footer.php') ?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
     <script src="https://www.paypalobjects.com/api/checkout.js" data-version-4></script>
     <?php $rootPath = '../'; include('../parts/bottom.php') ?>
