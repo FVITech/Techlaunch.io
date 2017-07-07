@@ -167,7 +167,7 @@
     </section>
 
     <section class="stacks">
-        <h2 class="section-title appear">Software Stacks We Teach</h2>
+        <h2 class="section-title">Software Stacks We Teach</h2>
         <div class="stacks-container">
             <div class="stack">
                 <div class="box appear">
@@ -241,10 +241,10 @@
 
     <section class="partners">
         <div class="logos-container">
-            <img class="appear" src="<?php echo $rootPath ?>images/logos/cssf.png" alt="Career Source South Florida logo">
-            <img class="appear" src="<?php echo $rootPath ?>images/logos/coe.jpg" alt="Council on Occupational Education logo">
-            <img class="appear" src="<?php echo $rootPath ?>images/logos/fl-doe.jpg" alt="Florida Department of Education logo">
-            <img class="appear" src="<?php echo $rootPath ?>images/logos/fapsc.jpeg" alt="FAPSC logo">
+            <img src="<?php echo $rootPath ?>images/logos/cssf.png" alt="Career Source South Florida logo">
+            <img src="<?php echo $rootPath ?>images/logos/coe.jpg" alt="Council on Occupational Education logo">
+            <img src="<?php echo $rootPath ?>images/logos/fl-doe.jpg" alt="Florida Department of Education logo">
+            <img src="<?php echo $rootPath ?>images/logos/fapsc.jpeg" alt="FAPSC logo">
         </div>
     </section>
 
