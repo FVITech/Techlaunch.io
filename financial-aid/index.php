@@ -26,7 +26,7 @@
     <section class="net-price-calculator bg-gray">
         <div class="container">
             <h2 class="section-title">Net Price Calculator</h2>
-            <button>use calculator</button>
+            <a class="btn" target="_blank" rel="noopener" href="http://www.fvi.edu/calculator/npcalc.htm">use calculator</a>
         </div>
     </section>
 

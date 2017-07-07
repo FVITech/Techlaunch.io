@@ -24,7 +24,7 @@
             <div class="split-2">
                 <div class="split-box left text appear">
                     <h2 class="section-title">Bridging The Technological Gaps</h2>
-                    <p>As you may know, the world of tech presents many challenges, and it can be difficult to keep up with this constantly changing industry. That’s why, at TechLaunch @ FVI we continually refine our curriculum based on feedback from our hiring partners – companies who use technology everyday and can identify skill gaps within the industry. This puts our grads on the cutting-edge of technology and provides them with hard to find skills that employers are looking for.</p>
+                    <p>The world of tech presents many challenges and it can be difficult to keep up with this constantly changing industry. That’s why we continually refine our curriculum based on feedback from our hiring partners – companies who use technology everyday and can identify skill gaps within the industry. This puts our grads on the right path and provides them with hard to find skills that employers are looking for.</p>
                 </div>
                 <div class="split-box right image appear"></div>
             </div>
@@ -32,7 +32,7 @@
                 <div class="split-box left image appear"></div>
                 <div class="split-box right text appear">
                     <h2 class="section-title">Investing In Our Community</h2>
-                    <p>Along with giving our grads new career opportunities, at TechLaunch @ FVI, we’re also committed to helping our community. With programs like <a target="_blank" rel="noopener" href="http://www.nbcmiami.com/news/local/Bridging-the-Economic-Tech-Gap-Free-Coding-Camp-For-Low-Income-Kids-430438653.html">TechHire.Miami and Summer Bootcamps</a>, we’re building local awareness of the growing tech field and giving high school students the chance to learn new skills. By exposing these students to the tech industry at a young age, we can create a spark of interest and show them the world of opportunities being created as more companies are adopting technology into their daily operations.</p>
+                    <p>Along with helping grads obtain new career opportunities, we’re also committed to helping our community. With programs like <a target="_blank" rel="noopener" href="http://www.nbcmiami.com/news/local/Bridging-the-Economic-Tech-Gap-Free-Coding-Camp-For-Low-Income-Kids-430438653.html">TechHire.Miami and Summer Bootcamps</a>, our goal is to build local awareness of the growing tech industry, giving high school students the chance to learn new skills that can propel their career. By exposing these students to the tech industry at a young age, we can create a spark of interest and show them the world of opportunities being created as more companies are adopting technology into their daily operations.</p>
                 </div>
             </div>
             <div class="split-2">
