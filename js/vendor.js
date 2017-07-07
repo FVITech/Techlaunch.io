@@ -13,7 +13,7 @@ if($(window).width() < 768) {
 }
 
 // don't autoSlide the veterans webapge testimonials
-if($('section.testimonials.veterans').length > 0) {
+if($('section.testimonials').length > 0) {
     $('.carousel')[0].stopAutoSlide()
 }
 
