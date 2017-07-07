@@ -8,16 +8,18 @@ let totalCost = null
 const $popUpForm = $('#pop-up-form')
 
 function togglePopUpForm(e) {
-    $popUpForm.toggleClass('open')
+    $popUpForm.find('.form-input:first-of-type').show(0)
     $popUpForm.find('.user-feedback').removeClass('success error').text('')
     $popUpForm.find('.submit-btn').show()
     $popUpForm.find('input[name="first_name"]').focus()
     $popUpForm.find('.get-info-form')[0].dataset.enroll = 'false'
+    $popUpForm.toggleClass('open')
 
     if(e && e.target.dataset.enroll === 'true') {
         $popUpForm.find('.get-info-form')[0].dataset.enroll = 'true'
         $popUpForm.find('.title').hide()
         $popUpForm.find('.steps').removeClass('hidden')
+        $popUpForm.find('.form-input:first-of-type').hide(0)
         program = e.target.dataset.formProgram
         totalCost = e.target.dataset.totalCost
     } else {

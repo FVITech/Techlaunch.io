@@ -100,7 +100,7 @@
         <p>Get updates from Techlaunch</p>
         <form action="" id="newsletter-form">
             <div class="form-input">
-                <input type="text">
+                <input type="email" placeholder="Your email">
                 <button type="submit"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></button>
             </div>
         </form>

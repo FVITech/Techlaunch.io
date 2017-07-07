@@ -21,6 +21,7 @@ function initProgramSwitcher() {
     $('.program-card').click(e => {
         active = $(e.currentTarget).data('program')
         _switchPrograms(active)
+        $(window).scrollTop($('section.summary').offset().top)
     })
 }
 
