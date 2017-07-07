@@ -12,17 +12,14 @@ function togglePopUpForm(e) {
     $popUpForm.find('.user-feedback').removeClass('success error').text('')
     $popUpForm.find('.submit-btn').show()
     $popUpForm.find('input[name="first_name"]').focus()
-    if(e) {
-        $popUpForm.find('input[name="program"]').val(e.target.dataset.formProgram)
-        program = e.target.dataset.formProgram
-        totalCost = e.target.dataset.totalCost
-    }
     $popUpForm.find('.get-info-form')[0].dataset.enroll = 'false'
 
     if(e && e.target.dataset.enroll === 'true') {
         $popUpForm.find('.get-info-form')[0].dataset.enroll = 'true'
         $popUpForm.find('.title').hide()
         $popUpForm.find('.steps').removeClass('hidden')
+        program = e.target.dataset.formProgram
+        totalCost = e.target.dataset.totalCost
     } else {
         $popUpForm.find('.title').show()
         $popUpForm.find('.steps').addClass('hidden')
@@ -34,9 +31,7 @@ function resetForm($form) {
 
     $form.trigger('reset')
     $form.find('.user-feedback').removeClass('success error').text('')
-    setTimeout(function() {
-        $form.find('.submit-btn').fadeIn(100)
-    }, 200)
+    $form.find('.submit-btn').fadeIn(200)
 }
 
 function sendForm($form) {

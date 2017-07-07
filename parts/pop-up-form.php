@@ -12,26 +12,37 @@
         <i class="close-btn fa fa-times-circle" aria-hidden="true"></i>
         <form class="get-info-form" data-rootpath="<?php echo $rootPath ?>" data-enroll="false">
             <div class="form-input">
-                <label>first name</label>
-                <input type="text" name="first_name" required>
+                <label>Program of Interest</label>
+                <select name="program">
+                    <option value="--" disabled selected>-- Select --</option>
+                    <option value="web-developer">Web Developer</option>
+                    <option value="cyber-security">Cyber Security</option>
+                </select>
             </div>
-            <div class="form-input">
-                <label>last name</label>
-                <input type="text" name="last_name" required>
+            <div class="form-input split-2">
+                <div class="split-box">
+                    <label>first name</label>
+                    <input type="text" name="first_name" required>
+                </div>
+                <div class="split-box">
+                    <label>last name</label>
+                    <input type="text" name="last_name" required>
+                </div>
             </div>
-            <div class="form-input">
-                <label>phone</label>
-                <input type="tel" name="phone">
+            <div class="form-input split-2">
+                <div class="split-box">
+                    <label>phone</label>
+                    <input type="tel" name="phone">
+                </div>
+                <div class="split-box">
+                    <label>zip code</label>
+                    <input type="number" name="zip_code">
+                </div>
             </div>
             <div class="form-input">
                 <label>email</label>
                 <input type="email" name="email" required>
             </div>
-            <div class="form-input">
-                <label>zip code</label>
-                <input type="number" name="zip_code">
-            </div>
-            <input type="text" name="program" value="" hidden>
             <button class="submit-btn" type="submit">get info</button>
             <div class="user-feedback"></div>
         </form>

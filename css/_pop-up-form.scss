@@ -98,6 +98,10 @@
             margin: 18px 0;
         }
 
+        &.split-2 .split-box {
+            width: 48%;
+        }
+
         label {
             text-transform: uppercase;
             font-weight: 700;
@@ -110,15 +114,17 @@
             }
         }
 
-        input {
+        input, select, textarea {
             display: inline-block;
             width: 100%;
             margin-top: 0px;
             border: 1px solid #ccc;
             padding: 7px;
+            -moz-appearance: none;
             -webkit-appearance: none;
             appearance: none;
             font-size: 14px;
+            border-radius: 0px;
 
             &::placeholder {
                 color: #999;
@@ -129,6 +135,13 @@
                 margin-top: 3px;
                 font-size: 16px;
             }
+        }
+
+        select {
+            background-image: url('../../images/select-arrows.png');
+            background-size: auto 50%;
+            background-position: 98% 50%;
+            background-repeat: no-repeat;
         }
 
         input::-webkit-outer-spin-button,
@@ -170,6 +183,10 @@
             padding: 14px;
             margin: 30px auto;
         }
+    }
+
+    .user-feedback {
+        transition: all 0s;
     }
 
     .success,

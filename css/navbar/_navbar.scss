@@ -12,7 +12,9 @@
         color: #fff;
         cursor: pointer;
         padding: 11px;
-        font-size: 15px;
+        padding-top: 14px;
+        font-size: 13px;
+        letter-spacing: 1px;
         text-transform: uppercase;
         font-weight: 800;
     }
@@ -20,11 +22,13 @@
     .phone {
         background-color: $fvi-blue;
         font-size: 14px;
+        font-weight: 800;
         text-align: center;
         padding: 13px;
         margin-left: 10px;
         text-decoration: none;
         color: #fff;
+        letter-spacing: 1px;
     }
 
     .get-info,
