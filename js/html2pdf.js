@@ -67,29 +67,3 @@ function createPDF() {
     })
 }
 module.exports.createPDF = createPDF
-
-// function createPDF() {
-//     const agreementElement = document.querySelector('#agreement-content')
-//     const contentHeight = agreementElement.scrollHeight
-//     const viewableHeight = agreementElement.clientHeight
-//
-//     return new Promise((resolve, reject) => {
-//         const doc = new jsPDF()
-//         for(let i = 0; i < Math.ceil(contentHeight/viewableHeight); i++) {
-//             agreementElement.scrollTop = i * viewableHeight
-//
-//             html2canvas(agreementElement, {
-//                 onrendered: function(canvas) {
-//                     const img = canvas.toDataURL("image/png")
-//                     doc.addImage(img, 'JPEG', 20, 20)
-//                     if(Math.ceil(contentHeight/viewableHeight) - 1 !== i) {
-//                         doc.addPage()
-//                     }
-//                 }
-//             })
-//         }
-//
-//         doc.save('test.pdf')
-//         resolve(doc.output('datauristring'))
-//     })
-// }

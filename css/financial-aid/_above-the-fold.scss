@@ -1,14 +1,7 @@
 section.above-the-fold {
     background-image:
-        linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
-        url('https://as1.ftcdn.net/jpg/00/96/98/74/500_F_96987432_WkF0QwpjhiTcWvR1SbcaL38QVl7QWp2s.jpg');
-    background-size: auto 110%;
-    background-position: left top;
-    min-height: 50vh;
-
-    @media all and (min-width: 768px) {
-        min-height: 40vw;
-        background-size: cover;
-        background-position: center 20%;
-    }
+        linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+        url('https://trello-attachments.s3.amazonaws.com/592864d1ac8bd09d7e290cba/5935a304cbb36b7f896ffe04/147aa14e68b65cd780e376a88250b364/AdobeStock_125793672_Preview.jpeg');
+    background-size: cover;
+    background-position: center;
 }

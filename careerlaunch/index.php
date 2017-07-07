@@ -16,8 +16,8 @@
         <div class="container">
             <div class="split">
                 <div class="left">
-                    <h2 class="section-title appear">Benefits of Techlaunch</h2>
-                    <p class="appear">At TechLaunch @ Florida Vocational Institute, our goal is to train you for a high-tech career in less than a year. Every industry is evolving because of technology, and at TechLaunch we can help you understand the opportunities that this evolution is creating. Then, we’ll give you with the tools and training you need to start a new career that grows with you.</p>
+                    <h2 class="section-title appear">Why Techlaunch?</h2>
+                    <p class="appear">At TechLaunch @ Florida Vocational Institute, our goal is to train you for a high-tech career in less than a year. Every industry is evolving because of technology, and at TechLaunch we can help you understand the opportunities that this evolution is creating. Then, we’ll give you the tools and training you need to start a new career that grows with you.</p>
                     <p class="appear">If you’re new to the tech industry and are ready to learn about technology, we offer six and nine month programs. If you already have experience in the industry, we also offer short-term coding bootcamps and accelerated tech classes.</p>
                 </div>
                 <div class="right"></div>

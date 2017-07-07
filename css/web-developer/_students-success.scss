@@ -1,5 +1,10 @@
 section.students-success {
-    background-color: $dark-blue;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 100%),
+        url('../../images/backgrounds/computer-background.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
 
     .section-title {
         color: #fff;

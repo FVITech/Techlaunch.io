@@ -8,6 +8,7 @@
             <a href="<?php echo $rootPath ?>">
                 <img src="../images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
+            <h1 class="page-title">Financial Aid</h1>
         </div>
     </section>
 

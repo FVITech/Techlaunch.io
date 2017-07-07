@@ -161,7 +161,7 @@
             <span>D</span>
             <span>E</span>
         </div>
-        <p class="quote">"Here we are, 2013, we <em>all</em> depend on technology to communicate, to bank, and none of us know how to read and write code. It's important for these kids, right now, starting at 8 years old, to read and write code."</p>
+        <p class="quote">"Here we are, 2013, we <strong>all</strong> depend on technology to communicate, to bank, and none of us know how to read and write code. It's important for these kids, right now, starting at 8 years old, to read and write code."</p>
         <p class="author">will.i.am</p>
         <p class="title">Musician and Entrepreneur</p>
     </section>
