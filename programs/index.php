@@ -9,7 +9,7 @@
                 <img src="../images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
             <h1 class="page-title">tech career programs</h1>
-            <p class="page-subtitle">Join Techlaunch for technology training in the rapidly changing field of computer programming, I.T. security, cloud computing, and other areas of Information Technology. Learn from experienced instructors the essential technical skills and expertise to gain a career in I.T.</p>
+            <p class="page-subtitle">Join TechLaunch for technology training in the rapidly changing field of computer programming, I.T. security, cloud computing, and other areas of Information Technology. Learn from experienced instructors the essential technical skills and expertise to gain a career in I.T.</p>
         </div>
     </section>
 
