@@ -16,7 +16,7 @@
                 <select name="program">
                     <option value="--" disabled selected>-- Select --</option>
                     <option value="web-developer">Web Developer</option>
-                    <option value="cyber-security">Cyber Security</option>
+                    <option value="cyber-security">Cyber Security Network Technician</option>
                 </select>
             </div>
             <div class="form-input split-2">
