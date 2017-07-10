@@ -2,9 +2,8 @@ const $ = require('jquery')
 
 let rootPath = null
 let program = null
-let totalCost = null
+let cost = null
 let userData = null
-let agreement = null
 
 function togglePayPalPopUp(data) {
     if($('div.paypal-pop-up').length === 0) return false
@@ -14,12 +13,11 @@ function togglePayPalPopUp(data) {
         rootPath = data.rootPath
         userData = data.userData
         program = data.program
-        totalCost = data.totalCost
-        agreement = data.agreement
+        cost = data.cost
     }
 
     $payPalPopUp.find('span.program').text(program)
-    $payPalPopUp.find('span.total-cost').text(totalCost)
+    $payPalPopUp.find('span.cost').text(cost)
 
     $payPalPopUp.toggleClass('open')
     $('#paypal-btn').focus()
@@ -59,7 +57,7 @@ function initPayPalButton() {
                 transactions: [
                     {
                         amount: {
-                            total:    '1.00',
+                            total:    '600.00',
                             currency: 'USD'
                         }
                     }
@@ -78,9 +76,12 @@ function initPayPalButton() {
                 console.log('The payment was completed!');
 
                 $.ajax({
-                    url: `${rootPath}forms/signatures.php`,
+                    url: `${rootPath}forms/short-programs-form.php`,
                     type: 'POST',
-                    data: userData,
+                    data: {
+                        userData: userData,
+                        paymentData: response
+                    },
                     cache: false
                 })
                 .done(function(data) {

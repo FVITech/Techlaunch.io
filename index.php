@@ -19,11 +19,11 @@
     <section class="launch">
         <div class="split-3">
             <div class="split-box">
-                <img class="appear delay-200" src="<?php echo $rootPath ?>images/rocket.svg" alt="Techlaunch logo">
-                <h2 class="appear delay-400">launch a great tech career in under a year</h2>
+                <img src="<?php echo $rootPath ?>images/rocket.svg" alt="Techlaunch logo">
+                <h2>launch a great tech career in under a year</h2>
             </div>
             <div class="split-box">
-                <div class="video-container appear delay-900">
+                <div class="video-container appear delay-300">
                     <?php
                         $options = "&";
                         $options .= "&rel=0";
@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="split-box">
-                <p class="appear delay-600">When you’re a student at TechLaunch, you’ll get the training you need to enter the world of tech within six to nine months. With a dynamic classroom environment, our instructors use an extensive hands-on approach and work by your side to teach you the ins and outs of the technology industry.</p>
+                <p>When you’re a student at TechLaunch, you’ll get the training you need to enter the world of tech within six to nine months. With a dynamic classroom environment, our instructors use an extensive hands-on approach and work by your side to teach you the ins and outs of the technology industry.</p>
             </div>
         </div>
     </section>

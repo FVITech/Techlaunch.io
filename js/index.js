@@ -8,7 +8,7 @@ require('./scroll-animations.js')
 
 require('./short-programs.js')
 
-require('./forms.js')
+require('./pop-up-form.js')
 
 require('./agreement.js')
 

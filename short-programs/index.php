@@ -190,14 +190,12 @@
                 </tbody>
             </table>
             <!-- <p class="disclaimer appear">*subject to demand</p> -->
-            <button data-enroll="true" data-total-cost="$1200" data-form-program="AWS" class="enroll appear switchable aws-content">Enroll in AWS</button>
-            <button data-enroll="true" data-total-cost="$1200" data-form-program="WordPress" class="enroll appear switchable wordpress-content">Enroll in WordPress</button>
+            <button data-enroll="true" data-cost="$600" data-form-program="AWS" class="enroll appear switchable aws-content">Enroll in AWS</button>
+            <button data-enroll="true" data-cost="$600" data-form-program="WordPress" class="enroll appear switchable wordpress-content">Enroll in WordPress</button>
         </div>
     </section>
 
     <?php $rootPath = '../'; include('../parts/footer.php') ?>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
     <script src="https://www.paypalobjects.com/api/checkout.js" data-version-4></script>
     <?php $rootPath = '../'; include('../parts/bottom.php') ?>
 

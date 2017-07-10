@@ -10,7 +10,7 @@
             <span class="step active">Step 3</span>
         </div>
         <h3 class="title">Pay for <span class="program"></span></h3>
-        <p class="total">Total: <span class="total-cost"></span></p>
+        <p class="total">Total: <span class="cost"></span></p>
         <div id="paypal-btn"></div>
         <div class="paypal-pop-up-success hidden">
             <p>Agreement successfully saved!</p>
