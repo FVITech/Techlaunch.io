@@ -1,4 +1,4 @@
-<footer>
+<footer data-rootpath="<?php echo $rootPath ?>">
     <div class="first">
         <img src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
         <address>
@@ -65,21 +65,27 @@
         <h3 class="heading">Latest Tweets</h3>
         <div class="tweets-list">
             <div class="tweet">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <a class="link" target="_blank" rel="noopener" href="">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
                 <div class="text-container">
                     <p class="text">FVI is hiring instructors! Do you know #javascript and live in #miami? Join the team! #miamitech</p>
                     <p class="date">Jan 22 2017</p>
                 </div>
             </div>
             <div class="tweet">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <a class="link" target="_blank" rel="noopener" href="">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
                 <div class="text-container">
                     <p class="text">RT @ForbesTech: How Companies Like Facebook Use Benefits To Build Millennial Traps: http://forbes.com/16has8</p>
                     <p class="date">Feb 15 2017</p>
                 </div>
             </div>
             <div class="tweet">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <a class="link" target="_blank" rel="noopener" href="">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
                 <div class="text-container">
                     <p class="text">10 Web Design &amp; UX Trends for 2017 That Can Boost Conversions</p>
                     <p class="date">May 04 2017</p>

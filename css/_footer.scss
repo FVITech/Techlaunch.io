@@ -137,9 +137,14 @@ footer .third {
         margin: 20px 0;
 
         i {
-            color: #aaa;
+            color: $fvi-blue;
             width: 35px;
             font-size: 20px;
+
+            &:hover,
+            &:focus {
+                color: #fff;
+            }
         }
 
         .text-container {
