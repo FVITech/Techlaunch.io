@@ -113,6 +113,36 @@ div.agreement .agreement-content {
         text-align: center;
         font-size: 26px;
     }
+
+    .contact-info {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+        span {
+            font-size: 11px;
+            font-weight: 700;
+            padding: 5px 10px;
+            justify-content: center;
+        }
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 450px;
+        margin: auto;
+
+        th {
+            text-align: left;
+            background-color: #eee;
+        }
+
+        td, th {
+            border: 1px solid #ccc;
+            padding: 4px;
+        }
+    }
 }
 
 div.agreement .accept-container {

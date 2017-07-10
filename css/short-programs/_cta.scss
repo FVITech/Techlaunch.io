@@ -1,5 +1,8 @@
 section.cta {
     text-align: center;
+    background-image: url('../../images/backgrounds/canvas-texture.jpg');
+    background-size: cover;
+    background-position: center;
 
     .disclaimer {
         font-size: 12px;
@@ -22,18 +25,25 @@ section.cta table {
     border-collapse: collapse;
 
     th, td {
-        border-top: 5px solid #fff;
-        border-bottom: 5px solid #fff;
+        border-top: 5px solid rgba(0, 0, 0 ,0);
+        border-bottom: 5px solid rgba(0, 0, 0, 0);
         font-size: 14px;
     }
 
     th {
-        background-color: #999;
+        background-color: #ccc;
         padding: 10px;
     }
 
     td {
         padding: 10px;
         background-color: #ddd;
+    }
+
+    tr.down-payment {
+
+        td {
+            font-weight: 800;
+        }
     }
 }

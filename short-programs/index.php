@@ -81,6 +81,30 @@
         </div>
     </section>
 
+    <section class="cta switchable aws-content wordpress-content">
+        <div class="container">
+            <table class="appear">
+                <tbody>
+                    <tr>
+                        <th>When</th>
+                        <td>Fridays: 6:30pm to 10:30pm<br><br>Saturdays: 10:00am to 3:00pm</td>
+                    </tr>
+                    <tr>
+                        <th>Total Cost</th>
+                        <td>$1200</td>
+                    </tr>
+                    <tr class="down-payment">
+                        <th>Down Payment</th>
+                        <td>$600</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- <p class="disclaimer appear">*subject to demand</p> -->
+            <button data-enroll="true" data-cost="$600" data-form-program="AWS" class="enroll appear switchable aws-content">Enroll in AWS</button>
+            <button data-enroll="true" data-cost="$600" data-form-program="WordPress" class="enroll appear switchable wordpress-content">Enroll in WordPress</button>
+        </div>
+    </section>
+
     <section class="syllabus">
         <div class="container">
             <div class="content intro-content switchable">
@@ -168,30 +192,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section class="cta switchable aws-content wordpress-content">
-        <div class="container">
-            <table class="appear">
-                <tbody>
-                    <tr>
-                        <th>When</th>
-                        <td>Fridays: 6:30pm to 10:30pm<br><br>Saturdays: 10:00am to 3:00pm</td>
-                    </tr>
-                    <tr>
-                        <th>Total Cost</th>
-                        <td>$1200</td>
-                    </tr>
-                    <tr>
-                        <th>Down Payment</th>
-                        <td>$600</td>
-                    </tr>
-                </tbody>
-            </table>
-            <!-- <p class="disclaimer appear">*subject to demand</p> -->
-            <button data-enroll="true" data-cost="$600" data-form-program="AWS" class="enroll appear switchable aws-content">Enroll in AWS</button>
-            <button data-enroll="true" data-cost="$600" data-form-program="WordPress" class="enroll appear switchable wordpress-content">Enroll in WordPress</button>
         </div>
     </section>
 
