@@ -111,19 +111,19 @@
         <div class="container">
             <div class="testimonials-container">
                 <div class="testimonial appear">
-                    <p class="quote">"I’m grateful to Techlaunch and all the professors, like Victor Moreno and Randy Ferrer, for providing me with skills and abilities that helped open the doors to a world full of new opportunities."</p>
-                    <img src="../images/people/frank.jpg" alt="Frank">
-                    <span class="name">Frank Veloz</span>
+                    <p class="quote">"I have so much to thank the school and their teachers for. I thought that becoming a programmer was something that was unachievable for me, but thanks to the instructors, I was able to do so easily."</p>
+                    <img src="../images/people/yasiel-sanchez-caleo.jpg" alt="Yasiel Sanchez Caleo">
+                    <span class="name">Yasiel Sanchez Caleo</span>
                 </div>
                 <div class="testimonial appear delay-200">
-                    <p class="quote">"When I started school I didn’t have the slightest idea of how much I would learn. I started the course without knowing anything about healthcare and the care that it requires."</p>
-                    <img src="../images/people/tatiana.png" alt="Tatiana">
-                    <span class="name">Tatiana Torres</span>
+                    <p class="quote">"TechLaunch demonstrated to me that no matter when you decide, great things can happen if you try. I've acquired knowledge every day, and every single minute I've spent inside of their classroom has made me better."</p>
+                    <img src="../images/people/alan-espinet.jpg" alt="Alan Espinet Lluvet">
+                    <span class="name">Alan Espinet Lluvet</span>
                 </div>
                 <div class="testimonial appear delay-400">
-                    <p class="quote">"FVI helped me to accommodate my externship hours around my busy schedule. Today, I am working as a Medical Assistant in a doctor's office."</p>
-                    <img src="../images/people/yanet.png" alt="Yanet">
-                    <span class="name">Yanet Gonzalez</span>
+                    <p class="quote">"Before I started at TechLaunch I was concerned. I thought that coding was difficult and I didn’t know what to expect. Now I feel that it is easier than everybody thinks."</p>
+                    <img src="../images/people/lily-cantillo.jpg" alt="Lilianne Cantillo">
+                    <span class="name">Lilianne Cantillo</span>
                 </div>
             </div>
         </div>

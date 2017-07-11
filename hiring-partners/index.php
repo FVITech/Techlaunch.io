@@ -15,8 +15,15 @@
     <section class="talent">
         <div class="container">
             <h2 class="section-title">Find the Talent That You Need</h2>
-            <p>Becoming a hiring partner for TechLaunch gives your business access to highly trained candidates with our Zero Cost Recruiting program. There’s no need to place an ad or hire a recruiter. We’ll take responsibility for understanding the needs of your company and matching you with the ideal candidate. </p>
-            <p>Our career services department has experience working closely with our hiring partners to understand their company culture, business needs, and technology stack. Our team then matches our partners with TechLaunch @ FVI graduates who have the skills their business is looking for. We can help our hiring partners find qualified candidates for temp-to-perm opportunities, paid internships, and unpaid internships while minimizing business risk, turnover rates, and costs. </p>
+            <div class="split-2">
+                <div class="split-box">
+                    <p>Becoming a hiring partner for TechLaunch gives your business access to highly trained candidates with our Zero Cost Recruiting program. There’s no need to place an ad or hire a recruiter. We’ll take responsibility for understanding the needs of your company and matching you with the ideal candidate. </p>
+                    <p>Our career services department has experience working closely with our hiring partners to understand their company culture, business needs, and technology stack. Our team then matches our partners with TechLaunch @ FVI graduates who have the skills their business is looking for. We can help our hiring partners find qualified candidates for temp-to-perm opportunities, paid internships, and unpaid internships while minimizing business risk, turnover rates, and costs. </p>
+                </div>
+                <div class="split-box">
+                    <img src="<?php echo $rootPath ?>images/people/group-at-pipeline.jpg" alt="Techlaunch students">
+                </div>
+            </div>
         </div>
     </section>
 
@@ -27,50 +34,50 @@
 
     <section class="reasons">
         <div class="container">
-            <h2 class="section-title">Reasons To Hire A TechLaunch Graduate</h2>
-            <p class="section-subtitle">Our training sets our students apart and is designed to prepare them to work in the tech industry. We do this by: </p>
+            <h2 class="section-title appear">Reasons To Hire A TechLaunch Graduate</h2>
+            <p class="section-subtitle appear delay-200">Our training sets our students apart and is designed to prepare them to work in the tech industry. We do this by: </p>
             <div class="split-2">
-                <ul class="list split-box">
+                <ul class="list split-box appear">
                     <li>
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/database.svg">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/teamwork.png">
                         Using group projects to teach our students to work in teams
                     </li>
                     <li>
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/atom.svg">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/teaching-1.png">
                         Teaching popular software applications
                     </li>
                     <li>
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/clipboard.svg">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/characteristics-1.png">
                         Immersing our students in a nine-month program
                     </li>
                     <li>
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/monitor.svg">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/gears-1.png">
                         Providing more in-depth training than 10-week bootcamps
                     </li>
                     <li>
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/smartphone.svg">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/conversation-1.png">
                         Basing our curriculum on feedback from hiring partners and local businesses
                     </li>
                 </ul>
-                <ul class="list split-box">
+                <ul class="list split-box appear delay-200">
                     <li>
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/statistics.svg">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/conversation-2.png">
                         Providing problem-solving opportunities in our problem resolution labs
                     </li>
                     <li>
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/server.svg">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/person-at-computer.png">
                         Using extensive hands-on learning
                     </li>
                     <li>
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/calculator.svg">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/person-with-suitcase.png">
                         Providing internship opportunities
                     </li>
                     <li>
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/database.svg">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/person-hierarchy.png">
                         Giving our partners access to our Zero-Cost Tech Recruiting program
                     </li>
                     <li>
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/atom.svg">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/certificate.png">
                         Helping students design a portfolio of work to show hiring partners
                     </li>
                 </ul>
@@ -85,10 +92,17 @@
         </div>
     </section>
 
-    <section class="impact">
+    <section class="bridging-the-gap">
         <div class="container">
-            <h2 class="section-title appear">Bridging the Skills Gap</h2>
-            <p class="appear">Many companies and individuals in the tech industry are very socially conscious and understand the skills gap, the digital divide, and the under-representation of minorities in the world of tech. At TechLaunch, we prepare every student who has the right combination of skills and grit to succeed in tech. By hiring our grads, you have the opportunity to have an impact by bringing people with diverse backgrounds and ideas into the industry and effect change for the better that bridges the gaps in the world of tech.</p>
+            <h2 class="section-title">Bridging the Skills Gap</h2>
+            <div class="split-2">
+                <div class="split-box">
+                    <p>Many companies and individuals in the tech industry are very socially conscious and understand the skills gap, the digital divide, and the under-representation of minorities in the world of tech. At TechLaunch, we prepare every student who has the right combination of skills and grit to succeed in tech. By hiring our grads, you have the opportunity to have an impact by bringing people with diverse backgrounds and ideas into the industry and effect change for the better that bridges the gaps in the world of tech.</p>
+                </div>
+                <div class="split-box">
+                    <img src="<?php echo $rootPath ?>images/bridging-the-gap.jpg" alt="Bridging the Skills Gap">
+                </div>
+            </div>
         </div>
     </section>
 

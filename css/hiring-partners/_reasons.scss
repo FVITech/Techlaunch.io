@@ -7,11 +7,30 @@ section.reasons {
 
     .section-subtitle {
         text-align: center;
-        font-weight: 700;
-        max-width: 900px;
+        font-weight: 400;
+        max-width: 500px;
         margin: auto;
         margin-top: 0;
         margin-bottom: 30px;
+        color: #444;
+        line-height: 1.7;
+
+        @media all and (min-width: 1170px) {
+            &::before, &::after {
+                content: '';
+                height: 2px;
+                width: 180px;
+                background-color: #45759E;
+                position: absolute;
+                left: -180px;
+                top: 50%;
+            }
+
+            &::after {
+                left: auto;
+                right: -180px;
+            }
+        }
     }
 
     .list {
@@ -28,6 +47,7 @@ section.reasons {
         flex-flow: wrap nowrap;
         align-items: center;
         margin: 30px 0;
+        font-size: 14px;
     }
 
     .icon {

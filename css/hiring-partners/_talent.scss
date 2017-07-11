@@ -1,0 +1,16 @@
+section.talent {
+
+    .split-box:nth-of-type(2) {
+
+        img {
+            display: none;
+            width: 100%;
+
+            @media all and (min-width: 768px) {
+                display: inline-block;
+                padding-top: 35px;
+                padding-left: 30px;
+            }
+        }
+    }
+}

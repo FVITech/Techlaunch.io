@@ -27,7 +27,7 @@
 
     <section class="testimonial-1">
         <div class="left">
-            <img src="../images/people/people-2.png" alt="">
+            <img src="../images/people/business-professionals.png" alt="business professionals">
         </div>
         <div class="right">
             <p>When you start in one of our programs, you’ll notice that we use an extensive hands-on approach. In our dynamic classroom environment, our instructors will work by your side to help you learn. As a student, you’ll work on many projects so that you can learn by doing. You’ll also build and solve technological solutions that are similar to what our hiring partners use in their organizations.</p>
