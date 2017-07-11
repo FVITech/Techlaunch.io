@@ -1,4 +1,4 @@
-<?php $rootPath = '../'; $page = "location"; include('../parts/head.php'); ?>
+<?php $rootPath = '../'; $page = "contact-us"; include('../parts/head.php'); ?>
 <body>
     <?php include('../parts/navbar.php'); ?>
     <?php include('../parts/pop-up-form.php'); ?>
@@ -6,7 +6,7 @@
     <section class="above-the-fold">
         <div class="container">
             <a href="<?php echo $rootPath ?>">
-                <img src="../images/logos/techlaunch_at_fvi_vertical_light_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
             <br>
             <h1 class="page-title">Location</h1>
@@ -58,6 +58,26 @@
             <p class="contact"><strong>Phone:</strong> <a href="tel:786-574-9511">786-574-9511</a></p>
             <img src="../images/people/students.jpeg" alt="">
         </aside>
+    </section>
+
+    <section class="images-slider">
+        <div class="carousel">
+            <div id="left-btn" class="left-btn">‹</div>
+            <div id="right-btn" class="right-btn">›</div>
+            <div class="dots"></div>
+            <div class="carousel-item image-1">
+                <!-- Your content goes here -->
+            </div>
+            <div class="carousel-item image-2">
+                <!-- Your content goes here -->
+            </div>
+            <div class="carousel-item image-3">
+                <!-- Your content goes here -->
+            </div>
+            <div class="carousel-item image-4">
+                <!-- Your content goes here -->
+            </div>
+        </div>
     </section>
 
     <?php $rootPath = '../'; include('../parts/footer.php') ?>

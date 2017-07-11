@@ -68,37 +68,37 @@
             <div class="cards-container">
                 <div class="left">
                     <div class="card appear">
-                        <img src="../images/icons/atom.svg" alt="">
+                        <img src="../images/icons/computer-monitor.png" alt="">
                         <p>Full-Stack Web Development</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/calculator.svg" alt="">
+                        <img src="../images/icons/diploma.png" alt="">
                         <p>36-Week (9-Month) immersive program</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/clipboard.svg" alt="">
+                        <img src="../images/icons/suit.png" alt="">
                         <p>Career Placement Assistance</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/statistics.svg" alt="">
+                        <img src="../images/icons/two-people.png" alt="">
                         <p>Small Class sizes for one-on-one learning</p>
                     </div>
                 </div>
                 <div class="right">
                     <div class="card appear">
-                        <img src="../images/icons/clipboard.svg" alt="">
+                        <img src="../images/icons/piggy-bank.png" alt="">
                         <p>Federal Financial aid available to those who qualify</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/statistics.svg" alt="">
+                        <img src="../images/icons/growing-graph.png" alt="">
                         <p>Campus located in Doral, a rapidly growing tech community</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/atom.svg" alt="">
+                        <img src="../images/icons/search-the-globe.png" alt="">
                         <p>Curriculum designed with local Miami job market in mind</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/calculator.svg" alt="">
+                        <img src="../images/icons/graduate.png" alt="">
                         <p>Complete the program with a Diploma and a Portfolio of work to show prospective employers</p>
                     </div>
                 </div>
@@ -158,23 +158,23 @@
             <div class="content">
                 <div class="cards-container">
                     <div class="card appear">
-                        <img src="../images/icons/clipboard.svg" alt="">
+                        <img src="../images/icons/laptop.png" alt="">
                         <p>Frontend web development with HTML5, CSS3, JavaScript, and modern JavaScript frameworks</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/atom.svg" alt="">
+                        <img src="../images/icons/two-way.png" alt="">
                         <p>AJAX programming and best practices to manage the request-response model within the context of the web browser</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/calculator.svg" alt="">
+                        <img src="../images/icons/mobile.png" alt="">
                         <p>How to effectively use CSS media queries to create fully response, mobile-friendly websites and web apps</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/statistics.svg" alt="">
+                        <img src="../images/icons/network-globe.png" alt="">
                         <p>Frontend programming in plain JavaScript and jQuery, as well as advanced JavaScript design patterns under MV* frameworks</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/clipboard.svg" alt="">
+                        <img src="../images/icons/ram.png" alt="">
                         <p>How to optimize web pages and employ popular optimization worklows such as Gulp and Apache's mod_pagespeed for blazing fast page load times</p>
                     </div>
                 </div>

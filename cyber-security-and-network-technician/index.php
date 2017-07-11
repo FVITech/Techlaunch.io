@@ -68,37 +68,37 @@
             <div class="cards-container">
                 <div class="left">
                     <div class="card appear">
-                        <img src="../images/icons/atom.svg" alt="">
+                        <img src="../images/icons/hands-holding-box.png" alt="">
                         <p>Hands-On Cyber Security Program</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/calculator.svg" alt="">
+                        <img src="../images/icons/diploma.png" alt="">
                         <p>36-Week (9-Month) immersive program</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/clipboard.svg" alt="">
+                        <img src="../images/icons/suit.png" alt="">
                         <p>Career Placement Assistance</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/statistics.svg" alt="">
+                        <img src="../images/icons/two-people.png" alt="">
                         <p>Small Class sizes for one-on-one learning</p>
                     </div>
                 </div>
                 <div class="right">
                     <div class="card appear">
-                        <img src="../images/icons/clipboard.svg" alt="">
+                        <img src="../images/icons/piggy-bank.png" alt="">
                         <p>Federal Financial aid available to those who qualify</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/statistics.svg" alt="">
+                        <img src="../images/icons/growing-graph.png" alt="">
                         <p>Campus located in Doral, a rapidly growing tech community</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/atom.svg" alt="">
+                        <img src="../images/icons/search-the-globe.png" alt="">
                         <p>Curriculum designed with local Miami job market in mind</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/calculator.svg" alt="">
+                        <img src="../images/icons/graduate.png" alt="">
                         <p>Designed to help you enter the tech industry in under a year</p>
                     </div>
                 </div>
@@ -158,31 +158,31 @@
                     <h2 class="section-title appear">What You Will Learn</h2>
                     <div class="cards-container">
                         <div class="card appear">
-                            <img src="../images/icons/clipboard.svg" alt="">
+                            <img src="../images/icons/computer-monitor.png" alt="">
                             <p>Maintaining Computers and Operating Systems</p>
                         </div>
                         <div class="card appear">
-                            <img src="../images/icons/atom.svg" alt="">
+                            <img src="../images/icons/hierarchy.png" alt="">
                             <p>Advanced Networking</p>
                         </div>
                         <div class="card appear">
-                            <img src="../images/icons/calculator.svg" alt="">
+                            <img src="../images/icons/shield.png" alt="">
                             <p>Network and Computer Security+</p>
                         </div>
                         <div class="card appear">
-                            <img src="../images/icons/statistics.svg" alt="">
+                            <img src="../images/icons/two-way.png" alt="">
                             <p>Cisco Routing and Switching</p>
                         </div>
                         <div class="card appear">
-                            <img src="../images/icons/clipboard.svg" alt="">
+                            <img src="../images/icons/servers.png" alt="">
                             <p>Administering Windows Server</p>
                         </div>
                         <div class="card appear">
-                            <img src="../images/icons/atom.svg" alt="">
+                            <img src="../images/icons/hands-holding-box.png" alt="">
                             <p>Linux</p>
                         </div>
                         <div class="card appear">
-                            <img src="../images/icons/statistics.svg" alt="">
+                            <img src="../images/icons/globe-up-arrow.png" alt="">
                             <p>Cloud Technologies like AWS &amp; Azure</p>
                         </div>
                     </div>
