@@ -129,24 +129,24 @@
                 <p class="appear">There are many benefits of getting your education at TechLaunch. With our dedicated instructors, understanding support staff, and Career Services team on your side, you’ll learn the skills you need for a new career in tech.</p>
             </div>
             <div class="middle">
-                <img class="appear" src="<?php echo $rootPath ?>images/phone-and-laptop.jpg" alt="phone and laptop">
+                <img class="appear" src="<?php echo $rootPath ?>images/pipeline/students-1.jpg" alt="phone and laptop">
             </div>
             <div class="right">
                 <ul>
                     <li class="appear">
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/atom.svg" alt="atom icon">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/diploma.png" alt="atom icon">
                         <p>Train for a career in technology in less than a year</p>
                     </li>
                     <li class="appear">
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/clipboard.svg" alt="clipboard icon">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/hands-holding-box.png" alt="clipboard icon">
                         <p>Get real-world experience in a hands-on environment</p>
                     </li>
                     <li class="appear">
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/statistics.svg" alt="statistics icon">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/search-the-globe.png" alt="statistics icon">
                         <p>Work with our Career Services Team to find great job opportunities</p>
                     </li>
                     <li class="appear">
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/calculator.svg" alt="calculator icon">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/growing-graph.png" alt="calculator icon">
                         <p>Enter a growing field where your skills are vital</p>
                     </li>
                 </ul>
