@@ -2,7 +2,7 @@
 
 <nav id="navbar">
     <div class="get-info">Get Info</div>
-    <a class="phone" href="tel:786-574-9511">786-574-9511</a>
+    <a class="phone" href="tel:786-574-9511">305-783-3599</a>
     <div id="menu-button" class="menu-button">
         <span class="bar"></span>
         <span class="bar"></span>
