@@ -1,5 +1,9 @@
 <?php $rootPath = '../'; $page = "contact-us"; include('../parts/head.php'); ?>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <?php include('../parts/navbar.php'); ?>
     <?php include('../parts/pop-up-form.php'); ?>
 
@@ -49,14 +53,20 @@
                 </div>
                 <button type="submit">submit info</button>
             </form>
-            <p class="disclosure">By clicking "Submit Info" above, you agree for TechLaunch to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list.</p>
+            <p class="disclosure">By clicking "Submit Info" above, you agree for TechLaunch to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list".</p>
         </div>
         <aside>
             <h3>Contact Us</h3>
             <p>So now that you are ready to take that first step to changing your life, come meet with one of our admissions representatives and enroll today! Our admissions process is simple and easy to get you started on the path to success.</p>
-            <p class="contact"><strong>Email:</strong> <a href="mailto:info@fvi.edu">info@fvi.edu</a></p>
-            <p class="contact"><strong>Phone:</strong> <a href="tel:786-574-9511">786-574-9511</a></p>
-            <img src="../images/people/group-at-pipeline.jpg" alt="Techlaunch students">
+            <a class="address-link" target="_blank" rel="noopener" href="https://www.google.com/maps/place/8400+NW+36th+St+%23450,+Doral,+FL+33166/@25.809245,-80.3350155,17z/data=!3m1!4b1!4m5!3m4!1s0x88d9b96336b2c0ab:0x6ce8e1e27de65384!8m2!3d25.809245!4d-80.3328268">
+                <address>
+                    8400 NW 36th St #450,<br>
+                    Doral, FL 33166<br>
+                </address>
+            </a>
+            <p class="contact"><strong>Email:</strong> <a href="mailto:info@fvi.edu">info@techlaunch.io</a></p>
+            <p class="contact"><strong>Phone:</strong> <a href="tel:786-574-9511">305-783-3599</a></p>
+            <img src="<?php echo $rootPath ?>images/people/group-at-pipeline.jpg" alt="">
         </aside>
     </section>
 

@@ -1,5 +1,9 @@
 <?php $rootPath = '../'; $page = "web-developer"; include('../parts/head.php'); ?>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <?php include('../parts/navbar.php'); ?>
     <?php include('../parts/pop-up-form.php'); ?>
 
@@ -31,6 +35,14 @@
                 <div class="form-container">
                     <h2 class="title">Learn how to get started</h2>
                     <form class="get-info-form">
+                        <div class="form-input">
+                            <label>Program of Interest</label>
+                            <select name="program">
+                                <option value="--" disabled>-- Select --</option>
+                                <option value="web-developer" selected>Web Developer</option>
+                                <option value="cyber-security">Cyber Security Network Technician</option>
+                            </select>
+                        </div>
                         <div class="form-input split-2">
                             <div class="split-box">
                                 <label>first name</label>
@@ -55,7 +67,6 @@
                             <label>email</label>
                             <input type="email" name="email" required>
                         </div>
-                        <input type="text" name="program" value="web-developer" hidden>
                         <button class="submit-btn" type="submit">get info</button>
                         <div class="user-feedback"></div>
                     </form>

@@ -1,5 +1,9 @@
 <?php $rootPath = '../'; $page = "cyber-security-and-network-technician"; include('../parts/head.php'); ?>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <?php include('../parts/navbar.php'); ?>
     <?php include('../parts/pop-up-form.php'); ?>
 
@@ -31,6 +35,14 @@
                 <div class="form-container">
                     <h2 class="title">Learn how to get started</h2>
                     <form class="get-info-form">
+                        <div class="form-input">
+                            <label>Program of Interest</label>
+                            <select name="program">
+                                <option value="--" disabled>-- Select --</option>
+                                <option value="web-developer">Web Developer</option>
+                                <option value="cyber-security" selected>Cyber Security Network Technician</option>
+                            </select>
+                        </div>
                         <div class="form-input split-2">
                             <div class="split-box">
                                 <label>first name</label>
@@ -68,7 +80,11 @@
     <section class="program-overview">
         <div class="container">
             <h2 class="section-title appear">Program Overview</h2>
-            <p class="subtitle appear">As a Cyber Security Network Technician you will learn to handle software distribution and updates; monitor servers; provide troubleshooting support; build and configure servers; implement auditing policy; perform scheduled vulnerability-assessment scans; and monitor logs for firewalls and intrusion-detection systems. At the completion of this program you are qualified to manage, support, and troubleshoot information systems in a wide range of computing environments with Microsoft Windows Server 2012 and Linux as well as configuring Cisco switches and routers. Students also get an introduction to the 21st century could-based systems administration on Azure and AWS. This course is based on lectures, discussions, demonstrations, exercises, and laboratory projects. Students perform all basic configuration procedures to build LAN and WAN interfaces for the most commonly used router protocols.</p>
+            <div class="split-3">
+                <p class="split-box subtitle appear">As a student in our Cyber Security Network Technician program, you’ll learn about every aspect of Cyber Security – from software distribution and updates and troubleshooting support to implement auditing policy and performing scheduled vulnerability-assessment scans.</p>
+                <p class="split-box subtitle appear">Through lectures, discussions, demonstrations, exercises, and laboratory projects, we’ll introduce the 21st century cloud-based systems administration on Azure and AWS and prepare you to perform all basic configuration procedures to build LAN and WAN interfaces for the most commonly used router protocols.</p>
+                <p class="split-box subtitle appear">Upon completing this program, you’ll be qualified to manage, support, and troubleshoot information systems with Microsoft Windows Server 2012 and Linux, as well as configure Cisco switches and routers.</p>
+            </div>
             <div class="cards-container">
                 <div class="left">
                     <div class="card appear">

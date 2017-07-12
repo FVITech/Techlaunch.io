@@ -172,6 +172,13 @@ section.above-the-fold .form-container {
             }
         }
 
+        select {
+            background-image: url('../../images/select-arrows.png');
+            background-size: auto 50%;
+            background-position: 98% 50%;
+            background-repeat: no-repeat;
+        }
+
         input::-webkit-outer-spin-button,
         input::-webkit-inner-spin-button {
             -webkit-appearance: none;

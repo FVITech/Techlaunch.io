@@ -59,6 +59,13 @@ section.request-more-info {
                 margin-top: 3px;
                 padding: 7px;
             }
+
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                appearance: none;
+                margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+            }
         }
 
         button {
@@ -124,8 +131,26 @@ section.request-more-info {
             }
         }
 
+        .address-link {
+            display: block;
+            text-decoration: none;
+            margin-bottom: 15px;
+
+            address {
+                font-size: 14px;
+                font-style: normal;
+            }
+        }
+
         strong {
             color: $fvi-blue;
+        }
+
+        .contact {
+
+            a {
+                text-decoration: none;
+            }
         }
 
         img {

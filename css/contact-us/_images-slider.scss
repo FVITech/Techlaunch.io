@@ -2,7 +2,7 @@
 
 section.images-slider {
     padding: 0;
-    
+
     .carousel-item {
         background-size: cover;
         background-position: center center;
@@ -19,7 +19,8 @@ section.images-slider {
     }
 
     .image-3 {
-        background-image: url('../../images/people/3-students-at-desk.jpg');
+        background-image: url('../../images/pipeline/teaching-1.jpg');
+        background-position: right 30%;
     }
 
     .image-4 {
