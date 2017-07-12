@@ -51,7 +51,7 @@
             </ul>
 
             <h3 id="retention-rate">2. Retention Rate</h3>
-            <p>Retention rates measure the percentage of first-time students who return to the institution to continue the following fall. The information is reported the U.S. Department of Education via the IPEDS website that is presented on the <a href="http://nces.ed.gov/college navigator/">College Navigator website</a>.</p>
+            <p>Retention rates measure the percentage of first-time students who return to the institution to continue the following fall. The information is reported the U.S. Department of Education via the IPEDS website that is presented on the <a target="_blank" rel="noopener" href="https://nces.ed.gov/collegenavigator/?q=Florida+Vocational+Institute&s=FL&zc=33144&zd=0&of=3&id=476939">College Navigator website</a>.</p>
             <p><em>Who is a first-time student?</em></p>
             <p>A first-time student is someone who has had no prior postsecondary experience before enrolling at Florida Vocational Institute.</p>
             <p>Percentage of students who began their studies in the Fall 2014 and returned in the Fall 2015:</p>

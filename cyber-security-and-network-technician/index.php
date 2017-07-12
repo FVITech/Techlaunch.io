@@ -26,7 +26,7 @@
                             <p class="label">Annual Growth</p>
                         </div>
                     </div>
-                    <p class="disclosure">† <a target="_blank" rel="noopener" href="https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm">BLS.gov</a></p>
+                    <p class="disclosure">† Source: BLS.gov</p>
                 </div>
                 <div class="form-container">
                     <h2 class="title">Learn how to get started</h2>
@@ -55,7 +55,7 @@
                         <button class="submit-btn" type="submit">get info</button>
                         <div class="user-feedback"></div>
                     </form>
-                    <p class="disclosure">By clicking "Get Info", you agree for TechLaunch to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list.</p>
+                    <p class="disclosure">By clicking "Get Info", you agree for TechLaunch to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list".</p>
                 </div>
             </div>
         </div>

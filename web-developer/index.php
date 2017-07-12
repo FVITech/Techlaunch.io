@@ -26,7 +26,7 @@
                             <p class="label">Annual Growth</p>
                         </div>
                     </div>
-                    <p class="disclosure">† <a target="_blank" rel="noopener" href="https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm">BLS.gov</a></p>
+                    <p class="disclosure">† Source: BLS.gov</p>
                 </div>
                 <div class="form-container">
                     <h2 class="title">Learn how to get started</h2>
@@ -55,7 +55,7 @@
                         <button class="submit-btn" type="submit">get info</button>
                         <div class="user-feedback"></div>
                     </form>
-                    <p class="disclosure">By clicking "Get Info", you agree for TechLaunch to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list.</p>
+                    <p class="disclosure">By clicking "Get Info", you agree for TechLaunch to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list".</p>
                 </div>
             </div>
         </div>
@@ -134,18 +134,18 @@
             <h2 class="section-title appear">What kind of job can I get as a graduate?</h2>
             <div class="split">
                 <div class="left">
-                    <p class="appear">The <strong>Web Developer Program</strong> from Techlaunch will prepare graduates to develop practical skills and knowledge needed or entry-level career opportunities in areas involving sotware design and development, systems analysis, programming, process design and management, and other areas related to computer software production and deployment. The fast growth in web and mobile development, combined with the increasing use of software, continues to create <strong>strong demand for software developers</strong>.</p>
+                    <p class="appear">The <strong>Web Developer Program</strong> from Techlaunch will prepare graduates to develop practical skills and knowledge needed for career opportunities in areas involving sotware design and development, systems analysis, programming, process design and management, and other areas related to computer software production and deployment. The fast growth in web and mobile development, combined with the increasing use of software, continues to create <strong>strong demand for software developers</strong>.</p>
                 </div>
                 <div class="right">
-                    <p class="appear">The career services team at Techlaunch will work with you to provide internships during training and upon graduation assist you in finding a great career as a web developer.</p>
+                    <p class="appear">The career services team at TechLaunch work to guide you in finding internship opportunities during training and upon graduation assist you in finding a great career as a web developer.</p>
                     <p class="appear">Techlaunch maintains strong working relationships with top companies in the area so we can match your passion and ability to career opportunities.</p>
                 </div>
             </div>
             <div class="image-section">
                 <div class="left appear"></div>
                 <div class="right">
-                    <h3 class="appear">Will I obtain any certifications?</h3>
-                    <p class="appear">Upon graduation from the <strong>Web Developer Program</strong>, students will receive a diploma. Additionally, students will have a portfolio of work showcasing their abilities in order to aid them in finding full-time jobs or freelance web development contracts.</p>
+                    <h3 class="appear">Build a Portfolio</h3>
+                    <p class="appear">Upon graduation from the Web Developer Program, students will receive a diploma. Additionally, students will have a portfolio of work showcasing their abilities to aid them in finding full-time jobs or freelance web development contracts.</p>
                     <button data-form-program="web-developer" class="get-more-info appear">get info</button>
                 </div>
             </div>

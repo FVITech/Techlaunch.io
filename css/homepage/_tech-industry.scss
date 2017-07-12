@@ -70,17 +70,23 @@ section.tech-industry {
             font-size: 50px;
             margin: 0;
             display: inline-block;
+
+            &::after {
+                content: '†';
+                font-size: 8px;
+                color: #888;
+                margin-left: 4px;
+                position: absolute;
+                top: 10px;
+            }
         }
 
         .citation {
-            display: inline-block;
+            display: block;
             font-size: 10px;
             margin: 0;
-            margin-left: 5px;
-
-            a {
-                color: #888;
-            }
+            margin-top: 15px;
+            color: #888;
         }
 
         .position {

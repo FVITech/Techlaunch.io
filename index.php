@@ -7,8 +7,8 @@
             <a href="<?php echo $rootPath ?>">
                 <img src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
-            <h2 class="page-title">Start Your Career in Technology</h2>
-            <p class="page-subtitle">With programs in Web Development, IT Security, and Amazon Web Services, TechLaunch offers a lot more than short-term coding bootcamps. We go above and beyond to make sure you’re prepared for a new career where you can grow and thrive.</p>
+            <h2 class="page-title">Ready to Launch a Career in Technology?</h2>
+            <p class="page-subtitle">With programs in Web Development and IT Security, TechLaunch offers immersive programs designed to take you from zero to hero in no time!</p>
             <div class="buttons-box">
                 <a class="btn browse-programs" href="<?php echo $rootPath ?>programs/">Browse Programs</a>
                 <a class="btn get-more-info">Get More Info</a>
@@ -20,7 +20,7 @@
         <div class="split-3">
             <div class="split-box">
                 <img src="<?php echo $rootPath ?>images/rocket.svg" alt="Techlaunch logo">
-                <h2>launch a great tech career in under a year</h2>
+                <h2>Become a Hero in the Tech Industry</h2>
             </div>
             <div class="split-box">
                 <div class="video-container appear delay-300">
@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="split-box">
-                <p>When you’re a student at TechLaunch, you’ll get the training you need to enter the world of tech within six to nine months. With a dynamic classroom environment, our instructors use an extensive hands-on approach and work by your side to teach you the ins and outs of the technology industry.</p>
+                <p>When you’re a student at TechLaunch, you’ll get the training you need to enter the world of tech. With a dynamic classroom environment, our instructors use an extensive hands-on approach and work by your side to teach you the ins and outs of the technology industry.</p>
             </div>
         </div>
     </section>
@@ -47,8 +47,8 @@
             </a>
         </div>
         <div class="right">
-            <a class="program-title" href="<?php echo $rootPath ?>short-programs/">
-                short programs
+            <a class="program-title" href="<?php echo $rootPath ?>tech-skills-upgrade-programs/">
+                Tech Skills Upgrade
             </a>
         </div>
     </section>
@@ -105,14 +105,12 @@
             <div class="income-div appear delay-600">
                 <h4>median tech income</h4>
                 <p class="income one">$102K</p>
-                <p class="citation"><a target="_blank" rel="noopener" href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm">BLS.gov</a></p>
                 <p class="position one">software developer</p>
                 <p class="income two">$92K</p>
-                <p class="citation"><a target="_blank" rel="noopener" href="https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm">BLS.gov</a></p>
                 <p class="position two">cyber security technician</p>
                 <p class="income three">$66K</p>
-                <p class="citation"><a target="_blank" rel="noopener" href="https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm">BLS.gov</a></p>
                 <p class="position three">web developer</p>
+                <span class="citation">† Source: BLS.gov</span>
             </div>
         </div>
     </section>
@@ -134,20 +132,24 @@
             <div class="right">
                 <ul>
                     <li class="appear">
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/diploma.png" alt="atom icon">
-                        <p>Train for a career in technology in less than a year</p>
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/diploma.png" alt="diploma icon">
+                        <p>Immersive training to prepare you for a exciting and rewarding career in the booming technology industry</p>
                     </li>
                     <li class="appear">
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/hands-holding-box.png" alt="clipboard icon">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/hands-holding-box.png" alt="hands holding box icon">
                         <p>Get real-world experience in a hands-on environment</p>
                     </li>
                     <li class="appear">
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/search-the-globe.png" alt="statistics icon">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/search-the-globe.png" alt="search the globe icon">
                         <p>Work with our Career Services Team to find great job opportunities</p>
                     </li>
                     <li class="appear">
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/growing-graph.png" alt="calculator icon">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/growing-graph.png" alt="growing graph icon">
                         <p>Enter a growing field where your skills are vital</p>
+                    </li>
+                    <li class="appear">
+                        <img class="icon" src="<?php echo $rootPath ?>images/icons/piggy-bank.png" alt="piggy bank icon">
+                        <p>Financial aid is available for those who qualify</p>
                     </li>
                 </ul>
             </div>
