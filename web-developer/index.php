@@ -31,25 +31,29 @@
                 <div class="form-container">
                     <h2 class="title">Learn how to get started</h2>
                     <form class="get-info-form">
-                        <div class="form-input">
-                            <label>first name</label>
-                            <input type="text" name="first_name">
+                        <div class="form-input split-2">
+                            <div class="split-box">
+                                <label>first name</label>
+                                <input type="text" name="first_name" required>
+                            </div>
+                            <div class="split-box">
+                                <label>last name</label>
+                                <input type="text" name="last_name" required>
+                            </div>
                         </div>
-                        <div class="form-input">
-                            <label>last name</label>
-                            <input type="text" name="last_name">
-                        </div>
-                        <div class="form-input">
-                            <label>phone</label>
-                            <input type="tel" name="phone">
+                        <div class="form-input split-2">
+                            <div class="split-box">
+                                <label>phone</label>
+                                <input type="tel" name="phone">
+                            </div>
+                            <div class="split-box">
+                                <label>zip code</label>
+                                <input type="number" name="zip_code">
+                            </div>
                         </div>
                         <div class="form-input">
                             <label>email</label>
-                            <input type="email" name="email">
-                        </div>
-                        <div class="form-input">
-                            <label>zip code</label>
-                            <input type="number" name="zip">
+                            <input type="email" name="email" required>
                         </div>
                         <input type="text" name="program" value="web-developer" hidden>
                         <button class="submit-btn" type="submit">get info</button>
@@ -158,23 +162,23 @@
             <div class="content">
                 <div class="cards-container">
                     <div class="card appear">
-                        <img src="../images/icons/laptop.png" alt="">
+                        <img class="logo" src="../images/logos/html5-logo.png" alt="HTML5 logo">
                         <p>Frontend web development with HTML5, CSS3, JavaScript, and modern JavaScript frameworks</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/two-way.png" alt="">
+                        <img class="logo" src="../images/logos/ajax-logo.png" alt="AJAX programming logo">
                         <p>AJAX programming and best practices to manage the request-response model within the context of the web browser</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/mobile.png" alt="">
+                        <img class="logo" src="../images/logos/css3-logo.png" alt="CSS3 logo">
                         <p>How to effectively use CSS media queries to create fully response, mobile-friendly websites and web apps</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/network-globe.png" alt="">
+                        <img class="logo" src="../images/logos/react-logo.png" alt="React logo">
                         <p>Frontend programming in plain JavaScript and jQuery, as well as advanced JavaScript design patterns under MV* frameworks</p>
                     </div>
                     <div class="card appear">
-                        <img src="../images/icons/ram.png" alt="">
+                        <img class="logo" src="../images/logos/gulp-logo.png" alt="Gulp logo">
                         <p>How to optimize web pages and employ popular optimization worklows such as Gulp and Apache's mod_pagespeed for blazing fast page load times</p>
                     </div>
                 </div>

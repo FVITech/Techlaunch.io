@@ -19,11 +19,11 @@
     <section class="launch">
         <div class="split-3">
             <div class="split-box">
-                <img src="<?php echo $rootPath ?>images/rocket.svg" alt="Techlaunch logo">
                 <h2>Become a Hero in the Tech Industry</h2>
+                <img class="image" src="<?php echo $rootPath ?>images/people/hero_dad_bod.png" alt="Tech Hero">
             </div>
             <div class="split-box">
-                <div class="video-container appear delay-300">
+                <div class="video-container">
                     <?php
                         $options = "&";
                         $options .= "&rel=0";

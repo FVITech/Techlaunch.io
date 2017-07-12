@@ -25,6 +25,10 @@ function togglePopUpForm(e) {
     } else {
         $popUpForm.find('.title').show()
         $popUpForm.find('.steps').addClass('hidden')
+
+        if(e && e.target.dataset.formProgram) {
+            $popUpForm.find('select[name="program"]').val(e.target.dataset.formProgram)
+        }
     }
 }
 

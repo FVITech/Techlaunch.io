@@ -8,7 +8,7 @@ section.above-the-fold {
         display: flex;
         justify-content: space-between;
         flex-flow: row wrap;
-        align-items: flex-start;
+        align-items: center;
     }
 }
 
@@ -127,25 +127,48 @@ section.above-the-fold .form-container {
 
     .form-input {
         width: 100%;
-        margin: 18px 0;
+        margin: 4px 0;
+
+        @media all and (min-width: 480px) {
+            margin: 18px 0;
+        }
+
+        &.split-2 .split-box {
+            width: 48%;
+        }
 
         label {
             text-transform: uppercase;
             font-weight: 700;
             display: inline-block;
-            font-size: 12px;
+            font-size: 10px;
             letter-spacing: 1px;
+
+            @media all and (min-width: 768px) {
+                font-size: 12px;
+            }
         }
 
-        input {
+        input, select, textarea {
             display: inline-block;
             width: 100%;
-            margin-top: 3px;
+            margin-top: 0px;
             border: 1px solid #ccc;
-            padding: 10px;
+            padding: 7px;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            appearance: none;
+            font-size: 14px;
+            border-radius: 0px;
 
             &::placeholder {
                 color: #999;
+            }
+
+            @media all and (min-width: 375px) {
+                padding: 10px;
+                margin-top: 3px;
+                font-size: 16px;
             }
         }
 

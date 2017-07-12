@@ -31,25 +31,29 @@
                 <div class="form-container">
                     <h2 class="title">Learn how to get started</h2>
                     <form class="get-info-form">
-                        <div class="form-input">
-                            <label>first name</label>
-                            <input type="text" name="first_name">
+                        <div class="form-input split-2">
+                            <div class="split-box">
+                                <label>first name</label>
+                                <input type="text" name="first_name" required>
+                            </div>
+                            <div class="split-box">
+                                <label>last name</label>
+                                <input type="text" name="last_name" required>
+                            </div>
                         </div>
-                        <div class="form-input">
-                            <label>last name</label>
-                            <input type="text" name="last_name">
-                        </div>
-                        <div class="form-input">
-                            <label>phone</label>
-                            <input type="tel" name="phone">
+                        <div class="form-input split-2">
+                            <div class="split-box">
+                                <label>phone</label>
+                                <input type="tel" name="phone">
+                            </div>
+                            <div class="split-box">
+                                <label>zip code</label>
+                                <input type="number" name="zip_code">
+                            </div>
                         </div>
                         <div class="form-input">
                             <label>email</label>
-                            <input type="email" name="email">
-                        </div>
-                        <div class="form-input">
-                            <label>zip code</label>
-                            <input type="number" name="zip">
+                            <input type="email" name="email" required>
                         </div>
                         <input type="text" name="program" value="cyber-security" hidden>
                         <button class="submit-btn" type="submit">get info</button>

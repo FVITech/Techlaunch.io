@@ -1,8 +1,8 @@
 <?php
-    putenv('TWITTER_oauth_access_token=1488767785-PCGaTvlv3iGhmmZgX0WiVyVzFzuoFB16IMvCKZV');
-    putenv('TWITTER_oauth_access_token_secret=Zr0Km97t92LtSbIkF3i2dYtQQN1zEvaizWV0ITEcFy3DR');
-    putenv('TWITTER_consumer_key=irOO79hIVDLZnm0F40qs0zsvt');
-    putenv('TWITTER_consumer_secret=eZLetLQoBJ6A4eXp96PppgzXZidTcX8WycD3yUWtsWBHF7mDXq');
+    putenv('TWITTER_oauth_access_token=3428715683-BArHKiNhDuFqcc9FrMU2dePzGzNqIY67pwSt7bz');
+    putenv('TWITTER_oauth_access_token_secret=RiyY2hcMenhUFfbgApEidgeyXDw59zcPDNk55cBslnqa8');
+    putenv('TWITTER_consumer_key=LS4A3VEYSABeqrkD03UsjEsYl');
+    putenv('TWITTER_consumer_secret=8LaJ6wvjJolEBhiSoapFf3pn0CT8xGNFsN9KkyFePKLRX43C7w');
     // https://stackoverflow.com/questions/12916539/simplest-php-example-for-retrieving-user-timeline-with-twitter-api-version-1-1
     function buildBaseString($baseURI, $method, $params) {
         $r = array();
