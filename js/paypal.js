@@ -76,7 +76,7 @@ function initPayPalButton() {
                 console.log('The payment was completed!');
 
                 $.ajax({
-                    url: `${rootPath}forms/short-programs-form.php`,
+                    url: `${rootPath}forms/tech-skills-upgrade-programs-form.php`,
                     type: 'POST',
                     data: {
                         userData: userData,

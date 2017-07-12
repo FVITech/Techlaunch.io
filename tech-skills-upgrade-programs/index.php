@@ -1,18 +1,18 @@
-<?php $rootPath = '../'; $page = "short-programs"; include('../parts/head.php'); ?>
+<?php $rootPath = '../'; $page = "tech-skills-upgrade-programs"; include('../parts/head.php'); ?>
 <body>
     <?php include('../parts/navbar.php'); ?>
     <?php include('../parts/pop-up-form.php'); ?>
     <?php include('../parts/agreement.php'); ?>
     <?php include('../parts/paypal-pop-up.php'); ?>
 
-    <span class="hidden" id="short-programs-page"></span>
+    <span id="tech-skills-upgrade-programs"></span>
 
     <section class="above-the-fold">
         <div class="container">
             <a href="<?php echo $rootPath ?>">
                 <img src="../images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
-            <h1 class="page-title">short programs</h1>
+            <h1 class="page-title">Tech Skills Upgrades</h1>
             <p class="page-subtitle">Get the skills to push your business or career to the next level</p>
         </div>
     </section>

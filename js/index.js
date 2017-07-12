@@ -8,7 +8,7 @@ require('./canvas.js')
 
 require('./scroll-animations.js')
 
-require('./short-programs.js')
+require('./tech-skills-upgrade-programs.js')
 
 require('./pop-up-form.js')
 
