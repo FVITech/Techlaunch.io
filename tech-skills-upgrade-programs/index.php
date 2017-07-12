@@ -30,8 +30,8 @@
             <h2 class="section-title aws-content switchable appear">Amazon Web Services (AWS)</h2>
             <h2 class="section-title wordpress-content switchable appear">WordPress</h2>
             <div class="intro-content switchable">
-                <p>Take your skills and knowledge to the next level with TechLaunch's short programs. We've designed them to be a great addition to our more immersive programs and they're perfect for those who who have prior experience in web development. The programs give an accelerated understanding without all the risks and frustration of trial and error.</p>
-                <p>Our short programs are made available through a quick and easy online enrollment process.</p>
+                <p>Take your skills and knowledge to the next level with our tech skills upgrade programs. We've designed them to be a great addition to our more immersive programs and they're also perfect for those who have prior experience in web development. The programs give an accelerated understanding without all the risks and frustration of trial and error.</p>
+                <p>Our tech skills upgrade programs are made available through a an easy online enrollment process.</p>
                 <p><strong><em>Please note:</em></strong> Our programs may change from time to time so check back in the future for additions. If you want to know about new programs, subscribe to our newsletters at the bottom of the page and you'll be one of the first to know!</p>
             </div>
             <div class="split-4 aws-content switchable">

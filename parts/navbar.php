@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="menu-section">
-                <a class="menu-header" href="<?php echo $rootPath ?>short-programs/">Short Programs</a>
+                <a class="menu-header" href="<?php echo $rootPath ?>tech-skills-upgrade-programs/">Tech Skills Upgrades</a>
             </div>
             <div class="menu-section">
                 <a class="menu-header dropdown" href="<?php echo $rootPath ?>careerlaunch/">Career Launch &amp; Services</a>
