@@ -5,6 +5,11 @@ let program = null
 let cost = null
 let userData = null
 
+const programsMap = {
+    'aws': 'Amazon Web Services',
+    'wordpress': 'WordPress'
+}
+
 function togglePayPalPopUp(data) {
     if($('div.paypal-pop-up').length === 0) return false
 
@@ -16,7 +21,7 @@ function togglePayPalPopUp(data) {
         cost = data.cost
     }
 
-    $payPalPopUp.find('span.program').text(program)
+    $payPalPopUp.find('span.program').text(programsMap[program])
     $payPalPopUp.find('span.cost').text(cost)
 
     $payPalPopUp.toggleClass('open')
@@ -76,7 +81,7 @@ function initPayPalButton() {
                 console.log('The payment was completed!');
 
                 $.ajax({
-                    url: `${rootPath}forms/tech-skills-upgrade-programs-form.php`,
+                    url: `${rootPath}backend/tech-skills-upgrade-programs-form.php`,
                     type: 'POST',
                     data: {
                         userData: userData,

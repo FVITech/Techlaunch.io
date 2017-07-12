@@ -19,16 +19,16 @@ function togglePopUpForm(e) {
         $popUpForm.find('.get-info-form')[0].dataset.enroll = 'true'
         $popUpForm.find('.title').hide()
         $popUpForm.find('.steps').removeClass('hidden')
-        $popUpForm.find('.form-input:first-of-type').hide(0)
         program = e.target.dataset.formProgram
         cost = e.target.dataset.cost
     } else {
         $popUpForm.find('.title').show()
         $popUpForm.find('.steps').addClass('hidden')
 
-        if(e && e.target.dataset.formProgram) {
-            $popUpForm.find('select[name="program"]').val(e.target.dataset.formProgram)
-        }
+    }
+
+    if(e && e.target.dataset.formProgram) {
+        $popUpForm.find('select[name="program"]').val(e.target.dataset.formProgram)
     }
 }
 
@@ -44,7 +44,7 @@ function sendForm($form) {
     const root = $form.data('rootpath')
 
     $.ajax({
-        url: `${root}forms/get-info-form.php`,
+        url: `${root}backend/get-info-form.php`,
         type: 'POST',
         data: $form.serialize(),
         cache: false

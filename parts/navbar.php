@@ -19,7 +19,12 @@
                 </div>
             </div>
             <div class="menu-section">
-                <a class="menu-header" href="<?php echo $rootPath ?>tech-skills-upgrade-programs/">Tech Skills Upgrades</a>
+                <a class="menu-header dropdown" href="<?php echo $rootPath ?>tech-skills-upgrade-programs/">Tech Skills Upgrades</a>
+                <div class="menu-list">
+                    <a class="mobile-link" href="<?php echo $rootPath ?>tech-skills-upgrade-programs/">Tech Skills Upgrades Summary</a>
+                    <a href="<?php echo $rootPath ?>tech-skills-upgrade-programs/#aws">Amazon Web Services</a>
+                    <a href="<?php echo $rootPath ?>tech-skills-upgrade-programs/#wordpress">WordPress</a>
+                </div>
             </div>
             <div class="menu-section">
                 <a class="menu-header dropdown" href="<?php echo $rootPath ?>careerlaunch/">Career Launch &amp; Services</a>

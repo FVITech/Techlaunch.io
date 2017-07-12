@@ -25,4 +25,24 @@ function initProgramSwitcher() {
     })
 }
 
-initProgramSwitcher()
+function checkUrlAndSwitchProgram() {
+    if(
+        location.hash.indexOf('#wordpress') === 0 ||
+        location.hash.indexOf('#aws') === 0
+    ) {
+        const program = location.hash.slice(1)
+        $(`.programs-bar button[data-program="${program}"]`).click()
+    }
+}
+
+$(document).ready(function() {
+    initProgramSwitcher()
+    checkUrlAndSwitchProgram()
+
+    $('.menu-section a').click(e => {
+        setTimeout(function() {
+            checkUrlAndSwitchProgram()
+        }, 100)
+    })
+
+})

@@ -41,6 +41,8 @@
                                 <option value="--" disabled>-- Select --</option>
                                 <option value="web-developer" selected>Web Developer</option>
                                 <option value="cyber-security">Cyber Security Network Technician</option>
+                                <option value="aws">Amazon Web Services</option>
+                                <option value="wordpress">WordPress</option>
                             </select>
                         </div>
                         <div class="form-input split-2">

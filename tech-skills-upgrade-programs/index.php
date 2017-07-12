@@ -104,8 +104,8 @@
                 </tbody>
             </table>
             <!-- <p class="disclaimer appear">*subject to demand</p> -->
-            <button data-enroll="true" data-cost="$600" data-form-program="AWS" class="enroll appear switchable aws-content">Enroll in AWS</button>
-            <button data-enroll="true" data-cost="$600" data-form-program="WordPress" class="enroll appear switchable wordpress-content">Enroll in WordPress</button>
+            <button data-enroll="true" data-cost="$600" data-form-program="aws" class="enroll appear switchable aws-content">Enroll in AWS</button>
+            <button data-enroll="true" data-cost="$600" data-form-program="wordpress" class="enroll appear switchable wordpress-content">Enroll in WordPress</button>
         </div>
     </section>
 
