@@ -191,8 +191,8 @@
                         <p>Frontend programming in plain JavaScript and jQuery, as well as advanced JavaScript design patterns under MV* frameworks</p>
                     </div>
                     <div class="card appear">
-                        <img class="logo" src="../images/logos/gulp-logo.png" alt="Gulp logo">
-                        <p>How to optimize web pages and employ popular optimization worklows such as Gulp and Apache's mod_pagespeed for blazing fast page load times</p>
+                        <img class="logo" src="../images/logos/webpack-logo.png" alt="Webpack 2 logo">
+                        <p>How to optimize web pages and use bleeding edge development workflows such as minifying and concatenating assets using Webpack 2</p>
                     </div>
                 </div>
                 <div class="image-container">
