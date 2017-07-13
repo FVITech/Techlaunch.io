@@ -10,23 +10,23 @@
     "sass:watch": "node-sass -w css -o css",
     "autoprefixer": "postcss css/**/*.css --use autoprefixer -r",
     "build-css": "npm run sass && npm run autoprefixer",
-    "cleancss": "cleancss css/**/*.css",
-    "build-css-min": "npm run sass && npm run autoprefixer && npm run cleancss"
+    "minify-css": "node minify-css.js",
+    "build-css-min": "npm run sass && npm run autoprefixer && npm run minify-css"
   },
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^7.1.1",
+    "autoprefixer": "^7.1.2",
     "babel-core": "^6.25.0",
-    "babel-loader": "^7.1.0",
-    "babel-preset-env": "^1.5.2",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
     "babel-preset-stage-0": "^6.24.1",
-    "clean-css-cli": "^4.1.5",
+    "clean-css": "^4.1.6",
     "dotenv": "^4.0.0",
     "file-loader": "^0.11.2",
     "node-sass": "^4.5.3",
     "postcss-cli": "^4.1.0",
-    "webpack": "^2.6.1",
-    "webpack-dev-server": "^2.5.0"
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.5.1"
   },
   "dependencies": {
     "carousel-slider": "^1.1.0",

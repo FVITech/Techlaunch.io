@@ -16,12 +16,14 @@ function initProgramSwitcher() {
     $('.programs-bar button').click(e => {
         active = $(e.currentTarget).data('program')
         _switchPrograms(active)
+        location.hash = active
     })
 
     $('.program-card').click(e => {
         active = $(e.currentTarget).data('program')
         _switchPrograms(active)
         $(window).scrollTop($('section.summary').offset().top)
+        location.hash = active
     })
 }
 
