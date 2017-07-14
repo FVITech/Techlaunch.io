@@ -13,13 +13,13 @@ function initProgramSwitcher() {
     let active = $('.programs-bar button.active').data('program')
     _switchPrograms(active)
 
-    $('.programs-bar button').click(e => {
+    $('.programs-bar').on('click', 'button', e => {
         active = $(e.currentTarget).data('program')
         _switchPrograms(active)
         location.hash = active
     })
 
-    $('.program-card').click(e => {
+    $('.program-cards').on('click', '.program-card', e => {
         active = $(e.currentTarget).data('program')
         _switchPrograms(active)
         $(window).scrollTop($('section.summary').offset().top)
@@ -41,7 +41,7 @@ $(document).ready(function() {
     initProgramSwitcher()
     checkUrlAndSwitchProgram()
 
-    $('.menu-section a').click(e => {
+    $('.menu-section.tech-skills-upgrade').on('click', 'a', e => {
         setTimeout(function() {
             checkUrlAndSwitchProgram()
         }, 100)

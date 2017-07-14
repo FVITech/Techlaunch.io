@@ -18,7 +18,7 @@
                     <a href="<?php echo $rootPath ?>cyber-security-and-network-technician/">CyberSecurity and Network Technician</a>
                 </div>
             </div>
-            <div class="menu-section">
+            <div class="menu-section tech-skills-upgrade">
                 <a class="menu-header dropdown" href="<?php echo $rootPath ?>tech-skills-upgrade-programs/">Tech Skills Upgrades</a>
                 <div class="menu-list">
                     <a class="mobile-link" href="<?php echo $rootPath ?>tech-skills-upgrade-programs/">Tech Skills Upgrades Summary</a>

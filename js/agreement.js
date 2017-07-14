@@ -55,6 +55,8 @@ function initAgreement() {
     $agreement.find('button.next').click(onNext)
 }
 
-initAgreement()
+$(document).ready(function() {
+    initAgreement()
+})
 
 module.exports.toggleAgreement = toggleAgreement

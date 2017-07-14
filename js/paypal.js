@@ -107,4 +107,6 @@ function initPayPalButton() {
     }, '#paypal-btn');
 }
 
-initPayPalPopUp()
+$(document).ready(function() {
+    initPayPalPopUp()
+})

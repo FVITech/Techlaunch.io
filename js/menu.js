@@ -24,8 +24,8 @@ $(document).ready(function() {
         $menuBtn.removeClass('close')
     })
 
-    // open/close submenus
-    $('.menu-header.dropdown').on('click', e => {
+    // open/close submenus on mobile devices
+    $('.menu').on('click', '.dropdown', e => {
         if($(window).width() < 992) {
             e.preventDefault()
 

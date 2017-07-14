@@ -96,10 +96,14 @@ function onFormSubmit(e) {
     sendForm($(e.currentTarget))
 }
 
-$('.get-more-info').click(togglePopUpForm)
-$('#navbar .get-info').click(togglePopUpForm)
-$('.enroll').click(togglePopUpForm)
-$('#pop-up-form .close-btn').click(togglePopUpForm)
-$('.pop-up-form-overlay').click(togglePopUpForm)
+$(document).ready(function() {
+    // button click listeners
+    $('.get-more-info').click(togglePopUpForm)
+    $('#navbar .get-info').click(togglePopUpForm)
+    $('.enroll').click(togglePopUpForm)
+    $('#pop-up-form .close-btn').click(togglePopUpForm)
+    $('.pop-up-form-overlay').click(togglePopUpForm)
 
-$('.get-info-form').submit(onFormSubmit)
+    // on form submit
+    $('.get-info-form').submit(onFormSubmit)
+})
