@@ -81,7 +81,11 @@
     <section class="program-overview">
         <div class="container">
             <h2 class="section-title appear">Program Overview</h2>
-            <p class="subtitle appear">Techlaunch offers a more robust program than traditional short-term coding boot camps. Come with passion and leave with a valuable skill set you can put to work.</p>
+            <div class="split-3">
+                <p class="split-box subtitle appear">Our in-person Web Development courses are designed for busy adults who can't quit their day jobs but are driven to boost their professional skills or change their career.</p>
+                <p class="split-box subtitle appear">Few Coding Schools offer the length and breadth of material that we do. We are a Computer Programming School devoted to creating Web Application Developers with sound Computer Science skills. Our curriculum is designed to be completed in a dense, but realistic time frame of nine months.</p>
+                <p class="split-box subtitle appear">By the end of the 9-month program, each student will have their own portfolio full of web applications, something which university graduates lack and employers desperately seek.</p>
+            </div>
             <div class="cards-container">
                 <div class="left">
                     <div class="card appear">
@@ -118,6 +122,31 @@
                         <img src="../images/icons/graduate.png" alt="">
                         <p>Complete the program with a Diploma and a Portfolio of work to show prospective employers</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-we-compare">
+        <h2 class="section-title appear">How We Compare</h2>
+        <div class="content">
+            <p class="section-subtitle appear delay-200">You don't have to give up your day job to take our classes</p>
+            <div class="split-3">
+                <div class="split-box appear">
+                    <h4>Coding Bootcamps</h4>
+                    <p>The South Florida region offers a handful of coding bootcamps. These programs are often effective, but they take place during the work day and do not offer financial aid. The technology programs at Techlaunch take place during the evenings and therefore don't interfere with the 9-5 career schedule and financial aid can cover the majority of tuition costs.</p>
+                    <p>Most importantly, the coding bootcamps are 320 total hours while Techlaunch's program is 720 total hours. We think 320 hours is barely enough time to become a web developer, let alone a strong one. There are no shortcuts--you will become a strong web developer by the end of our program.</p>
+                </div>
+                <div class="split-box appear delay-300">
+                    <h4>Computer Science Degrees</h4>
+                    <p>A computer science degree will give you an excellent understanding of computers and the internet, but it won't give you any coding skills to apply your knowledge. You won't have a portoflio of projects proving you can make stuff.</p>
+                    <p>A developer's portfolio is the most important part of their resume.</p>
+                    <p>By the end of Techlaunch's Web Developer program, you will have a rich portfolio full of varied, in-depth, relevant projects.</p>
+                </div>
+                <div class="split-box appear delay-600">
+                    <h4>Online Programs</h4>
+                    <p>There are a few different online coding schools and websites that can take a beginner from amateur to intermediate however, online programs are notorious for low completion rates.</p>
+                    <p>As a student in Techlaunch's Web Developer program, you will be learning and coding with a professional web developer in the same room who can immediately answer any questions, look at your code, and offer you feedback and encouragement. Such a close student-mentor relationship cannot be found in online programs.</p>
                 </div>
             </div>
         </div>

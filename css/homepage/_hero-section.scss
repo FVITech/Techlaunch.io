@@ -1,4 +1,4 @@
-section.launch {
+section.hero {
     background-color: $fvi-blue;
     color: #fff;
     display: flex;
@@ -23,21 +23,6 @@ section.launch {
             padding-top: 0;
         }
 
-        .image {
-            width: 110%;
-            left: -10%;
-            padding-top: 30px;
-
-            @media all and (min-width: 768px) {
-                width: auto;
-                padding-top: 0;
-                height: 90%;
-                position: absolute;
-                bottom: 0;
-                left: -30%;
-            }
-        }
-
         h2 {
             text-transform: uppercase;
             font-weight: 800;
@@ -48,6 +33,7 @@ section.launch {
             width: 100%;
             text-align: center;
             margin-top: 20px;
+            z-index: 1;
 
             @media all and (min-width: 768px) {
                 width: 50%;
@@ -58,6 +44,38 @@ section.launch {
 
             @media all and (min-width: 1400px) {
                 font-size: 30px;
+            }
+        }
+
+        // .image {
+        //     width: 110%;
+        //     left: -10%;
+        //     padding-top: 30px;
+        //
+        //     @media all and (min-width: 768px) {
+        //         width: auto;
+        //         padding-top: 0;
+        //         height: 90%;
+        //         position: absolute;
+        //         bottom: 0;
+        //         left: -30%;
+        //     }
+        // }
+        .image {
+            width: 90%;
+            left: -15px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+
+            @media all and (min-width: 768px) {
+                width: auto;
+                padding-top: 0;
+                padding-bottom: 0;
+                height: 90%;
+                position: absolute;
+                bottom: 10px;
+                left: 15px;
+                z-index: 0;
             }
         }
     }

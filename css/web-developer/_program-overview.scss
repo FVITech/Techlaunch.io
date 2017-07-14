@@ -6,13 +6,14 @@ section.program-overview {
         text-align: center;
     }
 
-    .subtitle {
-        max-width: 800px;
-        text-align: center;
-        line-height: 1.7;
-        font-size: 20px;
-        font-weight: 300;
-        margin: 40px auto 60px;
+    .split-box {
+        font-size: 14px;
+        padding: 15px;
+        margin: 0;
+
+        @media all and (min-width: 768px) {
+            text-align: center;
+        }
     }
 }
 
@@ -21,6 +22,7 @@ section.program-overview .cards-container {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    padding-top: 20px;
 
     .left,
     .right {
@@ -41,12 +43,18 @@ section.program-overview .cards-container {
         }
 
         img {
-            width: 70px;
+            width: 40px;
             margin-right: 20px;
         }
 
         p {
             margin: 0;
+            font-size: 14px;
+            font-weight: 700;
+
+            @media all and (min-width: 768px) {
+                font-size: 16px;
+            }
         }
     }
 }

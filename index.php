@@ -20,11 +20,12 @@
         </div>
     </section>
 
-    <section class="launch">
+    <section class="hero">
         <div class="split-3">
             <div class="split-box">
-                <h2>Become a Hero in the Tech Industry</h2>
-                <img class="image" src="<?php echo $rootPath ?>images/people/hero_dad_bod.png" alt="Tech Hero">
+                <h2>Become a Hero in the Tech Industry!</h2>
+                <!-- <img class="image" src="<?php echo $rootPath ?>images/people/hero_dad_bod.png" alt="Tech Hero"> -->
+                <img class="image" src="<?php echo $rootPath ?>images/super-hero.png" alt="Tech Hero">
             </div>
             <div class="split-box">
                 <div class="video-container">
