@@ -24,21 +24,21 @@
             <div class="form-input split-2">
                 <div class="split-box">
                     <label>first name</label>
-                    <input type="text" name="first_name" required>
+                    <input type="text" name="fname" required>
                 </div>
                 <div class="split-box">
                     <label>last name</label>
-                    <input type="text" name="last_name" required>
+                    <input type="text" name="lname" required>
                 </div>
             </div>
             <div class="form-input split-2">
                 <div class="split-box">
                     <label>phone</label>
-                    <input type="tel" name="phone">
+                    <input type="tel" name="day_phone">
                 </div>
                 <div class="split-box">
                     <label>zip code</label>
-                    <input type="number" name="zip_code">
+                    <input type="number" name="zipcode">
                 </div>
             </div>
             <div class="form-input">
