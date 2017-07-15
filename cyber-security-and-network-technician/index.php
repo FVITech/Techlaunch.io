@@ -232,10 +232,10 @@
     <section class="hiring-partners">
         <h2 class="section-title appear">Hiring Partners</h2>
         <div class="logos-container">
-            <img class="appear" src="../images/logos/microsoft.png" alt="Microsoft logo">
-            <img class="appear" src="../images/logos/google.png" alt="Google logo">
-            <img class="appear" src="../images/logos/amazon.png" alt="Amazon logo">
-            <img class="appear" src="../images/logos/facebook.png" alt="Facebook logo">
+            <img src="../images/logos/microsoft.png" alt="Microsoft logo">
+            <img src="../images/logos/google.png" alt="Google logo">
+            <img src="../images/logos/amazon.png" alt="Amazon logo">
+            <img src="../images/logos/facebook.png" alt="Facebook logo">
         </div>
     </section>
 
