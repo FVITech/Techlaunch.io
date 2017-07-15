@@ -3,7 +3,7 @@
   $page = "thank-you";
   include('../parts/head.php');
   include('../parts/navbar.php');
-  include('../parts/pop-up-form.php');
+  include('../parts/get-info-form.php');
 ?>
 <body id="thanks">
 
@@ -89,5 +89,8 @@
     }
     setTimeout(step, 3000);
   </script>
+
+  <?php $rootPath = '../'; include('../parts/footer.php') ?>
+  <?php $rootPath = '../'; include('../parts/bottom.php') ?>
 </body>
 </html>

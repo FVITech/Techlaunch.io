@@ -5,30 +5,30 @@ const escape = require('escape-html')
 let rootPath = null
 let program = null
 let cost = null
-const $popUpForm = $('#pop-up-form')
+const $getInfoForm = $('#get-info-form')
 
-function togglePopUpForm(e) {
-    $popUpForm.find('.form-input:first-of-type').show(0)
-    $popUpForm.find('.user-feedback').removeClass('success error').text('')
-    $popUpForm.find('.submit-btn').show()
-    $popUpForm.find('input[name="first_name"]').focus()
-    $popUpForm.find('.get-info-form')[0].dataset.enroll = 'false'
-    $popUpForm.toggleClass('open')
+function toggleGetInfoForm(e) {
+    $getInfoForm.find('.form-input:first-of-type').show(0)
+    $getInfoForm.find('.user-feedback').removeClass('success error').text('')
+    $getInfoForm.find('.submit-btn').show()
+    $getInfoForm.find('input[name="first_name"]').focus()
+    $getInfoForm.find('form')[0].dataset.enroll = 'false'
+    $getInfoForm.toggleClass('open')
 
     if(e && e.target.dataset.enroll === 'true') {
-        $popUpForm.find('.get-info-form')[0].dataset.enroll = 'true'
-        $popUpForm.find('.title').hide()
-        $popUpForm.find('.steps').removeClass('hidden')
+        $getInfoForm.find('form')[0].dataset.enroll = 'true'
+        $getInfoForm.find('.title').hide()
+        $getInfoForm.find('.steps').removeClass('hidden')
         program = e.target.dataset.formProgram
         cost = e.target.dataset.cost
     } else {
-        $popUpForm.find('.title').show()
-        $popUpForm.find('.steps').addClass('hidden')
+        $getInfoForm.find('.title').show()
+        $getInfoForm.find('.steps').addClass('hidden')
 
     }
 
     if(e && e.target.dataset.formProgram) {
-        $popUpForm.find('select[name="program"]').val(e.target.dataset.formProgram)
+        $getInfoForm.find('select[name="program"]').val(e.target.dataset.formProgram)
     }
 }
 
@@ -80,7 +80,7 @@ function onFormSubmit(e) {
             zip: escape($(e.target).find('input[name="zip_code"]').val())
         }
 
-        togglePopUpForm(null)
+        toggleGetInfoForm(null)
         resetForm($(e.currentTarget))
         setTimeout(() => {
             toggleAgreement({
@@ -98,12 +98,12 @@ function onFormSubmit(e) {
 
 $(document).ready(function() {
     // button click listeners
-    $('.get-more-info').click(togglePopUpForm)
-    $('#navbar .get-info').click(togglePopUpForm)
-    $('.enroll').click(togglePopUpForm)
-    $('#pop-up-form .close-btn').click(togglePopUpForm)
-    $('.pop-up-form-overlay').click(togglePopUpForm)
+    $('.get-more-info').click(toggleGetInfoForm)
+    $('#navbar .get-info').click(toggleGetInfoForm)
+    $('.enroll').click(toggleGetInfoForm)
+    $('#get-info-form .close-btn').click(toggleGetInfoForm)
+    $('.get-info-form-overlay').click(toggleGetInfoForm)
 
     // on form submit
-    $('.get-info-form').submit(onFormSubmit)
+    $('#get-info-form form').submit(onFormSubmit)
 })

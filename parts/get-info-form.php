@@ -1,5 +1,5 @@
-<div id="pop-up-form">
-    <div class="pop-up-form-overlay"></div>
+<div id="get-info-form" class="<?php echo $classes ?>">
+    <div class="get-info-form-overlay"></div>
     <div class="form-container">
         <h2 class="title">Learn how to get started</h2>
         <div class="steps">
@@ -10,7 +10,7 @@
             <span class="step">Step 3</span>
         </div>
         <i class="close-btn fa fa-times-circle" aria-hidden="true"></i>
-        <form class="get-info-form" data-rootpath="<?php echo $rootPath ?>" data-enroll="false">
+        <form data-rootpath="<?php echo $rootPath ?>" data-enroll="false">
             <div class="form-input">
                 <label>Program of Interest</label>
                 <select name="program">

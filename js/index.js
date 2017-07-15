@@ -10,7 +10,7 @@ require('./scroll-animations.js')
 
 require('./tech-skills-upgrade-programs.js')
 
-require('./pop-up-form.js')
+require('./get-info-form.js')
 
 require('./agreement.js')
 

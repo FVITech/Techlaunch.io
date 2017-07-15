@@ -5,7 +5,7 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <?php include('parts/navbar.php'); ?>
-    <?php include('parts/pop-up-form.php'); ?>
+    <?php include('parts/get-info-form.php'); ?>
     <section class="above-the-fold">
         <div class="container">
             <a href="<?php echo $rootPath ?>">
