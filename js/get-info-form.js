@@ -28,20 +28,21 @@ function resetForm($form) {
 }
 
 function sendForm($form) {
-    const root = $form.data('rootpath')
 
     $.ajax({
-        url: `${root}backend/get-info-form.php`,
-        type: 'POST',
+        url: `https://secure.velocify.com/Import.aspx?Provider=FacebookAds&Client=30010&CampaignId=1101&URL=http://techlaunch.io/thank-you?referrerpage=http://www.techlaunch.io`,
+        method: 'POST',
         data: $form.serialize(),
         cache: false
     })
     .done(function(response) {
+        console.log('get-info-form response:');
+        console.log(response);
         $form.find('.submit-btn').hide(0)
         $form.find('.user-feedback').addClass('success').text('Message sent successfully!')
         setTimeout(function() {
             resetForm($form)
-        }, 2000)
+        }, 4000)
     })
     .fail(function(err) {
         console.log(err);
@@ -49,7 +50,7 @@ function sendForm($form) {
         $form.find('.user-feedback').addClass('error').text('Sorry! This form is broken...')
         setTimeout(function() {
             resetForm($form)
-        }, 2000)
+        }, 4000)
     })
 }
 module.exports.sendForm = sendForm

@@ -10,7 +10,7 @@
             <span class="step">Step 3</span>
         </div> -->
         <i class="close-btn fa fa-times-circle" aria-hidden="true"></i>
-        <form data-rootpath="<?php echo $rootPath ?>">
+        <form>
             <div class="form-input">
                 <label>Program of Interest</label>
                 <select name="program">
