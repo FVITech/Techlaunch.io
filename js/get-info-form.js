@@ -1,5 +1,4 @@
 const $ = require('jquery')
-const { toggleAgreement } = require('./agreement.js')
 const escape = require('escape-html')
 
 let rootPath = null
