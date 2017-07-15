@@ -1,24 +1,24 @@
-<div id="get-info-form" class="<?php echo $classes ?>">
+<div class="get-info-form <?php echo $classes ?>">
     <div class="get-info-form-overlay"></div>
     <div class="form-container">
         <h2 class="title">Learn how to get started</h2>
-        <div class="steps">
+        <!-- <div class="steps">
             <span class="step active">Step 1</span>
             <span class="connector"></span>
             <span class="step">Step 2</span>
             <span class="connector"></span>
             <span class="step">Step 3</span>
-        </div>
+        </div> -->
         <i class="close-btn fa fa-times-circle" aria-hidden="true"></i>
-        <form data-rootpath="<?php echo $rootPath ?>" data-enroll="false">
+        <form data-rootpath="<?php echo $rootPath ?>">
             <div class="form-input">
                 <label>Program of Interest</label>
                 <select name="program">
-                    <option value="--" disabled selected>-- Select --</option>
-                    <option value="web-developer">Web Developer</option>
-                    <option value="cyber-security">Cyber Security Network Technician</option>
-                    <option value="aws">Amazon Web Services</option>
-                    <option value="wordpress">WordPress</option>
+                    <option value="--" disabled <?php if($program == '' || !$program) echo 'selected' ?>>-- Select --</option>
+                    <option value="web-developer" <?php if($program == 'web-developer') echo 'selected' ?>>Web Developer</option>
+                    <option value="cyber-security" <?php if($program == 'cyber-security') echo 'selected' ?>>Cyber Security Network Technician</option>
+                    <option value="aws" <?php if($program == 'aws') echo 'selected' ?>>Amazon Web Services</option>
+                    <option value="wordpress" <?php if($program == 'wordpress') echo 'selected' ?>>WordPress</option>
                 </select>
             </div>
             <div class="form-input split-2">

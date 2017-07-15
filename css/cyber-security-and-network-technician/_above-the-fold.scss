@@ -105,143 +105,35 @@ section.above-the-fold .text-box {
     }
 }
 
-section.above-the-fold .form-container {
-    background-color: #eee;
-    padding: 15px;
-    max-width: 400px;
+section.above-the-fold .get-info-form.on-page {
+    // undo base form styles
+    position: relative;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    opacity: 1;
+    transition: 0s;
+
+    .get-info-form-overlay {
+        display: none;
+    }
+
+    .close-btn {
+        display: none;
+    }
+}
+
+section.above-the-fold .get-info-form.on-page .form-container {
+    // undo base styles
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: auto;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    opacity: 1;
+
+    // on-page form styles
     box-shadow: 0 3px 8px -1px rgba(0, 0, 0, .7);
-
-    @media all and (min-width: 480px) {
-        padding: 30px;
-    }
-
-    .title {
-        text-align: center;
-        font-weight: 300;
-        font-size: 28px;
-        margin: auto;
-        margin-bottom: 10px;
-        line-height: 1;
-        color: #555;
-    }
-
-    .form-input {
-        width: 100%;
-        margin: 4px 0;
-
-        @media all and (min-width: 480px) {
-            margin: 18px 0;
-        }
-
-        &.split-2 .split-box {
-            width: 48%;
-        }
-
-        label {
-            text-transform: uppercase;
-            font-weight: 700;
-            display: inline-block;
-            font-size: 10px;
-            letter-spacing: 1px;
-
-            @media all and (min-width: 768px) {
-                font-size: 12px;
-            }
-        }
-
-        input, select, textarea {
-            display: inline-block;
-            width: 100%;
-            margin-top: 0px;
-            border: 1px solid #ccc;
-            padding: 7px;
-            -moz-appearance: none;
-            -webkit-appearance: none;
-            appearance: none;
-            font-size: 14px;
-            border-radius: 0px;
-
-            &::placeholder {
-                color: #999;
-            }
-
-            @media all and (min-width: 375px) {
-                padding: 10px;
-                margin-top: 3px;
-                font-size: 16px;
-            }
-        }
-
-        select {
-            background-image: url('../../images/select-arrows.png');
-            background-size: auto 50%;
-            background-position: 98% 50%;
-            background-repeat: no-repeat;
-        }
-
-        input::-webkit-outer-spin-button,
-        input::-webkit-inner-spin-button {
-            -webkit-appearance: none;
-            appearance: none;
-            margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
-        }
-    }
-
-    button {
-        display: block;
-        text-transform: uppercase;
-        color: #fff;
-        margin: 30px auto;
-        width: 180px;
-        padding: 14px;
-        border: none;
-        background-color: $fvi-blue;
-        font-weight: 700;
-        font-size: 14px;
-        cursor: pointer;
-        box-shadow: 0 2px 3px -1px rgba(0, 0, 0, .8);
-        transform: translateY(-2px);
-
-        &:focus,
-        &:hover {
-            outline: none;
-            background-color: darken($fvi-blue, 10%);
-        }
-
-        &:active {
-            transition: all 0s;
-            box-shadow: none;
-            transform: translateY(0);
-        }
-    }
-
-    .success,
-    .error {
-        background-color: #61C754;
-        color: #fff;
-        border-radius: 3px;
-        padding: 10px;
-        width: 100%;
-        display: block;
-        font-weight: 700;
-        font-size: 14px;
-        text-align: center;
-        margin: 20px auto;
-
-        @media all and (min-width: 375px) {
-            padding: 14px;
-            margin: 30px auto;
-        }
-    }
-
-    .error {
-        background-color: #EC6B60;
-    }
-
-    .disclosure {
-        font-size: 10px;
-        line-height: 1.2;
-        margin: 0;
-        color: #666;
-    }
 }

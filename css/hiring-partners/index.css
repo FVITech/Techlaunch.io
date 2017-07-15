@@ -1417,7 +1417,7 @@ footer .fourth p {
   height: auto;
   padding: 5px 0; }
 
-#get-info-form {
+.get-info-form {
   position: fixed;
   width: 100%;
   height: 100vh;
@@ -1425,12 +1425,12 @@ footer .fourth p {
   opacity: 0;
   transition: all 300ms; }
 
-#get-info-form .get-info-form-overlay {
+.get-info-form .get-info-form-overlay {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8); }
 
-#get-info-form .form-container {
+.get-info-form .form-container {
   position: absolute;
   top: 3vw;
   left: 50%;
@@ -1445,10 +1445,10 @@ footer .fourth p {
   opacity: 0; }
 
 @media all and (min-width: 480px) {
-  #get-info-form .form-container {
+  .get-info-form .form-container {
     padding: 30px; } }
 
-#get-info-form .form-container .title {
+.get-info-form .form-container .title {
   font-weight: 300;
   font-size: 22px;
   margin: auto;
@@ -1457,60 +1457,28 @@ footer .fourth p {
   color: #555; }
 
 @media all and (min-width: 375px) {
-  #get-info-form .form-container .title {
+  .get-info-form .form-container .title {
     font-size: 26px; } }
 
-#get-info-form .form-container .steps {
-  display: flex;
-  justify-content: space-between; }
-
-#get-info-form .form-container .steps.hidden {
-  display: none; }
-
-#get-info-form .form-container .steps .step {
-  display: inline-block;
-  background-color: #fff;
-  border: 3px solid #ccc;
-  font-size: 12px;
-  padding: 6px 10px;
-  border-radius: 100px;
-  text-transform: uppercase;
-  font-weight: 700;
-  width: 64px; }
-
-#get-info-form .form-container .steps .step.active {
-  border-color: #0090EC; }
-
-#get-info-form .form-container .steps .connector {
-  content: '';
-  display: inline-block;
-  width: calc((100% - 192px) / 2);
-  height: 3px;
-  top: 14px;
-  background-color: #ccc; }
-
-#get-info-form .form-container .steps .connector.active {
-  background-color: #0090EC; }
-
-#get-info-form .form-container .close-btn {
+.get-info-form .form-container .close-btn {
   position: absolute;
   top: 4px;
   right: 5px;
   color: #EC6B60;
   cursor: pointer; }
 
-#get-info-form .form-container .form-input {
+.get-info-form .form-container .form-input {
   width: 100%;
   margin: 4px 0; }
 
 @media all and (min-width: 480px) {
-  #get-info-form .form-container .form-input {
+  .get-info-form .form-container .form-input {
     margin: 18px 0; } }
 
-#get-info-form .form-container .form-input.split-2 .split-box {
+.get-info-form .form-container .form-input.split-2 .split-box {
   width: 48%; }
 
-#get-info-form .form-container .form-input label {
+.get-info-form .form-container .form-input label {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
@@ -1518,10 +1486,10 @@ footer .fourth p {
   letter-spacing: 1px; }
 
 @media all and (min-width: 768px) {
-  #get-info-form .form-container .form-input label {
+  .get-info-form .form-container .form-input label {
     font-size: 12px; } }
 
-#get-info-form .form-container .form-input input, #get-info-form .form-container .form-input select, #get-info-form .form-container .form-input textarea {
+.get-info-form .form-container .form-input input, .get-info-form .form-container .form-input select, .get-info-form .form-container .form-input textarea {
   display: inline-block;
   width: 100%;
   margin-top: 0px;
@@ -1533,29 +1501,29 @@ footer .fourth p {
   font-size: 14px;
   border-radius: 0px; }
 
-#get-info-form .form-container .form-input input::placeholder, #get-info-form .form-container .form-input select::placeholder, #get-info-form .form-container .form-input textarea::placeholder {
+.get-info-form .form-container .form-input input::placeholder, .get-info-form .form-container .form-input select::placeholder, .get-info-form .form-container .form-input textarea::placeholder {
   color: #999; }
 
 @media all and (min-width: 375px) {
-  #get-info-form .form-container .form-input input, #get-info-form .form-container .form-input select, #get-info-form .form-container .form-input textarea {
+  .get-info-form .form-container .form-input input, .get-info-form .form-container .form-input select, .get-info-form .form-container .form-input textarea {
     padding: 10px;
     margin-top: 3px;
     font-size: 16px; } }
 
-#get-info-form .form-container .form-input select {
+.get-info-form .form-container .form-input select {
   background-image: url("../../images/select-arrows.png");
   background-size: auto 50%;
   background-position: 98% 50%;
   background-repeat: no-repeat; }
 
-#get-info-form .form-container .form-input input::-webkit-outer-spin-button,
-#get-info-form .form-container .form-input input::-webkit-inner-spin-button {
+.get-info-form .form-container .form-input input::-webkit-outer-spin-button,
+.get-info-form .form-container .form-input input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   appearance: none;
   margin: 0;
   /* <-- Apparently some margin are still there even though it's hidden */ }
 
-#get-info-form .form-container .submit-btn {
+.get-info-form .form-container .submit-btn {
   display: block;
   text-transform: uppercase;
   color: #fff;
@@ -1570,25 +1538,25 @@ footer .fourth p {
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.8);
   transform: translateY(-2px); }
 
-#get-info-form .form-container .submit-btn:focus, #get-info-form .form-container .submit-btn:hover {
+.get-info-form .form-container .submit-btn:focus, .get-info-form .form-container .submit-btn:hover {
   outline: none;
   background-color: #0071b9; }
 
-#get-info-form .form-container .submit-btn:active {
+.get-info-form .form-container .submit-btn:active {
   transition: all 0s;
   box-shadow: none;
   transform: translateY(0); }
 
 @media all and (min-width: 480px) {
-  #get-info-form .form-container .submit-btn {
+  .get-info-form .form-container .submit-btn {
     padding: 14px;
     margin: 30px auto; } }
 
-#get-info-form .form-container .user-feedback {
+.get-info-form .form-container .user-feedback {
   transition: all 0s; }
 
-#get-info-form .form-container .success,
-#get-info-form .form-container .error {
+.get-info-form .form-container .success,
+.get-info-form .form-container .error {
   background-color: #61C754;
   color: #fff;
   border-radius: 3px;
@@ -1601,15 +1569,15 @@ footer .fourth p {
   margin: 20px auto; }
 
 @media all and (min-width: 375px) {
-  #get-info-form .form-container .success,
-  #get-info-form .form-container .error {
+  .get-info-form .form-container .success,
+  .get-info-form .form-container .error {
     padding: 14px;
     margin: 30px auto; } }
 
-#get-info-form .form-container .error {
+.get-info-form .form-container .error {
   background-color: #EC6B60; }
 
-#get-info-form .form-container .disclosure {
+.get-info-form .form-container .disclosure {
   font-size: 10px;
   line-height: 1.2;
   margin: 0;
@@ -1623,11 +1591,11 @@ footer .fourth p {
     opacity: 1;
     transform: translateY(0) translateX(-50%); } }
 
-#get-info-form.open {
+.get-info-form.open {
   z-index: 999;
   opacity: 1; }
 
-#get-info-form.open .form-container {
+.get-info-form.open .form-container {
   animation-name: form-appear;
   animation-duration: 700ms;
   animation-delay: 100ms;
