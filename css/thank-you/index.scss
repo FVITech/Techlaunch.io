@@ -1,0 +1,72 @@
+// shared
+@import "../normalize";
+@import "../helpers";
+@import "../base";
+@import "../navbar/navbar";
+@import "../navbar/menu-overlay";
+@import "../navbar/menu-button";
+@import "../navbar/menu";
+@import "../pop-up-form";
+
+@keyframes monkey-fly{
+  0%{
+    transform: translate(0,0);
+  }
+
+  100%{
+    transform: translate(-120vw, -120vh);
+  }
+}
+@keyframes thanks{
+  0%{
+    transform: translateX(-50%) scale(0.5, 0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(-50%) scale(1,1);
+    opacity: 1;
+  }
+}
+#thanks {
+  background-color: $fvi-blue;
+  height: 100vh;
+
+  #clouds{
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100vw;
+  }
+  #monkey{
+    position:fixed;
+    right:-25vw;
+    width: 25vw;
+    top: 100vh;
+    animation: monkey-fly 3s linear;
+  }
+  #thank-you{
+    width: 30vw;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    animation: thanks 2s cubic-bezier(.14,1.77,.36,.68) 1s forwards;
+    @media (max-width:768px){
+      top: 80px;
+    }
+  }
+  h1{
+    color: rgb(254,252,228);
+    position: fixed;
+    bottom: 20vh;
+    text-shadow: 1px 1px 3px #333;
+    text-align: center;
+    left:50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    animation: thanks 2s cubic-bezier(.14,1.77,.36,.68) 2s forwards;
+  }
+  #canvas{
+    position:fixed;
+  }
+}
