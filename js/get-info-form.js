@@ -56,9 +56,9 @@ function sendForm($form) {
 module.exports.sendForm = sendForm
 
 function onFormSubmit(e) {
-    e.preventDefault()
+    
+    //could have validation code here returning false on any error
 
-    sendForm($(e.currentTarget))
 }
 
 $(document).ready(function() {

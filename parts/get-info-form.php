@@ -9,16 +9,20 @@
             <span class="connector"></span>
             <span class="step">Step 3</span>
         </div> -->
+        <?php
+          $url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+          $escaped_url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' );
+        ?>
         <i class="close-btn fa fa-times-circle" aria-hidden="true"></i>
-        <form>
+        <form method="POST" action="https://secure.velocify.com/Import.aspx?Provider=TechLaunchWebsite&Client=30010&CampaignId=1101&URL=https://www.techlaunch.io/thank-you&referrerpage=<?php echo $escaped_url; ?>">
             <div class="form-input">
                 <label>Program of Interest</label>
                 <select name="program">
-                    <option value="--" disabled <?php if($program == '' || !$program) echo 'selected' ?>>-- Select --</option>
-                    <option value="web-developer" <?php if($program == 'web-developer') echo 'selected' ?>>Web Developer</option>
-                    <option value="cyber-security" <?php if($program == 'cyber-security') echo 'selected' ?>>Cyber Security Network Technician</option>
-                    <option value="aws" <?php if($program == 'aws') echo 'selected' ?>>Amazon Web Services</option>
-                    <option value="wordpress" <?php if($program == 'wordpress') echo 'selected' ?>>WordPress</option>
+                    <option value="--" disabled <?php if ( !isset($program) || $program = '') echo 'selected' ?>>-- Select --</option>
+                    <option value="web-developer" <?php if( isset($program) && $program == 'web-developer') echo 'selected' ?>>Web Developer</option>
+                    <option value="cyber-security" <?php if(isset($program) && $program == 'cyber-security') echo 'selected' ?>>Cyber Security Network Technician</option>
+                    <option value="aws" <?php if(isset($program) && $program == 'aws') echo 'selected' ?>>Amazon Web Services</option>
+                    <option value="wordpress" <?php if(isset($program) && $program == 'wordpress') echo 'selected' ?>>WordPress</option>
                 </select>
             </div>
             <div class="form-input split-2">
