@@ -4,16 +4,18 @@ const escape = require('escape-html')
 let rootPath = null
 let program = null
 let cost = null
-const $getInfoForm = $('.get-info-form:not(.on-page)')
+const $getInfoForms = $('.get-info-form')
+const $popUpForm = $('.get-info-form:not(.on-page)')
+const $onPageForm = $('.get-info-form.on-page')
 
 function toggleGetInfoForm(e) {
-    $getInfoForm.find('.user-feedback').removeClass('success error').text('')
-    $getInfoForm.find('.submit-btn').show()
-    $getInfoForm.find('input[name="first_name"]').focus()
-    $getInfoForm.toggleClass('open')
+    $popUpForm.find('.user-feedback').removeClass('success error').text('')
+    $popUpForm.find('.submit-btn').show()
+    $popUpForm.find('input[name="first_name"]').focus()
+    $popUpForm.toggleClass('open')
 
     if(e && e.target.dataset.formProgram) {
-        $getInfoForm.find('select[name="program"]').val(e.target.dataset.formProgram)
+        $popUpForm.find('select[name="program"]').val(e.target.dataset.formProgram)
     }
 }
 

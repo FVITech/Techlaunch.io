@@ -10,14 +10,15 @@
     //         echo "No arguments Provided!";
     //         return false;
     //     }
-    $first_name = strip_tags(htmlspecialchars($_POST['first_name']));
-    $last_name = strip_tags(htmlspecialchars($_POST['last_name']));
+    $first_name = strip_tags(htmlspecialchars($_POST['fname']));
+    $last_name = strip_tags(htmlspecialchars($_POST['lname']));
     $email_address = strip_tags(htmlspecialchars($_POST['email']));
-    $phone = strip_tags(htmlspecialchars($_POST['phone']));
-    $zip_code = strip_tags(htmlspecialchars($_POST['zip_code']));
+    $phone = strip_tags(htmlspecialchars($_POST['day_phone']));
+    $zip_code = strip_tags(htmlspecialchars($_POST['zipcode']));
     $program = strip_tags(htmlspecialchars($_POST['progam']));
     // Create the email and send the message
-    $to = 'ebrodie@nuovometo.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+    // $to = 'ebrodie@nuovometo.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+    $to = 'brenton.cozby@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
     $email_subject = "Techlaunch.io Contact Form: $first_name $last_name";
     $email_body = "You have received a new message from the Techlaunch.io contact form.\n\n";
     $email_body .= "Here are the details:\n\nName: $first_name $last_name\n\n";
