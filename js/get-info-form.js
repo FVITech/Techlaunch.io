@@ -8,15 +8,15 @@ const $getInfoForms = $('.get-info-form')
 const $popUpForm = $('.get-info-form:not(.on-page)')
 const $onPageForm = $('.get-info-form.on-page')
 
-function toggleGetInfoForm(e) {
+function openForm(e) {
+    $popUpForm.find('input[name="fname"]').focus()
+    $popUpForm.addClass('open')
+}
+
+function closeForm(e) {
     $popUpForm.find('.user-feedback').removeClass('success error').text('')
     $popUpForm.find('.submit-btn').show()
-    $popUpForm.find('input[name="fname"]').focus()
-    $popUpForm.toggleClass('open')
-
-    if(e && e.target.dataset.formProgram) {
-        $popUpForm.find('select[name="program"]').val(e.target.dataset.formProgram)
-    }
+    $popUpForm.removeClass('open')
 }
 
 function resetForm($form) {
@@ -63,11 +63,10 @@ function onFormSubmit(e) {
 
 $(document).ready(function() {
     // button click listeners
-    $('.get-more-info').click(toggleGetInfoForm)
-    $('#navbar .get-info').click(toggleGetInfoForm)
-    $('.enroll').click(toggleGetInfoForm)
-    $('.get-info-form .close-btn').click(toggleGetInfoForm)
-    $('.get-info-form-overlay').click(toggleGetInfoForm)
+    $('.get-more-info').click(openForm)
+    $('#navbar .get-info').click(openForm)
+    $('.get-info-form .close-btn').click(closeForm)
+    $('.get-info-form-overlay').click(closeForm)
 
     // on form submit
     $('.get-info-form form').submit(onFormSubmit)
