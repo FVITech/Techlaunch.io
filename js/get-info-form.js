@@ -11,7 +11,7 @@ const $onPageForm = $('.get-info-form.on-page')
 function toggleGetInfoForm(e) {
     $popUpForm.find('.user-feedback').removeClass('success error').text('')
     $popUpForm.find('.submit-btn').show()
-    $popUpForm.find('input[name="first_name"]').focus()
+    $popUpForm.find('input[name="fname"]').focus()
     $popUpForm.toggleClass('open')
 
     if(e && e.target.dataset.formProgram) {
