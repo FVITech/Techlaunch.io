@@ -14,7 +14,7 @@ function run() {
     if (!file_exists($config_filename)) {
         throw new Exception("Can't find ".$config_filename);
     }
-    file_put_contents('/var/log/apache2/custom.log', 'Made it to the part after reading file');
+    error_log('Made it to the part after reading file', 0);
     $config = json_decode(file_get_contents($config_filename), true);
     $postBody = $_POST['payload'];
     $payload = json_decode($postBody);
@@ -27,7 +27,7 @@ function run() {
     // check if the request comes from github server
     $github_ips = array('207.97.227.253', '50.57.128.197', '108.171.174.178', '50.57.231.61');
     if (in_array($_SERVER['REMOTE_ADDR'], $github_ips)) {
-        file_put_contents('/var/log/apache2/custom.log', 'Made it past IP check');
+        error_log('Made it past IP check',0);
         foreach ($config['endpoints'] as $endpoint) {
             // check if the push came from the right repository and branch
             if ($payload->repository->url == 'https://github.com/' . $endpoint['repo']
@@ -71,8 +71,8 @@ function run() {
 }
 try {
     if (!isset($_POST['payload'])) {
-      error_log("Testing error log", 0);
-      file_put_contents('/var/log/apache2/custom.log', 'Got GET request to the hook', FILE_APPEND | LOCK_EX);
+      error_log("Testing error log, got GET request", 0);
+      //file_put_contents('/var/log/apache2/custom.log', 'Got GET request to the hook', FILE_APPEND | LOCK_EX);
       echo "Works fine.";
     } else {
         run();
