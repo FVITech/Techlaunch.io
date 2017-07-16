@@ -56,9 +56,9 @@ function sendForm($form) {
 module.exports.sendForm = sendForm
 
 function onFormSubmit(e) {
-    
+    console.log("Called onFormSubmit");
     //could have validation code here returning false on any error
-
+    return true;
 }
 
 $(document).ready(function() {
