@@ -5,13 +5,15 @@
   include('../parts/navbar.php');
   include('../parts/get-info-form.php');
 ?>
-<body id="thanks">
+<body>
 
-  <img id="clouds" src="clouds.svg" alt="TechLaunch - where you learn to code or we'll make you cry">
-  <canvas id="canvas" ></canvas>
-  <img id="monkey" src="monkey_rocket.svg" alt="Launch a Career towards the Future with TechLAunch">
-  <img id="thank-you" src="thank_you3_2.svg" alt="Thanks for applying to TechLaunch - Miami's Best Code School">
-  <h1>You just took your first step<br />in Launching a new Life</h1>
+  <div id="thanks">
+    <img id="clouds" src="clouds.svg" alt="TechLaunch - where you learn to code or we'll make you cry">
+    <canvas id="canvas" ></canvas>
+    <img id="monkey" src="monkey_rocket.svg" alt="Launch a Career towards the Future with TechLAunch">
+    <img id="thank-you" src="thank_you3_2.svg" alt="Thanks for applying to TechLaunch - Miami's Best Code School">
+    <h1>You just took your first step<br />in Launching a new Life</h1>
+  </div>
   <script type="text/javascript">
     var c = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");

@@ -7,6 +7,7 @@
 @import "../navbar/menu-button";
 @import "../navbar/menu";
 @import "../get-info-form";
+@import "../footer";
 
 @keyframes monkey-fly{
   0%{
@@ -26,6 +27,10 @@
     transform: translateX(-50%) scale(1,1);
     opacity: 1;
   }
+}
+
+body{
+  height:100vh;
 }
 #thanks {
   background-color: $fvi-blue;
