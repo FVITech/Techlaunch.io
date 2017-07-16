@@ -3,7 +3,7 @@
  * Endpoint for Github Webhook URLs
  *
  * see: https://help.github.com/articles/post-receive-hooks
- *
+ * v1
  */
 // script errors will be send to this email:
 $error_mail = "vmoreno@fvi.edu";
