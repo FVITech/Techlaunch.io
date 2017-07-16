@@ -11,7 +11,9 @@
     "autoprefixer": "postcss css/**/*.css --use autoprefixer -r",
     "build-css": "npm run sass && npm run autoprefixer",
     "minify-css": "node minify-css.js",
-    "build-css-min": "npm run sass && npm run autoprefixer && npm run minify-css"
+    "build-css-min": "npm run sass && npm run autoprefixer && npm run minify-css",
+    "deploy": "git add . && git commit && git push origin master",
+    "build-deploy": "npm run prod && npm run build-css-min && npm run deploy"
   },
   "license": "ISC",
   "devDependencies": {
