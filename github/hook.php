@@ -38,6 +38,7 @@ function run() {
                 // passthru($endpoint['run']);
                 // $output = ob_end_contents();
                 $output = shell_exec($endpoint['run']);
+                echo shell_exec('whoami');
                 // prepare and send the notification email
                 if (isset($config['email'])) {
                     // send mail to someone, and the github user who pushed the commit
