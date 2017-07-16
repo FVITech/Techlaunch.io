@@ -10,8 +10,11 @@
             <span class="step">Step 3</span>
         </div> -->
         <?php
-          $url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-          $escaped_url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' );
+          $url = '';
+          if (isset($_SERVER['HTTP_HOST'])){
+            $url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+            $escaped_url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' );
+          }
         ?>
         <i class="close-btn fa fa-times-circle" aria-hidden="true"></i>
         <form method="POST" action="https://secure.velocify.com/Import.aspx?Provider=TechLaunchWebsite&Client=30010&CampaignId=1101&URL=https://www.techlaunch.io/thank-you&referrerpage=<?php echo $escaped_url; ?>">
