@@ -13,7 +13,7 @@
         <h3 class="heading">Useful Links</h3>
         <ul>
             <li>
-                <a target="_blank" rel="noopener" href="https://brentoncozby.com/blog-react-redux/posts">
+                <a target="_blank" rel="noopener" href="https://www.techlaunch.io/blog">
                     Blog
                 </a>
             </li>
