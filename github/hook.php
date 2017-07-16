@@ -31,6 +31,7 @@ function run() {
             if ($payload->repository->url == 'https://github.com/' . $endpoint['repo']
                 && $payload->ref == 'refs/heads/' . $endpoint['branch']) {
                 // execute update script, and record its output
+                error_log('Executing hook ok', 0);
                 ob_start();
                 passthru($endpoint['run']);
                 $output = ob_end_contents();
@@ -62,7 +63,8 @@ function run() {
             }
         }
     } else {
-        throw new Exception("This does not appear to be a valid requests from Github.\n");
+      error_log("Didnt find right IP", 0);
+      throw new Exception("This does not appear to be a valid requests from Github.\n");
     }
 }
 try {
@@ -73,5 +75,6 @@ try {
     }
 } catch ( Exception $e ) {
     $msg = $e->getMessage();
+    error_log($msg, 0);
     mail($error_mail, $msg, ''.$e);
 }
