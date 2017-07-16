@@ -48,7 +48,7 @@
                 <a class="menu-header" href="<?php echo $rootPath ?>veterans/">Veterans</a>
             </div>
             <div class="menu-section">
-                <a class="menu-header" target="_blank" rel="noopener" href="https://brentoncozby.com/blog-react-redux/posts">Blog</a>
+                <a class="menu-header" target="_blank" rel="noopener" href="https://www.techlaunch.io/blog">Blog</a>
             </div>
         </div>
         <div class="logo-box">
