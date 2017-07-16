@@ -9,14 +9,14 @@
 $error_mail = "vmoreno@fvi.edu";
 function run() {
     global $rawInput;
-    // read config.json
+    error_log("let's read config.json");
     $config_filename = '/home/techlaunch/config.json';
     if (!file_exists($config_filename)) {
         throw new Exception("Can't find ".$config_filename);
     }
-    error_log('Made it to the part after reading file', 0);
+
     $config = json_decode(file_get_contents($config_filename), true);
-    $postBody = $_POST['payload'];
+    $postBody = file_get_contents('php://input');
     $payload = json_decode($postBody);
     if (isset($config['email'])) {
         $headers = 'From: '.$config['email']['from']."\r\n";
@@ -34,9 +34,10 @@ function run() {
                 && $payload->ref == 'refs/heads/' . $endpoint['branch']) {
                 // execute update script, and record its output
                 error_log('Executing hook ok', 0);
-                ob_start();
-                passthru($endpoint['run']);
-                $output = ob_end_contents();
+                // ob_start();
+                // passthru($endpoint['run']);
+                // $output = ob_end_contents();
+                shell_exec($endpoint['run']);
                 // prepare and send the notification email
                 if (isset($config['email'])) {
                     // send mail to someone, and the github user who pushed the commit
@@ -70,7 +71,7 @@ function run() {
     }
 }
 try {
-    if (!isset($_POST['payload'])) {
+    if ($_SERVER['REQUEST_METHOD'] === 'GET') {
       error_log("Testing error log, got GET request", 0);
       //file_put_contents('/var/log/apache2/custom.log', 'Got GET request to the hook', FILE_APPEND | LOCK_EX);
       echo "Works fine.";
