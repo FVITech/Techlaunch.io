@@ -26,7 +26,7 @@ function run() {
     }
     // check if the request comes from github server
     $github_ips = array('207.97.227.253', '50.57.128.197', '108.171.174.178', '50.57.231.61');
-    if (in_array($_SERVER['REMOTE_ADDR'], $github_ips)) {
+    if (true) {
         error_log('Made it past IP check',0);
         foreach ($config['endpoints'] as $endpoint) {
             // check if the push came from the right repository and branch
@@ -37,7 +37,7 @@ function run() {
                 // ob_start();
                 // passthru($endpoint['run']);
                 // $output = ob_end_contents();
-                shell_exec($endpoint['run']);
+                $output = shell_exec($endpoint['run']);
                 // prepare and send the notification email
                 if (isset($config['email'])) {
                     // send mail to someone, and the github user who pushed the commit
