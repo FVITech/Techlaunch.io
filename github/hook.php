@@ -71,8 +71,9 @@ function run() {
 }
 try {
     if (!isset($_POST['payload'])) {
-        file_put_contents('/var/log/apache2/custom.log', 'Got GET request to the hook');
-        echo "Works fine.";
+      error_log("Testing error log", 0);
+      file_put_contents('/var/log/apache2/custom.log', 'Got GET request to the hook', FILE_APPEND | LOCK_EX);
+      echo "Works fine.";
     } else {
         run();
     }
