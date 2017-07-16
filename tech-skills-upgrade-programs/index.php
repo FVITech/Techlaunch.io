@@ -4,10 +4,13 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <?php include('../parts/navbar.php'); ?>
-    <?php include('../parts/get-info-form.php'); ?>
-    <?php include('../parts/agreement.php'); ?>
-    <?php include('../parts/paypal-pop-up.php'); ?>
+    <?php
+      include('parts/navbar.php');
+      $classes = "on-page";
+      include('parts/get-info-form.php');
+      include('../parts/agreement.php');
+      include('../parts/paypal-pop-up.php');
+    ?>
 
     <span id="tech-skills-upgrade-programs"></span>
 

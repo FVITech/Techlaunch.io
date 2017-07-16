@@ -2,8 +2,9 @@
   $rootPath = '../';
   $page = "thank-you";
   include('../parts/head.php');
-  include('../parts/navbar.php');
-  include('../parts/get-info-form.php');
+  include('parts/navbar.php');
+  $classes = "";
+  include('parts/get-info-form.php');
 ?>
 <body>
 
