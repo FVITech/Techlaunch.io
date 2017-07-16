@@ -5,9 +5,9 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <?php
-      include('parts/navbar.php');
+      include('../parts/navbar.php');
       $classes = "on-page";
-      include('parts/get-info-form.php');
+      include('../parts/get-info-form.php');
       include('../parts/agreement.php');
       include('../parts/paypal-pop-up.php');
     ?>

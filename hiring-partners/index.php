@@ -1,13 +1,13 @@
-<?php $rootPath = '../'; $page = "hiring-partners"; include('../parts/head.php'); ?>
+../<?php $rootPath = '../'; $page = "hiring-partners"; include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <?php
-      include('parts/navbar.php');
+      include('../parts/navbar.php');
       $classes = "";
-      include('parts/get-info-form.php');
+      include('../parts/get-info-form.php');
     ?>
 
     <section class="above-the-fold">
