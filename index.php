@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="split-box">
-                <p>When you’re a student at TechLaunch, you’ll get the training you need to enter the world of tech. With a dynamic classroom environment, our instructors use an extensive hands-on approach and work by your side to teach you the ins and outs of the technology industry.</p>
+                <p>When you’re a student at TechLaunch, you’ll get the training you need to enter the world of tech. With a dynamic classroom environment, our instructors use an extensive hands-on approach and work by your side to teach you <strong>actual job skills</strong>.</p>
             </div>
         </div>
     </section>
