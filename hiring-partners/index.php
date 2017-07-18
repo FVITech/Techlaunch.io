@@ -1,4 +1,4 @@
-../<?php $rootPath = '../'; 
+<?php $rootPath = '../'; 
 $page = "hiring-partners"; 
 $meta_title="Hiring Partners";
 $meta_key="";
