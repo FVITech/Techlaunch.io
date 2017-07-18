@@ -1,10 +1,4 @@
-<?php $rootPath = '../'; 
-
-$page = "Miami Computer Tech Skills Upgrade Classes & Programs Near Me"; 
-$metakeywords = "";
-$metadesc = "Miami Computer Tech Skills Ugrade Classes, Programs, and Training for Coding Students Near Me. Click Here To Learn More About Computer Tech Skills Di[plomas Here.";
-
-include('../parts/head.php'); ?>
+<?php $rootPath = '../'; $page = "tech-skills-upgrade-programs"; include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"

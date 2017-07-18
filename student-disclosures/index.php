@@ -1,11 +1,4 @@
-<?php $rootPath = '../'; 
-
-$page = "Student Disclosures"; 
-$metakeywords = "";
-$metadesc = "Student Disclosure Information";
-
-
-include('../parts/head.php'); ?>
+<?php $rootPath = '../'; $page = "student-disclosures"; include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"

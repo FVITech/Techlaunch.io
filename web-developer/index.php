@@ -1,11 +1,4 @@
-<?php $rootPath = '../'; 
-
-$page = "Miami Web Development Training Course - Web Developer Classes Near Me"; 
-$metakeywords = "";
-$metadesc = "When you are taking Miami Web Development Training Courses you are learning to Become a Web Developer.   Learn why more students are earning Web Developing Diplomas Here.";
-
-
-include('../parts/head.php'); ?>
+<?php $rootPath = '../'; $page = "web-developer"; include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"
