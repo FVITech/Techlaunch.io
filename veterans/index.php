@@ -1,4 +1,10 @@
-<?php $rootPath = '../'; $page = "veterans"; include('../parts/head.php'); ?>
+<?php $rootPath = '../'; 
+
+$page = "Coding Bootcamp for Veterans in Miami"; 
+$metakeywords = "";
+$metadesc = "The Coding Bootcamp for Veterans is now open!  Get the training you need with our structured programs. Click Here To Learn More About TechLaunch Veteran Coding Classes";
+
+include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"

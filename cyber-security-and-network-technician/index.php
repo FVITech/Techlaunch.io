@@ -1,4 +1,8 @@
-<?php $rootPath = '../'; $page = "cyber-security-and-network-technician"; include('../parts/head.php'); ?>
+<?php $rootPath = '../'; 
+$page = "Miami Cyber Security Training, Career and Network Technician Jobs"; 
+$metakeywords = "";
+$metadesc = "Cyber Security and Network Technician Training, Programs and Classes. Click Here To Learn More About Cyber Security And Network Technician Training Classes.";
+include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"

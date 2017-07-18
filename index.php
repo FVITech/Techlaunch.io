@@ -1,4 +1,10 @@
-<?php $rootPath = ''; $page = "homepage"; include('parts/head.php'); ?>
+<?php $rootPath = '';
+
+$page = "Miami Coding Bootcamp - Programs, Training, Classes Near Me"; 
+$metakeywords = "";
+$metadesc = "TechLaunch Code School Offers Coding Bootcamp Programs, Training And Classes For Students To Crack The Code To Their Future. Learn More On How To Earn Degrees Here.";
+
+include('parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"
