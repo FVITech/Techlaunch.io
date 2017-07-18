@@ -213,7 +213,7 @@ include('../parts/head.php'); ?>
     </section>
 
     <?php include('../parts/student-projects/index.php') ?>
-
+<!--
     <section class="hiring-partners">
         <h2 class="section-title appear">Hiring Partners</h2>
         <div class="logos-container">
@@ -223,7 +223,7 @@ include('../parts/head.php'); ?>
             <img src="../images/logos/facebook.png" alt="Facebook logo">
         </div>
     </section>
-
+-->
     <?php $rootPath = '../'; include('../parts/footer.php') ?>
     <?php $rootPath = '../'; include('../parts/bottom.php') ?>
 
