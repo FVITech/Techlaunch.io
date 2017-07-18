@@ -3,7 +3,7 @@ $page = "financial-aid";
 $meta_title="Financial Aid";
 $meta_key="";
 $meta_desc="Apply for Financial Aid Here for our Coding or Cyber Security Program.  Financial aid is available for those who qualify.";    
-include('parts/head.php'); ?>
+include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"

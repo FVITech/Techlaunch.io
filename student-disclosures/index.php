@@ -3,7 +3,7 @@ $page = "student-disclosures";
 $meta_title="Student Disclosures";
 $meta_key="";
 $meta_desc="Student Disclosures";    
-include('parts/head.php'); ?>
+include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"

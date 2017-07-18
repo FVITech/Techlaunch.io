@@ -3,7 +3,7 @@ $page = "cyber-security-and-network-technician";
 $meta_title="Miami Cyber Security Training, Career and Network Technician Jobs";
 $meta_key="";
 $meta_desc="Cyber Security and Network Technician Training, Programs and Classes. Click Here To Learn More About Cyber Security And Network Technician Training Classes.";    
-include('parts/head.php'); ?>
+include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"

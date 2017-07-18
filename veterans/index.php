@@ -3,7 +3,7 @@ $page = "veterans";
 $meta_title="Coding Bootcamp for Veterans in Miami";
 $meta_key="";
 $meta_desc="The Coding Bootcamp for Veterans is now open!  Get the training you need with our structured programs. Click Here To Learn More About TechLaunch Veteran Coding Classes ";    
-include('parts/head.php'); ?>
+include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"
