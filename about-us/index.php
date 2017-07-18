@@ -1,4 +1,9 @@
-<?php $rootPath = '../'; $page = "about-us"; include('../parts/head.php'); ?>
+<?php $rootPath = '../'; 
+$page = "about-us"; 
+$meta_title="About Us";
+$meta_key="";
+$meta_desc="About Us at TechLaunch";    
+include('parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"

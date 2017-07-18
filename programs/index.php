@@ -1,4 +1,9 @@
-<?php $rootPath = '../'; $page = "programs"; include('../parts/head.php'); ?>
+<?php $rootPath = '../'; 
+$page = "programs"; 
+$meta_title="Miami Coding Programs, Training & Classes Near Me";
+$meta_key="";
+$meta_desc="Click Here To Learn All The Coding Programs, Training, Classes That TechLaunch Has To Offer.";    
+include('parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"

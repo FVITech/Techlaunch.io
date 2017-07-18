@@ -1,4 +1,9 @@
-../<?php $rootPath = '../'; $page = "hiring-partners"; include('../parts/head.php'); ?>
+../<?php $rootPath = '../'; 
+$page = "hiring-partners"; 
+$meta_title="Hiring Partners";
+$meta_key="";
+$meta_desc="Hiring Partners";    
+include('parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"
