@@ -30,7 +30,7 @@
                 <a class="menu-header dropdown" href="<?php echo $rootPath ?>careerlaunch/">Career Launch &amp; Services</a>
                 <div class="menu-list">
                     <a class="mobile-link" href="<?php echo $rootPath ?>careerlaunch/">Careerlaunch &amp; Career Services</a>
-                    <a href="<?php echo $rootPath ?>hiring-partners/">Hiring Partners</a>
+                 
                 </div>
             </div>
             <div class="menu-section">
