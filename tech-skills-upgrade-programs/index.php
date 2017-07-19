@@ -105,10 +105,10 @@ include('../parts/head.php'); ?>
                         <th>Total Cost</th>
                         <td>$1200</td>
                     </tr>
-                    <tr class="down-payment">
+                    <!-- <tr class="down-payment">
                         <th>Down Payment</th>
                         <td>$600</td>
-                    </tr>
+                    </tr> -->
                 </tbody>
             </table>
             <!-- <p class="disclaimer appear">*subject to demand</p> -->
