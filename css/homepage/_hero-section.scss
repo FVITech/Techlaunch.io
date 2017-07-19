@@ -10,6 +10,16 @@ section.hero {
         align-items: center;
     }
 
+    .split-box {
+        @media all and (min-width: 768px) {
+            width: auto;
+        }
+
+        @media all and (min-width: 992px) {
+            width: 33%;
+        }
+    }
+
     .split-box:nth-of-type(1) {
         padding-top: 30px;
         display: flex;
@@ -18,9 +28,14 @@ section.hero {
         justify-content: flex-end;
         align-self: stretch;
 
-        @media all and (min-width: 768px) {
+        @media all and (min-width: 500px) {
+            justify-content: space-between;
+        }
+
+        @media all and (min-width: 992px) {
             border-bottom: none;
             padding-top: 0;
+            justify-content: flex-end;
         }
 
         h2 {
@@ -35,11 +50,18 @@ section.hero {
             margin-top: 20px;
             z-index: 1;
 
-            @media all and (min-width: 768px) {
+            @media all and (min-width: 500px) {
                 width: 50%;
+                padding-bottom: 50px;
+                padding-left: 20px;
+            }
+
+            @media all and (min-width: 992px) {
                 text-align: left;
                 margin: 15px 0;
                 padding-right: 30px;
+                padding-left: 0;
+                padding-bottom: 0;
             }
 
             @media all and (min-width: 1400px) {
@@ -62,12 +84,18 @@ section.hero {
         //     }
         // }
         .image {
-            width: 90%;
+            width: 50%;
             left: -15px;
             padding-top: 30px;
             padding-bottom: 30px;
+            margin: auto;
 
-            @media all and (min-width: 768px) {
+            @media all and (min-width: 500px) {
+                width: 30%;
+            }
+
+            @media all and (min-width: 992px) {
+                margin: 0;
                 width: auto;
                 padding-top: 0;
                 padding-bottom: 0;

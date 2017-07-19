@@ -1,8 +1,8 @@
-<?php $rootPath = ''; 
-$page = "homepage"; 
+<?php $rootPath = '';
+$page = "homepage";
 $meta_title="Miami Coding Bootcamp - Programs, Training, Classes Near Me";
 $meta_key="";
-$meta_desc="TechLaunch Code School Offers Coding Bootcamp Programs, Training And Classes For Students To Crack The Code To Their Future. Learn More On How To Earn Degrees Here.";    
+$meta_desc="TechLaunch Code School Offers Coding Bootcamp Programs, Training And Classes For Students To Crack The Code To Their Future. Learn More On How To Earn Degrees Here.";
 include('parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -117,12 +117,20 @@ include('parts/head.php'); ?>
             <p class="explanation appear delay-300">The tech industry is continuing to grow at warp speed and demand for qualified employees is growing just as quickly. By working with our hiring partners, we regularly revise our curriculum to meet industry standards so that our grads learn how to use the latest, cutting-edge technology and become vital assets to any company looking for new talent.</p>
             <div class="income-div appear delay-600">
                 <h4>median tech income</h4>
-                <p class="income one">$102K</p>
-                <p class="position one">software developer</p>
-                <p class="income two">$92K</p>
-                <p class="position two">cyber security technician</p>
-                <p class="income three">$66K</p>
-                <p class="position three">web developer</p>
+                <div class="stats-container">
+                    <div class="stat-box">
+                        <p class="income one">$102K</p>
+                        <p class="position one">software developer</p>
+                    </div>
+                    <div class="stat-box">
+                        <p class="income two">$92K</p>
+                        <p class="position two">cyber security technician</p>
+                    </div>
+                    <div class="stat-box">
+                        <p class="income three">$66K</p>
+                        <p class="position three">web developer</p>
+                    </div>
+                </div>
                 <span class="citation">† Source: BLS.gov</span>
             </div>
         </div>
