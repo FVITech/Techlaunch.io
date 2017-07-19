@@ -23,7 +23,7 @@
                 <div class="menu-list">
                     <a class="mobile-link" href="<?php echo $rootPath ?>tech-skills-upgrade-programs/">Tech Skills Upgrades Summary</a>
                     <a href="<?php echo $rootPath ?>tech-skills-upgrade-programs/#aws">Amazon Web Services</a>
-                    <a href="<?php echo $rootPath ?>tech-skills-upgrade-programs/#wordpress">WordPress</a>
+                    <!-- <a href="<?php echo $rootPath ?>tech-skills-upgrade-programs/#wordpress">WordPress</a> -->
                 </div>
             </div>
             <div class="menu-section">

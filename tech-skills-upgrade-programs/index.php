@@ -32,7 +32,7 @@ include('../parts/head.php'); ?>
     <div class="programs-bar">
         <div class="container">
             <button data-program="aws">Amazon Web Services</button>
-            <button data-program="wordpress">WordPress</button>
+            <!-- <button data-program="wordpress">WordPress</button> -->
             <button data-program="intro" class="active">Introduction</button>
         </div>
     </div>
@@ -126,10 +126,10 @@ include('../parts/head.php'); ?>
                         <img src="../images/logos/amazon-web-services.png" alt="Amazon Web Services" class="logo">
                         <p class="start-date">Next Start Date - <span class="date">7/24/17</span></p>
                     </div>
-                    <div class="split-box program-card" data-program="wordpress">
+                    <!-- <div class="split-box program-card" data-program="wordpress">
                         <img src="../images/logos/wordpress-white.png" alt="WordPress" class="logo">
                         <p class="start-date">Next Start Date - <span class="date">8/14/17</span></p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="content aws-content switchable">
