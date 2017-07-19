@@ -102,6 +102,7 @@
             <a href="<?php echo $rootPath ?>"></a>
         </div>
         <br>
+        <!--
         <h3 class="heading">Newsletter</h3>
         <p>Get updates from Techlaunch</p>
         <form action="" id="newsletter-form">
@@ -109,6 +110,6 @@
                 <input type="email" placeholder="Your email">
                 <button type="submit"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></button>
             </div>
-        </form>
+        </form> -->
     </div>
 </footer>
