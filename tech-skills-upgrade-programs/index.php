@@ -1,8 +1,8 @@
-<?php $rootPath = '../'; 
-$page = "tech-skills-upgrade-programs"; 
+<?php $rootPath = '../';
+$page = "tech-skills-upgrade-programs";
 $meta_title="Miami Computer Tech Skills Upgrade Classes & Programs Near Me";
 $meta_key="";
-$meta_desc="Miami Computer Tech Skills Ugrade Classes, Programs, and Training for Coding Students Near Me. Click Here To Learn More About Computer Tech Skills Di[plomas Here.";    
+$meta_desc="Miami Computer Tech Skills Ugrade Classes, Programs, and Training for Coding Students Near Me. Click Here To Learn More About Computer Tech Skills Di[plomas Here.";
 include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -112,8 +112,8 @@ include('../parts/head.php'); ?>
                 </tbody>
             </table>
             <!-- <p class="disclaimer appear">*subject to demand</p> -->
-            <button data-enroll="true" data-cost="$600" data-form-program="aws" class="enroll appear switchable aws-content">Enroll in AWS</button>
-            <button data-enroll="true" data-cost="$600" data-form-program="wordpress" class="enroll appear switchable wordpress-content">Enroll in WordPress</button>
+            <a target="_blank" rel="noopener" href="http://aws.techlaunch.io/aws/enroll.html" data-form-program="aws" class="btn enroll appear switchable aws-content">Enroll in AWS</a>
+            <a target="_blank" rel="noopener" data-form-program="wordpress" class="btn enroll appear switchable wordpress-content">Enroll in WordPress</a>
         </div>
     </section>
 
