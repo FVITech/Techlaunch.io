@@ -184,9 +184,11 @@ include('parts/head.php'); ?>
             <span>D</span>
             <span>E</span>
         </div>
-        <p class="quote">"Here we are, 2013, we <strong>all</strong> depend on technology to communicate, to bank, and none of us know how to read and write code. It's important for these kids, right now, starting at 8 years old, to read and write code."</p>
-        <p class="author">will.i.am</p>
-        <p class="title">Musician and Entrepreneur</p>
+        <p class="quote">
+          "The programmers of tomorrow are the wizards of the future. You're going to look like you have magic powers compared to everybody else."
+        </p>
+        <p class="author">Gabe Newell</p>
+        <p class="title">Founder & President, Valve</p>
     </section>
 
     <section class="stacks">
