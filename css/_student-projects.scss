@@ -21,16 +21,15 @@ section.student-projects {
         width: 280px;
         box-shadow: 0 25px 30px -10px rgba(0, 0, 0, .5);
         margin-bottom: 50px;
+        transition: all 300ms;
 
         @media all and (min-width: 375px) {
             margin-left: 15px;
             margin-right: 15px;
         }
 
-        .image {
+        img {
             width: 100%;
-            height: 200px;
-            background-size: cover;
         }
 
         .title {
@@ -60,17 +59,4 @@ section.student-projects {
             box-shadow: 0 27px 35px -10px rgba(0, 0, 0, .6);
         }
     }
-}
-
-.student-projects .project:nth-of-type(1) .image {
-    background-image: url('../../images/student-projects/memory-card-game.jpg');
-}
-.student-projects .project:nth-of-type(2) .image {
-    background-image: url('../../images/student-projects/msm-ad-logistics.jpg');
-}
-.student-projects .project:nth-of-type(3) .image {
-    background-image: url('../../images/student-projects/weather-app.jpg');
-}
-.student-projects .project:nth-of-type(4) .image {
-    background-image: url('../../images/student-projects/mini-piano.jpg');
 }
