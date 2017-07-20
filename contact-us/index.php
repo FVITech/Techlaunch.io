@@ -1,15 +1,15 @@
-<?php $rootPath = '../'; 
-$page = "contact-us"; 
+<?php $rootPath = '../';
+$page = "contact-us";
 $meta_title="";
 $meta_key="";
-$meta_desc="";    
+$meta_desc="";
 include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZRJ7D"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <<?php
+    <?php
       include('../parts/navbar.php');
       $classes = "";
       include('../parts/get-info-form.php');
@@ -22,6 +22,7 @@ include('../parts/head.php'); ?>
             </a>
             <br>
             <h1 class="page-title">Location</h1>
+            <p class="page-subtitle">Techlaunch is is conveniently located in heart of the Doral Business District, inside Pipeline Workspaces. Situated just steps away from CityPlace Doral with easy access from expressway and many parking spaces available.</p>
         </div>
     </section>
 
