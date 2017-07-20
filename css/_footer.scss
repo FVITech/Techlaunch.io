@@ -10,9 +10,11 @@ footer {
     .fourth {
         width: 100%;
         padding: 20px;
+        text-align: center;
 
         @media all and (min-width: 768px) {
             width: 50%;
+            text-align: inherit;
         }
 
         @media all and (min-width: 1000px) {
@@ -84,8 +86,14 @@ footer .second {
     .social-media {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+
+        @media all and (min-width: 768px) {
+            justify-content: flex-start;
+        }
 
         a {
+            display: inline-block;
             color: #fff;
             line-height: 2;
             padding: 0 10px;

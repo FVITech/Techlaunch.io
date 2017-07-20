@@ -85,7 +85,6 @@ section.hero {
         // }
         .image {
             width: 50%;
-            left: -15px;
             padding-top: 30px;
             padding-bottom: 30px;
             margin: auto;
@@ -95,6 +94,7 @@ section.hero {
             }
 
             @media all and (min-width: 992px) {
+                left: -15px;
                 margin: 0;
                 width: auto;
                 padding-top: 0;
@@ -113,6 +113,8 @@ section.hero {
         align-self: stretch;
         width: 100%;
         padding-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
 
         @media all and (min-width: 768px) {
             padding-top: 30px;
@@ -120,6 +122,8 @@ section.hero {
 
         @media all and (min-width: 992px) {
             width: 33%;
+            padding-left: 0;
+            padding-right: 0;
         }
 
         .video-container {

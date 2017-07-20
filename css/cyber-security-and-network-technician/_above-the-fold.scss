@@ -13,38 +13,50 @@ section.above-the-fold {
 }
 
 section.above-the-fold .text-box {
-    max-width: 600px;
     margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+
+    @media all and (min-width: 1200px) {
+        text-align: inherit;
+        width: auto;
+        max-width: 600px;
+    }
 
     h2 {
         // text-transform: uppercase;
         font-weight: 300;
         font-size: 50px;
         color: #fff;
-        margin-bottom: 0;
+        margin: 0;
+        padding-top: 40px;
         text-shadow: 0 1px 6px rgba(0, 0, 0, .3);
         @include slide-up-fade-in(0s);
 
-        @media all and (min-width: 480px) {
-            max-width: 500px;
-            padding-top: 30px;
+        @media all and (min-width: 768px) {
+            padding-top: 18%;
             padding-bottom: 20px;
-            font-size: 70px;
+            font-size: 65px;
         }
     }
 
     h4 {
-        max-width: 400px;
         font-weight: 400;
         color: #fff;
         font-size: 16px;
         line-height: 1.7;
         text-shadow: 0 1px 5px rgba(0, 0, 0, .7);
+        width: 100%;
         @include slide-up-fade-in(500ms);
 
         @media all and (min-width: 480px) {
             font-weight: 300;
             font-size: 24px;
+        }
+
+        @media all and (min-width: 1200px) {
+            width: inherit;
+            max-width: 400px;
         }
 
         small {
@@ -66,6 +78,7 @@ section.above-the-fold .text-box {
         justify-content: space-between;
         flex-flow: row wrap;
         text-shadow: 0 1px 3px rgba(0, 0, 0, .7);
+        margin: auto;
 
         .figure {
             color: #fff;
@@ -87,7 +100,7 @@ section.above-the-fold .text-box {
                 max-width: 80px;
 
                 @media all and (min-width: 500px) {
-                    font-size: 20px;
+                    font-size: 18px;
                     max-width: none;
                 }
             }
@@ -108,11 +121,15 @@ section.above-the-fold .text-box {
 section.above-the-fold .get-info-form.on-page {
     // undo base form styles
     position: relative;
-    width: auto;
+    width: 100%;
     height: auto;
     z-index: 0;
     opacity: 1;
     transition: 0s;
+
+    @media all and (min-width: 1200px) {
+        width: auto;
+    }
 
     .get-info-form-overlay {
         display: none;
@@ -129,11 +146,17 @@ section.above-the-fold .get-info-form.on-page .form-container {
     top: auto;
     left: auto;
     transform: none;
-    width: auto;
+    max-width: 500px;
+    margin: auto;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
     opacity: 1;
 
     // on-page form styles
     box-shadow: 0 3px 8px -1px rgba(0, 0, 0, .7);
+
+    @media all and (min-width: 1200px) {
+        width: auto;
+        max-width: 400px;
+    }
 }

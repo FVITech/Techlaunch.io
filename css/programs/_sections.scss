@@ -9,6 +9,7 @@ section {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
+        padding: 0 10px;
     }
 
     .program {
@@ -16,10 +17,11 @@ section {
         margin-bottom: 30px;
         background-color: #ddd;
         box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
-        text-decoration: none;
+        display: flex;
+        flex-direction: column;
 
         @media all and (min-width: 768px) {
-            width: 40%;
+            width: 45%;
             padding: 25px;
             margin-bottom: 0;
         }
@@ -34,7 +36,7 @@ section {
             h3 {
                 position: absolute;
                 color: #fff;
-                font-size: 28px;
+                font-size: 30px;
                 font-weight: 400;
                 bottom: 0;
                 left: 0;
@@ -42,28 +44,24 @@ section {
                 padding: 15px;
                 text-shadow: 1px 2px 4px rgba(0, 0, 0, .8);
 
-                @media all and (min-width: 375px) {
-                    font-size: 34px;
+                @media all and (min-width: 768px) {
+                    font-size: 32px;
+                }
+
+                @media all and (min-width: 992px) {
+                    font-size: 42px;
                 }
             }
+        }
+
+        .btn {
+            margin-top: auto;
+            text-align: center;
         }
 
         p {
             font-size: 16px;
             color: #000;
-            margin-bottom: 0;
-        }
-
-        &:hover,
-        &:focus {
-            transition-delay: 0s !important;
-            transition: all 200ms;
-            box-shadow: 0 6px 8px -1px rgba(0, 0, 0, .6);
-            transform: scale(1.02);
-
-            h3 {
-                color: lighten($fvi-blue, 10%);
-            }
         }
     }
 

@@ -57,6 +57,7 @@ section.tech-industry {
     }
 
     .income-div {
+        text-align: center;
 
         h4 {
             font-weight: 800;
@@ -87,6 +88,7 @@ section.tech-industry {
 
     .stat-box {
         max-width: 220px;
+        margin: auto;
 
         .income {
             line-height: 1.2;

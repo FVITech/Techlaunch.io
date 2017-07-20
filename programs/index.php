@@ -1,8 +1,8 @@
-<?php $rootPath = '../'; 
-$page = "programs"; 
+<?php $rootPath = '../';
+$page = "programs";
 $meta_title="Miami Coding Programs, Training & Classes Near Me";
 $meta_key="";
-$meta_desc="Click Here To Learn All The Coding Programs, Training, Classes That TechLaunch Has To Offer.";    
+$meta_desc="Click Here To Learn All The Coding Programs, Training, Classes That TechLaunch Has To Offer.";
 include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -28,18 +28,20 @@ include('../parts/head.php'); ?>
     <section>
         <div class="container">
             <div class="programs-container">
-                <a class="program web-dev appear" href="<?php echo $rootPath ?>web-developer/">
+                <div class="program web-dev appear">
                     <div class="image">
                         <h3>Web Development Program</h3>
                     </div>
                     <p>As a Web Developer, you will gain a wide array of fundamental and in-depth training on front end web development, as well as fundamentals of back end development. You will learn how to effectively write front-end programs which interact with servers and load asynchronously. You will also learn to design and implement graphical interfaces which follow best practices of UX design and are mobile-friendly.</p>
-                </a>
-                <a class="program cyber appear delay-300" href="<?php echo $rootPath ?>cyber-security-and-network-technician/">
+                    <a href="<?php echo $rootPath ?>web-developer/" class="btn">Learn More</a>
+                </div>
+                <div class="program cyber appear delay-300">
                     <div class="image">
                         <h3>Cyber Security Network Technician</h3>
                     </div>
                     <p>As a IT Security and Cloud Professional, you are able to validate your ability to handle day-to-day management of the server operating system, file structure, and directory services. You will also learn to handle software distribution and updates; monitor servers; provide troubleshooting support; build and configure servers; implement auditing policy; perform scheduled vulnerability-assessment scans; and monitor logs for firewalls and intrusion-detection systems.</p>
-                </a>
+                    <a href="<?php echo $rootPath ?>cyber-security-and-network-technician/" class="btn">Learn More</a>
+                </div>
             </div>
         </div>
     </section>

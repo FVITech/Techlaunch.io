@@ -13,10 +13,8 @@ section.how-we-compare {
         margin-top: 20px;
         margin-bottom: 50px;
         color: #fff;
-    }
-
-    .content {
-
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .split-3 {
@@ -26,10 +24,14 @@ section.how-we-compare {
     }
 
     .split-box {
-        padding: 15px;
+        padding: 20px;
         background-color: #ddd;
         margin-bottom: 25px;
         box-shadow: 0 20px 30px -5px rgba(0, 0, 0, .7);
+
+        @media all and (min-width: 768px) {
+            width: 100%;
+        }
 
         @media all and (min-width: 992px) {
             padding: 20px;
@@ -48,6 +50,10 @@ section.how-we-compare {
 
             @media all and (min-width: 768px) {
                 font-size: 16px;
+            }
+
+            &:last-of-type {
+                margin-bottom: 0;
             }
         }
     }

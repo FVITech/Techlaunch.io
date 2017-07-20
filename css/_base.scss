@@ -5,7 +5,6 @@ $dark-blue: #003352;
 * {
     box-sizing: border-box;
     position: relative;
-    transition: all 200ms;
 }
 
 html,
@@ -65,7 +64,7 @@ section.above-the-fold {
     text-transform: uppercase;
     font-weight: 300;
     color: #fff;
-    font-size: 34px;
+    font-size: 38px;
     letter-spacing: 4px;
     padding-top: 30%;
     margin: 0;
