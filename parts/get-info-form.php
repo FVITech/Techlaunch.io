@@ -11,13 +11,29 @@
         </div> -->
         <?php
           $url = '';
+          $escaped_url = 'unknown';
           if (isset($_SERVER['HTTP_HOST'])){
             $url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
             $escaped_url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' );
           }
+          $form_action = "https://secure.velocify.com/Import.aspx?Provider=TechLaunchWebsite&Client=30010&CampaignId=1101&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
+
+          $origin = "no-origin";
+          if(isset($_GET['origin'])){
+            $origin = $_GET['origin'];
+          }
+          if ($origin == 'bing'){
+            $form_action = "https://secure.velocify.com/Import.aspx?Provider=YahooBingPPC&Client=30010&CampaignId=1065&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
+          }
+          elseif ($origin == 'es-bing'){
+            $form_action = "https://secure.velocify.com/Import.aspx?Provider=YahooBingPPCSpanish&Client=30010&CampaignId=1083&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
+          }
+          elseif ($origin == 'facebook'){
+            $form_action = "https://secure.velocify.com/Import.aspx?Provider=FacebookAds&Client=30010&CampaignId=1059&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
+          }
         ?>
         <i class="close-btn fa fa-times-circle" aria-hidden="true"></i>
-        <form method="POST" action="https://secure.velocify.com/Import.aspx?Provider=TechLaunchWebsite&Client=30010&CampaignId=1101&URL=https://www.techlaunch.io/thank-you&referrerpage=<?php echo $escaped_url; ?>">
+        <form method="POST" action="<?php echo $form_action; ?>">
             <div class="form-input">
                 <label>Program of Interest</label>
                 <select name="program">
