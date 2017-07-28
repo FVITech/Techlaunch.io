@@ -16,10 +16,12 @@
     elseif ($origin == 'facebook'){
       $phone_num = '786-574-6626';
     }
-    elseif($origin=='google' || $origin=='es-google'){?>
+    elseif($origin=='google' || $origin=='es-google'){
+      $phone_num = $origin=='google' ? "305-570-4471" : "305-851-5511";
+    ?>
     <!--Origin - Google-->
     <script type="text/javascript">
-      var google_replace_number=<?php echo $origin=='google' ? "786-574-9511" : "305-851-5511"; ?>;
+      var google_replace_number=<?php echo $phone_num; ?>;
       (function(a,e,c,f,g,b,d){var h={ak:"939988187",cl:"a4GcCIWJ-WAQ26mcwAM"};a[c]=a[c]||function(){(a[c].q=a[c].q||[]).push(arguments)};a[f]||(a[f]=h.ak);b=e.createElement(g);b.async=1;b.src="//www.gstatic.com/wcm/loader.js";d=e.getElementsByTagName(g)[0];d.parentNode.insertBefore(b,d);a._googWcmGet=function(b,d,e){a[c](2,b,h,d,null,new Date,e)}})(window,document,"_googWcmImpl","_googWcmAk","script");
     </script>
   <?php }?>

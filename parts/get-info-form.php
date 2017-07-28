@@ -57,7 +57,7 @@
             <div class="form-input split-2">
                 <div class="split-box">
                     <label>phone</label>
-                    <input type="tel" name="day_phone">
+                    <input type="tel" name="phone">
                 </div>
                 <div class="split-box">
                     <label>zip code</label>
