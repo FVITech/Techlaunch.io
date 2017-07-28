@@ -31,6 +31,9 @@
           elseif ($origin == 'facebook'){
             $form_action = "https://secure.velocify.com/Import.aspx?Provider=FacebookAds&Client=30010&CampaignId=1059&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
           }
+          elseif ($origin == 'google'){
+            $form_action = "https://secure.velocify.com/Import.aspx?Provider=GooglePPC&Client=30010&CampaignId=1033&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
+          }
         ?>
         <i class="close-btn fa fa-times-circle" aria-hidden="true"></i>
         <form method="POST" action="<?php echo $form_action; ?>">
