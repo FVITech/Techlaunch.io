@@ -1,0 +1,78 @@
+section.content {
+
+    .split-2 {
+        padding: 40px 0;
+        align-items: center;
+    }
+
+    .split-box.text {
+
+        .section-title {
+            margin-top: 20px;
+        }
+
+        p:last-of-type {
+            margin-bottom: 0;
+        }
+
+        @media all and (min-width: 768px) {
+            padding: 0 20px;
+
+            .section-title {
+                margin-top: 0;
+            }
+        }
+
+        &.left {
+            margin-top: 55%;
+
+            @media all and (min-width: 400px) {
+                margin-top: 64%;
+            }
+
+            @media all and (min-width: 768px) {
+                margin-top: inherit;
+            }
+        }
+    }
+
+    .split-box.image {
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        padding-bottom: 70%;
+
+        &.right {
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            @media all and (min-width: 768px) {
+                position: relative;
+                top: auto;
+                left: auto;
+            }
+        }
+
+        @media all and (min-width: 768px) {
+            width: 50%;
+            padding-bottom: 35%;
+        }
+    }
+
+    .split-2:nth-of-type(1) .image {
+        background-image: url('../../images/people/group-at-pipeline.jpg');
+    }
+
+    .split-2:nth-of-type(2) .image {
+        background-image: url('../../images/bridging-the-gap.jpg');
+    }
+
+    .split-2:nth-of-type(3) .image {
+        background-image: url('../../images/people/techhire-bbbs-students-group.jpg');
+    }
+
+    .split-2:nth-of-type(4) .image {
+        background-image: url('../../images/people/3-students-at-desk.jpg');
+    }
+}
