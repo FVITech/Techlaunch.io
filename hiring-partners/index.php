@@ -2,7 +2,7 @@
 $page = "hiring-partners";
 $meta_title="TechLaunch Hiring Partners";
 $meta_key="";
-$meta_desc="The TechLaunch Hiring Partner network is a group of companies enjoying the efficiency of hiring students with a cutting edge set of skills at relatively low cost.";
+$meta_desc="Becoming a hiring partner for TechLaunch gives your business access to motivated candidates trained in both technical and professional skills.";
 include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
