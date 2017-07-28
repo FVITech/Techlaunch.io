@@ -31,12 +31,12 @@
           elseif ($origin == 'facebook'){
             $form_action = "https://secure.velocify.com/Import.aspx?Provider=FacebookAds&Client=30010&CampaignId=1059&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
           }
-          // elseif ($origin == 'google'){
-          //   $form_action = "https://secure.velocify.com/Import.aspx?Provider=ExploreFVI&Client=30010&CampaignId=1033&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
-          // }
-          // elseif ($origin == 'es-google'){
-          //   $form_action = "https://secure.velocify.com/Import.aspx?Provider=GooglePPCSpanish&Client=30010&CampaignId=1063&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
-          // }
+          elseif ($origin == 'google'){
+            $form_action = "https://secure.velocify.com/Import.aspx?Provider=ExploreFVI&Client=30010&CampaignId=1033&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
+          }
+          elseif ($origin == 'es-google'){
+            $form_action = "https://secure.velocify.com/Import.aspx?Provider=GooglePPCSpanish&Client=30010&CampaignId=1063&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
+          }
         ?>
         <i class="close-btn fa fa-times-circle" aria-hidden="true"></i>
         <form method="POST" action="<?php echo $form_action; ?>">
@@ -53,17 +53,17 @@
             <div class="form-input split-2">
                 <div class="split-box">
                     <label>first name</label>
-                    <input type="text" name="fname" required>
+                    <input type="text" name="first_name" required>
                 </div>
                 <div class="split-box">
                     <label>last name</label>
-                    <input type="text" name="lname" required>
+                    <input type="text" name="last_name" required>
                 </div>
             </div>
             <div class="form-input split-2">
                 <div class="split-box">
                     <label>phone</label>
-                    <input type="tel" name="phone">
+                    <input type="tel" name="day_phone">
                 </div>
                 <div class="split-box">
                     <label>zip code</label>
