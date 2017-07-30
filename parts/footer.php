@@ -98,15 +98,21 @@
 	.blog_title > a {
 
 	 
-		color: #aaa;
-    font-size: 14px;
-    font-style: normal;
+		color: #aaa !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+	text-decoration:none;
 	}
 	.blog_title > p
 	{
-	color: #777;
-    font-size: 12px;
+	color: #777 !important;
+    font-size: 12px !important;
 	}
+	
+	footer .fourth p {
+    margin-bottom: 3px !important;
+    margin-top: 4px !important;
+}
 	</style>
     <div class="fourth">
         <h3 class="heading">Latest Posts</h3>
@@ -125,10 +131,17 @@ curl_setopt_array($curl, Array(
 $data = curl_exec($curl);
 curl_close($curl);
 $xml = simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
+
+$i=1;
 		?>
             
             
             <?php foreach ($xml->channel->item as $item) {
+				
+				if($i==6)
+				{
+					break;
+				}
  
 
 ?>
@@ -144,6 +157,8 @@ $xml = simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
             </div>
             
             <?php
+			
+			$i++;
 			}
 			?>
             
