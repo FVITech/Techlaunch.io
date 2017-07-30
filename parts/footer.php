@@ -97,7 +97,7 @@
         <h3 class="heading">Latest Posts</h3>
         <div class="tweets-list">
         <?php
-		
+		error_reporting(1);
 		$curl = curl_init();
 curl_setopt_array($curl, Array(
 	CURLOPT_URL            => 'https://techlaunch.io/blog/feed/',
