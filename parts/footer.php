@@ -98,22 +98,39 @@
         <div class="tweets-list">
         <?php
 		error_reporting(1);
-		$curl = curl_init();
-curl_setopt_array($curl, Array(
-	CURLOPT_URL            => 'https://techlaunch.io/blog/feed/',
-	CURLOPT_USERAGENT      => 'spider',
-	CURLOPT_TIMEOUT        => 120,
-	CURLOPT_CONNECTTIMEOUT => 30,
-	CURLOPT_RETURNTRANSFER => TRUE,
-	CURLOPT_ENCODING       => 'UTF-8'
-));
-$data = curl_exec($curl);
-curl_close($curl);
-$xml = simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
+		
+		
+		$feed=file_get_contents('https://www.techlaunch.io/blog/feed/');
+ 
+ 
+	$allArticles=array();
+	$xml=simplexml_load_string($feed);
+	//loop through each post
+	foreach ($xml->channel->item as $item) {
+	$category=array();
+	//add the data about that post to a variable with categories being an array of all the categories for the post
+	$article['title'] =htmlspecialchars((string)$item->title);
+	$article['link'] =htmlspecialchars((string)$item->link);
+	// get the creator element that is in the dc namespace
+	$namespaces=$item->getNameSpaces(true);
+	$dc_namespace=$item->children($namespaces['dc']); 
+	
+	$article['author'] =htmlspecialchars((string)$dc_namespace->creator);
+	foreach ($item->category as $single_category) {
+		$category[] =htmlspecialchars((string)$single_category);
+ 
+	}
+	$article['categories'] =$category;
+	$article['description'] = (string) $item->description;
+	//add the article to the array of articles
+	$allArticles[] =$article;
+	
+	
+	}
 		?>
             
             
-            <?php foreach ($xml->channel->item as $item) {
+            <?php // foreach ($xml->channel->item as $item) {
  
 
 ?>
@@ -129,7 +146,7 @@ $xml = simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
             </div>
             
             <?php
-			}
+			//}
 			?>
             
             
