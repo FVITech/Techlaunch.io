@@ -104,7 +104,7 @@
  
  
 	$allArticles=array();
-	$xml=simplexml_load_string($feed);
+	//$xml=simplexml_load_string($feed);
 	
 		?>
             
