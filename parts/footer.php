@@ -98,18 +98,22 @@
         <div class="tweets-list">
         <?php
 		error_reporting(1);
-		
-		
-		$feed=file_get_contents('https://www.techlaunch.io/blog/feed/');
- 
- 
-	$allArticles=array();
-	//$xml=simplexml_load_string($feed);
-	
+		$curl = curl_init();
+curl_setopt_array($curl, Array(
+	CURLOPT_URL            => 'https://techlaunch.io/blog/feed/',
+	CURLOPT_USERAGENT      => 'spider',
+	CURLOPT_TIMEOUT        => 120,
+	CURLOPT_CONNECTTIMEOUT => 30,
+	CURLOPT_RETURNTRANSFER => TRUE,
+	CURLOPT_ENCODING       => 'UTF-8'
+));
+$data = curl_exec($curl);
+curl_close($curl);
+$xml = simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
 		?>
             
             
-            <?php // foreach ($xml->channel->item as $item) {
+            <?php foreach ($xml->channel->item as $item) {
  
 
 ?>
@@ -125,7 +129,7 @@
             </div>
             
             <?php
-			//}
+			}
 			?>
             
             
