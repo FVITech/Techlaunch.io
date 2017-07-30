@@ -93,9 +93,23 @@
             </div>
         </div>
     </div>
+    
+    <style>
+	.blog_title
+	{
+		color: #aaa;
+    font-size: 14px;
+    font-style: normal;
+	}
+	.blog-date
+	{
+	color: #777;
+    font-size: 12px;
+	}
+	</style>
     <div class="fourth">
         <h3 class="heading">Latest Posts</h3>
-        <div class="tweets-list">
+        <div class="blog-list">
         <?php
 		error_reporting(1);
 		$curl = curl_init();
@@ -118,14 +132,14 @@ $xml = simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
 
 ?>
             
-            <div class="tweet">
+            <div class="blog_title">
                 <a class="link" target="_blank"  href="<?=$item->link?>">
                     <?=$item->title?>
                 </a>
-                <div class="text-container">
+                 
                     
-                    <p class="date"><?=$item->pubDate?></p>
-                </div>
+                    <p class="blog-date"><?=$item->pubDate?></p>
+               
             </div>
             
             <?php
