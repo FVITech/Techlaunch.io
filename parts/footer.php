@@ -143,6 +143,12 @@ $i=1;
 					break;
 				}
  
+ 
+ $source = $item->pubDate;
+$date = new DateTime($source);
+ 
+
+
 
 ?>
             
@@ -152,7 +158,7 @@ $i=1;
                 </a>
                  
                     
-                    <p class="blog-date"><?=$item->pubDate?></p>
+                    <p class="blog-date"><?= $date->format('D M j  Y')?></p>
                
             </div>
             
