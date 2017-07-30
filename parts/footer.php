@@ -105,30 +105,7 @@
  
 	$allArticles=array();
 	$xml=simplexml_load_string($feed);
-	//loop through each post
-	foreach ($xml->channel->item as $item) {
-	$category=array();
-	//add the data about that post to a variable with categories being an array of all the categories for the post
-	$article['title'] =htmlspecialchars((string)$item->title);
-	$article['link'] =htmlspecialchars((string)$item->link);
-	// get the creator element that is in the dc namespace
-	$namespaces=$item->getNameSpaces(true);
-	$dc_namespace=$item->children($namespaces['dc']); 
 	
-	$article['author'] =htmlspecialchars((string)$dc_namespace->creator);
-	foreach ($item->category as $single_category) {
-		$category[] =htmlspecialchars((string)$single_category);
- 
-	}
-	$article['categories'] =$category;
-	$article['description'] = (string) $item->description;
-	//add the article to the array of articles
-	$allArticles[] =$article;
-	
-	
-	}
-	
-	var_dump($allArticles);
 		?>
             
             
