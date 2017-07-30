@@ -95,11 +95,44 @@
     </div>
     <div class="fourth">
         <h3 class="heading">Latest Posts</h3>
-        <div class="blog-posts">
-            <a href="<?php echo $rootPath ?>"></a>
-            <a href="<?php echo $rootPath ?>"></a>
-            <a href="<?php echo $rootPath ?>"></a>
-            <a href="<?php echo $rootPath ?>"></a>
+        <div class="tweets-list">
+        <?php
+		
+		$curl = curl_init();
+curl_setopt_array($curl, Array(
+	CURLOPT_URL            => 'https://techlaunch.io/blog/feed/',
+	CURLOPT_USERAGENT      => 'spider',
+	CURLOPT_TIMEOUT        => 120,
+	CURLOPT_CONNECTTIMEOUT => 30,
+	CURLOPT_RETURNTRANSFER => TRUE,
+	CURLOPT_ENCODING       => 'UTF-8'
+));
+$data = curl_exec($curl);
+curl_close($curl);
+$xml = simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
+		?>
+            
+            
+            <?php foreach ($xml->channel->item as $item) {
+ 
+
+?>
+            
+            <div class="tweet">
+                <a class="link" target="_blank" rel="noopener" href="<?=$item->link?>">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <div class="text-container">
+                    <p class="text"><?=$item->title?></p>
+                    <p class="date"><?=$item->pubDate?></p>
+                </div>
+            </div>
+            
+            <?php
+			}
+			?>
+            
+            
         </div>
         <br>
         <!--
