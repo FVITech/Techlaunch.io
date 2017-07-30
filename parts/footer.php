@@ -95,13 +95,14 @@
     </div>
     
     <style>
-	.blog_title
-	{
+	.blog_title > a {
+
+	 
 		color: #aaa;
     font-size: 14px;
     font-style: normal;
 	}
-	.blog-date
+	.blog_title > p
 	{
 	color: #777;
     font-size: 12px;
@@ -133,7 +134,7 @@ $xml = simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
 ?>
             
             <div class="blog_title">
-                <a class="link" target="_blank"  href="<?=$item->link?>">
+                <a   target="_blank"  href="<?=$item->link?>">
                     <?=$item->title?>
                 </a>
                  
