@@ -127,6 +127,8 @@
 	
 	
 	}
+	
+	var_dump($allArticles);
 		?>
             
             
