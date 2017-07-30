@@ -119,11 +119,11 @@ $xml = simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
 ?>
             
             <div class="tweet">
-                <a class="link" target="_blank" rel="noopener" href="<?=$item->link?>">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                <a class="link" target="_blank"  href="<?=$item->link?>">
+                    <?=$item->title?>
                 </a>
                 <div class="text-container">
-                    <p class="text"><?=$item->title?></p>
+                    
                     <p class="date"><?=$item->pubDate?></p>
                 </div>
             </div>
