@@ -195,7 +195,12 @@ include('../parts/head.php'); ?>
             </div>
         </div>
     </section>
- 
+ <style>
+ section.hiring-partners .logos-container img {
+    height: 100% !important;
+    margin: 0px !important;
+}
+ </style>
     <section class="hiring-partners">
         <h2 class="section-title appear">Hiring Partners</h2>
         <div class="logos-container">
