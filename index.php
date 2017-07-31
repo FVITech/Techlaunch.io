@@ -272,7 +272,23 @@ include('parts/head.php'); ?>
             <img src="<?php echo $rootPath ?>images/logos/fapsc.jpeg" alt="FAPSC logo">
         </div>
     </section>
-
+<style>
+ section.hiring-partners .logos-container img {
+    height: 100% !important;
+    margin: 0px !important;
+}
+ </style>
+    <section class="hiring-partners">
+        <h2 class="section-title appear">Hiring Partners</h2>
+        <div class="logos-container">
+            <img    src="https://techlaunch.io/blog/wp-content/uploads/2017/07/coach-hq-1-1.png" alt="Coach HQ">
+            <img    src="https://techlaunch.io/blog/wp-content/uploads/2017/07/logo-spiderboost-2.png" alt="Spider Boost">
+            <img src="https://techlaunch.io/blog/wp-content/uploads/2017/07/Starthub_MainLogoFile-2.png" alt="Start Hub">
+            <img   src="https://techlaunch.io/blog/wp-content/uploads/2017/07/tango_mango_logo.jpg-1.png" alt="Tango Mango">
+            <img src="https://techlaunch.io/blog/wp-content/uploads/2017/07/the-fitz-solution-2.png" alt="Fitz Solution">
+            <img src="https://techlaunch.io/blog/wp-content/uploads/2017/07/WhereByUs-2.pngfinal-2.png" alt="Where by us">
+        </div>
+    </section>
     <?php $rootPath = ''; include('parts/footer.php') ?>
     <?php $rootPath = ''; include('parts/bottom.php') ?>
 
