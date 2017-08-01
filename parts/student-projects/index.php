@@ -7,7 +7,7 @@
         </a>
         <a class="project" target="_blank" rel="noopener" href="http://www.starthubcenters.com">
             <img src="<?php echo $rootPath ?>images/student-projects/startuphub-miami.jpg" alt="Startuphub Miami" />
-            <div class="title">Startuphub Miami</div>
+            <div class="title">Starthub Miami</div>
         </a>
         <a class="project" target="_blank" rel="noopener" href="http://velozmontero.fvi-grad.com/peoman/">
             <img src="<?php echo $rootPath ?>images/student-projects/peoman-game.jpg" alt="Peoman Game" />

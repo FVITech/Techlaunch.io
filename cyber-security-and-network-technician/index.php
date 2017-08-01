@@ -1,8 +1,8 @@
-<?php $rootPath = '../'; 
-$page = "cyber-security-and-network-technician"; 
+<?php $rootPath = '../';
+$page = "cyber-security-and-network-technician";
 $meta_title="Miami Cyber Security Training, Career and Network Technician Jobs";
 $meta_key="";
-$meta_desc="Cyber Security and Network Technician Training, Programs and Classes. Click Here To Learn More About Cyber Security And Network Technician Training Classes.";    
+$meta_desc="Cyber Security and Network Technician Training, Programs and Classes. Click Here To Learn More About Cyber Security And Network Technician Training Classes.";
 include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -201,7 +201,7 @@ include('../parts/head.php'); ?>
     margin: 0px !important;
 }
  </style>
-    <section class="hiring-partners">
+    <!-- <section class="hiring-partners">
         <h2 class="section-title appear">Hiring Partners</h2>
         <div class="logos-container">
             <img    src="https://techlaunch.io/blog/wp-content/uploads/2017/07/coach-hq-1-1.png" alt="Coach HQ">
@@ -211,8 +211,8 @@ include('../parts/head.php'); ?>
             <img src="https://techlaunch.io/blog/wp-content/uploads/2017/07/the-fitz-solution-2.png" alt="Fitz Solution">
             <img src="https://techlaunch.io/blog/wp-content/uploads/2017/07/WhereByUs-2.pngfinal-2.png" alt="Where by us">
         </div>
-    </section>
- 
+    </section> -->
+
     <?php $rootPath = '../'; include('../parts/footer.php') ?>
     <?php $rootPath = '../'; include('../parts/bottom.php') ?>
 
