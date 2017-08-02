@@ -58,8 +58,8 @@ include('../parts/head.php'); ?>
             <h3 id="occupations">1. Occupatons By Program</h3>
             <p>Florida Vocational Institute offers the following approved tech programs:</p>
             <ul>
-                <li><strong>15-1142:</strong> <a target="_blank" rel="noopener" href="http://www.fvi.edu/ge/IT/Gedt.html">Cyber Security Network Technician</a></li>
-                <li><strong>15-1134:</strong> <a target="_blank" rel="noopener" href="http://www.fvi.edu/ge/WEB/Gedt.html">Web Developer</a></li>
+                <li><strong>15-1142:</strong> <a rel="noopener" href="http://www.fvi.edu/ge/IT/Gedt.html">Cyber Security Network Technician</a></li>
+                <li><strong>15-1134:</strong> <a rel="noopener" href="http://www.fvi.edu/ge/WEB/Gedt.html">Web Developer</a></li>
             </ul>
 
             <h3 id="retention-rate">2. Retention Rate</h3>
