@@ -18,7 +18,7 @@ $(document).ready(function() {
             $(el).find('.date').text(date)
 
             const url = `https://twitter.com/${res[index].user.screen_name}/status/${res[index].id_str}`
-            $(el).find('.link').attr('href', url)
+            $(el).attr('href', url)
         });
     })
     .fail(err => {

@@ -64,40 +64,34 @@
     <div class="third">
         <h3 class="heading">Latest Tweets</h3>
         <div class="tweets-list">
-            <div class="tweet">
-                <a class="link" target="_blank" rel="noopener" href="">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
+            <a class="tweet" target="_blank" rel="noopener" href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
                 <div class="text-container">
                     <p class="text">FVI is hiring instructors! Do you know #javascript and live in #miami? Join the team! #miamitech</p>
                     <p class="date">Jan 22 2017</p>
                 </div>
-            </div>
-            <div class="tweet">
-                <a class="link" target="_blank" rel="noopener" href="">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
+            </a>
+            <a class="tweet" target="_blank" rel="noopener" href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
                 <div class="text-container">
                     <p class="text">RT @ForbesTech: How Companies Like Facebook Use Benefits To Build Millennial Traps: http://forbes.com/16has8</p>
                     <p class="date">Feb 15 2017</p>
                 </div>
-            </div>
-            <div class="tweet">
-                <a class="link" target="_blank" rel="noopener" href="">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
+            </a>
+            <a class="tweet" target="_blank" rel="noopener" href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
                 <div class="text-container">
                     <p class="text">10 Web Design &amp; UX Trends for 2017 That Can Boost Conversions</p>
                     <p class="date">May 04 2017</p>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
-    
+
     <style>
 	.blog_title > a {
 
-	 
+
 		color: #aaa !important;
     font-size: 14px !important;
     font-style: normal !important;
@@ -108,7 +102,7 @@
 	color: #777 !important;
     font-size: 12px !important;
 	}
-	
+
 	footer .fourth p {
     margin-bottom: 3px !important;
     margin-top: 4px !important;
@@ -134,41 +128,41 @@ $xml = simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
 
 $i=1;
 		?>
-            
-            
+
+
             <?php foreach ($xml->channel->item as $item) {
-				
+
 				if($i==6)
 				{
 					break;
 				}
- 
- 
+
+
  $source = $item->pubDate;
 $date = new DateTime($source);
- 
+
 
 
 
 ?>
-            
+
             <div class="blog_title">
                 <a   target="_blank"  href="<?=$item->link?>">
                     <?=$item->title?>
                 </a>
-                 
-                    
+
+
                     <p class="blog-date"><?= $date->format('D M j  Y')?></p>
-               
+
             </div>
-            
+
             <?php
-			
+
 			$i++;
 			}
 			?>
-            
-            
+
+
         </div>
         <br>
         <!--

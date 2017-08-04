@@ -143,6 +143,7 @@ footer .third {
         align-items: flex-start;
         justify-content: flex-start;
         margin: 20px 0;
+        text-decoration: none;
 
         i {
             color: $fvi-blue;
@@ -161,6 +162,12 @@ footer .third {
 
         .text {
             margin: 0;
+
+            @media all and (min-width: 992px) {
+                &:hover {
+                    color: $fvi-blue;
+                }
+            }
         }
 
         .date {
