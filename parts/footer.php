@@ -1,6 +1,8 @@
 <footer data-rootpath="<?php echo $rootPath ?>">
     <div class="first">
-        <img src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+        <a href="<?php echo $rootPath ?>">
+            <img src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+        </a>
         <address>
             8400 NW 36th St #450,<br>
             Doral, FL 33166<br>
@@ -18,7 +20,7 @@
                 </a>
             </li>
             <li>
-                <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>student-disclosures/">
+                <a href="<?php echo $rootPath ?>student-disclosures/">
                     Student Disclosures
                 </a>
             </li>
