@@ -1,16 +1,22 @@
 section.above-the-fold {
     background-image:
-        linear-gradient(rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 100%),
+        linear-gradient(rgba(0, 0, 0, .75) 0%, rgba(0, 0, 0, .75) 100%),
         url('../../images/pipeline/coding-2.jpg');
-    background-position: center top;
+    background-position: 40% top;
 
-    @media all and (min-width: 768px) {
-        min-height: 75vh;
+    @media all and (min-width: 992px) {
+        padding-bottom: 70px;
+        background-position: left top;
+        background-size: 120% auto;
     }
 
     .page-title {
         text-transform: none;
         letter-spacing: 1px;
+
+        @media all and (min-width: 992px) {
+            padding-top: 10%;
+        }
     }
 
     .page-subtitle {

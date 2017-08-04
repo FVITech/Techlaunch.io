@@ -545,8 +545,8 @@ section.above-the-fold {
   background-repeat: no-repeat;
   padding: 0;
   padding-top: 70px;
-  padding-bottom: 20px;
-  min-height: 80vh; }
+  padding-bottom: 40px;
+  text-align: center; }
 
 @media all and (min-width: 768px) {
   section.above-the-fold {
@@ -570,7 +570,7 @@ section.above-the-fold .logo {
   color: #fff;
   font-size: 38px;
   letter-spacing: 4px;
-  padding-top: 30%;
+  padding-top: 5%;
   margin: 0;
   text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.8);
   opacity: 0;
@@ -1623,16 +1623,22 @@ footer .fourth p {
   transition: all 200ms; }
 
 section.above-the-fold {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url("../../images/pipeline/coding-2.jpg");
-  background-position: center top; }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.75) 100%), url("../../images/pipeline/coding-2.jpg");
+  background-position: 40% top; }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 992px) {
   section.above-the-fold {
-    min-height: 75vh; } }
+    padding-bottom: 70px;
+    background-position: left top;
+    background-size: 120% auto; } }
 
 section.above-the-fold .page-title {
   text-transform: none;
   letter-spacing: 1px; }
+
+@media all and (min-width: 992px) {
+  section.above-the-fold .page-title {
+    padding-top: 10%; } }
 
 @media all and (min-width: 768px) {
   section.above-the-fold .page-subtitle {
