@@ -40,6 +40,7 @@ function run() {
                 // passthru($endpoint['run']);
                 // $output = ob_end_contents();
                 $output = shell_exec($endpoint['run']);
+                error_log($output);
                 echo shell_exec('whoami');
                 // prepare and send the notification email
                 if (isset($config['email'])) {
