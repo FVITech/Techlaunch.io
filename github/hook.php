@@ -68,6 +68,9 @@ function run() {
                 }
                 return true;
             }
+            else{
+              error_log("wrong endpoint in config file, skipping...");
+            }
         }
     } else {
       error_log("Didnt find right IP", 0);
