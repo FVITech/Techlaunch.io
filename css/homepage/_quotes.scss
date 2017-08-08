@@ -1,4 +1,4 @@
-section.celebrity {
+section.quotes {
     background-color: #111;
     background-image:
         linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
@@ -12,27 +12,17 @@ section.celebrity {
     @media all and (min-width: 768px) {
         padding: 60px 40px;
     }
+}
 
-    .code-org-logo {
-        width: 90px;
-        height: 90px;
-        margin: auto;
-        display: flex;
-        flex-flow: row wrap;
 
-        span {
-            border: 1px solid #fff;
-            border-radius: 7px;
-            margin: 2px;
-            width: calc(50% - 4px);
-            height: calc(50% - 4px);
-            text-align: center;
-            line-height: 2;
-            font-size: 20px;
-        }
+
+section.quotes .quote {
+
+    &-container {
+        display: none;
     }
 
-    .quote {
+    &-text {
         max-width: 1000px;
         margin: 30px auto;
         line-height: 1.5;
@@ -44,20 +34,39 @@ section.celebrity {
         }
     }
 
-    .author,
-    .title {
+    &-author,
+    &-title {
         max-width: 1000px;
         margin: auto;
         text-align: right;
     }
 
-    .author {
+    &-author {
         font-size: 16px;
         margin-bottom: 10px;
     }
 
-    .title {
+    &-title {
         font-size: 14px;
         font-weight: 800;
+    }
+}
+
+.code-org-logo {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+
+    span {
+        border: 1px solid #fff;
+        border-radius: 7px;
+        margin: 2px;
+        width: calc(50% - 4px);
+        height: calc(50% - 4px);
+        text-align: center;
+        line-height: 2;
+        font-size: 20px;
     }
 }

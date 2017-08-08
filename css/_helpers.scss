@@ -48,6 +48,7 @@
     opacity: 0;
     transform: translateY($offset);
     transition-timing-function: ease-out;
+    transition: all 200ms;
 
     &.scroll-visible {
         transition: all $speed;

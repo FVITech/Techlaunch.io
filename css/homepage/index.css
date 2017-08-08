@@ -452,7 +452,8 @@ template {
 .appear {
   opacity: 0;
   transform: translateY(30px);
-  transition-timing-function: ease-out; }
+  transition-timing-function: ease-out;
+  transition: all 200ms; }
 
 .appear.scroll-visible {
   transition: all 700ms;
@@ -2200,7 +2201,7 @@ section.benefits .benefits-container .right li p {
   margin-left: 15px;
   font-size: 13px; }
 
-section.celebrity {
+section.quotes {
   background-color: #111;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../images/space-travel.jpg");
   background-size: cover;
@@ -2210,17 +2211,44 @@ section.celebrity {
   padding: 30px; }
 
 @media all and (min-width: 768px) {
-  section.celebrity {
+  section.quotes {
     padding: 60px 40px; } }
 
-section.celebrity .code-org-logo {
+section.quotes .quote-container {
+  display: none; }
+
+section.quotes .quote-text {
+  max-width: 1000px;
+  margin: 30px auto;
+  line-height: 1.5;
+  font-size: 18px;
+  text-align: justify; }
+
+@media all and (min-width: 768px) {
+  section.quotes .quote-text {
+    margin: 50px auto; } }
+
+section.quotes .quote-author, section.quotes .quote-title {
+  max-width: 1000px;
+  margin: auto;
+  text-align: right; }
+
+section.quotes .quote-author {
+  font-size: 16px;
+  margin-bottom: 10px; }
+
+section.quotes .quote-title {
+  font-size: 14px;
+  font-weight: 800; }
+
+.code-org-logo {
   width: 90px;
   height: 90px;
   margin: auto;
   display: flex;
   flex-flow: row wrap; }
 
-section.celebrity .code-org-logo span {
+.code-org-logo span {
   border: 1px solid #fff;
   border-radius: 7px;
   margin: 2px;
@@ -2229,31 +2257,6 @@ section.celebrity .code-org-logo span {
   text-align: center;
   line-height: 2;
   font-size: 20px; }
-
-section.celebrity .quote {
-  max-width: 1000px;
-  margin: 30px auto;
-  line-height: 1.5;
-  font-size: 18px;
-  text-align: justify; }
-
-@media all and (min-width: 768px) {
-  section.celebrity .quote {
-    margin: 50px auto; } }
-
-section.celebrity .author,
-section.celebrity .title {
-  max-width: 1000px;
-  margin: auto;
-  text-align: right; }
-
-section.celebrity .author {
-  font-size: 16px;
-  margin-bottom: 10px; }
-
-section.celebrity .title {
-  font-size: 14px;
-  font-weight: 800; }
 
 section.stacks {
   background-color: #eee;

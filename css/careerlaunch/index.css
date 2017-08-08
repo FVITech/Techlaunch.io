@@ -452,7 +452,8 @@ template {
 .appear {
   opacity: 0;
   transform: translateY(30px);
-  transition-timing-function: ease-out; }
+  transition-timing-function: ease-out;
+  transition: all 200ms; }
 
 .appear.scroll-visible {
   transition: all 700ms;

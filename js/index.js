@@ -12,6 +12,8 @@ require('./tech-skills-upgrade-programs.js')
 
 require('./get-info-form.js')
 
-require('./agreement.js')
+require('./quotes.js')
 
-require('./paypal.js')
+// require('./agreement.js')
+
+// require('./paypal.js')
