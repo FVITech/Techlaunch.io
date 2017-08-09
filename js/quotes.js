@@ -11,4 +11,12 @@ function switchQuote() {
 
 switchQuote()
 
+setInterval(function() {
+    const position = $quotesSection[0].getBoundingClientRect()
+    
+    if(position.top >= 0) return;
+    
+    switchQuote()
+}, 5000)
+
 export { switchQuote }
