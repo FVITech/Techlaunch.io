@@ -1,4 +1,8 @@
+(function() {
+
 const $quotesSection = $('section#quotes')
+if($quotesSection.length === 0) return;
+
 const $quotes = $quotesSection.find('.quote-container')
 
 let quoteIndex = Math.floor( Math.random() * $quotes.length )
@@ -19,4 +23,5 @@ setInterval(function() {
     switchQuote()
 }, 5000)
 
-export { switchQuote }
+
+})()

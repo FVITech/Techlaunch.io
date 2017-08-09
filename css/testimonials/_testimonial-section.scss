@@ -1,0 +1,78 @@
+main.testimonials-page {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+section.testimonials-page.testimonial {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .video-container {
+        z-index: 1;
+        width: 100%;
+        position: relative;
+        height: 0;
+        padding-bottom: 56.25%;        
+
+        @media all and (min-width: 768px) {
+            width: 400px;
+            padding-bottom: 225px;
+            float: left;
+            margin-right: 30px;
+            margin-bottom: 15px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            position:absolute;
+            width:100%;
+            height:100%;
+            left:0;
+        }
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+
+        @media all and (min-width: 768px) {
+            width: 400px;
+            float: left;
+            margin-right: 30px;
+            margin-bottom: 15px;
+
+            &.yasiel {
+                width: 300px;
+            }
+        }
+    }
+
+    .video-container,
+    .image {
+        box-shadow: 0 10px 30px -10px rgba(0, 0, 0, .5);
+        border: 2px solid #888;
+    }
+
+    .author {
+        margin-bottom: 5px;
+        font-size: 28px;
+    }
+
+    .title {
+        margin-top: 0px;
+        font-weight: 300;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #777;
+    }
+
+    .quote {
+        font-size: 14px;
+
+        @media all and (min-width: 768px) {
+            font-size: 16px;
+        }
+    }
+}
