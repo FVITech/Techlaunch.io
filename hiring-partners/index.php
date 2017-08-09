@@ -39,6 +39,12 @@ include('../parts/head.php'); ?>
         </div>
     </section>
 
+    <section class="hiring-partner-button">
+        <div class="container">
+            <a class="btn" href="#hiring-partner-form-section" id="open-hiring-partner-form">Apply to Become a Hiring Partner →</a>
+        </div>
+    </section>
+
     <?php
         $testimonials = array('frank-veloz', 'peter-vegliante', 'lily-cantillo');
         include('../parts/testimonials/index.php');
@@ -115,6 +121,53 @@ include('../parts/head.php'); ?>
                     <img src="<?php echo $rootPath ?>images/bridging-the-gap.jpg" alt="Bridging the Skills Gap">
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="testimonials-page hiring-partner-form-section" id="hiring-partner-form-section">
+        <div class="container">
+            <form action="" id="hiring-partner-form">
+                <h2 class="section-title">Become A Hiring Partner</h2>
+                <div class="split-2">
+                    <div class="form-input split-box">
+                        <label for="fname">First Name</label>
+                        <input type="text" name="fname" id="fname">
+                    </div>
+                    <div class="form-input split-box">
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lname" id="lname">
+                    </div>
+                </div>
+                <div class="split-2">
+                    <div class="form-input split-box">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="form-input split-box">
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" id="phone">
+                    </div>
+                </div>
+                <div class="split-2">
+                    <div class="form-input split-box">
+                        <label for="company">Company</label>
+                        <input type="text" name="company" id="company">
+                    </div>
+                    <div class="form-input split-box">
+                        <label for="logo">Logo</label>
+                        <input type="file" accept="image/*" name="logo" id="logo">
+                    </div>
+                </div>
+                <div class="form-input">
+                    <label for="website">Website</label>
+                    <input type="text" name="website" id="website">
+                </div>
+                <div class="form-input">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <button class="btn" type="submit" id="submit">Send Form</button>
+            </form>
         </div>
     </section>
 
