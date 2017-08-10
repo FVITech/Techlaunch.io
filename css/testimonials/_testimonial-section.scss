@@ -52,6 +52,10 @@ section.testimonials-page.testimonial {
     .image {
         box-shadow: 0 10px 30px -10px rgba(0, 0, 0, .5);
         border: 2px solid #888;
+
+        @media all and (min-width: 768px) {
+            margin-top: 4px;
+        }
     }
 
     .author {
@@ -66,13 +70,16 @@ section.testimonials-page.testimonial {
         text-transform: uppercase;
         letter-spacing: 2px;
         color: #777;
+        margin-bottom: 15px;
     }
 
     .quote {
         font-size: 14px;
+        margin-top: 0;
 
         @media all and (min-width: 768px) {
-            font-size: 16px;
+            font-size: 18px;
+            line-height: 1.8;
         }
     }
 }
