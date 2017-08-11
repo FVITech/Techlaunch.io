@@ -137,7 +137,7 @@ include('../parts/head.php'); ?>
 
     <section class="testimonials-page hiring-partner-form-section" id="hiring-partner-form-section">
         <div class="container">
-            <form action="<?php echo $rootPath; ?>hiring-partners/contact.php" method="POST" id="hiring-partner-form">
+            <form id="hiring-partner-form" action="<?php echo $rootPath; ?>hiring-partners/contact.php" method="POST" enctype="multipart/form-data">
                 <h2 class="section-title">Become A Hiring Partner</h2>
                 <div class="split-2">
                     <div class="form-input split-box">
