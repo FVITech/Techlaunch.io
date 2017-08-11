@@ -1,4 +1,4 @@
-<div class="carousel-item image">
+<div class="carousel-item image" id="yasiel-sanchez">
     <div class="left">
         <img src="<?php echo $rootPath ?>images/people/yasiel-sanchez-caleo.jpg" alt="Yasiel Sanchez Caleo, Techlaunch @ FVI student">
     </div>

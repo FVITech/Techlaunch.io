@@ -2,7 +2,7 @@
 @import "../normalize";
 @import "../helpers";
 @import "../base";
-@import "../testimonials";
+@import "../testimonials-slider";
 @import "../footer";
 @import "../navbar/navbar";
 @import "../navbar/menu-overlay";
@@ -13,6 +13,9 @@
 // sections
 @import "above-the-fold";
 @import "talent";
+@import "hiring-partner-button";
+@import "hiring-partner-form";
 @import "reasons";
+@import "logos";
 @import "learning";
 @import "bridging-the-gap";

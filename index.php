@@ -177,19 +177,11 @@ include('parts/head.php'); ?>
         </div>
     </section>
 
-    <section class="celebrity">
-        <div class="code-org-logo">
-            <span>C</span>
-            <span>O</span>
-            <span>D</span>
-            <span>E</span>
-        </div>
-        <p class="quote">
-          "The programmers of tomorrow are the wizards of the future. You're going to look like you have magic powers compared to everybody else."
-        </p>
-        <p class="author">Gabe Newell</p>
-        <p class="title">Founder & President, Valve</p>
-    </section>
+    <?php
+        $rootPath = '';
+        $classes = '';
+        include('parts/quotes.php')
+    ?>
 
     <section class="stacks">
         <h2 class="section-title">Software Stacks We Teach</h2>

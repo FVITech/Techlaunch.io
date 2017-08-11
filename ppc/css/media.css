@@ -1,0 +1,219 @@
+@media (min-width: 1701px) {
+  #learn .learn-colophon { margin-top: 100px; }
+}
+
+@media (min-width: 1601px) {
+  #learn .learn-title { margin-bottom: 60px; }
+}
+
+@media (max-width: 1300px) {
+  #learn .tab-content-wrapper { padding: 30px 50px; }
+  #learn .learn-colophon p { font-size: 20px; }
+  #learn .learn-colophon { margin-top: 55px; }
+}
+
+@media (max-width: 1300px) and (min-width: 1200px) {
+  #federal-aid .content-text h2 { font-size: 28px; padding-bottom: 15px; }
+  #federal-aid .fedaid-form { padding-top: 25px; }
+  #graduate .graduate-text { padding-top: 10px; }
+  #graduate .first-graduate-text { padding-top: 20px; }
+  #graduate .note-text-wrapper { margin-top: 10px; }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  #hero .hero-overlay .content h1 { font-size: 60px; margin-bottom: 20px; }
+  #hero .hero-overlay .content h3 { font-size: 24px; }
+  #hero .hero-overlay .content a { font-size: 16px; }
+
+  #statics .statics-number { font-size: 40px; }
+  #statics .statics-description  { font-size: 24px; }
+  #statics .statics-block.first-block { padding: 0 0 0 130px; }
+  #statics .statics-block.last-block { padding: 0 130px 0 0; }
+
+  #expect .enroll-form-wrapper .enroll-description { padding: 0 15px 35px; }
+
+  #expect .enroll-form-wrapper label,
+  #expect .enroll-form-wrapper input { font-size: 18px; }
+  #expect .enroll-form-wrapper input { padding-bottom: 10px; }
+  #expect .enroll-form-wrapper button { margin: 25px 0; }
+
+  #learn .learn-colophon p { font-size: 16px; }
+  #learn .resp-tabs-list li img { width: 40px; }
+  #learn .tab-content-wrapper p { padding-bottom: 0; }
+  #learn .tab-content-wrapper h5 { padding-bottom: 5px; font-size: 18px; }
+  #learn .top-box-arrow { z-index: -1; }
+  #learn .learn-title h2 { font-size: 24px; }
+
+  #graduate .content-wrapper { padding-top: 30px; }
+  #graduate .graduate-text { padding-top: 15px; font-size: 14px; }
+
+  #federal-aid .content-wrapper { padding-left: 20px; }
+
+  #bootcamp { padding: 70px 0; }
+  #bootcamp h2 { padding-bottom: 0; }
+  #bootcamp p { padding: 10px 0; }
+
+  #widgets .widget-col-wrapper { height: 280px; }
+}
+
+
+@media (max-width: 991px) {
+
+  #header, #header div { height: 82px; }
+  #header .hero-assistent-text p { font-size: 14px; }
+  #header .logo-wrapper img { max-width: 230px; }
+
+  #header .phone-wrapper { padding-left: 40px; padding-right: 40px; }
+  #header .phone-wrapper a { font-size: 18px; }
+  #header .text-wrapper p { font-size: 14px; }
+
+  #hero .hero-overlay .content h1 { font-size: 40px; margin-bottom: 20px; }
+  #hero .hero-overlay .content h3 { font-size: 18px; }
+  #hero .hero-overlay .content a { font-size: 16px; }
+
+  #statics .statics-block { padding: 0 30px; }
+  #statics .statics-number { font-size: 36px; }
+  #statics .statics-description { font-size: 20px; }
+  #statics .statics-wrapper { padding: 40px 0; }
+
+  #expect .content-column { padding-right: 15px; }
+  #expect .form-column { padding-left: 15px; }
+
+  #expect .enroll-form-wrapper .enroll-description { padding: 0 20px 35px; font-size: 14px; }
+  #expect .enroll-form-wrapper h2 { padding: 30px 0 20px; font-size: 28px; }
+
+  #expect .enroll-form-wrapper label,
+  #expect .enroll-form-wrapper input { font-size: 16px; }
+  #expect .enroll-form-wrapper .controls-column { padding-bottom: 10px; }
+
+  #expect .enroll-form-wrapper input:focus + label,
+  #expect .enroll-form-wrapper input.not-empty + label {
+    font-size: 10px;
+    top: -15px;
+  }
+
+  #expect .enroll-form-wrapper .form-final-note { padding: 0 20px 25px; }
+  #expect .enroll-form-wrapper button { margin: 25px 0; font-size: 14px; padding: 12px 35px; }
+  #expect { padding-top: 50px; }
+  #expect > h2 { font-size: 28px; padding-bottom: 40px; }
+
+  #expect .expect-logo-wrapper img { position: relative; left: 25px; }
+  #expect .expect-stats p { font-size: 18px; }
+
+  #learn .tab-link-wrapper img { width: 30px !important; }
+  #learn .learn-title h2 { font-size: 28px; }
+  #learn .learn-colophon p { font-size: 18px; }
+
+
+  #career .career-title h2 { font-size: 28px; padding-bottom: 30px; }
+  #career .content-wrapper .signature { font-size: 18px; }
+
+  #graduate .content-wrapper { padding: 30px 0; }
+
+  #federal-aid .hero-overlay { position: static; padding: 30px 0; }
+  #federal-aid .content-wrapper { padding-left: 0; }
+  #federal-aid .federal-aid-container { width: 100%; }
+  #federal-aid .control-group { margin: 10px 0; }
+  #federal-aid .fedaid-form { padding-top: 20px; }
+
+  #bootcamp { padding: 60px 0; }
+  #bootcamp .image-wrapper img { width: 400px; margin: 0 auto; }
+  #bootcamp .content-text { padding-top: 50px; }
+
+  #widgets .container { width: 100% !important; }
+  #widgets .widget-col-wrapper { height: auto; }
+
+  #colophon { padding: 30px 0; }
+  #colophon .colophon-wrapper { padding: 30px 0; }
+}
+
+
+@media (max-width: 767px) {
+
+  #header .container { padding-right: 0; }
+  #header .logo-wrapper { display: flex; align-items: center; }
+  #header .logo-wrapper img { max-width: 190px; }
+  #header .text-wrapper { display: none; }
+  #header .phone-wrapper i { font-size: 36px; }
+  #header .phone-wrapper { padding-left: 30px; padding-right: 30px; padding-bottom: 20px; }
+
+  #hero .hero-overlay .content h1 { font-size: 24px; margin-bottom: 20px; text-align: center; }
+  #hero .hero-overlay .content h3 { font-size: 14px; padding: 0 20px; }
+
+  #hero .hero-overlay .content a {
+    font-size: 12px;
+    display: block;
+    width: 168px;
+    margin: 30px auto 0;
+  }
+
+
+  #statics .statics-block { padding: 10px 60px; }
+  #statics .statics-wrapper { padding: 30px 0; }
+  #statics .statics-number { font-size: 30px; }
+
+
+  #expect > h2 { font-size: 22px; }
+  #expect .expect-content p { padding-bottom: 30px; font-size: 16px; }
+  #expect .expect-content img { width: 100%; }
+  #expect .enroll-form-wrapper .enroll-description { padding: 0 0 20px; }
+  #expect .expect-stats-row, #expect .expect-stats-row div:not(.box-arrow) { height: auto; }
+  #expect .expect-stats { padding: 40px 30px; }
+  #expect .expect-stats p { font-size: 16px; }
+  #expect .expect-wrapper { padding-bottom: 35px; margin-bottom: 35px; }
+
+  #learn { background-color: #272f33; }
+  #learn .resp-tabs-list { display: none !important; }
+  #learn .tab-content-wrapper h5 { font-size: 16px !important; }
+  #learn .tab-content-wrapper { padding: 10px 20px !important; }
+  #learn .tab-content-wrapper p { font-size: 14px !important; }
+  #learn .learn-colophon { padding: 15px; margin-top: 25px !important; }
+  #learn .learn-colophon p { font-size: 14px !important; }
+  #learn .learn-title h2 { font-size: 22px !important; }
+  #learn .resp-arrow { border: none !important; }
+
+  #learn .resp-arrow::after{
+    content: '\f078';
+    font-family: 'FontAwesome';
+    position: relative;
+    top: 5px;
+    left: -15px;
+  }
+
+  #learn .hero-overlay { position: static; background-color: transparent; padding: 50px 0; }
+  #learn .resp-tab-content { box-shadow: none !important; }
+
+  #career .photo-wrapper img { margin: 0 auto; width: 150px; }
+  #career .career-title h2 { font-size: 22px; }
+  #career .career-quote { font-size: 14px; padding-left: 45px; }
+  #career .content-wrapper i.fa { font-size: 30px; }
+  #career .content-wrapper .signature { padding-left: 45px; }
+
+  #graduate .content-wrapper h2 { font-size: 22px; }
+  #graduate .graduate-text { font-size: 14px; padding-top: 15px; }
+
+  #federal-aid .content-text h2 { font-size: 22px; }
+  #federal-aid label, #federal-aid input { font-size: 16px; }
+
+  #federal-aid input:focus + label,
+  #federal-aid input.not-empty + label {
+    font-size: 10px;
+    top: -15px;
+  }
+
+  #federal-aid button {
+    margin: 25px 0;
+    font-size: 14px;
+    padding: 12px 35px;
+  }
+
+  #federal-aid .content-text p { font-size: 14px; }
+  #federal-aid .content-text h2 { padding-bottom: 15px; }
+
+  #bootcamp h2 { font-size: 22px; }
+  #bootcamp .content-text { padding-top: 20px; }
+  #bootcamp p { font-size: 14px; padding: 10px 0; }
+
+  #widgets .widget-col-wrapper { padding: 0; }
+}

@@ -35,10 +35,11 @@ var offset = null
 function playAnimations() {
     animElements.forEach(function(el) {
         const triggerPoint = el.position - windowHeight + offset
-        if(window.scrollY > triggerPoint)
+        if(window.scrollY > triggerPoint) {
             el.element.addClass('scroll-visible')
-        else
+        } else {
             el.element.removeClass('scroll-visible')
+        }
     })
 }
 

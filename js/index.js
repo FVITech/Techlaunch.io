@@ -1,4 +1,4 @@
-require('./vendor.js')
+require('./carousel-slider.js')
 
 require('./menu.js')
 
@@ -12,6 +12,10 @@ require('./tech-skills-upgrade-programs.js')
 
 require('./get-info-form.js')
 
-require('./agreement.js')
+require('./quotes.js')
 
-require('./paypal.js')
+require('./testimonials.js')
+
+// require('./agreement.js')
+
+// require('./paypal.js')

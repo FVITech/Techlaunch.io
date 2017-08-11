@@ -1,0 +1,7 @@
+test of staging env
+some more testingkjbzdgjlnsfgjk,fsgnjlksd
+even more testing 3
+more testing after finding right config file
+more testing after setting permissions
+after removing problem with remote file
+one more test for good measure

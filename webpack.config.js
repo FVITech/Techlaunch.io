@@ -24,6 +24,11 @@ module.exports = {
             }
         ]
     },
+    plugins: [
+        new webpack.DefinePlugin({
+            root: JSON.stringify('/')
+        })
+    ],
     devServer:{
       proxy: {
         // "^http://localhost:8080/$": {

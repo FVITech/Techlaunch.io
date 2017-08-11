@@ -1,0 +1,66 @@
+section.hiring-partner-form-section {
+    background-color: $dark-blue;
+
+    form {
+        padding: 15px;
+        max-width: 700px;
+        color: #eee;
+        margin: auto;
+
+        .section-title {
+            margin-top: 0px;
+            color: #fff;
+            text-align: center;
+        }
+
+        .form-input {
+            padding: 10px 0;
+            width: 100%;
+
+            @media all and (min-width: 600px) {
+                &.split-box {
+                    width: 48%;
+                }
+            }
+        }
+
+        label {
+            display: block;
+            font-size: 10px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            margin-bottom: 3px;
+            text-transform: uppercase;
+            color: #aaa;
+        }
+
+        input,
+        textarea {
+            display: block;
+            border: 1px solid #ccc;
+            width: 100%;
+            padding: 8px;
+            border-radius: 2px;
+            font-size: 14px;
+            resize: none;
+        }
+
+        #logo {
+            padding: 6px 0;
+            border: none;
+        }
+
+        textarea {
+            height: 150px;
+
+            @media all and (min-width: 600px) {
+                height: 80px;
+            }
+        }
+
+        #submit {
+            margin: auto;
+            margin-top: 15px;
+        }
+    }
+}
