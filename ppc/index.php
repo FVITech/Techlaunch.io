@@ -197,32 +197,32 @@
                     </div>
 
                     <form id="contact_form" action="<?php echo $newaction;?>" method="POST">
-
+                        <input type="hidden" value="Web Developer" name="program_id">
                       <div class="col-xs-12 col-md-6 controls-column">
                         <div class="control-group text-left">
-                          <input type="text" name="txtFirstName" id="txt-firstName" required>
-                          <label for="txt-firstName">* First Name</label>
+                           <label for="name">Name</label>
+                           <input id="name" class="input form-control" name="first_name" type="text" value="" placeholder="Name" required/>
                         </div>
                       </div>
 
                       <div class="col-xs-12 col-md-6 controls-column">
                         <div class="control-group text-left">
-                          <input type="text" name="txtLastName" id="txt-lastName" required>
-                          <label for="txt-lastName">* Last Name</label>
+                           <label for="lname">Last Name</label>
+                           <input id="lname" class="input form-control" name="last_name" type="text" value="" placeholder="Last Name" required/>
                         </div>
                       </div>
 
                       <div class="col-xs-12 col-md-6 controls-column">
                         <div class="control-group text-left">
-                          <input type="tel" name="txtPhone" id="txt-phone" required>
-                          <label for="txt-phone">* Phone</label>
+                           <label for="phone">Phone</label>
+                           <input id="phone" class="input form-control" name="day_phone" type="number" value="" placeholder="Phone" required/>
                         </div>
                       </div>
 
                       <div class="col-xs-12 col-md-6 controls-column">
                         <div class="control-group text-left">
-                          <input type="email" name="txtEmail" id="txt-email" required>
-                          <label for="txt-email">* Email</label>
+                           <label for="email">Email</label>
+                           <input id="email" class="input form-control" name="email" type="text" value="" placeholder="Email" required/>
                         </div>
                       </div>
 
@@ -232,6 +232,7 @@
                       </div>
 
                     </form>
+
 
                     <div class="col-xs-12 text-center">
                       <p class="white-text form-final-note">If you'll like more information about this course please fill the form below and a recruiting specialist will contact you shortly.</p>
@@ -287,25 +288,25 @@
 
                  <li>
                    <div class="tab-link-wrapper">
-                     <img src="images/icons/css3.png" class="img-responsive" alt="">
-                   </div>
-                 </li>
-
-                 <li>
-                   <div class="tab-link-wrapper">
                      <img src="images/icons/js.png" class="img-responsive" alt="">
                    </div>
                  </li>
 
                  <li>
                    <div class="tab-link-wrapper">
-                     <img src="images/icons/node.png" class="img-responsive" alt="">
+                     <img src="images/icons/php-1.png" class="img-responsive" alt="">
                    </div>
                  </li>
 
                  <li>
                    <div class="tab-link-wrapper">
-                     <img src="images/icons/angular.png" class="img-responsive" alt="">
+                     <img src="images/icons/js-1.png" class="img-responsive" alt="">
+                   </div>
+                 </li>
+
+                 <li>
+                   <div class="tab-link-wrapper">
+                     <img src="images/icons/react-1.png" class="img-responsive" alt="">
                    </div>
                  </li>
                </ul>
@@ -432,18 +433,19 @@
                 <div class="container-fluid">
                   <div class="row">
 
-                    <form action="" method="post">
+                    <form id="contact_form" action="<?php echo $newaction;?>" method="POST">
+                       <input type="hidden" value="Financial" name="program_id">
                       <div class="col-xs-12 col-sm-6">
                         <div class="control-group text-left">
-                          <input type="text" name="txtFaaName" id="txt-faaName" required>
-                          <label for="txt-faaName">* Name</label>
+                           <label for="name">Name</label>
+                           <input id="name" class="input form-control" name="first_name" type="text" value="" placeholder="Name" required/>
                         </div>
                       </div>
 
                       <div class="col-xs-12 col-sm-6">
                         <div class="control-group text-left">
-                          <input type="email" name="txtFaaEmail" id="txt-faaEmail" required>
-                          <label for="txt-faaEmail">* Email</label>
+                           <label for="email">Email</label>
+                           <input id="email" class="input form-control" name="email" type="text" value="" placeholder="Email" required/>
                         </div>
                       </div>
 
