@@ -10,7 +10,7 @@ include('../parts/head.php'); ?>
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <?php include('../parts/navbar.php'); ?>
-    <?php $program = "web-developer"; include('../parts/get-info-form.php'); ?>
+    <?php $program = "web-developer"; $classes = ""; include('../parts/get-info-form.php'); ?>
 
     <section class="above-the-fold">
         <div class="container">

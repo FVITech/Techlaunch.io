@@ -3,7 +3,10 @@ section.above-the-fold {
         linear-gradient(rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 100%),
         url('../../images/backgrounds/servers-room.jpg');
     min-height: 80vh;
-    text-align: left;
+    
+    @media all and (min-width: 768px) {
+        text-align: left;
+    }
 
     .content {
         display: flex;

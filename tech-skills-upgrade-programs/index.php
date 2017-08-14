@@ -11,10 +11,9 @@ include('../parts/head.php'); ?>
     <!-- End Google Tag Manager (noscript) -->
     <?php
       include('../parts/navbar.php');
-      $classes = "on-page";
+      $program = "aws";
+      $classes = "";
       include('../parts/get-info-form.php');
-      include('../parts/agreement.php');
-      include('../parts/paypal-pop-up.php');
     ?>
 
     <span id="tech-skills-upgrade-programs"></span>
