@@ -24,9 +24,63 @@
   <!-- own css -->
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="stylesheet" href="css/media.css" />
+
+
+  <?php
+      $origin = "no-origin";
+      $phone = "786-574-9511";
+      $newaction = "https://secure.velocify.com/Import.aspx?Provider=ExploreFVI&Client=30010&CampaignId=1033&Url=http://www.fvi.edu/web_development/thanks.php";
+      //http://www.fvi.edu/medical_assistant/?origin=gmail
+      if(isset($_GET['origin'])){
+        $origin = $_GET['origin'];//gmail
+      }
+  ?>
+
+
+
+  <?php
+    if($origin=='google'){?>
+      <!--Origin - Google-->
+      <script type="text/javascript">
+        var google_replace_number="786-574-9511";
+        (function(a,e,c,f,g,b,d){var h={ak:"939988187",cl:"a4GcCIWJ-WAQ26mcwAM"};a[c]=a[c]||function(){(a[c].q=a[c].q||[]).push(arguments)};a[f]||(a[f]=h.ak);b=e.createElement(g);b.async=1;b.src="//www.gstatic.com/wcm/loader.js";d=e.getElementsByTagName(g)[0];d.parentNode.insertBefore(b,d);a._googWcmGet=function(b,d,e){a[c](2,b,h,d,null,new Date,e)}})(window,document,"_googWcmImpl","_googWcmAk","script");
+      </script>
+    <?php }elseif($origin=='bing') {
+              echo "<!--Origin - Bing-->";
+              $phone = '786-574-2599';
+              $newaction = "https://secure.velocify.com/Import.aspx?Provider=YahooBingPPC&Client=30010&CampaignId=1065&Url=http://www.fvi.edu/web_development/thanks.php";
+          }elseif($origin=='es-bing') {
+              echo "<!--Origin - Bing Spanish-->";
+              $phone = '305-615-6348';
+              $newaction = "https://secure.velocify.com/Import.aspx?Provider=YahooBingPPCSpanish&Client=30010&CampaignId=1083&Url=http://www.fvi.edu/web_development/thanks.php";
+          }elseif($origin=='facebook') {
+              echo "<!--Origin - Facebook-->";
+              $phone = '786-574-6626';
+              $newaction = "https://secure.velocify.com/Import.aspx?Provider=FacebookAds&Client=30010&CampaignId=1059&Url=http://www.fvi.edu/web_development/thanks.php";
+          }elseif($origin=='es-google') {?>
+            <!--Origin - Google Spanish-->
+
+            <script type="text/javascript">
+              var google_replace_number="305-851-5511";
+              (function(a,e,c,f,g,b,d){var h={ak:"939988187",cl:"a4GcCIWJ-WAQ26mcwAM"};a[c]=a[c]||function(){(a[c].q=a[c].q||[]).push(arguments)};a[f]||(a[f]=h.ak);b=e.createElement(g);b.async=1;b.src="//www.gstatic.com/wcm/loader.js";d=e.getElementsByTagName(g)[0];d.parentNode.insertBefore(b,d);a._googWcmGet=function(b,d,e){a[c](2,b,h,d,null,new Date,e)}})(window,document,"_googWcmImpl","_googWcmAk","script");
+            </script>
+          <?php }
+    ?>
+
+
+
 </head>
 <body>
 
+   <!-- Google Tag Manager -->
+   <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TF9598"
+   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+   '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+   })(window,document,'script','dataLayer','GTM-TF9598');</script>
+   <!-- End Google Tag Manager -->
 
 
 <header id="header" class="header-wrapper white-bg-color">
@@ -43,7 +97,7 @@
       </div>
 
       <div class="phone-wrapper blue-bg-color">
-        <p> <a href="tel:7865749511" class="white-text"><span class="hidden-xs">786.574.9511</span> <span><i class="fa fa-phone hidden-sm hidden-md hidden-lg" aria-label="call"></i></span></a> </p>
+        <p> <a href="tel:<?php echo $phone;?>" class="white-text"><span class="hidden-xs"><?php echo $phone;?></span> <span><i class="fa fa-phone hidden-sm hidden-md hidden-lg" aria-label="call"></i></span></a> </p>
       </div>
     </div><!-- /.header-content-wrapper -->
   </div><!-- /.container -->
@@ -142,7 +196,7 @@
                       <p class="white-text text-center enroll-description">If you’ll like more information about this course please fill the form below and a recruiting specialist will get in touch with you promptly.</p>
                     </div>
 
-                    <form action="index.html" method="post">
+                    <form id="contact_form" action="<?php echo $newaction;?>" method="POST">
 
                       <div class="col-xs-12 col-md-6 controls-column">
                         <div class="control-group text-left">
@@ -258,28 +312,28 @@
 
                <div class="resp-tabs-container vert">
                  <div class="tab-content-wrapper">
-                   <h5 class="blue-text light-text">Learn front end web development with HTML5, CSS3, JavaScript, and modern JavaScript frameworks. -1</h5>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                   <!-- <h5 class="blue-text light-text"> -->
+                      <p>With HTML &amp; CSS, you will be able to build the frontend of almost everything that you see on the web. They are the most common and important languages on the web as both basic websites to complex systems, like Google and Facebook, use HTML and CSS. Although you cannot build an entire program with them alone, what you see on the web is made up of HTML &amp; CSS.</p>
                  </div>
 
                  <div class="tab-content-wrapper">
-                   <h5 class="blue-text light-text">Learn front end web development with HTML5, CSS3, JavaScript, and modern JavaScript frameworks. -2</h5>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                   <!-- <h5 class="blue-text light-text"> -->
+                      <p>Javascript is one of the three core technologies needed for web development and is currently the most popular language in the world. With Javascript, you will be able to take an ordinary website to extra ordinary by adding interactive features that bring life to the web that you see. You will also be able to build games, mobile apps and more with this incredibly diverse language.</p>
                  </div>
 
                  <div class="tab-content-wrapper">
-                   <h5 class="blue-text light-text">Learn front end web development with HTML5, CSS3, JavaScript, and modern JavaScript frameworks. -3</h5>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                   <!-- <h5 class="blue-text light-text"> -->
+                      <p>With PHP, you can build numerous different systems including E-Commerce stores and content management systems. This is a widely-used open source language that allows you to manipulate data, databases, forms and other server-side scripts and is used in the most popular platforms like Magento and Wordpress.</p>
                  </div>
 
                  <div class="tab-content-wrapper">
-                   <h5 class="blue-text light-text">Learn front end web development with HTML5, CSS3, JavaScript, and modern JavaScript frameworks. -4</h5>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                   <!-- <h5 class="blue-text light-text"> -->
+                      <p>With Node.js, you will be able to build a wide variety of projects ranging from chat applications to creating a remote control for a car to even creating your own  drawing tools application. Part of the Javascript family, this language is in high demand as companies like PayPal, LinkedIn, Uber and Netflix all heavily use Node.js.</p>
                  </div>
 
                  <div class="tab-content-wrapper">
-                   <h5 class="blue-text light-text">Learn front end web development with HTML5, CSS3, JavaScript, and modern JavaScript frameworks. -5</h5>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                   <!-- <h5 class="blue-text light-text"> -->
+                      <p>As one of the many frameworks of Javascript, many of the new social media platforms like Facebook and Instagram, both of them are built with React.js. Another language in the Javascript family, this language continues to be in high demand as Javascript continues to be the most widely used language in the world.</p>
                  </div>
                </div><!-- /.resp-tabs-container -->
              </div><!-- /#learnTabs -->
@@ -317,7 +371,7 @@
         <div class="col-xs-12 col-sm-9">
           <div class="content-wrapper">
             <i class="fa fa-quote-left blue-text"></i>
-            <p class="career-quote">"I'm graceful to FVI and all professors like Victor Moreno and Randy Ferrer for providing me with skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you'll find every step of the learning process."</p>
+            <p class="career-quote">"I'm grateful to FVI and all professors like Victor Moreno and Randy Ferrer for providing me with the skills and abilities that helped open the doors to a world full of new opportunities. Coding literally changed my life and has become a powerful tool to grow and improve my life in several aspects. Excellence, knowledge, respect, dedication are the things you'll find every step of the learning process."</p>
             <p class="signature blue-text light-text">— Frank Veloz, <i>Web Developer at Tango Mango</i>.</p>
           </div>
         </div>
@@ -453,7 +507,7 @@
             <h2 class="light-text">Our Campus</h2>
 
             <p class="white-text bold-text campus-title">Florida Vocational Institute</p>
-            <p class="white-text">Ph: 786-574-9511</p>
+            <p class="white-text">Ph: <?php echo $phone;?></p>
             <p class="white-text">Mall of Americas</p>
             <p class="white-text">7757 West Flagler Street #220 Miami, FL 33144</p>
             <p class="white-text campus-address"><a target="_blank" href="https://www.google.com/maps/place/7757+West+Flagler+Street+#220+,Miami,+FL,+33144" class="white-text get-directions"><i class="fa fa-map-marker" aria-hidden="true"></i> Get Campus Directions</a></p>
