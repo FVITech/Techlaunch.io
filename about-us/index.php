@@ -35,7 +35,7 @@ include('../parts/head.php'); ?>
             </div>
             <div class="split-2">
                 <div class="split-box left text appear">
-                    <h2 class="section-title">Bridging The Technological Gaps</h2>
+                    <h2 class="section-title">Bridging The Technology Gap</h2>
                     <p>The world of tech presents many challenges and it can be difficult to keep up with this constantly changing industry. That’s why we continually refine our curriculum based on feedback from our hiring partners – companies who use technology everyday and can identify skill gaps within the industry. This puts our grads on the right path and provides them with hard to find skills that employers are looking for.</p>
                 </div>
                 <div class="split-box right image appear"></div>
