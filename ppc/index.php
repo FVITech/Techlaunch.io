@@ -200,29 +200,29 @@
                         <input type="hidden" value="Web Developer" name="program_id">
                       <div class="col-xs-12 col-md-6 controls-column">
                         <div class="control-group text-left">
-                           <label for="name">Name</label>
-                           <input id="name" class="input form-control" name="first_name" type="text" value="" placeholder="Name" required/>
+                           <input id="txt-firstName" class="input form-control" name="first_name" type="text" value="" placeholder="Name" required/>
+                           <label for="txt-firstName">Name</label>
                         </div>
                       </div>
 
                       <div class="col-xs-12 col-md-6 controls-column">
                         <div class="control-group text-left">
-                           <label for="lname">Last Name</label>
-                           <input id="lname" class="input form-control" name="last_name" type="text" value="" placeholder="Last Name" required/>
+                           <input id="txt-lastName" class="input form-control" name="last_name" type="text" value="" placeholder="Last Name" required/>
+                           <label for="txt-lastName">Last Name</label>
                         </div>
                       </div>
 
                       <div class="col-xs-12 col-md-6 controls-column">
                         <div class="control-group text-left">
-                           <label for="phone">Phone</label>
-                           <input id="phone" class="input form-control" name="day_phone" type="number" value="" placeholder="Phone" required/>
+                           <input id="txt-phone" class="input form-control" name="day_phone" type="number" value="" placeholder="Phone" required/>
+                           <label for="txt-phone">Phone</label>
                         </div>
                       </div>
 
                       <div class="col-xs-12 col-md-6 controls-column">
                         <div class="control-group text-left">
-                           <label for="email">Email</label>
-                           <input id="email" class="input form-control" name="email" type="text" value="" placeholder="Email" required/>
+                           <input id="txt-email" class="input form-control" name="email" type="text" value="" placeholder="Email" required/>
+                           <label for="txt-email">Email</label>
                         </div>
                       </div>
 
@@ -437,20 +437,20 @@
                        <input type="hidden" value="Financial" name="program_id">
                       <div class="col-xs-12 col-sm-6">
                         <div class="control-group text-left">
-                           <label for="name">Name</label>
-                           <input id="name" class="input form-control" name="first_name" type="text" value="" placeholder="Name" required/>
+                           <input id="txt-firstName" class="input form-control" name="first_name" type="text" value="" placeholder="Name" required/>
+                           <label for="txt-firstName">Name</label>
                         </div>
                       </div>
 
                       <div class="col-xs-12 col-sm-6">
                         <div class="control-group text-left">
-                           <label for="email">Email</label>
-                           <input id="email" class="input form-control" name="email" type="text" value="" placeholder="Email" required/>
+                           <input id="txt-email" class="input form-control" name="email" type="text" value="" placeholder="Email" required/>
+                           <label for="txt-email">Email</label>
                         </div>
                       </div>
 
                       <div class="col-xs-12">
-                        <button type="submit" name="btnFaaSubmit" id="btn-faaSubmit">See if you qualify</button>
+                        <button type="submit" name="btnFaaSubmit" id="btn-submit">See if you qualify</button>
                       </div>
                     </form>
 
