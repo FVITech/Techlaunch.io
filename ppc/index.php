@@ -200,28 +200,28 @@
                         <input type="hidden" value="Web Developer" name="program_id">
                       <div class="col-xs-12 col-md-6 controls-column">
                         <div class="control-group text-left">
-                           <input id="txt-firstName" class="input form-control" name="first_name" type="text" value="" placeholder="Name" required/>
+                           <input id="txt-firstName" class="input form-control" name="first_name" type="text" value=""  required/>
                            <label for="txt-firstName">Name</label>
                         </div>
                       </div>
 
                       <div class="col-xs-12 col-md-6 controls-column">
                         <div class="control-group text-left">
-                           <input id="txt-lastName" class="input form-control" name="last_name" type="text" value="" placeholder="Last Name" required/>
+                           <input id="txt-lastName" class="input form-control" name="last_name" type="text" value="" required/>
                            <label for="txt-lastName">Last Name</label>
                         </div>
                       </div>
 
                       <div class="col-xs-12 col-md-6 controls-column">
                         <div class="control-group text-left">
-                           <input id="txt-phone" class="input form-control" name="day_phone" type="number" value="" placeholder="Phone" required/>
+                           <input id="txt-phone" class="input form-control" name="day_phone" type="number" value="" required/>
                            <label for="txt-phone">Phone</label>
                         </div>
                       </div>
 
                       <div class="col-xs-12 col-md-6 controls-column">
                         <div class="control-group text-left">
-                           <input id="txt-email" class="input form-control" name="email" type="text" value="" placeholder="Email" required/>
+                           <input id="txt-email" class="input form-control" name="email" type="text" value="" required/>
                            <label for="txt-email">Email</label>
                         </div>
                       </div>
