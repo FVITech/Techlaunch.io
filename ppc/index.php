@@ -437,14 +437,14 @@
                        <input type="hidden" value="Financial" name="program_id">
                       <div class="col-xs-12 col-sm-6">
                         <div class="control-group text-left">
-                           <input id="txt-firstName" class="input form-control" name="first_name" type="text" value="" placeholder="Name" required/>
+                           <input id="txt-firstName" class="input form-control" name="first_name" type="text" value="" required/>
                            <label for="txt-firstName">Name</label>
                         </div>
                       </div>
 
                       <div class="col-xs-12 col-sm-6">
                         <div class="control-group text-left">
-                           <input id="txt-email" class="input form-control" name="email" type="text" value="" placeholder="Email" required/>
+                           <input id="txt-email" class="input form-control" name="email" type="text" value="" required/>
                            <label for="txt-email">Email</label>
                         </div>
                       </div>
