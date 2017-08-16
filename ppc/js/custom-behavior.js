@@ -56,6 +56,22 @@ jQuery(function($){
     }
   });
 
+  $('#expect .enroll-form-wrapper input[type="number"]').bind('keyup mouseup', function () {
+    if($(this).val().length === 0 || !$(this).val().trim()){
+      $(this).removeClass('not-empty');
+    } else {
+      $(this).addClass('not-empty');
+    }
+  });
+
+  $('#federal-aid input[type="number"]').bind('keyup mouseup', function () {
+    if($(this).val().length === 0 || !$(this).val().trim()){
+      $(this).removeClass('not-empty');
+    } else {
+      $(this).addClass('not-empty');
+    }
+  });
+
 
   $('#learnTabs').easyResponsiveTabs({
     tabidentify: 'vert',

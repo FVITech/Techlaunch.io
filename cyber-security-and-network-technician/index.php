@@ -10,7 +10,7 @@ include('../parts/head.php'); ?>
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <?php include('../parts/navbar.php'); ?>
-    <?php $program = "cyber-security"; $classes = 'on-page'; include('../parts/get-info-form.php'); ?>
+    <?php $program = "cyber-security"; $classes = ""; include('../parts/get-info-form.php'); ?>
 
     <section class="above-the-fold">
         <div class="container">
@@ -195,6 +195,27 @@ include('../parts/head.php'); ?>
             </div>
         </div>
     </section>
+
+    <section class="our-campus">
+        <div class="container">
+            <div class="split-2">
+                <div class="split-box image-container">
+                    <div class="image appear first"></div>
+                </div>
+                <div class="split-box text">
+                    <h2 class="section-title">Our Campus</h2>
+                    <p>We are located at the Pipeline Doral co-working space. The Doral area is home to numerous tech companies.</p>
+                </div>
+                <div class="split-box image-container">
+                    <div class="image appear second"></div>
+                </div>
+                <div class="split-box image-container">
+                    <div class="image appear delay-300 third"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
  <style>
  section.hiring-partners .logos-container img {
     height: 100% !important;

@@ -3,6 +3,10 @@ section.above-the-fold {
         linear-gradient(rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 100%),
         url('../../images/backgrounds/computer-background.jpg');
     min-height: 80vh;
+    
+    @media all and (min-width: 768px) {
+        text-align: left;
+    }
 
     .content {
         display: flex;
@@ -34,7 +38,7 @@ section.above-the-fold .text-box {
         @include slide-up-fade-in(0s);
 
         @media all and (min-width: 768px) {
-            padding-top: 18%;
+            padding-top: 12%;
             padding-bottom: 20px;
             font-size: 65px;
         }
