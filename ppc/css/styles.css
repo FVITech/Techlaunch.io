@@ -176,6 +176,12 @@ p { font-size: 16px; color: #333; margin-bottom: 0; }
   color: #4fe405;
   padding-bottom: 15px;
   border-radius: 0;
+  padding: 0;
+}
+
+#expect .enroll-form-wrapper input:focus,
+#federal-aid input:focus {
+  box-shadow: none;
 }
 
 #expect .enroll-form-wrapper button,
@@ -211,7 +217,7 @@ p { font-size: 16px; color: #333; margin-bottom: 0; }
 #expect .enroll-form-wrapper input:focus + label,
 #expect .enroll-form-wrapper input.not-empty + label {
   font-size: 11px;
-  top: -12px;
+  top: -15px;
 }
 
 #expect .expect-wrapper { border-bottom: 1px solid #c3c3c3; padding-bottom: 45px; margin-bottom: 45px; }
@@ -341,16 +347,18 @@ p { font-size: 16px; color: #333; margin-bottom: 0; }
 #federal-aid .hero-overlay { background-color: transparent; }
 #federal-aid label { color: #097dd4; }
 #federal-aid input { background-color: transparent; border-bottom: 1px solid #097dd4; color: #097dd4; }
-#federal-aid .fedaid-form { padding-top: 50px; }
+#federal-aid .fedaid-form { padding-top: 35px; }
 #federal-aid .content-text { padding-left: 15px; }
-#federal-aid .content-text h2 { font-size: 30px; padding-bottom: 30px; }
+#federal-aid .content-text h2 { font-size: 30px; padding-bottom: 15px; }
 #federal-aid .content-wrapper { padding-left: 40px; }
-#federal-aid button { margin: 30px 0 0; }
+#federal-aid button { margin: 15px 0 0; }
+
+#federal-aid .control-group { margin-bottom: 25px; }
 
 #federal-aid input:focus + label,
 #federal-aid input.not-empty + label {
   font-size: 11px;
-  top: -12px;
+  top: -15px;
 }
 
 /* /FEDERAL AID STYLES */

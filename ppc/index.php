@@ -437,15 +437,29 @@
                        <input type="hidden" value="Financial" name="program_id">
                       <div class="col-xs-12 col-sm-6">
                         <div class="control-group text-left">
-                           <input id="txt-firstName" class="input form-control" name="first_name" type="text" value="" required/>
-                           <label for="txt-firstName">Name</label>
+                           <input id="txt-faaFirstName" class="input form-control" name="first_name" type="text" value="" required/>
+                           <label for="txt-faaFirstName">Name</label>
                         </div>
                       </div>
 
                       <div class="col-xs-12 col-sm-6">
                         <div class="control-group text-left">
-                           <input id="txt-email" class="input form-control" name="email" type="text" value="" required/>
-                           <label for="txt-email">Email</label>
+                           <input id="txt-faaLastName" class="input form-control" name="last_name" type="text" value="" required/>
+                           <label for="txt-faaLastName">Last Name</label>
+                        </div>
+                      </div>
+
+                      <div class="col-xs-12 col-sm-6">
+                        <div class="control-group text-left">
+                           <input id="txt-faaPhone" class="input form-control" name="email" type="number" value="" required/>
+                           <label for="txt-faaPhone">Phone</label>
+                        </div>
+                      </div>
+
+                      <div class="col-xs-12 col-sm-6">
+                        <div class="control-group text-left">
+                           <input id="txt-faaEmail" class="input form-control" name="email" type="text" value="" required/>
+                           <label for="txt-faaEmail">Email</label>
                         </div>
                       </div>
 
