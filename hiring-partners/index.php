@@ -45,11 +45,6 @@ include('../parts/head.php'); ?>
         </div>
     </section>
 
-    <?php
-        $testimonials = array('frank-veloz', 'peter-vegliante', 'lily-cantillo');
-        include('../parts/testimonials/index.php');
-    ?>
-
     <section class="reasons">
         <div class="container">
             <h2 class="section-title appear">Reasons To Hire A TechLaunch Graduate</h2>
@@ -100,6 +95,38 @@ include('../parts/head.php'); ?>
                     </li>
                 </ul>
             </div>
+        </div>
+    </section>
+
+    <section class="hiring-partner-testimonials">
+        <div class="container">
+            <h2 class="section-title appear">Join Our Hiring Partners</h2>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <h3 class="name">Spiderboost</h3>
+                    <video controls>
+                        <source src="<?php echo $rootPath ?>videos/Spiderboost_Testimony.mp4" type="video/mp4">
+                        <source src="<?php echo $rootPath ?>videos/Spiderboost_Testimony.ogg" type="video/ogg">
+                    </video>
+                </div>
+                <div class="testimonial">
+                    <h3 class="name">LaunchCode</h3>
+                    <div class="text">
+                        <p>"We've always been impressed with TechLaunch graduates and have been very happy bringing Lily on-board as an instructor for LaunchCode."</p>
+                        <p class="author-name">Matt Mawhinney</p>
+                        <p class="author-title">South Florida Community Manager at LaunchCode</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <h3 class="name">StartHub</h3>
+                    <div class="text">
+                        <p>"Eric has been instrumental in getting our own web presence sharpened-up to attract more web visitors and increase our flow of conversions."</p>
+                        <p class="author-name">Hector Rodriguez</p>
+                        <p class="author-title">Community Director at StartHub</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
