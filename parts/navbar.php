@@ -63,7 +63,6 @@
                 <a class="menu-header dropdown" href="<?php echo $rootPath ?>about-us/">About Us</a>
                 <div class="menu-list">
                     <a class="mobile-link" href="<?php echo $rootPath ?>about-us/">About Us Summary</a>
-                    <a target="_blank" rel="noopener" href="https://www.techlaunch.io/blog">Blog</a>
                     <a href="<?php echo $rootPath ?>contact-us/">Contact Us</a>
                 </div>
             </div>
