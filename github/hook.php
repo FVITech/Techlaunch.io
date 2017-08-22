@@ -30,6 +30,8 @@ function run() {
         error_log('Made it past IP check',0);
         foreach ($config['endpoints'] as $endpoint) {
             // check if the push came from the right repository and branch
+            error_log("payload->ref: " . $payload->ref);
+            error_log("endpoint.branch: " . $endpoint['branch']);
             if ($payload->repository->url == 'https://github.com/' . $endpoint['repo']
                 && $payload->ref == 'refs/heads/' . $endpoint['branch']) {
                 // execute update script, and record its output
@@ -38,6 +40,7 @@ function run() {
                 // passthru($endpoint['run']);
                 // $output = ob_end_contents();
                 $output = shell_exec($endpoint['run']);
+                error_log($output);
                 echo shell_exec('whoami');
                 // prepare and send the notification email
                 if (isset($config['email'])) {
@@ -64,6 +67,9 @@ function run() {
                     mail($config['email']['to'], $endpoint['action'], $body, $headers);
                 }
                 return true;
+            }
+            else{
+              error_log("wrong endpoint in config file, skipping...");
             }
         }
     } else {
