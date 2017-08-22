@@ -4,6 +4,8 @@ require('./menu.js')
 
 require('./twitter.js')
 
+require('./events.js')
+
 require('./canvas.js')
 
 require('./scroll-animations.js')
