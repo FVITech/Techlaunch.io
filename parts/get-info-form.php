@@ -63,7 +63,7 @@
             <div class="form-input split-2">
                 <div class="split-box">
                     <label>phone</label>
-                    <input type="tel" name="phone">
+                    <input type="tel" name="phone" required>
                 </div>
                 <div class="split-box">
                     <label>zip code</label>
