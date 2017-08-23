@@ -4,7 +4,7 @@ const rootPath = $('footer').data('rootpath')
 
 function getLocation(venue_id) {
     $.ajax({
-        url: `${rootPath}events/get-location.php?venue_id=${venue_id}`,
+        url: `${rootPath}events/eventbrite-sdk.php?venue_id=${venue_id}`,
         method: 'GET',
         dataType: 'json'
     })
