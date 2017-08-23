@@ -20,7 +20,7 @@ include('parts/head.php'); ?>
                 <img src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
             <h2 class="page-title">Ready to Launch a Career in Technology?</h2>
-            <p class="page-subtitle">With programs in Web Development and IT Security, TechLaunch offers immersive programs designed to take you from zero to hero in no time!</p>
+            <p class="page-subtitle">TechLaunch offers immersive programs and courses that prepare you today, for the recession proof tech careers of tomorrow.</p>
             <div class="buttons-box">
                 <a class="btn browse-programs" href="<?php echo $rootPath ?>programs/">Browse Programs</a>
                 <a class="btn get-more-info">Get More Info</a>

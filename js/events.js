@@ -42,7 +42,7 @@ function createEventHTML(ev) {
                 <time class="start-time" datetime="${ev.start.local}">${startTime}</time> -
                 <time class="end-time" datetime="${ev.end.local}">${endTime}</time>
                 <address class="location" data-venue="${ev.venue_id}">
-                    ${ev.location}
+                    ${ev.location || ''}
                 </address>
                 <div class="links">
                     <a class="btn register" target="_blank" rel="noopener" href="${ev.url}">register →</a>
