@@ -46,7 +46,7 @@
             </li>
         </ul>
         <div class="social-media">
-            <a target="_blank" rel="noopener" href="https://www.facebook.com/FVITech/?ref=br_rs">
+            <a target="_blank" rel="noopener" href="https://www.facebook.com/TechLaunchMiami/?ref=br_rs">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
             <a target="_blank" rel="noopener" href="https://twitter.com/techlaunchmiami">
