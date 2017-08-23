@@ -13,7 +13,7 @@ function getLocation(venue_id) {
     })
     .fail(err => {
         console.log('Failed to get Event location.');
-        console.error(err.responseText)
+        console.error(err)
     })
 }
 
@@ -99,6 +99,6 @@ $(document).ready(function() {
     })
     .fail(err => {
         console.log('Failed to get EventBrite events.');
-        console.error(err.responseText)
+        console.error(err)
     })
 })
