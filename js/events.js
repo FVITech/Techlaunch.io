@@ -2,10 +2,29 @@ const $ = require('jquery')
 const moment = require('moment')
 const rootPath = $('footer').data('rootpath')
 
+function getLocation(venue_id) {
+    $.ajax({
+        url: `${rootPath}events/get-location.php?venue_id=${venue_id}`,
+        method: 'GET',
+        dataType: 'json'
+    })
+    .done(res => {
+        console.log(res)
+
+        $(`address[data-venue="${venue_id}"]`).html(res)
+    })
+    .fail(err => {
+        console.log('Failed to get Event location.');
+        console.error(err)
+    })
+}
+
 function createEventHTML(ev) {
     const date = moment(ev.start.local).format("ddd, MMM Do, YYYY")
     const startTime = moment(ev.start.local).format("h:mm a")
     const endTime = moment(ev.end.local).format("h:mm a")
+
+    getLocation(ev.venue_id)
 
     return `
         <div class="event">
@@ -24,7 +43,7 @@ function createEventHTML(ev) {
                 </p>
                 <time class="start-time" datetime="${ev.start.local}">${startTime}</time> -
                 <time class="end-time" datetime="${ev.end.local}">${endTime}</time>
-                <address class="location">
+                <address class="location" data-venue="${ev.venue_id}">
                     ${ev.location}
                 </address>
                 <div class="links">
