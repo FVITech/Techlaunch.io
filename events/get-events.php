@@ -1,5 +1,5 @@
 <?php
-    set_include_path(':.')
+    set_include_path(':.');
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
