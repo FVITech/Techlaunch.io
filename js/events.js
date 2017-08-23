@@ -90,7 +90,7 @@ $(document).ready(function() {
     if($('section#events-list').length === 0) return false
 
     $.ajax({
-        url: `${rootPath}events/get-events.php`,
+        url: `${rootPath}events/eventbrite-sdk.php`,
         method: 'GET',
         dataType: 'json'
     })
