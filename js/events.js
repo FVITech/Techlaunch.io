@@ -9,13 +9,11 @@ function getLocation(venue_id) {
         dataType: 'json'
     })
     .done(res => {
-        console.log(res)
-
         $(`address[data-venue="${venue_id}"]`).html(res)
     })
     .fail(err => {
         console.log('Failed to get Event location.');
-        console.error(err)
+        console.error(err.responseText)
     })
 }
 
@@ -97,12 +95,10 @@ $(document).ready(function() {
         dataType: 'json'
     })
     .done(res => {
-        console.log(res)
-
         $('#events-list-container').html(generateEventsList(res.events))
     })
     .fail(err => {
         console.log('Failed to get EventBrite events.');
-        console.error(err)
+        console.error(err.responseText)
     })
 })
