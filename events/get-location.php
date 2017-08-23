@@ -5,7 +5,7 @@
 
     $venue_id = $_GET['venue_id'];
 
-    require_once('../eventbrite-sdk-php/HttpClient.php');
+    require_once('eventbrite-sdk-php/HttpClient.php');
     $client = new HttpClient('M43W3J65BLAWDNGL2KJY&order_by=start_asc');
     $response = $client->get("/venues/$venue_id");
 
