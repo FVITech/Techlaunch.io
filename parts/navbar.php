@@ -70,6 +70,9 @@
                 <a class="menu-header" href="<?php echo $rootPath ?>financial-aid/">Financial Aid</a>
             </div>
             <div class="menu-section">
+                <a class="menu-header" href="<?php echo $rootPath ?>events/">Events</a>
+            </div>
+            <div class="menu-section">
                 <a class="menu-header" href="<?php echo $rootPath ?>veterans/">Veterans</a>
             </div>
             <div class="menu-section">
