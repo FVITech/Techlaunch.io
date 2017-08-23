@@ -24,6 +24,7 @@ include('../parts/head.php'); ?>
     <section class="events-list" id="events-list">
         <div class="container">
             <p class="section-summary">Techlaunch regularly hosts various events, including free coding workshops and informational sessions.</p>
+            <br>
             <div class="events-list-container" id="events-list-container">
                 <br>
                 <h3 style="text-align: center">Loading events...</h3>
