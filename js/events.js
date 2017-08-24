@@ -69,9 +69,13 @@ function createEventHTML(ev) {
 }
 
 function createDateSectionHTML(date, events) {
+    let dateString = (String(new Date(date)) !== 'Invalid Date')
+        ? moment(date, 'MM/DD/YYYY').format("ddd, MMM Do, YYYY")
+        : date
+
     let dateSection = `
         <div class="date-section">
-            <h3 class="date-title">${moment(date, 'MM/DD/YYYY').format("ddd, MMM Do, YYYY")}</h3>
+            <h3 class="date-title">${dateString}</h3>
     `
     
     events.forEach(event => {
@@ -79,6 +83,22 @@ function createDateSectionHTML(date, events) {
     })
 
     return dateSection + `</div>`
+}
+
+function filterEventsByDate(events = {}) {
+    const filteredEvents = Object.assign({}, events)
+    const inThePast = {}
+
+    for(date in events) {
+        if(new Date(date) < Date.now()) {
+            inThePast[date] = events[date]
+            delete filteredEvents[date]
+        }
+    }
+
+    filteredEvents['inThePast'] = inThePast
+
+    return filteredEvents
 }
 
 function generateEventsList(events) {
@@ -95,8 +115,14 @@ function generateEventsList(events) {
         eventsByDate[dateString].push(event)
     })
 
-    for(date in eventsByDate) {
-        eventsListHTML += createDateSectionHTML(date, eventsByDate[date])
+    const {filteredEvents, inThePast} = filterEventsByDate(eventsByDate)
+
+    for(date in filteredEvents) {
+        eventsListHTML += createDateSectionHTML(date, filteredEvents[date])
+    }
+
+    for(date in inThePast) {
+        eventsListHTML += createDateSectionHTML('In the Past', inThePast[date])
     }
 
     return eventsListHTML
