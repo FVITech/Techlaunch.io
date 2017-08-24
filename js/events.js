@@ -69,12 +69,16 @@ function createEventHTML(ev) {
 }
 
 function createDateSectionHTML(date, events) {
-    let dateString = (String(new Date(date)) !== 'Invalid Date')
-        ? moment(date, 'MM/DD/YYYY').format("ddd, MMM Do, YYYY")
-        : date
+    let dateString = moment(date, 'MM/DD/YYYY').format("ddd, MMM Do, YYYY")
+    let sectionClass = ''
+    
+    if (String(new Date(date)) === 'Invalid Date') {
+        dateString = date
+        sectionClass = 'in-the-past'
+    }
 
     let dateSection = `
-        <div class="date-section">
+        <div class="date-section ${sectionClass}">
             <h3 class="date-title">${dateString}</h3>
     `
     
@@ -91,14 +95,14 @@ function filterEventsByDate(events = {}) {
 
     for(date in events) {
         if(new Date(date) < Date.now()) {
-            inThePast[date] = events[date]
+            if(new Date(date) > Date.now() - 2592000000) {
+                inThePast[date] = events[date]
+            }
             delete filteredEvents[date]
         }
     }
 
-    filteredEvents['inThePast'] = inThePast
-
-    return filteredEvents
+    return {filteredEvents, inThePast}
 }
 
 function generateEventsList(events) {
@@ -138,6 +142,8 @@ $(document).ready(function() {
     })
     .done(res => {
         $('#events-list-container').html(generateEventsList(res.events))
+
+        $('#events-list-container .in-the-past .btn.register').html('view event')
     })
     .fail(err => {
         console.log('Failed to get EventBrite events.');
