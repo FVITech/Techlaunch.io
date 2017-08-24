@@ -10,6 +10,7 @@
             <span class="step">Step 3</span>
         </div> -->
         <?php
+          session_start();
           $url = '';
           $escaped_url = 'unknown';
           if (isset($_SERVER['HTTP_HOST'])){
@@ -37,6 +38,9 @@
           }
           elseif ($origin == 'facebook'){
             $form_action = "https://secure.velocify.com/Import.aspx?Provider=FacebookAds&Client=30010&CampaignId=1059&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
+          }
+          elseif ($origin == 'coursereport'){
+            $form_action = "https://secure.velocify.com/Import.aspx?Provider=CourseReport&Client=30010&CampaignId=1102&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
           }
           // elseif ($origin == 'google'){
           //   $form_action = "https://secure.velocify.com/Import.aspx?Provider=ExploreFVI&Client=30010&CampaignId=1033&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;

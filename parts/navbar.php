@@ -1,17 +1,21 @@
 <div id="menu-overlay"></div>
 
 <?php
+    session_start();
     $origin = "no-origin";
     $phone_num = "305-783-3599";
 
     if(isset($_GET['origin'])){
       $origin = $_GET['origin'];
-      session_start();
       $_SESSION['origin'] = $origin;
     }
     if (isset($_SESSION) && isset($_SESSION['origin'])  ){
       $origin = $_SESSION['origin'];
+      ?><script>
+      console.log("Session origin: <?php echo $_SESSION['origin']; ?>");
+      </script><?php
     }
+
     if ($origin == 'bing'){
       $phone_num = '786-574-2599';
     }
