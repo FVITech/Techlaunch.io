@@ -1,5 +1,7 @@
 const $ = require('jquery')
 const moment = require('moment')
+const sanitizeHTML = require('sanitize-html')
+const truncate = require('html-truncate')
 const rootPath = $('footer').data('rootpath')
 
 function getLocation(venue_id) {
@@ -17,6 +19,20 @@ function getLocation(venue_id) {
     })
 }
 
+function sanitizeAndTruncate(desc) {
+    const sanitized =  sanitizeHTML(desc, {
+        allowedTags: ['b', 'i', 'strong', 'em', 'a', 'ul', 'li', 'ol', 'br', 'p', 'abbr', 'div', 'section', 'article', 'blockquote', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
+        allowedAttributes: {
+            'a': ['href'],
+            '*': ['aria-*', 'title', 'alt']
+        }
+    })
+
+    const truncated = truncate(sanitized, 300)
+
+    return truncated
+}
+
 function createEventHTML(ev) {
     const date = moment(ev.start.local).format("ddd, MMM Do, YYYY")
     const startTime = moment(ev.start.local).format("h:mm a")
@@ -32,7 +48,7 @@ function createEventHTML(ev) {
             <div class="event-text">
                 <a class="event-title" href="${ev.url}" target="_blank" rel="noopener">${ev.name.html}</a>
                 <div class="event-description">
-                    ${ev.description.html}
+                    ${sanitizeAndTruncate(ev.description.html)}
                 </div>
             </div>
             <div class="event-info">
