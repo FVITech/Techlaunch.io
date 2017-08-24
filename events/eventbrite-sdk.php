@@ -1287,13 +1287,13 @@ class HttpClient extends AccessMethods
 
 if(isset($_GET['venue_id'])) {
     $venue_id = $_GET['venue_id'];
-    $client = new HttpClient('M43W3J65BLAWDNGL2KJY');
+    $client = new HttpClient('T6O6AXCSIXIDH42MI5OK');
     $response = $client->get("/venues/$venue_id");
     echo json_encode($response['address']['localized_address_display']);
     return;
 }
 
-$client = new HttpClient('M43W3J65BLAWDNGL2KJY&order_by=start_asc');
+$client = new HttpClient('T6O6AXCSIXIDH42MI5OK&order_by=start_asc');
 $response = $client->get('/users/me/owned_events');
 
 echo json_encode($response);
