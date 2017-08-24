@@ -6,6 +6,11 @@
 
     if(isset($_GET['origin'])){
       $origin = $_GET['origin'];
+      session_start();
+      $_SESSION['origin'] = $origin;
+    }
+    if (isset($_SESSION) && isset($_SESSION['origin'])  ){
+      $origin = $_SESSION['origin'];
     }
     if ($origin == 'bing'){
       $phone_num = '786-574-2599';
@@ -16,6 +21,9 @@
     elseif ($origin == 'facebook'){
       $phone_num = '786-574-6626';
     }
+    elseif ($origin == 'coursereport'){
+      $phone_num = '305-676-9569';
+    }
     elseif($origin=='google' || $origin=='es-google'){
       $phone_num = $origin=='google' ? "305-570-4471" : "305-851-5511";
     ?>
@@ -25,7 +33,9 @@
       (function(a,e,c,f,g,b,d){var h={ak:"939988187",cl:"a4GcCIWJ-WAQ26mcwAM"};a[c]=a[c]||function(){(a[c].q=a[c].q||[]).push(arguments)};a[f]||(a[f]=h.ak);b=e.createElement(g);b.async=1;b.src="//www.gstatic.com/wcm/loader.js";d=e.getElementsByTagName(g)[0];d.parentNode.insertBefore(b,d);a._googWcmGet=function(b,d,e){a[c](2,b,h,d,null,new Date,e)}})(window,document,"_googWcmImpl","_googWcmAk","script");
     </script>
   <?php }?>
-
+<script>
+  console.log("Origin: <?php echo $origin; ?>");
+</script>
 <nav id="navbar">
     <div class="get-info">Get Info</div>
     <a class="phone" href="tel:<?php echo $phone_num?>"><?php echo $phone_num?></a>

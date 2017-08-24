@@ -18,10 +18,17 @@
           }
           $form_action = "https://secure.velocify.com/Import.aspx?Provider=TechLaunchWebsite&Client=30010&CampaignId=1101&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
 
-          $origin = "no-origin";
-          if(isset($_GET['origin'])){
-            $origin = $_GET['origin'];
+          if (!isset($origin)){
+            //this is just hardening the script, since $origin is set in navbar.php
+            $origin = "no-origin";
+            if (isset($_GET['origin'])){
+              $origin = $_GET['origin'];
+            }
+            if (isset($_SESSION) && isset($_SESSION['origin'])){
+              $origin = $_SESSION['origin'];
+            }
           }
+
           if ($origin == 'bing'){
             $form_action = "https://secure.velocify.com/Import.aspx?Provider=YahooBingPPC&Client=30010&CampaignId=1065&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
           }
