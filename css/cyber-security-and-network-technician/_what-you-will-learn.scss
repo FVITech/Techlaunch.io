@@ -21,7 +21,7 @@ section.what-you-will-learn {
         .card {
             display: flex;
             flex-flow: row;
-            align-items: flex-start;
+            align-items: center;
             margin: 20px 0;
 
             @media all and (min-width: 481px) {
