@@ -40,7 +40,7 @@
                 </a>
             </li>
             <li>
-                <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>sitemap.html">
+                <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>sitemap.php">
                     Sitemap
                 </a>
             </li>
