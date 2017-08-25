@@ -4,7 +4,7 @@ const sanitizeHTML = require('sanitize-html')
 const truncate = require('html-truncate')
 const rootPath = $('footer').data('rootpath')
 
-function getLocation(venue_id) {
+function getAndSetLocation(venue_id) {
     if(!venue_id) return false
 
     $.ajax({
@@ -32,7 +32,7 @@ function sanitizeAndTruncate(desc, url) {
 
     let options = {}
 
-    if(url) options = { ellipsis: `... <a target="_blank" rel="noopener" href="${url}">read more</a>`}
+    if(url) options = { ellipsis: `... <a target="_blank" rel="noopener" href="${url}" style="text-decoration: none;">read more</a>`}
 
     const truncated = truncate(sanitized, 300, options)
 
@@ -51,8 +51,9 @@ function createEventHTML(ev) {
     const date = moment(start).format("ddd, MMM Do, YYYY")
     const startTime = moment(start).format("h:mm a")
     const endTime = moment(end).format("h:mm a")
+    const buttonText = (new Date(end) < Date.now()) ? 'view event →' : 'register →'
 
-    getLocation(ev.venue_id)
+    getAndSetLocation(ev.venue_id)
 
     return `
         <div class="event">
@@ -75,19 +76,19 @@ function createEventHTML(ev) {
                 <time class="end-time" datetime="${end}">${endTime}</time>
                 <address class="location" data-venue="${ev.venue_id}"></address>
                 <div class="links">
-                    <a class="btn register" target="_blank" rel="noopener" href="${url}">register →</a>
+                    <a class="btn register" target="_blank" rel="noopener" href="${url}">${buttonText}</a>
                 </div>
             </div>
         </div>
     `
 }
 
-function createDateSectionHTML(date, events) {
+function createDateSectionHTML(date, events = []) {
     let dateString = moment(date, 'MM/DD/YYYY').format("ddd, MMM Do, YYYY")
     let sectionClass = ''
     
-    if (String(new Date(date)) === 'Invalid Date') {
-        dateString = date
+    if (date === 'in the past') {
+        dateString = 'In the Past'
         sectionClass = 'in-the-past'
     }
 
@@ -103,57 +104,60 @@ function createDateSectionHTML(date, events) {
     return dateSection + `</div>`
 }
 
-function filterEventsByDate(events = {}) {
-    const filteredEvents = Object.assign({}, events)
-    const inThePast = {}
+function groupEventsByDate(events = []) {
+    const upcomingEvents = {}
+    const pastEvents = {}
 
-    for(date in events) {
-        if(new Date(date) < Date.now()) {
-            if(new Date(date) > Date.now() - 2592000000) {
-                inThePast[date] = events[date]
+    events.forEach(event => {
+        if(event.status === 'draft') return false
+
+        const date = new Date(event.end.local)
+        const dateString = date.toLocaleDateString()
+
+        if(date < Date.now()) {
+            if(date > Date.now() - 2592000000) {
+                if(!pastEvents[dateString]) {
+                    pastEvents[dateString] = []
+                }
+        
+                pastEvents[dateString].push(event)
             }
-            delete filteredEvents[date]
+            return false
         }
-    }
 
-    return {filteredEvents, inThePast}
+        if(!upcomingEvents[dateString]) {
+            upcomingEvents[dateString] = []
+        }
+
+        upcomingEvents[dateString].push(event)
+    })
+
+    return { upcomingEvents, pastEvents }
 }
 
-function generateEventsList(events) {
-    let eventsListHTML = ''
-    const eventsByDate = {}
+function generateEventsList(events = []) {
 
     if(events.length === 0) return '<br><h3 style="text-align: center">No upcoming events</h3><br>'
 
-    events.forEach(event => {
-        const dateString = new Date(event.start.local).toLocaleDateString()
+    const { upcomingEvents, pastEvents } = groupEventsByDate(events)
 
-        if(event.status === 'draft') return false
+    let eventsListHTML = ''
 
-        if(!eventsByDate[dateString]) {
-            eventsByDate[dateString] = []
-        }
-
-        eventsByDate[dateString].push(event)
-    })
-
-    const {filteredEvents, inThePast} = filterEventsByDate(eventsByDate)
-
-    if(Object.keys(filteredEvents).length === 0) {
+    if(Object.keys(upcomingEvents).length === 0) {
         eventsListHTML += '<h3 style="text-align: center">No upcoming events</h3><br>'
     }
     else {
-        for(date in filteredEvents) {
-            eventsListHTML += createDateSectionHTML(date, filteredEvents[date])
+        for(date in upcomingEvents) {
+            eventsListHTML += createDateSectionHTML(date, upcomingEvents[date])
         }
     }
 
-    if(Object.keys(inThePast).length === 0) {
+    if(Object.keys(pastEvents).length === 0) {
         eventsListHTML += ''
     }
     else {
-        for(date in inThePast) {
-            eventsListHTML += createDateSectionHTML('In the Past', inThePast[date])
+        for(date in pastEvents) {
+            eventsListHTML += createDateSectionHTML('in the past', pastEvents[date])
         }
     }
 
@@ -170,11 +174,9 @@ $(document).ready(function() {
     })
     .done(res => {
         $('#events-list-container').html(generateEventsList(res.events))
-
-        $('#events-list-container .in-the-past .btn.register').html('view event')
     })
     .fail(err => {
-        console.log('Failed to get EventBrite events.');
+        console.log('Failed to get EventBrite events. See error below.');
         console.error(err)
     })
 })
