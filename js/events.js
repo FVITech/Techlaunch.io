@@ -124,6 +124,8 @@ function generateEventsList(events) {
     events.forEach(event => {
         const dateString = new Date(event.start.local).toLocaleDateString()
 
+        if(event.status === 'draft') return false
+
         if(!eventsByDate[dateString]) {
             eventsByDate[dateString] = []
         }
@@ -134,7 +136,7 @@ function generateEventsList(events) {
     const {filteredEvents, inThePast} = filterEventsByDate(eventsByDate)
 
     if(Object.keys(filteredEvents).length === 0) {
-        eventsListHTML += '<br><h3 style="text-align: center">No upcoming events</h3><br>'
+        eventsListHTML += '<h3 style="text-align: center">No upcoming events</h3><br>'
     }
     else {
         for(date in filteredEvents) {
