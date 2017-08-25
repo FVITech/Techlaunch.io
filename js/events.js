@@ -5,6 +5,8 @@ const truncate = require('html-truncate')
 const rootPath = $('footer').data('rootpath')
 
 function getLocation(venue_id) {
+    if(!venue_id) return false
+
     $.ajax({
         url: `${rootPath}events/eventbrite-sdk.php?venue_id=${venue_id}`,
         method: 'GET',
@@ -34,34 +36,42 @@ function sanitizeAndTruncate(desc) {
 }
 
 function createEventHTML(ev) {
-    const date = moment(ev.start.local).format("ddd, MMM Do, YYYY")
-    const startTime = moment(ev.start.local).format("h:mm a")
-    const endTime = moment(ev.end.local).format("h:mm a")
+    const titleText = (ev.name) ? (ev.name.text) ? ev.name.text : '' : ''
+    const titleHTML = (ev.name) ? (ev.name.html) ? ev.name.html : '' : ''
+    const url = (ev.url) ? ev.url : ''
+    const logo = (ev.logo) ? (ev.logo.url) ? ev.logo.url : '' : ''
+    const description = (ev.description) ? (ev.description.html) ? ev.description.html : '' : ''
+    const start = (ev.start) ? (ev.start.local) ? ev.start.local : '' : ''
+    const end = (ev.end) ? (ev.end.local) ? ev.end.local : '' : ''
+    
+    const date = moment(start).format("ddd, MMM Do, YYYY")
+    const startTime = moment(start).format("h:mm a")
+    const endTime = moment(end).format("h:mm a")
 
     getLocation(ev.venue_id)
 
     return `
         <div class="event">
-            <a class="event-image" title="${ev.name.text}" href="${ev.url}" target="_blank" rel="noopener">
-                <img src="${ev.logo.url}" alt="${ev.name.text}">
-            </a>
+            ${(logo) ? `
+                <a class="event-image" title="${titleText}" href="${url}" target="_blank" rel="noopener">
+                    <img src="${logo}" alt="${titleText}">
+                </a>
+            ` : ''}
             <div class="event-text">
-                <a class="event-title" href="${ev.url}" target="_blank" rel="noopener">${ev.name.html}</a>
+                <a class="event-title" href="${url}" target="_blank" rel="noopener">${titleHTML}</a>
                 <div class="event-description">
-                    ${sanitizeAndTruncate(ev.description.html)}
+                    ${sanitizeAndTruncate(description)}
                 </div>
             </div>
             <div class="event-info">
                 <p class="date">
                     ${date}
                 </p>
-                <time class="start-time" datetime="${ev.start.local}">${startTime}</time> -
-                <time class="end-time" datetime="${ev.end.local}">${endTime}</time>
-                <address class="location" data-venue="${ev.venue_id}">
-                    ${ev.location || ''}
-                </address>
+                <time class="start-time" datetime="${start}">${startTime}</time> -
+                <time class="end-time" datetime="${end}">${endTime}</time>
+                <address class="location" data-venue="${ev.venue_id}"></address>
                 <div class="links">
-                    <a class="btn register" target="_blank" rel="noopener" href="${ev.url}">register →</a>
+                    <a class="btn register" target="_blank" rel="noopener" href="${url}">register →</a>
                 </div>
             </div>
         </div>
@@ -109,6 +119,8 @@ function generateEventsList(events) {
     let eventsListHTML = ''
     const eventsByDate = {}
 
+    if(events.length === 0) return '<br><h3 style="text-align: center">No upcoming events</h3><br>'
+
     events.forEach(event => {
         const dateString = new Date(event.start.local).toLocaleDateString()
 
@@ -121,12 +133,22 @@ function generateEventsList(events) {
 
     const {filteredEvents, inThePast} = filterEventsByDate(eventsByDate)
 
-    for(date in filteredEvents) {
-        eventsListHTML += createDateSectionHTML(date, filteredEvents[date])
+    if(Object.keys(filteredEvents).length === 0) {
+        eventsListHTML += '<br><h3 style="text-align: center">No upcoming events</h3><br>'
+    }
+    else {
+        for(date in filteredEvents) {
+            eventsListHTML += createDateSectionHTML(date, filteredEvents[date])
+        }
     }
 
-    for(date in inThePast) {
-        eventsListHTML += createDateSectionHTML('In the Past', inThePast[date])
+    if(Object.keys(inThePast).length === 0) {
+        eventsListHTML += ''
+    }
+    else {
+        for(date in inThePast) {
+            eventsListHTML += createDateSectionHTML('In the Past', inThePast[date])
+        }
     }
 
     return eventsListHTML
