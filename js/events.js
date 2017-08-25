@@ -21,7 +21,7 @@ function getLocation(venue_id) {
     })
 }
 
-function sanitizeAndTruncate(desc) {
+function sanitizeAndTruncate(desc, url) {
     const sanitized =  sanitizeHTML(desc, {
         allowedTags: ['b', 'i', 'strong', 'em', 'a', 'ul', 'li', 'ol', 'br', 'p', 'abbr', 'div', 'section', 'article', 'blockquote', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
         allowedAttributes: {
@@ -30,7 +30,11 @@ function sanitizeAndTruncate(desc) {
         }
     })
 
-    const truncated = truncate(sanitized, 300)
+    let options = {}
+
+    if(url) options = { ellipsis: `... <a target="_blank" rel="noopener" href="${url}">read more</a>`}
+
+    const truncated = truncate(sanitized, 300, options)
 
     return truncated
 }
@@ -60,7 +64,7 @@ function createEventHTML(ev) {
             <div class="event-text">
                 <a class="event-title" href="${url}" target="_blank" rel="noopener">${titleHTML}</a>
                 <div class="event-description">
-                    ${sanitizeAndTruncate(description)}
+                    ${sanitizeAndTruncate(description, url)}
                 </div>
             </div>
             <div class="event-info">
