@@ -4,7 +4,7 @@
     $email_address = strip_tags(htmlspecialchars($_POST['email']));
     $phone = strip_tags(htmlspecialchars($_POST['phone']));
     $company = strip_tags($_POST['company']);
-    $logo = strip_tags(htmlspecialchars($_POST['logo']));
+    $logo = $_POST['logo'];
     $website = strip_tags(htmlspecialchars($_POST['website']));
     $message = strip_tags(htmlspecialchars($_POST['message']));
     // Create the email and send the message
