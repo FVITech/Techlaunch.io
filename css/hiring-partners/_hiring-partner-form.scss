@@ -62,5 +62,35 @@ section.hiring-partner-form-section {
             margin: auto;
             margin-top: 15px;
         }
+
+        #user-feedback {
+            opacity: 0;
+            margin: 0;
+
+            &.success,
+            &.error {
+                background-color: #61C754;
+                color: #fff;
+                border-radius: 3px;
+                padding: 10px;
+                width: 100%;
+                display: block;
+                font-weight: 700;
+                font-size: 14px;
+                text-align: center;
+                margin: 20px auto;
+                opacity: 1;
+                transition: all 400ms;
+        
+                @media all and (min-width: 375px) {
+                    padding: 14px;
+                    margin: 30px auto;
+                }
+            }
+        
+            &.error {
+                background-color: #EC6B60;
+            }
+        }
     }
 }

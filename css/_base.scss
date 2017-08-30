@@ -72,7 +72,7 @@ section.above-the-fold {
     @include slide-up-fade-in(200ms);
 
     @media all and (min-width: 768px) {
-        padding-top: 5%;
+        padding-top: 7%;
         font-size: 56px;
         letter-spacing: 8px;
     }

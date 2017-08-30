@@ -45,11 +45,6 @@ include('../parts/head.php'); ?>
         </div>
     </section>
 
-    <?php
-        $testimonials = array('frank-veloz', 'peter-vegliante', 'lily-cantillo');
-        include('../parts/testimonials/index.php');
-    ?>
-
     <section class="reasons">
         <div class="container">
             <h2 class="section-title appear">Reasons To Hire A TechLaunch Graduate</h2>
@@ -103,6 +98,38 @@ include('../parts/head.php'); ?>
         </div>
     </section>
 
+    <section class="hiring-partner-testimonials">
+        <div class="container">
+            <h2 class="section-title appear">Join Our Hiring Partners</h2>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <h3 class="name">Spiderboost</h3>
+                    <video controls>
+                        <source src="<?php echo $rootPath ?>videos/Spiderboost_Testimony.mp4" type="video/mp4">
+                        <source src="<?php echo $rootPath ?>videos/Spiderboost_Testimony.ogg" type="video/ogg">
+                    </video>
+                </div>
+                <div class="testimonial">
+                    <h3 class="name">LaunchCode</h3>
+                    <div class="text">
+                        <p>"We've always been impressed with TechLaunch graduates and have been very happy bringing Lily on-board as an instructor for LaunchCode."</p>
+                        <p class="author-name">Matt Mawhinney</p>
+                        <p class="author-title">South Florida Community Manager at LaunchCode</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <h3 class="name">StartHub</h3>
+                    <div class="text">
+                        <p>"Eric has been instrumental in getting our own web presence sharpened-up to attract more web visitors and increase our flow of conversions."</p>
+                        <p class="author-name">Hector Rodriguez</p>
+                        <p class="author-title">Community Director at StartHub</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <section class="logos">
         <div class="logos-container">
             <img src="https://techlaunch.io/blog/wp-content/uploads/2017/07/coach-hq-1-1.png" alt="Coach HQ">
@@ -137,32 +164,33 @@ include('../parts/head.php'); ?>
 
     <section class="testimonials-page hiring-partner-form-section" id="hiring-partner-form-section">
         <div class="container">
+            <!-- script tag that handles this form is at the bottom of this file -->
             <form id="hiring-partner-form" action="<?php echo $rootPath; ?>hiring-partners/contact.php" method="POST" enctype="multipart/form-data">
                 <h2 class="section-title">Become A Hiring Partner</h2>
                 <div class="split-2">
                     <div class="form-input split-box">
                         <label for="fname">First Name</label>
-                        <input type="text" name="fname" id="fname">
+                        <input type="text" name="fname" id="fname" required>
                     </div>
                     <div class="form-input split-box">
                         <label for="lname">Last Name</label>
-                        <input type="text" name="lname" id="lname">
+                        <input type="text" name="lname" id="lname" required>
                     </div>
                 </div>
                 <div class="split-2">
                     <div class="form-input split-box">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required>
                     </div>
                     <div class="form-input split-box">
                         <label for="phone">Phone</label>
-                        <input type="tel" name="phone" id="phone">
+                        <input type="tel" name="phone" id="phone" required>
                     </div>
                 </div>
                 <div class="split-2">
                     <div class="form-input split-box">
                         <label for="company">Company</label>
-                        <input type="text" name="company" id="company">
+                        <input type="text" name="company" id="company" required>
                     </div>
                     <div class="form-input split-box">
                         <label for="logo">Logo</label>
@@ -178,12 +206,38 @@ include('../parts/head.php'); ?>
                     <textarea name="message" id="message"></textarea>
                 </div>
                 <button class="btn" type="submit" id="submit">Send Form</button>
+                <p id="user-feedback"></p>
             </form>
         </div>
     </section>
 
     <?php include('../parts/footer.php') ?>
     <?php include('../parts/bottom.php') ?>
+
+    <script>
+        const $hiringPartnerForm = $('#hiring-partner-form')
+        const $userFeedback = $('#user-feedback')
+
+        $hiringPartnerForm.on('submit', function(e) {
+            e.preventDefault()
+
+            $.ajax({
+                url: $hiringPartnerForm[0].action
+            })
+            .done(function(response) {
+                console.log(response)
+                $userFeedback
+                    .addClass('success')
+                    .text('Thanks for signing up! You will be contacted shortly.')
+            })
+            .fail(function(err) {
+                console.error(err)
+                $userFeedback
+                    .addClass('error')
+                    .text('An error occurred while sending this form.')
+            })
+        })
+    </script>
 
 </body>
 </html>
