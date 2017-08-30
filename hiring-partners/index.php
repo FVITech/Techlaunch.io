@@ -164,32 +164,33 @@ include('../parts/head.php'); ?>
 
     <section class="testimonials-page hiring-partner-form-section" id="hiring-partner-form-section">
         <div class="container">
+            <!-- script tag that handles this form is at the bottom of this file -->
             <form id="hiring-partner-form" action="<?php echo $rootPath; ?>hiring-partners/contact.php" method="POST" enctype="multipart/form-data">
                 <h2 class="section-title">Become A Hiring Partner</h2>
                 <div class="split-2">
                     <div class="form-input split-box">
                         <label for="fname">First Name</label>
-                        <input type="text" name="fname" id="fname">
+                        <input type="text" name="fname" id="fname" required>
                     </div>
                     <div class="form-input split-box">
                         <label for="lname">Last Name</label>
-                        <input type="text" name="lname" id="lname">
+                        <input type="text" name="lname" id="lname" required>
                     </div>
                 </div>
                 <div class="split-2">
                     <div class="form-input split-box">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required>
                     </div>
                     <div class="form-input split-box">
                         <label for="phone">Phone</label>
-                        <input type="tel" name="phone" id="phone">
+                        <input type="tel" name="phone" id="phone" required>
                     </div>
                 </div>
                 <div class="split-2">
                     <div class="form-input split-box">
                         <label for="company">Company</label>
-                        <input type="text" name="company" id="company">
+                        <input type="text" name="company" id="company" required>
                     </div>
                     <div class="form-input split-box">
                         <label for="logo">Logo</label>
@@ -205,12 +206,38 @@ include('../parts/head.php'); ?>
                     <textarea name="message" id="message"></textarea>
                 </div>
                 <button class="btn" type="submit" id="submit">Send Form</button>
+                <p id="user-feedback"></p>
             </form>
         </div>
     </section>
 
     <?php include('../parts/footer.php') ?>
     <?php include('../parts/bottom.php') ?>
+
+    <script>
+        const $hiringPartnerForm = $('#hiring-partner-form')
+        const $userFeedback = $('#user-feedback')
+
+        $hiringPartnerForm.on('submit', function(e) {
+            e.preventDefault()
+
+            $.ajax({
+                url: $hiringPartnerForm[0].action
+            })
+            .done(function(response) {
+                console.log(response)
+                $userFeedback
+                    .addClass('success')
+                    .text('Thanks for signing up! You will be contacted shortly.')
+            })
+            .fail(function(err) {
+                console.error(err)
+                $userFeedback
+                    .addClass('error')
+                    .text('An error occurred while sending this form.')
+            })
+        })
+    </script>
 
 </body>
 </html>
