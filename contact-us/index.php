@@ -29,7 +29,7 @@ include('../parts/head.php'); ?>
     <section class="request-more-info">
         <div class="main">
             <h2 class="section-title">Request More Information</h2>
-            <form>
+            <form method="POST" action="<?php echo $form_action; ?>">
                 <div class="form-input">
                     <div>
                         <label>First Name</label>

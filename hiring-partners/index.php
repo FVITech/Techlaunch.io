@@ -229,6 +229,7 @@ include('../parts/head.php'); ?>
                 $userFeedback
                     .addClass('success')
                     .text('Thanks for signing up! You will be contacted shortly.')
+                $hiringPartnerForm[0].reset()
             })
             .fail(function(err) {
                 console.error(err)
