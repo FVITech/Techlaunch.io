@@ -10,7 +10,6 @@
             <span class="step">Step 3</span>
         </div> -->
         <?php
-          session_start();
           $url = '';
           $escaped_url = 'unknown';
           if (isset($_SERVER['HTTP_HOST'])){
@@ -53,10 +52,10 @@
         <form method="POST" action="<?php echo $form_action; ?>">
             <div class="form-input">
                 <label>Program of Interest</label>
-                <select name="program">
+                <select name="Program_name">
                     <option value="--" disabled <?php if ( !isset($program) || $program == '') echo 'selected' ?>>-- Select --</option>
-                    <option value="web-developer" <?php if( isset($program) && $program == 'web-developer') echo 'selected' ?>>Web Developer</option>
-                    <option value="cyber-security" <?php if(isset($program) && $program == 'cyber-security') echo 'selected' ?>>Cyber Security Network Technician</option>
+                    <option value="Web Developer" <?php if( isset($program) && $program == 'web-developer') echo 'selected' ?>>Web Developer</option>
+                    <option value="Cyber Security Network Technician" <?php if(isset($program) && $program == 'cyber-security') echo 'selected' ?>>Cyber Security Network Technician</option>
                     <option value="aws" <?php if(isset($program) && $program == 'aws') echo 'selected' ?>>Amazon Web Services</option>
                     <!-- <option value="wordpress" <?php if(isset($program) && $program == 'wordpress') echo 'selected' ?>>WordPress</option> -->
                 </select>
