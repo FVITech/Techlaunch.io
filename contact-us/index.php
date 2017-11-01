@@ -67,12 +67,14 @@ include('../parts/head.php'); ?>
         <aside>
             <h3>Contact Us</h3>
             <p>So now that you are ready to take that first step to changing your life, come meet with one of our admissions representatives and enroll today! Our admissions process is simple and easy to get you started on the path to success.</p>
+            <h4>Classroom Location:</h4>
             <a class="address-link" target="_blank" rel="noopener" href="https://www.google.com/maps/place/8400+NW+36th+St+%23450,+Doral,+FL+33166/@25.809245,-80.3350155,17z/data=!3m1!4b1!4m5!3m4!1s0x88d9b96336b2c0ab:0x6ce8e1e27de65384!8m2!3d25.809245!4d-80.3328268">
                 <address>
                     8400 NW 36th St #450,<br>
                     Doral, FL 33166<br>
                 </address>
             </a>
+            <br>
             <p class="contact"><strong>Email:</strong> <a href="mailto:info@fvi.edu">info@techlaunch.io</a></p>
             <p class="contact"><strong>Phone:</strong> <a href="tel:786-574-9511">305-783-3599</a></p>
             <img src="<?php echo $rootPath ?>images/people/group-at-pipeline.jpg" alt="">
