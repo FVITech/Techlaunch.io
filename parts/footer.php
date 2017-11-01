@@ -4,12 +4,13 @@
             <img src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
         </a>
         <address>
-            An extension classroom of Florida Vocational Institute <br>
             7757 W Flagler St #220,<br>
-            Doral, FL 33144 <br>
+            Miami, FL 33144 <br>
             <br>
             Email: info@techlaunch.io<br>
             Phone: (305) 783-3599
+            <br> <br>
+            TechLaunch is registered DBA of Florida Vocational Institute
         </address>
     </div>
     <div class="second">
