@@ -52,13 +52,14 @@
         <form method="POST" action="<?php echo $form_action; ?>">
             <div class="form-input">
                 <label>Program of Interest</label>
-                <select name="Program_name">
+                <select name="Program_name" id="program_name">
                     <option value="--" disabled <?php if ( !isset($program) || $program == '') echo 'selected' ?>>-- Select --</option>
                     <option value="Web Developer" <?php if( isset($program) && $program == 'web-developer') echo 'selected' ?>>Web Developer</option>
                     <option value="Cyber Security Network Technician" <?php if(isset($program) && $program == 'cyber-security') echo 'selected' ?>>Cyber Security Network Technician</option>
                     <option value="aws" <?php if(isset($program) && $program == 'aws') echo 'selected' ?>>Amazon Web Services</option>
                     <!-- <option value="wordpress" <?php if(isset($program) && $program == 'wordpress') echo 'selected' ?>>WordPress</option> -->
                 </select>
+                <input type="hidden" name="program" id="legacy_program" value="<?php if(isset($program)) echo $program ?>" />
             </div>
             <div class="form-input split-2">
                 <div class="split-box">
@@ -90,3 +91,10 @@
         <p class="disclosure">By clicking "Get Info", you agree for TechLaunch@FVI to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list".</p>
     </div>
 </div>
+
+
+<script>
+    document.getElementById("program_name").onchange = function(){
+        document.getElementById("legacy_program").value = document.getElementById("program_name").value;
+    }
+</script>
