@@ -148,7 +148,7 @@ include('../parts/head.php'); ?>
             <h2 class="section-title appear">What kind of job can I get as a graduate?</h2>
             <div class="split">
                 <div class="left">
-                    <p class="appear">The <strong>Web Developer Program</strong> from Techlaunch will prepare graduates to develop practical skills and knowledge needed for career opportunities in areas involving sotware design and development, systems analysis, programming, process design and management, and other areas related to computer software production and deployment. The fast growth in web and mobile development, combined with the increasing use of software, continues to create <strong>strong demand for software developers</strong>.</p>
+                    <p class="appear">The <strong>Web Developer Program</strong> from Techlaunch will prepare graduates to develop practical skills and knowledge needed for career opportunities in areas involving software design and development, systems analysis, programming, process design and management, and other areas related to computer software production and deployment. The fast growth in web and mobile development, combined with the increasing use of software, continues to create <strong>strong demand for software developers</strong>.</p>
                 </div>
                 <div class="right">
                     <p class="appear">The career services team at TechLaunch work to guide you in finding internship opportunities during training and upon graduation assist you in finding a great career as a web developer.</p>
