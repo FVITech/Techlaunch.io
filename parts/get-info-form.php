@@ -49,7 +49,7 @@
         <form method="POST" action="<?php echo $form_action; ?>">
             <div class="form-input">
                 <label>Program of Interest</label>
-                <select name="Program_name" id="program_name">
+                <select name="program_name" id="program_name">
                     <option value="--" disabled <?php if ( !isset($program) || $program == '') echo 'selected' ?>>-- Select --</option>
                     <option value="Web Developer" <?php if( isset($program) && $program == 'web-developer') echo 'selected' ?>>Web Developer</option>
                     <option value="Cyber Security Network Technician" <?php if(isset($program) && $program == 'cyber-security') echo 'selected' ?>>Cyber Security Network Technician</option>
@@ -61,17 +61,17 @@
             <div class="form-input split-2">
                 <div class="split-box">
                     <label>first name</label>
-                    <input type="text" name="fname" required>
+                    <input type="text" name="first_name" required>
                 </div>
                 <div class="split-box">
                     <label>last name</label>
-                    <input type="text" name="lname" required>
+                    <input type="text" name="last_name" required>
                 </div>
             </div>
             <div class="form-input split-2">
                 <div class="split-box">
                     <label>phone</label>
-                    <input type="tel" name="phone" required>
+                    <input type="tel" name="day_phone" required>
                 </div>
                 <div class="split-box">
                     <label>zip code</label>
