@@ -16,7 +16,7 @@
             $url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
             $escaped_url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' );
           }
-          $form_action = "https://secure.velocify.com/Import.aspx?Provider=TechLaunchWebsite&Client=30010&CampaignId=1101&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
+          $form_action = "https://secure.velocify.com/Import.aspx?Provider=TechLaunchWebsite&Client=30010&CampaignId=1093&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
 
           if (!isset($origin)){
             //this is just hardening the script, since $origin is set in navbar.php
@@ -41,12 +41,9 @@
           elseif ($origin == 'coursereport'){
             $form_action = "https://secure.velocify.com/Import.aspx?Provider=CourseReport&Client=30010&CampaignId=1102&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
           }
-          // elseif ($origin == 'google'){
-          //   $form_action = "https://secure.velocify.com/Import.aspx?Provider=ExploreFVI&Client=30010&CampaignId=1033&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
-          // }
-          // elseif ($origin == 'es-google'){
-          //   $form_action = "https://secure.velocify.com/Import.aspx?Provider=GooglePPCSpanish&Client=30010&CampaignId=1063&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
-          // }
+          elseif ($origin == 'google'){
+            $form_action = "https://secure.velocify.com/Import.aspx?Provider=ExploreFVI&Client=30010&CampaignId=1101&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
+          }
         ?>
         <i class="close-btn fa fa-times-circle" aria-hidden="true"></i>
         <form method="POST" action="<?php echo $form_action; ?>">
