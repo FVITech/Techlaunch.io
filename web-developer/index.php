@@ -23,16 +23,16 @@ include('../parts/head.php'); ?>
                     <h4>Join one of the fastest-growing professions on the planet<small>†</small></h4>
                     <div class="figures-container">
                         <div class="figure appear">
-                            <p class="number">$66,130</p>
-                            <p class="label">Median Salary</p>
+                            <p class="number">$37,290</p>
+                            <p class="label">10% Salary</p>
                         </div>
                         <div class="figure appear delay-200">
-                            <p class="number">148,500</p>
-                            <p class="label">Job Openings</p>
+                            <p class="number">$56,900</p>
+                            <p class="label">50% Salary</p>
                         </div>
                         <div class="figure appear delay-400">
-                            <p class="number">27%</p>
-                            <p class="label">Annual Growth</p>
+                            <p class="number">37%</p>
+                            <p class="label">Expected Growth</p>
                         </div>
                     </div>
                     <p class="disclosure">† Source: BLS.gov</p>
