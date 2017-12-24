@@ -24,15 +24,17 @@ include('../parts/head.php'); ?>
                     <div class="figures-container">
                         <div class="figure appear">
                             <p class="number">$48,820</p>
+                            <span>$23.47/hr</span>
                             <p class="label">10% Salary</p>
                         </div>
                         <div class="figure appear delay-200">
                             <p class="number">$77,350</p>
+                            <span>$37.19/hr</span>
                             <p class="label">50% Salary</p>
                         </div>
                         <div class="figure appear delay-400">
                             <p class="number">17%</p>
-                            <p class="label">Expected Growth</p>
+                            <p class="label">Expected<br>Growth</p>
                         </div>
                     </div>
                     <p class="disclosure">† Source: BLS.gov</p>
