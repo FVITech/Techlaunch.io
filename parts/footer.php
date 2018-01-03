@@ -94,82 +94,67 @@
 
     <style>
 	.blog_title > a {
-
-
 		color: #aaa !important;
-    font-size: 14px !important;
-    font-style: normal !important;
-	text-decoration:none;
+        font-size: 14px !important;
+        font-style: normal !important;
+        text-decoration:none;
 	}
-	.blog_title > p
-	{
-	color: #777 !important;
-    font-size: 12px !important;
+	.blog_title > p {
+        color: #777 !important;
+        font-size: 12px !important;
 	}
-
 	footer .fourth p {
-    margin-bottom: 3px !important;
-    margin-top: 4px !important;
-}
+        margin-bottom: 3px !important;
+        margin-top: 4px !important;
+    }
 	</style>
+
     <div class="fourth">
         <h3 class="heading">Latest Posts</h3>
         <div class="blog-list">
+        
         <?php
 		error_reporting(1);
 		$curl = curl_init();
-curl_setopt_array($curl, Array(
-	CURLOPT_URL            => 'https://techlaunch.io/blog/feed/',
-	CURLOPT_USERAGENT      => 'spider',
-	CURLOPT_TIMEOUT        => 120,
-	CURLOPT_CONNECTTIMEOUT => 30,
-	CURLOPT_RETURNTRANSFER => TRUE,
-	CURLOPT_ENCODING       => 'UTF-8'
-));
-$data = curl_exec($curl);
-curl_close($curl);
-$xml = simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
+        curl_setopt_array($curl, Array(
+            CURLOPT_URL            => 'https://techlaunch.io/blog/feed/',
+            CURLOPT_USERAGENT      => 'spider',
+            CURLOPT_TIMEOUT        => 120,
+            CURLOPT_CONNECTTIMEOUT => 30,
+            CURLOPT_RETURNTRANSFER => TRUE,
+            CURLOPT_ENCODING       => 'UTF-8',
+            CURLOPT_SSL_VERIFYPEER => false,
+        ));
+        $data = curl_exec($curl);
+        curl_close($curl);
+        $xml = simplexml_load_string(trim($data), 'SimpleXMLElement', LIBXML_NOCDATA);
+        ?>
 
-$i=1;
-		?>
+        <?php
+        $i=1;
+        foreach ($xml->channel->item as $item) {
+            if($i==6) {
+                break;
+            }
 
+            date_default_timezone_set('America/Havana');
+            $source = $item->pubDate;
+            $date = new DateTime($source);
+        ?>
 
-            <?php foreach ($xml->channel->item as $item) {
+        <div class="blog_title">
+            <a target="_blank" href="<?=$item->link?>"><?=$item->title?></a>
+            <p class="blog-date"><?= $date->format('D M j  Y')?></p>
+        </div>
 
-				if($i==6)
-				{
-					break;
-				}
-
-
- $source = $item->pubDate;
-$date = new DateTime($source);
-
-
-
-
-?>
-
-            <div class="blog_title">
-                <a   target="_blank"  href="<?=$item->link?>">
-                    <?=$item->title?>
-                </a>
-
-
-                    <p class="blog-date"><?= $date->format('D M j  Y')?></p>
-
-            </div>
-
-            <?php
-
-			$i++;
-			}
-			?>
-
+        <?php
+        $i++;
+        }
+        ?>
 
         </div>
-        <br>
-        <!--
+        <!-- <br>
+        
         <h3 class="heading">Newsletter</h3>
         <p>Get updates from Techlaunch</p>
         <form action="" id="newsletter-form">
