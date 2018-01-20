@@ -34,6 +34,7 @@ include('parts/head.php'); ?>
             <p><a class="sitemap-link" href="https://techlaunch.io/careerlaunch/">Careerlaunch</a></p>
             <p><a class="sitemap-link" href="https://techlaunch.io/hiring-partners/">Hiring Partners</a></p>
             <p><a class="sitemap-link" href="https://techlaunch.io/about-us/">About Us</a></p>
+            <p><a class="sitemap-link" href="https://techlaunch.io/campus-locations/">Campus Locations</a></p>
             <p><a class="sitemap-link" href="https://techlaunch.io/contact-us/">Contact Us</a></p>
             <p><a class="sitemap-link" href="https://techlaunch.io/financial-aid/">Financial Aid</a></p>
             <p><a class="sitemap-link" href="https://techlaunch.io/veterans/">Veterans</a></p>

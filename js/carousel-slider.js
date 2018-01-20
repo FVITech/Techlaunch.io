@@ -15,6 +15,12 @@ $(document).ready(function() {
 
     // stop autoslide
     if($('section.testimonials').length > 0) {
-        $('.carousel')[0].stopAutoSlide()
+        $('.carousel').each(function () {
+            $carousel = $(this)
+
+            $carousel.mouseover(function(e) {
+                $carousel[0].stopAutoSlide()
+            })
+        })
     }
 })

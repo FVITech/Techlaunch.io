@@ -1218,7 +1218,7 @@ capture-stack-trace@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/capture-stack-trace/-/capture-stack-trace-1.0.0.tgz#4a6fa07399c26bba47f0b2496b4d0fb408c5550d"
 
-carousel-slider@^1.1.2:
+carousel-slider@^1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/carousel-slider/-/carousel-slider-1.1.4.tgz#d6ff4e13f7e246ed6c91c17e05159cf3e443683b"
 

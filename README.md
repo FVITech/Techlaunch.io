@@ -2,13 +2,12 @@
 
 ## How to run this site locally
 
-1. You need to have NodeJS, node-sass Webpack 2, PHP, and Apache installed.
+1. You need to have NodeJS, Yarn (faster and more secure than npm), PHP, and Apache installed.
 2. Clone the repo `git clone https://github.com/FVITech/Techlaunch.io`
-3. open up your terminal
-4. CD into the repo
-5. Run `npm i` to install the dependencies
-6. Run `npm start` to start the webpack dev server
-7. Open another terminal tab and run `npm run watch-css` to get SASS running.
+3. Open up your terminal
+4. `cd` into the repo
+5. Run `yarn` to install the dependencies
+6. Run `yarn start` to watch `.js` and `.scss` files for changes. While webpack will automatically update the page when a `.js`, file is changed, changing a `.scss` or a `.php` file will require a manual page refresh to view changes.
 
 ## Creating A New Page
 
@@ -17,17 +16,17 @@
     ```html
     <?php $rootPath = '../'; 
     $page = "my-new-page-name"; 
-    $meta_title="Title For My New Page";
+    $meta_title="Page Title"; // Techlaunch.io | Page Title
     $meta_key="";
     $meta_desc="Description for my new page";    
     include($rootPath . 'parts/head.php');
     ?>
     ```
     - The $rootPath variable should be used throughout this file before every local file path, such as in `href` and `src` attributes. This will allow Techlaunch.io to be served from any subfolder, which is useful for testing.
-    - The $page variable is used in `parts/head.php` to link the CSS for this page. Each page has its own CSS folder and generated CSS file.
-    - The `$meta_title`, `$meta_key`, and `$meta_desc` variables are used in `parts/head.php`.
+    - The $page variable is used in `parts/head.php` to link the CSS for this page. Each page has its own CSS folder and generated CSS file. The generated CSS files end up in `build/css`.
+    - The `$meta_title`, `$meta_key`, and `$meta_desc` variables are also used in `parts/head.php`.
 3. Create a folder in `css/` with the page's name. It should *exactly* match the folder name with index.php in it.
-    - Create an index.scss file inside the CSS folder
+    - Create an index.scss file inside this new folder
     - Import the following necessary scss partials into index.scss:
         ```css
         @import "../normalize";
@@ -40,8 +39,8 @@
         @import "../navbar/menu";
         @import "../get-info-form";
         ```
-    - Add your own partial scss files in the CSS folder for your page and import them into index.scss. Every partial scss file should begin with an underscore to prevent node-sass from creating a separate css file with its name.
-4. Next, add the rest of the base code:
+    - Add your own partial scss files for your page next to index.scss and import them into index.scss, like the partials above (but without `../`). Every partial scss file should begin with an underscore to prevent node-sass from creating a separate css file with its name.
+4. Next, add this boilerplate code to index.php:
     ```html
     <body>
         <!-- Google Tag Manager (noscript) -->
@@ -68,7 +67,16 @@
             <div class="container">
                 <h2 class="section-title">Section Title</h2>
                 
-                <!-- YOUR PAGE CONTENT HERE -->
+                <!-- YOUR CONTENT HERE -->
+
+            </div>
+        </section>
+
+        <section class="bg-gray">
+            <div class="container">
+                <h2 class="section-title">Section Title</h2>
+                
+                <!-- YOUR CONTENT HERE -->
 
             </div>
         </section>
@@ -77,7 +85,7 @@
             <div class="container">
                 <h2 class="section-title">Section Title</h2>
                 
-                <!-- YOUR PAGE CONTENT HERE -->
+                <!-- YOUR CONTENT HERE -->
 
             </div>
         </section>
@@ -87,18 +95,12 @@
         <?php include($rootPath . 'parts/bottom.php') ?>
     </body>
     ```
-    - First, there is a noscript element for Google analytics
-    - Next, The navbar and menu are included
-    - Next, the hero section ('above-the-fold') is included with the Techlaunch.io logo (a homepage button) and the page title
-    - Next, a section with a container div is included, which will limit the width of content within it. Use the 'section-title' h2 to provide a title for this section.
-    - Next, provide the content for this section.
-    - Continue adding new sections with container divs as you need them.
-    - Next, the footer is included.
-    - Lastly, bottom/php is included, which contains the various scripts needed for the page to function properly
-5. JavaScripts are in the `js` folder. Webpack is used to bundle them into a single JS file, which is included in `parts/bottom.php`
-6. PHP modules, like a testimonials section, a quotes section, and a student projects section, are available for use in the `parts/` folder. Just include them into your index.php file. 
-    - *Note*: if you include one of the modules from `parts/`, you must also import the associated `.scss` file into your page's index.scss file. For example, `testimonials.php` needs `_testimonials-slider.scss`.
+
+5. JavaScripts are in the `js` folder. Webpack is used to bundle them into a single JS file, which is linked with a `<script>` element in `parts/bottom.php`
+6. Components, like a testimonials section, a quotes section, and a student projects section, are available for use in the `parts/` folder. Just include them into your index.php file. 
+    - *Note*: if you include one of the components from `parts/`, you must also import the associated `.scss` file into your page's index.scss file. For example, you need to `@import "../testimonials-slider"` into index.scss for your page if you have included `testimonials.php` in index.php.
 7. Images are in the `images/` folder and videos are in the `videos/` folder. Use them in your index.php file with $rootPath:
     ```html
     <img src="<?php echo $rootPath ?>people/students-coding.jpg">
     ```
+8. Update `sitemap.php` and `sitemap.xml` with the new page

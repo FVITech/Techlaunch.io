@@ -1,5 +1,4 @@
 const $ = require('jquery')
-const escape = require('escape-html')
 
 let rootPath = null
 let program = null

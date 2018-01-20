@@ -5,16 +5,16 @@
   "main": "js/index.js",
   "scripts": {
     "start": "npm-run-all --parallel watch:*",
-    "prod": "npm-run-all --sequential minify:*",
+    "build": "npm-run-all --sequential build:*",
     "watch:js": "webpack-dev-server --open",
-    "minify:js": "webpack -p",
-    "watch:css": "npm run sass && node-sass -w -r -q css -o build/css --source-map true",
-    "build:css": "npm run sass && npm run autoprefixer",
-    "minify:css": "npm run build:css && node minify-css.js",
+    "build:js": "webpack -p",
+    "watch:css": "yarn sass && node-sass -w -r -q css -o build/css --source-map true",
+    "build:css": "yarn sass && yarn autoprefixer && yarn minify:css",
+    "minify:css": "node minify-css.js",
     "autoprefixer": "postcss build/css/**/*.css --use autoprefixer -r",
     "sass": "node-sass css -o build/css",
     "deploy": "git add . && git commit && git push origin master",
-    "build-deploy": "npm run prod && npm run deploy"
+    "build-deploy": "yarn build && yarn deploy"
   },
   "license": "MIT",
   "devDependencies": {
@@ -33,7 +33,7 @@
     "webpack-dev-server": "^2.9.7"
   },
   "dependencies": {
-    "carousel-slider": "^1.1.2",
+    "carousel-slider": "^1.1.4",
     "html-truncate": "^1.2.2",
     "jquery": "^3.2.1",
     "lodash.throttle": "^4.1.1",
