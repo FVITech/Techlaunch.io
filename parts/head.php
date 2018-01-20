@@ -34,7 +34,7 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="<?php echo $rootPath ?>vendor/font-awesome-4.7.0/css/font-awesome.min.css" async>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800">
-    <link rel="stylesheet" href="<?php echo $rootPath ?>css/<?php echo $page ?>/index.css">
+    <link rel="stylesheet" href="<?php echo $rootPath ?>build/css/<?php echo $page ?>/index.css">
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

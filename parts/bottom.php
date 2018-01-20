@@ -1,1 +1,1 @@
-<script src="<?php echo $rootPath ?>js/bundle.js"></script>
+<script src="<?php echo $rootPath ?>build/js/bundle.js"></script>

@@ -1,7 +1,7 @@
 section.above-the-fold {
     background-image:
         linear-gradient(rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 100%),
-        url('../../images/backgrounds/computer-background.jpg');
+        url('../../../images/backgrounds/computer-background.jpg');
     min-height: 80vh;
     
     @media all and (min-width: 768px) {

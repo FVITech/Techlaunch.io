@@ -4,7 +4,7 @@ require('dotenv').config()
 module.exports = {
     entry: './js/index.js',
     output: {
-        filename: './js/bundle.js',
+        filename: './build/js/bundle.js',
     },
     module: {
         rules: [
@@ -36,6 +36,7 @@ module.exports = {
         "*":{
           target: 'http://localhost/Techlaunch.io/'
         }
-      }
+      },
+      open: true
     }
 }

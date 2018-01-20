@@ -1,9 +1,7 @@
 const CleanCss = require('clean-css')
 const fs = require('fs')
-const path = require('path')
-const process = require('process')
 
-const directoryToMinify = 'css'
+const directoryToMinify = 'build/css'
 
 fs.readdir(directoryToMinify, function(err, data) {
     if(err) return console.log(err)
@@ -11,9 +9,9 @@ fs.readdir(directoryToMinify, function(err, data) {
     console.log(`Minifying the ${directoryToMinify} directory...\n`);
 
     data.forEach(item => {
-        fs.stat(`css/${item}`, (err, stats) => {
+        fs.stat(`build/css/${item}`, (err, stats) => {
             if(stats.isDirectory()) {
-                const filePath = `css/${item}/index.css`
+                const filePath = `build/css/${item}/index.css`
 
                 if(!fs.existsSync(filePath)) return false
 
