@@ -4,8 +4,13 @@
             <img src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
         </a>
         <address>
+            <strong>Miami Campus</strong><br>
             7757 W Flagler St #220,<br>
             Miami, FL 33144 <br>
+            <br>
+            <strong>Miramar Campus</strong><br>
+            3520 Enterprise Way,<br>
+            Miramar, FL  33025<br>
             <br>
             Email: info@techlaunch.io<br>
             Phone: (305) 783-3599

@@ -1,6 +1,6 @@
 <?php $rootPath = '../';
 $page = "testimonials";
-$meta_title="Techlaunch Testimonials";
+$meta_title="Testimonials";
 $meta_key="";
 $meta_desc="Techlaunch testimonials. Hear what students say about us.";
 include('../parts/head.php'); ?>

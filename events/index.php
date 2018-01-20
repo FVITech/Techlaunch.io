@@ -1,6 +1,6 @@
 <?php $rootPath = '../'; 
 $page = "events"; 
-$meta_title="Techlaunch.io | Events";
+$meta_title="Events";
 $meta_key="";
 $meta_desc="Techlaunch.io events.";    
 include('../parts/head.php'); ?>

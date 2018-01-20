@@ -1,0 +1,63 @@
+section.summary-and-form .campus-summary {
+    h3 {
+        font-size: 32px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 16px;
+        margin: 1rem 0;
+    }
+}
+
+section.summary-and-form .get-info-form.on-page {
+    // undo base form styles
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    opacity: 1;
+    transition: 0s;
+    @media all and (min-width: 1200px) {
+        width: auto;
+    }
+    .get-info-form-overlay {
+        display: none;
+    }
+    .close-btn {
+        display: none;
+    }
+}
+
+section.summary-and-form .get-info-form.on-page .form-container {
+    // undo base styles
+    background-color: #555;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    max-width: 500px;
+    margin: auto;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    opacity: 1; // on-page form styles
+    box-shadow: 0 3px 8px -1px rgba(0, 0, 0, .7);
+
+    @media all and (min-width: 1200px) {
+        width: auto;
+        max-width: 400px;
+    }
+
+    .title {
+        color: #fff;
+    }
+
+    label {
+        color: #bbb;
+    }
+
+    .disclosure {
+        color: #aaa;
+    }
+}

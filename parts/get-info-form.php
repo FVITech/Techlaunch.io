@@ -44,8 +44,8 @@
             <div class="form-input">
                 <label>Preferred Location</label>
                 <select name="campus" id="campus">
-                    <option value="Miami" <?php if(isset($campus) && $campus == 'miami') echo 'selected' ?>>Miami</option>
-                    <option value="Miramar" <?php if(isset($campus) && $campus == 'miramar') echo 'selected' ?>>Miramar</option>
+                    <option value="Miami" <?php if(isset($campus) && $campus == 'miami') echo 'selected' ?>>Miami Campus</option>
+                    <option value="Miramar" <?php if(isset($campus) && $campus == 'miramar') echo 'selected' ?>>Miramar Campus</option>
                 </select>
             </div>
             <div class="form-input">

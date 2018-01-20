@@ -1,0 +1,16 @@
+section.above-the-fold {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+        url('../../../images/pipeline/workspace.jpg');
+    background-position: 15% 30%;
+    background-size: cover;
+
+    @media all and (min-width: 768px) {
+        min-height: 25vw;
+        background-position: center 30%;
+    }
+
+    .page-title {
+        margin-top: 5%;
+    }
+}

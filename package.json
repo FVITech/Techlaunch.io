@@ -8,7 +8,7 @@
     "prod": "npm-run-all --sequential minify:*",
     "watch:js": "webpack-dev-server --open",
     "minify:js": "webpack -p",
-    "watch:css": "npm run sass && node-sass -w -r -q css -o build/css",
+    "watch:css": "npm run sass && node-sass -w -r -q css -o build/css --source-map true",
     "build:css": "npm run sass && npm run autoprefixer",
     "minify:css": "npm run build:css && node minify-css.js",
     "autoprefixer": "postcss build/css/**/*.css --use autoprefixer -r",

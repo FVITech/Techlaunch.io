@@ -1,6 +1,6 @@
 <?php $rootPath = '../';
 $page = "hiring-partners";
-$meta_title="TechLaunch Hiring Partners";
+$meta_title="Hiring Partners";
 $meta_key="";
 $meta_desc="Becoming a hiring partner for TechLaunch gives your business access to motivated candidates trained in both technical and professional skills.";
 include('../parts/head.php'); ?>

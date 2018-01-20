@@ -1,6 +1,6 @@
 <?php $rootPath = '../'; 
 $page = "careerlaunch"; 
-$meta_title="";
+$meta_title="Careerlaunch";
 $meta_key="";
 $meta_desc="";    
 include('../parts/head.php'); ?>

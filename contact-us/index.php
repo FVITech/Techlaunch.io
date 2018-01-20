@@ -1,6 +1,6 @@
 <?php $rootPath = '../';
 $page = "contact-us";
-$meta_title="";
+$meta_title="Contact Us";
 $meta_key="";
 $meta_desc="";
 include('../parts/head.php'); ?>
