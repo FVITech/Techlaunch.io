@@ -1,5 +1,4 @@
 const webpack = require('webpack')
-require('dotenv').config()
 
 module.exports = {
     entry: './js/index.js',
@@ -36,7 +35,6 @@ module.exports = {
         "*":{
           target: 'http://localhost/Techlaunch.io/'
         }
-      },
-      open: true
+      }
     }
 }

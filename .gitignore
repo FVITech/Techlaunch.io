@@ -4,3 +4,4 @@ Tech-Launch-Home-Page.psd
 .DS_Store
 .env
 blog/*
+*.css.map
