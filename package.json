@@ -5,7 +5,7 @@
   "main": "js/index.js",
   "scripts": {
     "start": "npm-run-all --parallel watch browser-sync",
-    "browser-sync": "browser-sync start --proxy 'http://localhost/Techlaunch.io/' --files='**/*.php, **/*.js, **/*.css, images/*, videos/*' --no-notify --reload-debounce 100",
+    "browser-sync": "browser-sync start --proxy 'http://localhost/Techlaunch.io/' --files='**/*.php, build/**/*, images/*, videos/*' --no-notify --reload-debounce 100",
     "watch": "npm-run-all --parallel watch:*",
     "build": "npm-run-all --sequential build:*",
     "watch:js": "webpack -w -d --display minimal",

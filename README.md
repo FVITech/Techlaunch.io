@@ -7,7 +7,7 @@
 3. Open up your terminal
 4. `cd` into the repo
 5. Run `yarn` to install the dependencies
-6. Run `yarn start` to watch `.js` and `.scss` files for changes. While webpack will automatically update the page when a `.js`, file is changed, changing a `.scss` or a `.php` file will require a manual page refresh to view changes.
+6. Run `yarn start` to watch for file changes. The page will automatically update itself when changes are made. CSS changes will not cause a page refresh, but you will see your CSS changes updated on the page.
 
 ## Creating A New Page
 
