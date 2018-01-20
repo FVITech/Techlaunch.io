@@ -1,9 +1,10 @@
 const CleanCss = require('clean-css')
 const fs = require('fs')
+const { resolve } = require('path')
 
 const directoryToMinify = 'build/css'
 
-fs.readdir(directoryToMinify, function(err, data) {
+fs.readdir(resolve(__dirname, '../', directoryToMinify), function(err, data) {
     if(err) return console.log(err)
 
     console.log(`Minifying the ${directoryToMinify} directory...\n`);

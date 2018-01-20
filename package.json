@@ -10,7 +10,7 @@
     "build:js": "webpack -p",
     "watch:css": "yarn sass && node-sass -w -r -q css -o build/css --source-map true",
     "build:css": "yarn sass && yarn autoprefixer && yarn minify:css",
-    "minify:css": "node minify-css.js",
+    "minify:css": "node build-tools/minify-css.js",
     "autoprefixer": "postcss build/css/**/*.css --use autoprefixer -r",
     "sass": "node-sass css -o build/css",
     "deploy": "git add . && git commit && git push origin master",
