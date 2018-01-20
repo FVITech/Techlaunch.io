@@ -1,5 +1,8 @@
 {
  "name": "Techlaunch.io",
+ "background_color": "#fff",
+ "theme_color": "#0090EC",
+ "description": "TechLaunch Code School Offers Coding Bootcamp Programs, Training And Classes For Students To Crack The Code To Their Future. Learn More On How To Earn Degrees Here.",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",

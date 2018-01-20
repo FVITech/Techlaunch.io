@@ -31,7 +31,7 @@
     <link rel="manifest" href="<?php echo $rootPath ?>manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="<?php echo $rootPath ?>images/favicons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#0090EC">
     <link rel="stylesheet" href="<?php echo $rootPath ?>vendor/font-awesome-4.7.0/css/font-awesome.min.css" async>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800">
     <link rel="stylesheet" href="<?php echo $rootPath ?>build/css/<?php echo $page ?>/index.css">
