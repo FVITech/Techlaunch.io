@@ -57,7 +57,7 @@
                     <option value="aws" <?php if(isset($program) && $program == 'aws') echo 'selected' ?>>Amazon Web Services</option>
                     <!-- <option value="wordpress" <?php if(isset($program) && $program == 'wordpress') echo 'selected' ?>>WordPress</option> -->
                 </select>
-                <input type="hidden" name="program" id="legacy_program" value="<?php if(isset($program)) echo $program ?>" />
+                <input type="hidden" name="program_id" id="legacy_program" value="<?php if(isset($program)) echo $program ?>" />
             </div>
             <div class="form-input split-2">
                 <div class="split-box">
