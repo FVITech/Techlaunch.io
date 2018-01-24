@@ -2,13 +2,6 @@
     <div class="get-info-form-overlay"></div>
     <div class="form-container">
         <h2 class="title">Learn how to get started</h2>
-        <!-- <div class="steps">
-            <span class="step active">Step 1</span>
-            <span class="connector"></span>
-            <span class="step">Step 2</span>
-            <span class="connector"></span>
-            <span class="step">Step 3</span>
-        </div> -->
         <?php
           $url = '';
           $escaped_url = 'unknown';
@@ -16,7 +9,8 @@
             $url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
             $escaped_url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' );
           }
-          $form_action = "https://secure.velocify.com/Import.aspx?Provider=TechLaunchWebsite&Client=30010&CampaignId=1093&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
+        //   $form_action = "https://secure.velocify.com/Import.aspx?Provider=TechLaunchWebsite&Client=30010&CampaignId=1093&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
+          $form_action = "https://secure.velocify.com/Import.aspx?Provider=FloridaVocationalInstitute&Client=30010&XmlResponse=True&CampaignId=1093&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
 
           if (!isset($origin)){
             //this is just hardening the script, since $origin is set in navbar.php
@@ -48,15 +42,22 @@
         <i class="close-btn fa fa-times-circle" aria-hidden="true"></i>
         <form method="POST" action="<?php echo $form_action; ?>">
             <div class="form-input">
+                <label>Preferred Location</label>
+                <select name="campus" id="campus">
+                    <option value="Miami" <?php if(isset($campus) && $campus == 'miami') echo 'selected' ?>>Miami Campus</option>
+                    <option value="Miramar" <?php if(isset($campus) && $campus == 'miramar') echo 'selected' ?>>Miramar Campus</option>
+                </select>
+            </div>
+            <div class="form-input">
                 <label>Program of Interest</label>
                 <select name="program_name" id="program_name">
-                    <option value="--" disabled <?php if ( !isset($program) || $program == '') echo 'selected' ?>>-- Select --</option>
-                    <option value="Web Developer" <?php if( isset($program) && $program == 'web-developer') echo 'selected' ?>>Web Developer</option>
+                    <option value="--" disabled <?php if (!isset($program) || $program == '') echo 'selected' ?>>-- Select --</option>
+                    <option value="Web Developer" <?php if(isset($program) && $program == 'web-developer') echo 'selected' ?>>Web Developer</option>
                     <option value="Cyber Security Network Technician" <?php if(isset($program) && $program == 'cyber-security') echo 'selected' ?>>Cyber Security Network Technician</option>
                     <option value="aws" <?php if(isset($program) && $program == 'aws') echo 'selected' ?>>Amazon Web Services</option>
                     <!-- <option value="wordpress" <?php if(isset($program) && $program == 'wordpress') echo 'selected' ?>>WordPress</option> -->
                 </select>
-                <input type="hidden" name="program" id="legacy_program" value="<?php if(isset($program)) echo $program ?>" />
+                <input type="hidden" name="program_id" id="legacy_program" value="<?php if(isset($program)) echo $program ?>" />
             </div>
             <div class="form-input split-2">
                 <div class="split-box">
