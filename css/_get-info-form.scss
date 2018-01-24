@@ -193,6 +193,7 @@
         transform: translateY(0) translateX(-50%);
     }
 }
+
 @mixin form-appear($delay) {
     animation-name: form-appear;
     animation-duration: 700ms;
@@ -204,7 +205,7 @@
 .get-info-form.open {
     z-index: 999;
     opacity: 1;
-
+    
     .form-container {
         @include form-appear(100ms);
     }
