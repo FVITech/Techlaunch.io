@@ -1,4 +1,4 @@
-section.photos-and-map {
+section.photos-and-maps {
     .split-box {
         margin-bottom: 50px;
         width: 100%;
@@ -31,6 +31,7 @@ section.photos-and-map {
         @media all and (min-width: 768px) {
             padding-bottom: 30%;
         }
+
         .image {
             position: absolute;
             width: 100%;
@@ -39,19 +40,26 @@ section.photos-and-map {
             background-position: center;
             border: 3px solid #222;
             box-shadow: 5px 15px 40px -10px rgba(0, 0, 0, .8);
+
             &.first {
                 background-image: url('../../../images/pipeline/students-3.jpg');
                 background-position: center top;
             }
-            &.second {
-                background-image: url('../../../images/pipeline/learning-1.jpg');
-            }
         }
 
-        #location-map {
+        .location-title {
+            margin-top: 0;
+            margin-bottom: 4px;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: normal;
+        }
+
+        .location-map {
             position: absolute;
             width: 100%;
-            height: 100%;
+            height: calc(100% - 22px);
             border: 3px solid #222;
             box-shadow: 5px 15px 40px -10px rgba(0, 0, 0, .8);
         }

@@ -52,7 +52,7 @@ include('../parts/head.php'); ?>
         </div>
     </section>
 
-    <section class="photos-and-map">
+    <section class="photos-and-maps">
         <div class="container">
             <div class="split-2">
                 <div class="split-box image-container">
@@ -60,17 +60,15 @@ include('../parts/head.php'); ?>
                 </div>
                 <div class="split-box text">
                     <h2 class="section-title appear">Our Campuses</h2>
-                    <p>Two convient locations to choose from.<br>Touch a location to view it in the map below.</p>
-                    <div class="location-buttons">
-                        <button class="btn" id="miami-in-map">Pipeline Doral</button>
-                        <button class="btn" id="miramar-in-map">Miramar</button>
-                    </div>
+                    <p>Two convenient locations to choose from.</p>
                 </div>
                 <div class="split-box image-container">
-                    <div class="image appear second delay-300"></div>
+                    <h4 class="location-title">Miami Campus - Pipeline Doral</h4>
+                    <iframe class="location-map appear delay-300" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Pipeline%20Doral&key=AIzaSyDaSsFoC1uGHddMd2hFgIKfHiupzPUhZQY" allowfullscreen></iframe>
                 </div>
                 <div class="split-box image-container">
-                    <iframe id="location-map" class="appear delay-600" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Techlaunch&key=AIzaSyDaSsFoC1uGHddMd2hFgIKfHiupzPUhZQY" allowfullscreen></iframe>
+                    <h4 class="location-title">Miramar Campus</h4>
+                    <iframe class="location-map appear delay-600" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=3520%20Enterprise%20Way%2C%20Miramar%2C%20FL%2033025&key=AIzaSyDaSsFoC1uGHddMd2hFgIKfHiupzPUhZQY" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

@@ -18,8 +18,6 @@ require('./quotes.js')
 
 require('./testimonials.js')
 
-require('./campus-locations')
-
 // require('./agreement.js')
 
 // require('./paypal.js')
