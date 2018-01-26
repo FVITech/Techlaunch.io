@@ -26,17 +26,8 @@ section.our-campus {
             border: 3px solid #222;
             box-shadow: 5px 15px 40px -10px rgba(0, 0, 0, .8);
 
-            &.first {
-                background-image: url('../../../images/pipeline/workspace.jpg');
-            }
-
             &.second {
-                background-image: url('../../../images/pipeline/students-3.jpg');
                 background-position: center top;
-            }
-
-            &.third {
-                background-image: url('../../../images/pipeline/learning-1.jpg');
             }
         }
     }

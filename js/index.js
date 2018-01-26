@@ -1,3 +1,6 @@
+require('lazysizes')
+require('../vendor/ls.unveilhooks.min.js')
+
 require('./carousel-slider.js')
 
 require('./menu.js')

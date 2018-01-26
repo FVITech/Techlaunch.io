@@ -27,7 +27,7 @@ include('../parts/head.php'); ?>
     <section class="content">
         <div class="container">
             <div class="split-2">
-                <div class="split-box left image appear"></div>
+                <div class="split-box left image appear lazyload" data-bg="<?= $rootPath ?>images/people/group-at-pipeline.jpg"></div>
                 <div class="split-box right text appear">
                     <h2 class="section-title">Miami Professionals Are Running to Web Developer Training</h2>
                     <p>Are you sick of your current job? Many people are looking for new opportunities, and the web is full of possibilities. Every business needs a website to compete including small local businesses. If you&rsquo;re serious about a new career, formal training can give you a headstart. You can learn how to build websites and web apps. You can also build HTML-based mobile apps and work as a junior developer with a web development training program at Tech Launch. </p>
@@ -42,10 +42,10 @@ include('../parts/head.php'); ?>
                     <p>You get the benefits of a structured curriculum without worrying about large class sizes or scheduling issues. You also don&rsquo;t have to worry about a string of general ed and other unrelated classes people go through in a four-year university. In addition, Financial aid is available for those who qualify. Tech Launch helps professionals get straight to the training they need to compete. </p>
                     <p>HTML and CSS are two of the more common languages. Depending on the type of projects you want to work on or the options you want, you can learn other languages or how to use certain programs. </p>
                 </div>
-                <div class="split-box right image appear"></div>
+                <div class="split-box right image appear lazyload" data-bg="<?= $rootPath ?>images/bridging-the-gap.jpg"></div>
             </div>
             <div class="split-2">
-                <div class="split-box left image appear"></div>
+                <div class="split-box left image appear lazyload" data-bg="<?= $rootPath ?>images/people/techhire-bbbs-students-group.jpg"></div>
                 <div class="split-box right text appear">
                     <h2 class="section-title">Don’t Get Left behind with Web Developer Training Programs</h2>
                     <p>The industry is constantly changing, and web developers have to keep up. Everything from the coding languages used to the way sites look and interact is constantly evolving. Many coders start out with the basics and work their way up. </p>
@@ -59,7 +59,7 @@ include('../parts/head.php'); ?>
                     <p>The industry for web developers is on the rise opening many doors for new careers. The industry still suffers a shortage of willing professionals every year. Some don&rsquo;t feel they have the time to learn while others are worried about the cost. Some students just don&rsquo;t know where to go to train to be a web developer. </p>
                     <p>Tech Launch provides faster and more affordable options. You choose what you want to learn, and we provide the tools you need to do it. You don&rsquo;t need a four-year degree to become a web developer, but formalized training can help. Tech Launch is here to help those who are serious about moving forward. Check out our classes and see what opportunities Tech Launch can offer you. </p>
                 </div>
-                <div class="split-box right image appear"></div>
+                <div class="split-box right image appear lazyload" data-bg="<?= $rootPath ?>images/people/3-students-at-desk.jpg"></div>
             </div>
         </div>
     </section>

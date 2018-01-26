@@ -56,7 +56,7 @@ include('../parts/head.php'); ?>
         <div class="container">
             <div class="split-2">
                 <div class="split-box image-container">
-                    <div class="image appear first"></div>
+                    <div class="image appear first lazyload"></div>
                 </div>
                 <div class="split-box text">
                     <h2 class="section-title appear">Our Campuses</h2>
@@ -64,11 +64,11 @@ include('../parts/head.php'); ?>
                 </div>
                 <div class="split-box image-container">
                     <h4 class="location-title">Miami Campus - Pipeline Doral</h4>
-                    <iframe class="location-map appear delay-300" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Pipeline%20Doral&key=AIzaSyDaSsFoC1uGHddMd2hFgIKfHiupzPUhZQY" allowfullscreen></iframe>
+                    <iframe class="location-map appear delay-300 lazyload" frameborder="0" data-src="https://www.google.com/maps/embed/v1/place?q=Pipeline%20Doral&key=AIzaSyDaSsFoC1uGHddMd2hFgIKfHiupzPUhZQY" allowfullscreen></iframe>
                 </div>
                 <div class="split-box image-container">
                     <h4 class="location-title">Miramar Campus</h4>
-                    <iframe class="location-map appear delay-600" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=3520%20Enterprise%20Way%2C%20Miramar%2C%20FL%2033025&key=AIzaSyDaSsFoC1uGHddMd2hFgIKfHiupzPUhZQY" allowfullscreen></iframe>
+                    <iframe class="location-map appear delay-600 lazyload" frameborder="0" data-src="https://www.google.com/maps/embed/v1/place?q=3520%20Enterprise%20Way%2C%20Miramar%2C%20FL%2033025&key=AIzaSyDaSsFoC1uGHddMd2hFgIKfHiupzPUhZQY" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

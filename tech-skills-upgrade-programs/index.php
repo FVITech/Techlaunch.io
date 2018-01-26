@@ -122,11 +122,11 @@ include('../parts/head.php'); ?>
                 <h2 class="section-title">Select A Program</h2>
                 <div class="program-cards split-2">
                     <div class="split-box program-card" data-program="aws">
-                        <img src="../images/logos/amazon-web-services.png" alt="Amazon Web Services" class="logo">
+                        <img class="logo lazyload" data-src="../images/logos/amazon-web-services.png" alt="Amazon Web Services">
                         <p class="start-date">Next Start Date - <span class="date">7/24/17</span></p>
                     </div>
                     <!-- <div class="split-box program-card" data-program="wordpress">
-                        <img src="../images/logos/wordpress-white.png" alt="WordPress" class="logo">
+                        <img class="logo lazyload" data-src="../images/logos/wordpress-white.png" alt="WordPress">
                         <p class="start-date">Next Start Date - <span class="date">8/14/17</span></p>
                     </div> -->
                 </div>

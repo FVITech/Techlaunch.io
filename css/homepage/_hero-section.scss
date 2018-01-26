@@ -69,20 +69,6 @@ section.hero {
             }
         }
 
-        // .image {
-        //     width: 110%;
-        //     left: -10%;
-        //     padding-top: 30px;
-        //
-        //     @media all and (min-width: 768px) {
-        //         width: auto;
-        //         padding-top: 0;
-        //         height: 90%;
-        //         position: absolute;
-        //         bottom: 0;
-        //         left: -30%;
-        //     }
-        // }
         .image {
             width: 50%;
             padding-top: 30px;
@@ -137,11 +123,6 @@ section.hero {
 
             @media all and (min-width: 768px) {
                 margin-bottom: 0;
-                // position: absolute;
-                // width: 100%;
-                // z-index: 1;
-                // top: 50%;
-                // transform: translateY(-50%);
             }
 
             iframe {

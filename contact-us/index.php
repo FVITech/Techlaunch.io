@@ -74,7 +74,7 @@ include('../parts/head.php'); ?>
             <br>
             <p class="contact"><strong>Email:</strong> <a href="mailto:info@fvi.edu">info@techlaunch.io</a></p>
             <p class="contact"><strong>Phone:</strong> <a href="tel:786-574-9511">305-783-3599</a></p>
-            <img src="<?php echo $rootPath ?>images/people/group-at-pipeline.jpg" alt="">
+            <img class="lazyload" data-src="<?php echo $rootPath ?>images/people/group-at-pipeline.jpg" alt="Techlaunch Students at Pipeline Doral">
         </aside>
     </section>
 
@@ -83,18 +83,10 @@ include('../parts/head.php'); ?>
             <div id="left-btn" class="left-btn">‹</div>
             <div id="right-btn" class="right-btn">›</div>
             <div class="dots"></div>
-            <div class="carousel-item image-1">
-                <!-- Your content goes here -->
-            </div>
-            <div class="carousel-item image-2">
-                <!-- Your content goes here -->
-            </div>
-            <div class="carousel-item image-3">
-                <!-- Your content goes here -->
-            </div>
-            <div class="carousel-item image-4">
-                <!-- Your content goes here -->
-            </div>
+            <div class="carousel-item image-1 lazyload" data-bg="<?= $rootPath ?>images/pipeline/learning-1.jpg"></div>
+            <div class="carousel-item image-2 lazyload" data-bg="<?= $rootPath ?>images/pipeline/students-2.jpg"></div>
+            <div class="carousel-item image-3 lazyload" data-bg="<?= $rootPath ?>images/pipeline/teaching-1.jpg"></div>
+            <div class="carousel-item image-4 lazyload" data-bg="<?= $rootPath ?>images/pipeline/workspace.jpg"></div>
         </div>
     </section>
 

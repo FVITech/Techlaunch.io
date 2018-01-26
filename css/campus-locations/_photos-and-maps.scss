@@ -42,8 +42,11 @@ section.photos-and-maps {
             box-shadow: 5px 15px 40px -10px rgba(0, 0, 0, .8);
 
             &.first {
-                background-image: url('../../../images/pipeline/learning-1.jpg');
                 background-position: center top;
+
+                &.lazyloaded {
+                    background-image: url('../../../images/pipeline/learning-1.jpg');
+                }
             }
         }
 

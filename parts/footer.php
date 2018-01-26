@@ -12,10 +12,10 @@
             3520 Enterprise Way,<br>
             Miramar, FL  33025<br>
             <br>
-            Email: info@techlaunch.io<br>
-            Phone: (305) 783-3599
+            Email: <a target="_blank" rel="noopener" href="mailto:info@techlaunch.io">info@techlaunch.io</a><br><br>
+            Phone: <a href="tel:3057833599">(305) 783-3599</a>
             <br> <br>
-            TechLaunch is registered DBA of Florida Vocational Institute
+            <small>TechLaunch is registered DBA of Florida Vocational Institute</small>
         </address>
     </div>
     <div class="second">

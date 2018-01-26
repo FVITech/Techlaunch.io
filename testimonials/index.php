@@ -37,7 +37,7 @@ include('../parts/head.php'); ?>
         <section class="testimonials-page testimonial" id="lily-cantillo">
             <div class="container">
                 <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/sOfvKZQ3Xp4?ecver=2<?php echo $options ?>" frameborder="0"></iframe>
+                    <iframe class="lazyload" data-src="https://www.youtube.com/embed/sOfvKZQ3Xp4?ecver=2<?php echo $options ?>" frameborder="0"></iframe>
                 </div>
                 <div class="">
                     <h3 class="author">Lilianne Cantillo</h3>
@@ -50,7 +50,7 @@ include('../parts/head.php'); ?>
         <section class="testimonials-page testimonial" id="peter-vegliante">
             <div class="container">
                 <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/GHzKGGoIgMo?ecver=2<?php echo $options ?>" frameborder="0"></iframe>
+                    <iframe class="lazyload" data-src="https://www.youtube.com/embed/GHzKGGoIgMo?ecver=2<?php echo $options ?>" frameborder="0"></iframe>
                 </div>
                 <div class="">
                     <h3 class="author">Peter Vegliante</h3>
@@ -63,7 +63,7 @@ include('../parts/head.php'); ?>
         <section class="testimonials-page testimonial" id="frank-veloz">
             <div class="container">
                 <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/TqSNjcM-KrE?ecver=2<?php echo $options ?>" frameborder="0"></iframe>
+                    <iframe class="lazyload" data-src="https://www.youtube.com/embed/TqSNjcM-KrE?ecver=2<?php echo $options ?>" frameborder="0"></iframe>
                 </div>
                 <div class="">
                     <h3 class="author">Frank Veloz</h3>
@@ -75,7 +75,7 @@ include('../parts/head.php'); ?>
 
         <section class="testimonials-page testimonial" id="yasiel-sanchez">
             <div class="container">
-                <img class="image yasiel" src="<?php echo $rootPath ?>images/people/yasiel-sanchez-caleo.jpg" alt="Yasiel Sanchez Caleo, Techlaunch @ FVI student">
+                <img class="image yasiel lazyload" data-src="<?php echo $rootPath ?>images/people/yasiel-sanchez-caleo.jpg" alt="Yasiel Sanchez Caleo, Techlaunch @ FVI student">
                 <div class="">
                     <h3 class="author">Yasiel Sanchez Caleo</h3>
                     <p class="title">Web Developer Student</p>

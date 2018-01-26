@@ -77,6 +77,7 @@ section.syllabus .intro-content .program-cards {
         margin: 30px;
         box-shadow: 0 15px 15px -5px rgba(0, 0, 0, .7);
         border: 3px solid #555;
+        transition: all 200ms;
 
         &:hover,
         &:focus {

@@ -16,13 +16,13 @@ include('parts/head.php'); ?>
     ?>
     <section class="above-the-fold">
         <div class="container">
-            <a href="<?php echo $rootPath ?>">
-                <img src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+            <a href="<?= $rootPath ?>">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
             <h2 class="page-title">Ready to Launch a Career in Technology?</h2>
             <p class="page-subtitle">TechLaunch offers immersive programs and courses that prepare you today, for the recession proof tech careers of tomorrow.</p>
             <div class="buttons-box">
-                <a class="btn browse-programs" href="<?php echo $rootPath ?>programs/">Browse Programs</a>
+                <a class="btn browse-programs" href="<?= $rootPath ?>programs/">Browse Programs</a>
                 <a class="btn get-more-info">Get More Info</a>
             </div>
         </div>
@@ -32,8 +32,7 @@ include('parts/head.php'); ?>
         <div class="split-3">
             <div class="split-box">
                 <h2>Become a Hero in the Tech Industry!</h2>
-                <!-- <img class="image" src="<?php echo $rootPath ?>images/people/hero_dad_bod.png" alt="Tech Hero"> -->
-                <img class="image" src="<?php echo $rootPath ?>images/super-hero.png" alt="Tech Hero">
+                <img class="image lazyload" data-src="<?= $rootPath ?>images/super-hero.png" alt="Tech Hero">
             </div>
             <div class="split-box">
                 <div class="video-container">
@@ -44,7 +43,7 @@ include('parts/head.php'); ?>
                         $options .= "&iv_load_policy=3";
                         $options .= "&origin=1";
                     ?>
-                    <iframe src="https://www.youtube.com/embed/6eS5xHsJCPs?ecver=2<?php echo $options ?>" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="lazyload" data-src="https://www.youtube.com/embed/6eS5xHsJCPs?ecver=2<?= $options ?>" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="split-box">
@@ -55,12 +54,12 @@ include('parts/head.php'); ?>
 
     <section class="programs">
         <div class="left">
-            <a class="program-title" href="<?php echo $rootPath ?>programs/">
+            <a class="program-title" href="<?= $rootPath ?>programs/">
                 tech career programs
             </a>
         </div>
         <div class="right">
-            <a class="program-title" href="<?php echo $rootPath ?>tech-skills-upgrade-programs/">
+            <a class="program-title" href="<?= $rootPath ?>tech-skills-upgrade-programs/">
                 Tech Skills Upgrade
             </a>
         </div>
@@ -74,8 +73,8 @@ include('parts/head.php'); ?>
                     <div class="bar-container">
                         <div class="bar">
                             <div class="rocket-container">
-                                <img src="<?php echo $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket">
-                                <img src="<?php echo $rootPath ?>images/fire.svg" alt="flame" class="flame">
+                                <img data-src="<?= $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket lazyload">
+                                <img data-src="<?= $rootPath ?>images/fire.svg" alt="flame" class="flame lazyload">
                             </div>
                             <span>27%</span>
                         </div>
@@ -84,8 +83,8 @@ include('parts/head.php'); ?>
                     <div class="bar-container">
                         <div class="bar">
                             <div class="rocket-container">
-                                <img src="<?php echo $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket">
-                                <img src="<?php echo $rootPath ?>images/fire.svg" alt="flame" class="flame">
+                                <img data-src="<?= $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket lazyload">
+                                <img data-src="<?= $rootPath ?>images/fire.svg" alt="flame" class="flame lazyload">
                             </div>
                             <span>17%</span>
                         </div>
@@ -94,8 +93,8 @@ include('parts/head.php'); ?>
                     <div class="bar-container">
                         <div class="bar">
                             <div class="rocket-container">
-                                <img src="<?php echo $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket">
-                                <img src="<?php echo $rootPath ?>images/fire.svg" alt="flame" class="flame">
+                                <img data-src="<?= $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket lazyload">
+                                <img data-src="<?= $rootPath ?>images/fire.svg" alt="flame" class="flame lazyload">
                             </div>
                             <span>18%</span>
                         </div>
@@ -104,8 +103,8 @@ include('parts/head.php'); ?>
                     <div class="bar-container">
                         <div class="bar">
                             <div class="rocket-container">
-                                <img src="<?php echo $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket">
-                                <img src="<?php echo $rootPath ?>images/fire.svg" alt="flame" class="flame">
+                                <img data-src="<?= $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket lazyload">
+                                <img data-src="<?= $rootPath ?>images/fire.svg" alt="flame" class="flame lazyload">
                             </div>
                             <span>7%</span>
                         </div>
@@ -148,28 +147,28 @@ include('parts/head.php'); ?>
                 <p class="appear">There are many benefits of getting your education at TechLaunch. With our dedicated instructors, understanding support staff, and Career Services team on your side, you’ll learn the skills you need for a new career in tech.</p>
             </div>
             <div class="middle">
-                <img class="appear" src="<?php echo $rootPath ?>images/pipeline/students-1.jpg" alt="phone and laptop">
+                <img class="appear lazyload" data-src="<?= $rootPath ?>images/pipeline/students-1.jpg" alt="phone and laptop">
             </div>
             <div class="right">
                 <ul>
                     <li class="appear">
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/diploma.png" alt="diploma icon">
+                        <img class="icon lazyload" data-src="<?= $rootPath ?>images/icons/diploma.png" alt="diploma icon">
                         <p>Immersive training to prepare you for a exciting and rewarding career in the booming technology industry</p>
                     </li>
                     <li class="appear">
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/hands-holding-box.png" alt="hands holding box icon">
+                        <img class="icon lazyload" data-src="<?= $rootPath ?>images/icons/hands-holding-box.png" alt="hands holding box icon">
                         <p>Get real-world experience in a hands-on environment</p>
                     </li>
                     <li class="appear">
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/search-the-globe.png" alt="search the globe icon">
+                        <img class="icon lazyload" data-src="<?= $rootPath ?>images/icons/search-the-globe.png" alt="search the globe icon">
                         <p>Work with our Career Services Team to find great job opportunities</p>
                     </li>
                     <li class="appear">
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/growing-graph.png" alt="growing graph icon">
+                        <img class="icon lazyload" data-src="<?= $rootPath ?>images/icons/growing-graph.png" alt="growing graph icon">
                         <p>Enter a growing field where your skills are vital</p>
                     </li>
                     <li class="appear">
-                        <img class="icon" src="<?php echo $rootPath ?>images/icons/piggy-bank.png" alt="piggy bank icon">
+                        <img class="icon lazyload" data-src="<?= $rootPath ?>images/icons/piggy-bank.png" alt="piggy bank icon">
                         <p>Financial aid is available for those who qualify</p>
                     </li>
                 </ul>
@@ -197,26 +196,26 @@ include('parts/head.php'); ?>
                     </div>
                     <div class="company-logos">
                         <div class="logo">
-                            <img src="<?php echo $rootPath ?>images/logos/khan-academy.png" alt="khan academy logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/khan-academy.png" alt="khan academy logo">
                         </div>
                         <div class="logo">
-                            <img src="<?php echo $rootPath ?>images/logos/netflix.png" alt="netflix logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/netflix.png" alt="netflix logo">
                         </div>
                         <div class="logo">
-                            <img src="<?php echo $rootPath ?>images/logos/yahoo.png" alt="yahoo logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/yahoo.png" alt="yahoo logo">
                         </div>
                         <div class="logo uber">
-                            <img src="<?php echo $rootPath ?>images/logos/uber.jpg" alt="uber logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/uber.jpg" alt="uber logo">
                         </div>
                         <div class="logo">
-                            <img src="<?php echo $rootPath ?>images/logos/paypal.png" alt="paypal logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/paypal.png" alt="paypal logo">
                         </div>
                         <div class="logo facebook">
-                            <img src="<?php echo $rootPath ?>images/logos/facebook.png" alt="facebook logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/facebook.png" alt="facebook logo">
                         </div>
                     </div>
                 </div>
-                <a class="appear read-more" href="<?php echo $rootPath ?>web-developer/">read more</a>
+                <a class="appear read-more" href="<?= $rootPath ?>web-developer/">read more</a>
             </div>
             <div class="stack">
                 <div class="box appear delay-200">
@@ -229,39 +228,39 @@ include('parts/head.php'); ?>
                     </div>
                     <div class="company-logos">
                         <!-- <div class="logo">
-                            <img src="images/logos/rackspace.png" alt="rackspace logo">
+                            <img class="lazyload" data-src="images/logos/rackspace.png" alt="rackspace logo">
                         </div> -->
                         <div class="logo">
-                            <img src="<?php echo $rootPath ?>images/logos/zynga.png" alt="zynga logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/zynga.png" alt="zynga logo">
                         </div>
                         <div class="logo tesla">
-                            <img src="<?php echo $rootPath ?>images/logos/tesla.png" alt="tesla logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/tesla.png" alt="tesla logo">
                         </div>
                         <div class="logo">
-                            <img src="<?php echo $rootPath ?>images/logos/wordpress.png" alt="wordpress logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/wordpress.png" alt="wordpress logo">
                         </div>
                         <div class="logo udemy">
-                            <img src="<?php echo $rootPath ?>images/logos/udemy.png" alt="udemy logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/udemy.png" alt="udemy logo">
                         </div>
                         <div class="logo lyft">
-                            <img src="<?php echo $rootPath ?>images/logos/lyft.png" alt="lyft logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/lyft.png" alt="lyft logo">
                         </div>
                         <div class="logo">
-                            <img src="<?php echo $rootPath ?>images/logos/tumblr.png" alt="tumblr logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/tumblr.png" alt="tumblr logo">
                         </div>
                     </div>
                 </div>
-                <a class="appear read-more" href="<?php echo $rootPath ?>web-developer/">read more</a>
+                <a class="appear read-more" href="<?= $rootPath ?>web-developer/">read more</a>
             </div>
         </div>
     </section>
 
     <section class="partners">
         <div class="logos-container">
-            <img src="<?php echo $rootPath ?>images/logos/cssf.png" alt="Career Source South Florida logo">
-            <img src="<?php echo $rootPath ?>images/logos/coe.jpg" alt="Council on Occupational Education logo">
-            <img src="<?php echo $rootPath ?>images/logos/fl-doe.jpg" alt="Florida Department of Education logo">
-            <img src="<?php echo $rootPath ?>images/logos/fapsc.jpeg" alt="FAPSC logo">
+            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/cssf.png" alt="Career Source South Florida logo">
+            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/coe.jpg" alt="Council on Occupational Education logo">
+            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/fl-doe.jpg" alt="Florida Department of Education logo">
+            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/fapsc.jpeg" alt="FAPSC logo">
         </div>
     </section>
 

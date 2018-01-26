@@ -10,7 +10,7 @@
 <div class="carousel-item youtube" id="lily-cantillo">
     <div class="left">
         <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/sOfvKZQ3Xp4?ecver=2<?php echo $options ?>" frameborder="0"></iframe>
+            <iframe class="lazyload" data-src="https://www.youtube.com/embed/sOfvKZQ3Xp4?ecver=2<?php echo $options ?>" frameborder="0"></iframe>
         </div>
     </div>
     <div class="right">

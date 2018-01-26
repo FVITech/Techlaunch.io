@@ -27,7 +27,7 @@ include('../parts/head.php'); ?>
     <section class="content">
         <div class="container">
             <div class="split-2">
-                <div class="split-box left image appear"></div>
+                <div class="split-box left image appear lazyload" data-bg="<?= $rootPath ?>images/people/group-at-pipeline.jpg"></div>
                 <div class="split-box right text appear">
                     <h2 class="section-title">Launch Your Future with Miami Cyber Security Programs</h2>
                     <p>In the rapidly growing tech industry, finding the right training is key. At TechLaunch @ Florida Vocational Institute (FVI), we’re committed to preparing our students for a career in technology in less than a year. In this time, we prepare our students to fill the void by providing the training they need. In our programs, we transform general computer users into technologists and empower people to get a rewarding career within one year.</p>
@@ -47,10 +47,10 @@ include('../parts/head.php'); ?>
                   <h2 class="section-title">Find the Core Courses You Need with Cyber Security Training in Miami</h2>
                     <p>Some students know they want to be in cyber security from a young age. Others need more time to figure out what they want to do, and they make a career change later on. Your core course load includes classes on things like ethics, cybercrime law, and information security. Advanced mathematics teach students what they need to know. So you&rsquo;ll also need classes in calculus, statistics, and more along with courses on the fundamentals of information technology. Many of today&rsquo;s experts also take classes in criminal investigations and criminal evidence. This way, you know how to track down cybercriminals.</p>
 </div>
-                <div class="split-box right image appear"></div>
+                <div class="split-box right image appear lazyload" data-bg="<?= $rootPath ?>images/bridging-the-gap.jpg"></div>
             </div>
             <div class="split-2">
-                <div class="split-box left image appear"></div>
+                <div class="split-box left image appear lazyload" data-bg="<?= $rootPath ?>images/people/techhire-bbbs-students-group.jpg"></div>
                 <div class="split-box right text appear">
                     <h2 class="section-title">Explore Different Specializations with a Cyber Security Career</h2>
                     <p>Even within a relatively new field like cyber security, not all students or companies are the same. At TechLaunch, we give our students more options. Many programs now focus on areas like information assurance and forensics. </p>
@@ -64,14 +64,14 @@ include('../parts/head.php'); ?>
                     <p>According to <a href="https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm">BLS estimates</a>, the demand for analysts could increase by 18% by 2024. The average for other areas is just 7% by BLS estimates. Some graduates also become information security auditors or computer network security administrators. Where do you find jobs once you graduate?</p>
                     <p>Manufacturing and defense companies look for more cyber security professionals every year. Financial and insurance companies also provide opportunities for experts. These jobs are most common in areas like Washington, New York, and San Francisco. You can find opportunities across the country. <a href="http://www.defense.gov/home/features/2013/0713_cyberdomain/">The Department of Defense is a major employer</a>. </p>
                 </div>
-                <div class="split-box right image appear"></div>
+                <div class="split-box right image appear lazyload" data-bg="<?= $rootPath ?>images/people/3-students-at-desk.jpg"></div>
             </div>
             
             <div class="split-2">
-                <div class="split-box left image appear"></div>
-              <div class="split-box right text appear">
-                <h2 class="section-title">Find Cyber Security Certification Programs That Meet Your Needs</h2>
-                  <p>If you&rsquo;re interested in a cyber security career, come to Tech Launch. We can help you explore your options and see if this or other tech fields are right for you. Many of our students come in looking for new opportunities in a career they love. They know the tech industry is full of growing opportunities and Cyber Security certainly is an error that has a growing need for qualified talent.</p>
+                <div class="split-box left image appear lazyload" data-bg="<?= $rootPath ?>images/pipeline/coding-2.jpg"></div>
+                <div class="split-box right text appear">
+                    <h2 class="section-title">Find Cyber Security Certification Programs That Meet Your Needs</h2>
+                    <p>If you&rsquo;re interested in a cyber security career, come to Tech Launch. We can help you explore your options and see if this or other tech fields are right for you. Many of our students come in looking for new opportunities in a career they love. They know the tech industry is full of growing opportunities and Cyber Security certainly is an error that has a growing need for qualified talent.</p>
                     <p>We can help you find the right fit. Once enroll in our programs, we&rsquo;ll help you learn all the right skills you need to be competitive when selecting a new company to work with. For more information on your options moving forward, check out our program and see if it&rsquo;s the right fit for you.</p>
                 </div>
             </div>
