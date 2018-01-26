@@ -1,4 +1,4 @@
-<section class="quotes <?php echo $classes ?>" id="quotes">
+<section class="quotes lazyload <?php echo $classes ?>" data-bg="<?= $rootPath ?>images/backgrounds/space-travel.jpg" id="quotes">
     <div class="quote-container appear">
         <div class="code-org-logo">
             <span>C</span>
