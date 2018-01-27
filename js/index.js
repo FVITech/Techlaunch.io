@@ -4,8 +4,6 @@ window.lazySizesConfig.customMedia = {
     '--large': '(min-width: 441px)'
 };
 
-require('jquery')
-
 require('../vendor/picturefill.min.js')
 require('../vendor/ls.bgset.min.js')
 require('../vendor/ls.unveilhooks.min.js')

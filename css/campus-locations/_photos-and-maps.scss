@@ -28,6 +28,8 @@ section.photos-and-maps {
 
     .image-container {
         padding-bottom: 60%;
+        background-color: #000;
+
         @media all and (min-width: 768px) {
             padding-bottom: 30%;
         }

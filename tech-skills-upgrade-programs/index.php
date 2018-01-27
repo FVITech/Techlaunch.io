@@ -47,44 +47,44 @@ include('../parts/head.php'); ?>
             </div>
             <div class="split-4 aws-content switchable">
                 <div class="split-box appear">
-                    <img src='<?= $rootPath ?>/icons/gears-and-globe.png' alt='gears and globe icon' class="icon">
+                    <img src='<?= $rootPath ?>images/icons/gears-and-globe.png' alt='gears and globe icon' class="icon">
                     <h4>Get<br>Certified</h4>
                     <p>Amazon Web Services (AWS) Certification is fast becoming a must-have for IT pros. This prepares you for the <strong>AWS Certified Solutions Architect (CSA) - Associate Exam</strong>.</p>
                 </div>
                 <div class="split-box appear delay-200">
-                    <img src='<?= $rootPath ?>/icons/cloud-computing.png' alt='cloud computing icon' class="icon">
+                    <img src='<?= $rootPath ?>images/icons/cloud-computing.png' alt='cloud computing icon' class="icon">
                     <h4>Start From<br>the Beginning</h4>
                     <p>No prior knowledge of AWS or programming skills required. The course will be highly actionable in terms of showing how you can leverage AWS resources.</p>
                 </div>
                 <div class="split-box appear delay-400">
-                    <img src='<?= $rootPath ?>/icons/servers-2.png' alt='servers icon' class="icon">
+                    <img src='<?= $rootPath ?>images/icons/servers-2.png' alt='servers icon' class="icon">
                     <h4>Become More<br>Valuable</h4>
                     <p>Learn how to speed up a website by deploying CDNs, document versioning and backups, optimize the cost of backups, and create virtual machines.</p>
                 </div>
                 <div class="split-box appear delay-600">
-                    <img src='<?= $rootPath ?>/icons/brain-power.png' alt='brain power icon' class="icon">
+                    <img src='<?= $rootPath ?>images/icons/brain-power.png' alt='brain power icon' class="icon">
                     <h4>Science Based<br>Learning</h4>
                     <p>We look at education in a holistic way. Our instructors will help you develop the skills and habits that will accelerate your journey to mastery.</p>
                 </div>
             </div>
             <div class="split-4 wordpress-content switchable">
                 <div class="split-box appear">
-                    <img src='<?= $rootPath ?>/icons/web-content-1.png' alt='web content icon' class="icon">
+                    <img src='<?= $rootPath ?>images/icons/web-content-1.png' alt='web content icon' class="icon">
                     <h4>Become<br>Job Ready</h4>
                     <p>By providing enough hands-on practice and filling your portfolio full of projects, you will be well-prepared for a job as a WordPress Developer.</p>
                 </div>
                 <div class="split-box appear delay-200">
-                    <img src='<?= $rootPath ?>/icons/light-bulb-idea.png' alt='light bulb idea icon' class="icon">
+                    <img src='<?= $rootPath ?>images/icons/light-bulb-idea.png' alt='light bulb idea icon' class="icon">
                     <h4>Learn<br>In-Demand Skills</h4>
                     <p>WordPress is one of the quickest and most popular ways to build a dynamic website, powering <a target="_blank" rel="noopener" href="https://w3techs.com/technologies/details/cm-wordpress/all/all">28%</a> of all websites.</p>
                 </div>
                 <div class="split-box appear delay-400">
-                    <img src='<?= $rootPath ?>/icons/globe-1.png' alt='globe icon' class="icon">
+                    <img src='<?= $rootPath ?>images/icons/globe-1.png' alt='globe icon' class="icon">
                     <h4>Open Source<br>Platform</h4>
                     <p>WordPress's open-source platform offers millions of themes and plugins available for anyone to use.</p>
                 </div>
                 <div class="split-box appear delay-600">
-                    <img src='<?= $rootPath ?>/icons/web-design-1.png' alt='web design icon' class="icon">
+                    <img src='<?= $rootPath ?>images/icons/web-design-1.png' alt='web design icon' class="icon">
                     <h4>Learn<br>By Doing</h4>
                     <p>We don't believe in boring lectures or glossing over concepts. Our courses are based projects and labs custom made to maximize your learning.</p>
                 </div>
