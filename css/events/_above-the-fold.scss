@@ -1,6 +1,12 @@
 section.above-the-fold {
     background-image:
         linear-gradient(rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 100%),
-        url('../../../images/pipeline/workspace.jpg');
+        url('../../../images/pipeline/workspace-mobile.jpg');
     background-position: right 50%;
+
+    @media all and (min-width: 441px) {
+        background-image:
+            linear-gradient(rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 100%),
+            url('../../../images/pipeline/workspace.jpg');
+    }
 }

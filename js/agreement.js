@@ -1,4 +1,3 @@
-const $ = require('jquery')
 const { togglePayPalPopUp } = require('./paypal.js')
 
 let rootPath = null

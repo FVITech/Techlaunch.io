@@ -1,8 +1,14 @@
 section.above-the-fold {
     background-image:
         linear-gradient(rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .5) 100%),
-        url('../../../images/pipeline/coding-2.jpg');
+        url('../../../images/pipeline/coding-2-mobile.jpg');
     background-position: 40% top;
+
+    @media all and (min-width: 441px) {
+        background-image:
+            linear-gradient(rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .5) 100%),
+            url('../../../images/pipeline/coding-2.jpg');
+    }
 
     @media all and (min-width: 992px) {
         padding-bottom: 70px;

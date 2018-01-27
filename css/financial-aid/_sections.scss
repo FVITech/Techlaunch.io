@@ -14,7 +14,13 @@ section.banner {
     &.teaching {
         background-image:
             linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
-            url('../../../images/backgrounds/teaching.jpg');
+            url('../../../images/backgrounds/teaching-mobile.jpg');
+
+        @media all and (min-width: 441px) {
+            background-image:
+                linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+                url('../../../images/backgrounds/teaching.jpg');
+        }
     }
 }
 

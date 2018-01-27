@@ -12,7 +12,7 @@
     if (isset($_SESSION) && isset($_SESSION['origin'])  ){
       $origin = $_SESSION['origin'];
       ?><script>
-      console.log("Session origin: <?php echo $_SESSION['origin']; ?>");
+      console.log("Session origin: <?= $_SESSION['origin']; ?>");
       </script><?php
     }
 
@@ -33,16 +33,16 @@
     ?>
     <!--Origin - Google-->
     <script type="text/javascript">
-      var google_replace_number= "<?php echo $phone_num; ?>";
+      var google_replace_number= "<?= $phone_num; ?>";
       (function(a,e,c,f,g,b,d){var h={ak:"939988187",cl:"a4GcCIWJ-WAQ26mcwAM"};a[c]=a[c]||function(){(a[c].q=a[c].q||[]).push(arguments)};a[f]||(a[f]=h.ak);b=e.createElement(g);b.async=1;b.src="//www.gstatic.com/wcm/loader.js";d=e.getElementsByTagName(g)[0];d.parentNode.insertBefore(b,d);a._googWcmGet=function(b,d,e){a[c](2,b,h,d,null,new Date,e)}})(window,document,"_googWcmImpl","_googWcmAk","script");
     </script>
   <?php }?>
 <script>
-  console.log("Origin: <?php echo $origin; ?>");
+  console.log("Origin: <?= $origin; ?>");
 </script>
 <nav id="navbar">
     <div class="get-info">Get Info</div>
-    <a class="phone" href="tel:<?php echo $phone_num?>"><?php echo $phone_num?></a>
+    <a class="phone" href="tel:<?= $phone_num?>"><?= $phone_num?></a>
     <div id="menu-button" class="menu-button">
         <span class="bar"></span>
         <span class="bar"></span>
@@ -51,52 +51,52 @@
     <div class="menu-container" id="menu-container">
         <div class="menu">
             <div class="menu-section">
-                <a class="menu-header dropdown" href="<?php echo $rootPath ?>programs/">Tech Career Programs</a>
+                <a class="menu-header dropdown" href="<?= $rootPath ?>programs/">Tech Career Programs</a>
                 <div class="menu-list">
-                    <a class="mobile-link" href="<?php echo $rootPath ?>programs/">Programs Summary</a>
-                    <a href="<?php echo $rootPath ?>web-developer/">Web Developer</a>
-                    <a href="<?php echo $rootPath ?>cyber-security-and-network-technician/">CyberSecurity and Network Technician</a>
+                    <a class="mobile-link" href="<?= $rootPath ?>programs/">Programs Summary</a>
+                    <a href="<?= $rootPath ?>web-developer/">Web Developer</a>
+                    <a href="<?= $rootPath ?>cyber-security-and-network-technician/">CyberSecurity and Network Technician</a>
                 </div>
             </div>
             <div class="menu-section tech-skills-upgrade">
-                <a class="menu-header dropdown" href="<?php echo $rootPath ?>tech-skills-upgrade-programs/">Tech Skills Upgrades</a>
+                <a class="menu-header dropdown" href="<?= $rootPath ?>tech-skills-upgrade-programs/">Tech Skills Upgrades</a>
                 <div class="menu-list">
-                    <a class="mobile-link" href="<?php echo $rootPath ?>tech-skills-upgrade-programs/">Tech Skills Upgrades Summary</a>
-                    <a href="<?php echo $rootPath ?>tech-skills-upgrade-programs/#aws">Amazon Web Services</a>
-                    <!-- <a href="<?php echo $rootPath ?>tech-skills-upgrade-programs/#wordpress">WordPress</a> -->
+                    <a class="mobile-link" href="<?= $rootPath ?>tech-skills-upgrade-programs/">Tech Skills Upgrades Summary</a>
+                    <a href="<?= $rootPath ?>tech-skills-upgrade-programs/#aws">Amazon Web Services</a>
+                    <!-- <a href="<?= $rootPath ?>tech-skills-upgrade-programs/#wordpress">WordPress</a> -->
                 </div>
             </div>
             <div class="menu-section">
-                <a class="menu-header dropdown" href="<?php echo $rootPath ?>careerlaunch/">Career Launch &amp; Services</a>
+                <a class="menu-header dropdown" href="<?= $rootPath ?>careerlaunch/">Career Launch &amp; Services</a>
                 <div class="menu-list">
-                    <a class="mobile-link" href="<?php echo $rootPath ?>careerlaunch/">Careerlaunch &amp; Career Services</a>
-                    <a href="<?php echo $rootPath ?>hiring-partners/">Hiring Partners</a>
+                    <a class="mobile-link" href="<?= $rootPath ?>careerlaunch/">Careerlaunch &amp; Career Services</a>
+                    <a href="<?= $rootPath ?>hiring-partners/">Hiring Partners</a>
                 </div>
             </div>
             <div class="menu-section">
-                <a class="menu-header dropdown" href="<?php echo $rootPath ?>about-us/">About Us</a>
+                <a class="menu-header dropdown" href="<?= $rootPath ?>about-us/">About Us</a>
                 <div class="menu-list">
-                    <a class="mobile-link" href="<?php echo $rootPath ?>about-us/">About Us Summary</a>
-                    <a href="<?php echo $rootPath ?>campus-locations/">Campus Locations</a>
-                    <a href="<?php echo $rootPath ?>contact-us/">Contact Us</a>
+                    <a class="mobile-link" href="<?= $rootPath ?>about-us/">About Us Summary</a>
+                    <a href="<?= $rootPath ?>campus-locations/">Campus Locations</a>
+                    <a href="<?= $rootPath ?>contact-us/">Contact Us</a>
                 </div>
             </div>
             <div class="menu-section">
-                <a class="menu-header" href="<?php echo $rootPath ?>financial-aid/">Financial Aid</a>
+                <a class="menu-header" href="<?= $rootPath ?>financial-aid/">Financial Aid</a>
             </div>
             <div class="menu-section">
-                <a class="menu-header" href="<?php echo $rootPath ?>events/">Events</a>
+                <a class="menu-header" href="<?= $rootPath ?>events/">Events</a>
             </div>
             <div class="menu-section">
-                <a class="menu-header" href="<?php echo $rootPath ?>veterans/">Veterans</a>
+                <a class="menu-header" href="<?= $rootPath ?>veterans/">Veterans</a>
             </div>
             <div class="menu-section">
                 <a class="menu-header" target="_blank" rel="noopener" href="https://www.techlaunch.io/blog">Blog</a>
             </div>
         </div>
         <div class="logo-box">
-            <a class="home-btn-logo" href="<?php echo $rootPath ?>">
-                <img src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+            <a class="home-btn-logo" href="<?= $rootPath ?>">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
         </div>
     </div>

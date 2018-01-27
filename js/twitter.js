@@ -1,5 +1,3 @@
-const $ = require('jquery')
-
 const rootPath = $('footer').data('rootpath')
 
 $(document).ready(function() {

@@ -1,5 +1,3 @@
-const $ = require('jquery');
-
 $(document).ready(function() {
     var $menuBtn = $("#menu-button");
     var $menuContainer = $("#menu-container");

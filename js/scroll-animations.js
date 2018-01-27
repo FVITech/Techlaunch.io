@@ -1,4 +1,3 @@
-const $ = require('jquery')
 const throttle = require('lodash.throttle')
 
 // Add selectors here and they will all have the class 'scroll-visible'

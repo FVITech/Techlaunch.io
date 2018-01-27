@@ -3,10 +3,17 @@ section.learning {
     background-image:
         linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)),
         linear-gradient(rgba(62, 142, 229, .4), rgba(62, 142, 229, .4)),
-        url('../../../images/computer-lab.jpg');
+        url('../../../images/computer-lab-mobile.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+
+    @media all and (min-width: 441px) {
+        background-image:
+            linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)),
+            linear-gradient(rgba(62, 142, 229, .4), rgba(62, 142, 229, .4)),
+            url('../../../images/computer-lab.jpg');
+    }
 
     .content {
         padding: 15px;

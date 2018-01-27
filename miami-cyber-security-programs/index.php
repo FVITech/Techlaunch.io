@@ -17,8 +17,8 @@ include('../parts/head.php'); ?>
 
     <section class="above-the-fold">
         <div class="container">
-            <a href="<?php echo $rootPath ?>">
-                <img src="../images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+            <a href="<?= $rootPath ?>">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
             <h1 class="page-title">Miami Cyber Security Programs</h1>
         </div>
@@ -27,7 +27,7 @@ include('../parts/head.php'); ?>
     <section class="content">
         <div class="container">
             <div class="split-2">
-                <div class="split-box left image appear lazyload" data-bg="<?= $rootPath ?>images/people/group-at-pipeline.jpg"></div>
+                <div class="split-box left image appear lazyload" data-bgset="<?= $rootPath ?>images/people/group-at-pipeline-mobile.jpg [--small] | <?= $rootPath ?>images/people/group-at-pipeline.jpg [--large]"></div>
                 <div class="split-box right text appear">
                     <h2 class="section-title">Launch Your Future with Miami Cyber Security Programs</h2>
                     <p>In the rapidly growing tech industry, finding the right training is key. At TechLaunch @ Florida Vocational Institute (FVI), we’re committed to preparing our students for a career in technology in less than a year. In this time, we prepare our students to fill the void by providing the training they need. In our programs, we transform general computer users into technologists and empower people to get a rewarding career within one year.</p>
@@ -68,7 +68,7 @@ include('../parts/head.php'); ?>
             </div>
             
             <div class="split-2">
-                <div class="split-box left image appear lazyload" data-bg="<?= $rootPath ?>images/pipeline/coding-2.jpg"></div>
+                <div class="split-box left image appear lazyload" data-bgset="<?= $rootPath ?>images/pipeline/coding-2-mobile.jpg [--small] | <?= $rootPath ?>images/pipeline/coding-2.jpg [--large]"></div>
                 <div class="split-box right text appear">
                     <h2 class="section-title">Find Cyber Security Certification Programs That Meet Your Needs</h2>
                     <p>If you&rsquo;re interested in a cyber security career, come to Tech Launch. We can help you explore your options and see if this or other tech fields are right for you. Many of our students come in looking for new opportunities in a career they love. They know the tech industry is full of growing opportunities and Cyber Security certainly is an error that has a growing need for qualified talent.</p>

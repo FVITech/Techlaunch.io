@@ -1,4 +1,4 @@
-<section class="testimonials <?php echo $classes ?>">
+<section class="testimonials <?= $classes ?>">
     <div class="carousel">
         <div id="left-btn" class="left-btn">‹</div>
         <div id="right-btn" class="right-btn">›</div>

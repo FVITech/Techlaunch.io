@@ -97,7 +97,7 @@
       </div>
 
       <div class="phone-wrapper blue-bg-color">
-        <p> <a href="tel:<?php echo $phone;?>" class="white-text"><span class="hidden-xs"><?php echo $phone;?></span> <span><i class="fa fa-phone hidden-sm hidden-md hidden-lg" aria-label="call"></i></span></a> </p>
+        <p> <a href="tel:<?= $phone;?>" class="white-text"><span class="hidden-xs"><?= $phone;?></span> <span><i class="fa fa-phone hidden-sm hidden-md hidden-lg" aria-label="call"></i></span></a> </p>
       </div>
     </div><!-- /.header-content-wrapper -->
   </div><!-- /.container -->
@@ -196,7 +196,7 @@
                       <p class="white-text text-center enroll-description">If you’ll like more information about this course please fill the form below and a recruiting specialist will get in touch with you promptly.</p>
                     </div>
 
-                    <form id="contact_form" action="<?php echo $newaction;?>" method="POST">
+                    <form id="contact_form" action="<?= $newaction;?>" method="POST">
                         <input type="hidden" value="Web Developer" name="program_id">
                       <div class="col-xs-12 col-md-6 controls-column">
                         <div class="control-group text-left">
@@ -433,7 +433,7 @@
                 <div class="container-fluid">
                   <div class="row">
 
-                    <form id="contact_form" action="<?php echo $newaction;?>" method="POST">
+                    <form id="contact_form" action="<?= $newaction;?>" method="POST">
                        <input type="hidden" value="Financial" name="program_id">
                       <div class="col-xs-12 col-sm-6">
                         <div class="control-group text-left">
@@ -523,7 +523,7 @@
             <h2 class="light-text">Our Campus</h2>
 
             <p class="white-text bold-text campus-title">Florida Vocational Institute</p>
-            <p class="white-text">Ph: <?php echo $phone;?></p>
+            <p class="white-text">Ph: <?= $phone;?></p>
             <p class="white-text">Mall of Americas</p>
             <p class="white-text">7757 West Flagler Street #220 Miami, FL 33144</p>
             <p class="white-text campus-address"><a target="_blank" href="https://www.google.com/maps/place/7757+West+Flagler+Street+#220+,Miami,+FL,+33144" class="white-text get-directions"><i class="fa fa-map-marker" aria-hidden="true"></i> Get Campus Directions</a></p>

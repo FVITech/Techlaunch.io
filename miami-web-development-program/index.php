@@ -17,8 +17,8 @@ include('../parts/head.php'); ?>
 
     <section class="above-the-fold">
         <div class="container">
-            <a href="<?php echo $rootPath ?>">
-                <img src="../images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+            <a href="<?= $rootPath ?>">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
             <h1 class="page-title">Miami Web Development Program</h1>
         </div>
@@ -27,7 +27,7 @@ include('../parts/head.php'); ?>
     <section class="content">
         <div class="container">
             <div class="split-2">
-                <div class="split-box left image appear lazyload" data-bg="<?= $rootPath ?>images/people/group-at-pipeline.jpg"></div>
+                <div class="split-box left image appear lazyload" data-bgset="<?= $rootPath ?>images/people/group-at-pipeline-mobile.jpg [--small] | <?= $rootPath ?>images/people/group-at-pipeline.jpg [--large]"></div>
                 <div class="split-box right text appear">
                     <h2 class="section-title">Miami Professionals Are Running to Web Developer Training</h2>
                     <p>Are you sick of your current job? Many people are looking for new opportunities, and the web is full of possibilities. Every business needs a website to compete including small local businesses. If you&rsquo;re serious about a new career, formal training can give you a headstart. You can learn how to build websites and web apps. You can also build HTML-based mobile apps and work as a junior developer with a web development training program at Tech Launch. </p>

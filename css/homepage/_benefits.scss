@@ -3,8 +3,11 @@ section.benefits {
     background-color: #fff;
     padding-left: 15px;
     padding-right: 15px;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, .7) 0%, rgba(255, 255, 255, .7) 100%),
+        url('../../../images/backgrounds/canvas-texture-mobile.jpg');
 
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 441px) {
         background-image:
             linear-gradient(rgba(255, 255, 255, .7) 0%, rgba(255, 255, 255, .7) 100%),
             url('../../../images/backgrounds/canvas-texture.jpg');

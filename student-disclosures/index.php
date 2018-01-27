@@ -17,8 +17,8 @@ include('../parts/head.php'); ?>
 
     <section class="above-the-fold">
         <div class="container">
-            <a href="<?php echo $rootPath ?>">
-                <img src="../images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+            <a href="<?= $rootPath ?>">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
             <h1 class="page-title">disclosures</h1>
         </div>
@@ -31,19 +31,19 @@ include('../parts/head.php'); ?>
             <ul class="pdfs">
                 <li>
                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                    <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>fvi_catalog.pdf">FVI Catalog</a>
+                    <a target="_blank" rel="noopener" href="<?= $rootPath ?>fvi_catalog.pdf">FVI Catalog</a>
                 </li>
                 <li>
                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                    <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>2015-Annual-Security-Report-FVI.pdf">2015 Annual Security Report &amp; Campus Crime Statistics</a>
+                    <a target="_blank" rel="noopener" href="<?= $rootPath ?>2015-Annual-Security-Report-FVI.pdf">2015 Annual Security Report &amp; Campus Crime Statistics</a>
                 </li>
                 <li>
                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                    <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>Health-and-Saftey-Plan.pdf">Health and Safety Plan</a>
+                    <a target="_blank" rel="noopener" href="<?= $rootPath ?>Health-and-Saftey-Plan.pdf">Health and Safety Plan</a>
                 </li>
                 <li>
                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                    <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>drug_and_alcohol_policy.pdf">Drug and Alcohol Policy</a>
+                    <a target="_blank" rel="noopener" href="<?= $rootPath ?>drug_and_alcohol_policy.pdf">Drug and Alcohol Policy</a>
                 </li>
             </ul>
             <p>Florida Vocational Institute is accredited by the Council on Occupational Education (COE), a national accrediting agency recognized by the United States Department of Education and licensed by the Florida Department of Education Commission for Independent Education (CIE).</p>
@@ -144,7 +144,7 @@ include('../parts/head.php'); ?>
             <ul class="pdfs">
                 <li>
                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                    <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>it_programs.pdf">2016 Textbook and Resource List- IT Programs</a>
+                    <a target="_blank" rel="noopener" href="<?= $rootPath ?>it_programs.pdf">2016 Textbook and Resource List- IT Programs</a>
                 </li>
             </ul>
 

@@ -14,8 +14,8 @@ include('../parts/head.php'); ?>
 
     <section class="above-the-fold">
         <div class="container">
-            <a href="<?php echo $rootPath ?>">
-                <img src="../images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+            <a href="<?= $rootPath ?>">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
             <div class="content">
                 <div class="text-box">
@@ -59,37 +59,37 @@ include('../parts/head.php'); ?>
             <div class="cards-container">
                 <div class="left">
                     <div class="card appear">
-                        <img class="lazyload" data-src="../images/icons/computer-monitor.png" alt="computer-monitor">
+                        <img class="lazyload" data-src="<?= $rootPath ?>images/icons/computer-monitor.png" alt="computer-monitor">
                         <p>Full-Stack Web Development</p>
                     </div>
                     <div class="card appear">
-                        <img class="lazyload" data-src="../images/icons/diploma.png" alt="diploma">
+                        <img class="lazyload" data-src="<?= $rootPath ?>images/icons/diploma.png" alt="diploma">
                         <p>36-Week (9-Month) immersive program</p>
                     </div>
                     <div class="card appear">
-                        <img class="lazyload" data-src="../images/icons/suit.png" alt="suit">
+                        <img class="lazyload" data-src="<?= $rootPath ?>images/icons/suit.png" alt="suit">
                         <p>Career Placement Assistance</p>
                     </div>
                     <div class="card appear">
-                        <img class="lazyload" data-src="../images/icons/two-people.png" alt="two-people">
+                        <img class="lazyload" data-src="<?= $rootPath ?>images/icons/two-people.png" alt="two-people">
                         <p>Small Class sizes for one-on-one learning</p>
                     </div>
                 </div>
                 <div class="right">
                     <div class="card appear">
-                        <img class="lazyload" data-src="../images/icons/piggy-bank.png" alt="piggy-bank">
+                        <img class="lazyload" data-src="<?= $rootPath ?>images/icons/piggy-bank.png" alt="piggy-bank">
                         <p>Federal Financial aid available to those who qualify</p>
                     </div>
                     <div class="card appear">
-                        <img class="lazyload" data-src="../images/icons/growing-graph.png" alt="growing-graph">
+                        <img class="lazyload" data-src="<?= $rootPath ?>images/icons/growing-graph.png" alt="growing-graph">
                         <p>Campus located in Doral, a rapidly growing tech community</p>
                     </div>
                     <div class="card appear">
-                        <img class="lazyload" data-src="../images/icons/search-the-globe.png" alt="search-the-globe">
+                        <img class="lazyload" data-src="<?= $rootPath ?>images/icons/search-the-globe.png" alt="search-the-globe">
                         <p>Curriculum designed with local Miami job market in mind</p>
                     </div>
                     <div class="card appear">
-                        <img class="lazyload" data-src="../images/icons/graduate.png" alt="graduate">
+                        <img class="lazyload" data-src="<?= $rootPath ?>images/icons/graduate.png" alt="graduate">
                         <p>Complete the program with a Diploma and a Portfolio of work to show prospective employers</p>
                     </div>
                 </div>
@@ -128,17 +128,17 @@ include('../parts/head.php'); ?>
             <div class="testimonials-container">
                 <div class="testimonial appear">
                     <p class="quote">"I have so much to thank the school and their teachers for. I thought that becoming a programmer was something that was unachievable for me, but thanks to the instructors, I was able to do so easily."</p>
-                    <img class="lazyload" data-src="../images/people/yasiel-sanchez-caleo.jpg" alt="Yasiel Sanchez Caleo">
+                    <img class="lazyload" data-src="<?= $rootPath ?>images/people/yasiel-sanchez-caleo.jpg" alt="Yasiel Sanchez Caleo">
                     <span class="name">Yasiel Sanchez Caleo</span>
                 </div>
                 <div class="testimonial appear delay-200">
                     <p class="quote">"TechLaunch demonstrated to me that no matter when you decide, great things can happen if you try. I've acquired knowledge every day, and every single minute I've spent inside of their classroom has made me better."</p>
-                    <img class="lazyload" data-src="../images/people/alan-espinet.jpg" alt="Alan Espinet Lluvet">
+                    <img class="lazyload" data-src="<?= $rootPath ?>images/people/alan-espinet.jpg" alt="Alan Espinet Lluvet">
                     <span class="name">Alan Espinet Lluvet</span>
                 </div>
                 <div class="testimonial appear delay-400">
                     <p class="quote">"Before I started at TechLaunch I was concerned. I thought that coding was difficult and I didn’t know what to expect. Now I feel that it is easier than everybody thinks."</p>
-                    <img class="lazyload" data-src="../images/people/lily-cantillo.jpg" alt="Lilianne Cantillo">
+                    <img class="lazyload" data-src="<?= $rootPath ?>images/people/lily-cantillo.jpg" alt="Lilianne Cantillo">
                     <span class="name">Lilianne Cantillo</span>
                 </div>
             </div>
@@ -174,28 +174,28 @@ include('../parts/head.php'); ?>
             <div class="content">
                 <div class="cards-container">
                     <div class="card appear">
-                        <img class="logo lazyload" data-src="../images/logos/html5-logo.png" alt="HTML5 logo">
+                        <img class="logo lazyload" data-src="<?= $rootPath ?>images/logos/html5-logo.png" alt="HTML5 logo">
                         <p>Frontend web development with HTML5, CSS3, JavaScript, and modern JavaScript frameworks</p>
                     </div>
                     <div class="card appear">
-                        <img class="logo lazyload" data-src="../images/logos/ajax-logo.png" alt="AJAX programming logo">
+                        <img class="logo lazyload" data-src="<?= $rootPath ?>images/logos/ajax-logo.png" alt="AJAX programming logo">
                         <p>AJAX programming and best practices to manage the request-response model within the context of the web browser</p>
                     </div>
                     <div class="card appear">
-                        <img class="logo lazyload" data-src="../images/logos/css3-logo.png" alt="CSS3 logo">
+                        <img class="logo lazyload" data-src="<?= $rootPath ?>images/logos/css3-logo.png" alt="CSS3 logo">
                         <p>How to effectively use CSS media queries to create fully response, mobile-friendly websites and web apps</p>
                     </div>
                     <div class="card appear">
-                        <img class="logo lazyload" data-src="../images/logos/react-logo.png" alt="React logo">
+                        <img class="logo lazyload" data-src="<?= $rootPath ?>images/logos/react-logo.png" alt="React logo">
                         <p>Frontend programming in plain JavaScript and jQuery, as well as advanced JavaScript design patterns under MV* frameworks</p>
                     </div>
                     <div class="card appear">
-                        <img class="logo lazyload" data-src="../images/logos/webpack-logo.png" alt="Webpack 2 logo">
+                        <img class="logo lazyload" data-src="<?= $rootPath ?>images/logos/webpack-logo.png" alt="Webpack 2 logo">
                         <p>How to optimize web pages and use bleeding edge development workflows such as minifying and concatenating assets using Webpack 2</p>
                     </div>
                 </div>
                 <div class="image-container">
-                    <img class="lazyload" data-src="../images/people/group-at-pipeline.jpg" alt="Techlaunch students">
+                    <img class="lazyload" data-srcset="<?= $rootPath ?>images/people/group-at-pipeline-mobile.jpg 440w, <?= $rootPath ?>images/people/group-at-pipeline.jpg 1000w" data-sizes="auto" alt="Techlaunch students">
                 </div>
             </div>
         </div>
@@ -209,7 +209,7 @@ include('../parts/head.php'); ?>
                     <p class="appear">Our instructors take a <strong>hands-on</strong> approach and work closely with you to ensure that you gain the necessary skills to succeed. Our students will learn how to <strong>work in teams</strong> using git-based workflows that are commonly employed in software companies.</p>
                     <button data-form-program="web-developer" class="get-more-info appear">get info</button>
                 </div>
-                <div class="right lazyload" data-bg="<?= $rootPath ?>images/backgrounds/teaching.jpg"></div>
+                <div class="right lazyload" data-bg="<?= $rootPath ?>images/backgrounds/teaching-mobile.jpg"></div>
             </div>
         </div>
     </section>
@@ -218,17 +218,17 @@ include('../parts/head.php'); ?>
         <div class="container">
             <div class="split-2">
                 <div class="split-box image-container">
-                    <div class="image appear first lazyload" data-bg="<?= $rootPath ?>images/pipeline/workspace.jpg"></div>
+                    <div class="image appear first lazyload" data-bgset="<?= $rootPath ?>images/pipeline/workspace-mobile.jpg [--small] | <?= $rootPath ?>images/pipeline/workspace.jpg [--large]"></div>
                 </div>
                 <div class="split-box text">
                     <h2 class="section-title appear">Our Campus</h2>
                     <p>We are located at the Pipeline Doral co-working space. The Doral area is home to numerous tech companies.</p>
                 </div>
                 <div class="split-box image-container">
-                    <div class="image appear second lazyload" data-bg="<?= $rootPath ?>images/pipeline/students-3.jpg"></div>
+                    <div class="image appear second lazyload" data-bgset="<?= $rootPath ?>images/pipeline/students-3-mobile.jpg [--small] | <?= $rootPath ?>images/pipeline/students-3.jpg [--large]"></div>
                 </div>
                 <div class="split-box image-container">
-                    <div class="image appear delay-300 third lazyload" data-bg="<?= $rootPath ?>images/pipeline/learning-1.jpg"></div>
+                    <div class="image appear delay-300 third lazyload" data-bgset="<?= $rootPath ?>images/pipeline/learning-1-mobile.jpg [--small] | <?= $rootPath ?>images/pipeline/learning-1.jpg [--large]"></div>
                 </div>
             </div>
         </div>

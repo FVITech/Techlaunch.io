@@ -52,6 +52,7 @@ section.testimonials-page.testimonial {
     .image {
         box-shadow: 0 10px 30px -10px rgba(0, 0, 0, .5);
         border: 2px solid #888;
+        background-color: #000;
 
         @media all and (min-width: 768px) {
             margin-top: 4px;

@@ -1,9 +1,15 @@
 section.above-the-fold {
     background-image:
         linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
-        url('../../../images/pipeline/students-1.jpg');
+        url('../../../images/pipeline/students-1-mobile.jpg');
     background-position: center top;
     min-height: 60vh;
+
+    @media all and (min-width: 441px) {
+        background-image:
+            linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+            url('../../../images/pipeline/students-1.jpg');
+    }
     
     @media all and (min-width: 768px) {
         min-height: 60vh;

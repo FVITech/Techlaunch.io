@@ -1,7 +1,7 @@
-<footer data-rootpath="<?php echo $rootPath ?>">
+<footer data-rootpath="<?= $rootPath ?>">
     <div class="first">
-        <a href="<?php echo $rootPath ?>">
-            <img src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+        <a href="<?= $rootPath ?>">
+            <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
         </a>
         <address>
             <strong>Miami Campus</strong><br>
@@ -27,12 +27,12 @@
                 </a>
             </li>
             <li>
-                <a href="<?php echo $rootPath ?>student-disclosures/">
+                <a href="<?= $rootPath ?>student-disclosures/">
                     Student Disclosures
                 </a>
             </li>
             <li>
-                <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>fvi_catalog.pdf">
+                <a target="_blank" rel="noopener" href="<?= $rootPath ?>fvi_catalog.pdf">
                     Catalog
                 </a>
             </li>
@@ -42,12 +42,12 @@
                 </a>
             </li>
             <li>
-                <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>privacy-policy/">
+                <a target="_blank" rel="noopener" href="<?= $rootPath ?>privacy-policy/">
                     Privacy Policy
                 </a>
             </li>
             <li>
-                <a target="_blank" rel="noopener" href="<?php echo $rootPath ?>sitemap.php">
+                <a target="_blank" rel="noopener" href="<?= $rootPath ?>sitemap.php">
                     Sitemap
                 </a>
             </li>

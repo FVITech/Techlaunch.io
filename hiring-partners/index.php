@@ -17,8 +17,8 @@ include('../parts/head.php'); ?>
 
     <section class="above-the-fold">
         <div class="container">
-            <a href="<?php echo $rootPath; ?>">
-                <img src="<?php echo $rootPath; ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+            <a href="<?= $rootPath; ?>">
+                <img src="<?= $rootPath; ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
             <h1 class="page-title">Hiring Partners</h1>
         </div>
@@ -33,7 +33,7 @@ include('../parts/head.php'); ?>
                     <p>Our career services department has experience working closely with our hiring partners to understand their company culture, business needs, and technology stack. Our team then matches our partners with TechLaunch @ FVI graduates who have the skills their business is looking for. We can help our hiring partners find qualified candidates for temp-to-perm opportunities, paid internships, and unpaid internships while minimizing business risk, turnover rates, and costs. </p>
                 </div>
                 <div class="split-box">
-                    <img class="lazyload" data-src="<?php echo $rootPath; ?>images/people/group-at-pipeline.jpg" alt="Techlaunch students">
+                    <img class="lazyload" data-src="<?= $rootPath; ?>images/people/group-at-pipeline.jpg" alt="Techlaunch students">
                 </div>
             </div>
         </div>
@@ -52,45 +52,45 @@ include('../parts/head.php'); ?>
             <div class="split-2">
                 <ul class="list split-box appear">
                     <li>
-                        <img class="icon lazyload" data-src="<?php echo $rootPath; ?>images/icons/teamwork.png">
+                        <img class="icon lazyload" data-src="<?= $rootPath; ?>images/icons/teamwork.png">
                         Using group projects to teach our students to work in teams
                     </li>
                     <li>
-                        <img class="icon lazyload" data-src="<?php echo $rootPath; ?>images/icons/teaching-1.png">
+                        <img class="icon lazyload" data-src="<?= $rootPath; ?>images/icons/teaching-1.png">
                         Teaching popular software applications
                     </li>
                     <li>
-                        <img class="icon lazyload" data-src="<?php echo $rootPath; ?>images/icons/characteristics-1.png">
+                        <img class="icon lazyload" data-src="<?= $rootPath; ?>images/icons/characteristics-1.png">
                         Immersing our students in a nine-month program
                     </li>
                     <li>
-                        <img class="icon lazyload" data-src="<?php echo $rootPath; ?>images/icons/gears-1.png">
+                        <img class="icon lazyload" data-src="<?= $rootPath; ?>images/icons/gears-1.png">
                         Providing more in-depth training than 10-week bootcamps
                     </li>
                     <li>
-                        <img class="icon lazyload" data-src="<?php echo $rootPath; ?>images/icons/conversation-1.png">
+                        <img class="icon lazyload" data-src="<?= $rootPath; ?>images/icons/conversation-1.png">
                         Basing our curriculum on feedback from hiring partners and local businesses
                     </li>
                 </ul>
                 <ul class="list split-box appear delay-200">
                     <li>
-                        <img class="icon lazyload" data-src="<?php echo $rootPath; ?>images/icons/conversation-2.png">
+                        <img class="icon lazyload" data-src="<?= $rootPath; ?>images/icons/conversation-2.png">
                         Providing problem-solving opportunities in our problem resolution labs
                     </li>
                     <li>
-                        <img class="icon lazyload" data-src="<?php echo $rootPath; ?>images/icons/person-at-computer.png">
+                        <img class="icon lazyload" data-src="<?= $rootPath; ?>images/icons/person-at-computer.png">
                         Using extensive hands-on learning
                     </li>
                     <li>
-                        <img class="icon lazyload" data-src="<?php echo $rootPath; ?>images/icons/person-with-suitcase.png">
+                        <img class="icon lazyload" data-src="<?= $rootPath; ?>images/icons/person-with-suitcase.png">
                         Providing internship opportunities
                     </li>
                     <li>
-                        <img class="icon lazyload" data-src="<?php echo $rootPath; ?>images/icons/person-hierarchy.png">
+                        <img class="icon lazyload" data-src="<?= $rootPath; ?>images/icons/person-hierarchy.png">
                         Giving our partners access to our Zero-Cost Tech Recruiting program
                     </li>
                     <li>
-                        <img class="icon lazyload" data-src="<?php echo $rootPath; ?>images/icons/certificate.png">
+                        <img class="icon lazyload" data-src="<?= $rootPath; ?>images/icons/certificate.png">
                         Helping students design a portfolio of work to show hiring partners
                     </li>
                 </ul>
@@ -105,8 +105,8 @@ include('../parts/head.php'); ?>
                 <div class="testimonial">
                     <h3 class="name">Spiderboost</h3>
                     <video class="lazyload" controls>
-                        <source src="<?php echo $rootPath ?>videos/Spiderboost_Testimony.mp4" type="video/mp4">
-                        <source src="<?php echo $rootPath ?>videos/Spiderboost_Testimony.ogg" type="video/ogg">
+                        <source src="<?= $rootPath ?>videos/Spiderboost_Testimony.mp4" type="video/mp4">
+                        <source src="<?= $rootPath ?>videos/Spiderboost_Testimony.ogg" type="video/ogg">
                     </video>
                 </div>
                 <div class="testimonial">
@@ -156,7 +156,7 @@ include('../parts/head.php'); ?>
                     <p>Many companies and individuals in the tech industry are very socially conscious and understand the skills gap, the digital divide, and the under-representation of minorities in the world of tech. At TechLaunch, we prepare every student who has the right combination of skills and grit to succeed in tech. By hiring our grads, you have the opportunity to have an impact by bringing people with diverse backgrounds and ideas into the industry and effect change for the better that bridges the gaps in the world of tech.</p>
                 </div>
                 <div class="split-box">
-                    <img class="lazyload" data-src="<?php echo $rootPath; ?>images/bridging-the-gap.jpg" alt="Bridging the Skills Gap">
+                    <img class="lazyload" data-src="<?= $rootPath; ?>images/bridging-the-gap.jpg" alt="Bridging the Skills Gap">
                 </div>
             </div>
         </div>
@@ -165,7 +165,7 @@ include('../parts/head.php'); ?>
     <section class="testimonials-page hiring-partner-form-section" id="hiring-partner-form-section">
         <div class="container">
             <!-- script tag that handles this form is at the bottom of this file -->
-            <form id="hiring-partner-form" action="<?php echo $rootPath; ?>hiring-partners/contact.php" method="POST" enctype="multipart/form-data">
+            <form id="hiring-partner-form" action="<?= $rootPath; ?>hiring-partners/contact.php" method="POST" enctype="multipart/form-data">
                 <h2 class="section-title">Become A Hiring Partner</h2>
                 <div class="split-2">
                     <div class="form-input split-box">

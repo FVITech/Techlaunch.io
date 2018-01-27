@@ -1,4 +1,4 @@
-<div class="get-info-form <?php echo $classes ?>">
+<div class="get-info-form <?= $classes ?>">
     <div class="get-info-form-overlay"></div>
     <div class="form-container">
         <h2 class="title">Learn how to get started</h2>
@@ -40,7 +40,7 @@
           }
         ?>
         <i class="close-btn fa fa-times-circle" aria-hidden="true"></i>
-        <form method="POST" action="<?php echo $form_action; ?>">
+        <form method="POST" action="<?= $form_action; ?>">
             <div class="form-input">
                 <label>Preferred Location</label>
                 <select name="campus" id="campus">

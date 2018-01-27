@@ -17,8 +17,8 @@ include('../parts/head.php'); ?>
 
     <section class="above-the-fold">
         <div class="container">
-            <a href="<?php echo $rootPath ?>">
-                <img src="../images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+            <a href="<?= $rootPath ?>">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
             <h1 class="page-title">Miami Coding Bootcamp Program</h1>
         </div>
@@ -27,7 +27,7 @@ include('../parts/head.php'); ?>
     <section class="content">
         <div class="container">
             <div class="split-2">
-                <div class="split-box left image appear lazyload" data-bg="<?= $rootPath ?>images/people/group-at-pipeline.jpg"></div>
+                <div class="split-box left image appear lazyload" data-bgset="<?= $rootPath ?>images/people/group-at-pipeline-mobile.jpg [--small] | <?= $rootPath ?>images/people/group-at-pipeline.jpg [--large]"></div>
                 <div class="split-box right text appear">
                     <h2 class="section-title">Advance Your Career with Coding Bootcamps</h2>
                     <p>If you’re new to the world of coding and web development, it can seem like an endless list of possibilities. The industry needs more trained professionals, and you don’t need a four-year degree. You don’t have to worry about the extensive curriculums involved in a traditional college program. </p>

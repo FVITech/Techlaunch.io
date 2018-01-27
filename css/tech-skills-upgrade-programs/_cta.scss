@@ -1,8 +1,12 @@
 section.cta {
     text-align: center;
-    background-image: url('../../../images/backgrounds/canvas-texture.jpg');
+    background-image: url('../../../images/backgrounds/canvas-texture-mobile.jpg');
     background-size: cover;
     background-position: center;
+
+    @media all and (min-width: 441px) {
+        background-image: url('../../../images/backgrounds/canvas-texture.jpg');
+    }
 
     .disclaimer {
         font-size: 12px;

@@ -1,6 +1,6 @@
 <div class="carousel-item image" id="yasiel-sanchez">
     <div class="left">
-        <img class="lazyload" data-src="<?php echo $rootPath ?>images/people/yasiel-sanchez-caleo.jpg" alt="Yasiel Sanchez Caleo, Techlaunch @ FVI student">
+        <img class="lazyload" data-src="<?= $rootPath ?>images/people/yasiel-sanchez-caleo.jpg" alt="Yasiel Sanchez Caleo, Techlaunch @ FVI student">
     </div>
     <div class="right">
         <h3 class="heading">Web Developer Student</h3>

@@ -1,8 +1,11 @@
 section.stacks {
     background-color: #eee;
     padding: 20px;
+    background-image:
+        linear-gradient(rgba(230, 230, 230, .7) 0%, rgba(230, 230, 230, .7) 100%),
+        url('../../../images/backgrounds/canvas-texture-mobile.jpg');
 
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 441px) {
         background-image:
             linear-gradient(rgba(230, 230, 230, .7) 0%, rgba(230, 230, 230, .7) 100%),
             url('../../../images/backgrounds/canvas-texture.jpg');

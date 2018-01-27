@@ -1,8 +1,14 @@
 section.above-the-fold {
     background-image:
         linear-gradient(rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 100%),
-        url('../../../images/backgrounds/servers-room.jpg');
+        url('../../../images/backgrounds/servers-room-mobile.jpg');
     min-height: 80vh;
+
+    @media all and (min-width: 441px) {
+        background-image:
+            linear-gradient(rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 100%),
+            url('../../../images/backgrounds/servers-room.jpg');
+    }
     
     @media all and (min-width: 768px) {
         text-align: left;
@@ -28,7 +34,6 @@ section.above-the-fold .text-box {
     }
 
     h2 {
-        // text-transform: uppercase;
         font-weight: 300;
         font-size: 50px;
         color: #fff;

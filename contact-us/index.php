@@ -14,8 +14,8 @@ include('../parts/head.php'); ?>
 
     <section class="above-the-fold">
         <div class="container">
-            <a href="<?php echo $rootPath ?>">
-                <img src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+            <a href="<?= $rootPath ?>">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
             <br>
             <h1 class="page-title">Location</h1>
@@ -26,7 +26,7 @@ include('../parts/head.php'); ?>
     <section class="request-more-info">
         <div class="main">
             <h2 class="section-title">Request More Information</h2>
-            <form method="POST" action="<?php echo $form_action; ?>">
+            <form method="POST" action="<?= $form_action; ?>">
                 <div class="form-input">
                     <div>
                         <label>First Name</label>
@@ -74,7 +74,7 @@ include('../parts/head.php'); ?>
             <br>
             <p class="contact"><strong>Email:</strong> <a href="mailto:info@fvi.edu">info@techlaunch.io</a></p>
             <p class="contact"><strong>Phone:</strong> <a href="tel:786-574-9511">305-783-3599</a></p>
-            <img class="lazyload" data-src="<?php echo $rootPath ?>images/people/group-at-pipeline.jpg" alt="Techlaunch Students at Pipeline Doral">
+            <img class="lazyload" data-src="<?= $rootPath ?>images/people/group-at-pipeline-mobile.jpg" alt="Techlaunch Students at Pipeline Doral">
         </aside>
     </section>
 

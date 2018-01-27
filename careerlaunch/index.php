@@ -17,8 +17,8 @@ include('../parts/head.php'); ?>
 
     <section class="above-the-fold">
         <div class="container">
-            <a href="<?php echo $rootPath ?>">
-                <img src="../images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+            <a href="<?= $rootPath ?>">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
             <h1 class="page-title">Careerlaunch</h1>
         </div>
@@ -32,14 +32,14 @@ include('../parts/head.php'); ?>
                     <p class="appear">At TechLaunch @ Florida Vocational Institute, our goal is to train you for a high-tech career in less than a year. Every industry is evolving because of technology, and at TechLaunch we can help you understand the opportunities that this evolution is creating. Then, we’ll give you the tools and training you need to start a new career that grows with you.</p>
                     <p class="appear">If you’re new to the tech industry and are ready to learn about technology, we offer six and nine month programs. If you already have experience in the industry, we also offer short-term coding bootcamps and accelerated tech classes.</p>
                 </div>
-                <div class="right lazyload" data-bg="<?= $rootPath ?>images/people/desk-professionals.jpg"></div>
+                <div class="right lazyload" data-bgset="<?= $rootPath ?>images/people/desk-professionals-mobile.jpg [--small] | <?= $rootPath ?>images/people/desk-professionals.jpg [--large]"></div>
             </div>
         </div>
     </section>
 
     <section class="testimonial-1">
         <div class="left">
-            <img class="lazyload" data-src="../images/people/business-professionals.png" alt="business professionals">
+            <img class="lazyload" data-src="<?= $rootPath ?>images/people/business-professionals.png" alt="business professionals">
         </div>
         <div class="right">
             <p>When you start in one of our programs, you’ll notice that we use an extensive hands-on approach. In our dynamic classroom environment, our instructors will work by your side to help you learn. As a student, you’ll work on many projects so that you can learn by doing. You’ll also build and solve technological solutions that are similar to what our hiring partners use in their organizations.</p>
@@ -56,7 +56,7 @@ include('../parts/head.php'); ?>
     <section class="three-cards">
         <div class="cards-container">
             <div class="card appear delay-200 how-we-can-help">
-                <div class="image lazyload" data-bg="<?= $rootPath ?>images/people/career-stairs.jpg"></div>
+                <div class="image lazyload" data-bgset="<?= $rootPath ?>images/people/career-stairs-mobile.jpg [--small] | <?= $rootPath ?>images/people/career-stairs.jpg [--large]"></div>
                 <div class="text">
                     <h2 class="card-title">How We Help</h2>
                     <p>As part of our programs, we include career services designed to help you find the perfect position after graduation. Our dedicated Career Services Team will:</p>
@@ -69,7 +69,7 @@ include('../parts/head.php'); ?>
             </div>
 
             <div class="card appear delay-400 hiring-partners">
-                <div class="image lazyload" data-bg="<?= $rootPath ?>images/people/handshake-suits.jpg"></div>
+                <div class="image lazyload" data-bgset="<?= $rootPath ?>images/people/handshake-suits-mobile.jpg [--small] | <?= $rootPath ?>images/people/handshake-suits.jpg [--large]"></div>
                 <div class="text">
                     <h2 class="card-title">Hiring Partners</h2>
                     <p>By maintaining relationships with local technology hiring partners, we can help our students find quality careers. We use the feedback from our hiring partners to structure our curriculum, keeping our students up-to-date with the latest industry standards.</p>
@@ -78,7 +78,7 @@ include('../parts/head.php'); ?>
             </div>
 
             <div class="card appear delay-600 internships">
-                <div class="image lazyload" data-bg="<?= $rootPath ?>images/people/looking-at-computer-screen.jpg"></div>
+                <div class="image lazyload" data-bgset="<?= $rootPath ?>images/people/looking-at-computer-screen-mobile.jpg [--small] | <?= $rootPath ?>images/people/looking-at-computer-screen.jpg [--large]"></div>
                 <div class="text">
                     <h2 class="card-title">Internships</h2>
                     <p>During your training, the Career Services Team at TechLaunch will work with you to find internship opportunities that are right for you. Once you graduate, we’ll help you find a great career in the tech industry.</p>
@@ -95,8 +95,8 @@ include('../parts/head.php'); ?>
 
     <?php include('../parts/student-projects/index.php') ?>
 
-    <?php $rootPath = '../'; include('../parts/footer.php') ?>
-    <?php $rootPath = '../'; include('../parts/bottom.php') ?>
+    <?php include('../parts/footer.php') ?>
+    <?php include('../parts/bottom.php') ?>
 
 </body>
 </html>

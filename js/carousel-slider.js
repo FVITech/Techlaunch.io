@@ -1,5 +1,3 @@
-window.$ = require('jquery')
-
 require('carousel-slider/dist/carousel.js')
 
 $(document).ready(function() {

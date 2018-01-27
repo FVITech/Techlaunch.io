@@ -1,5 +1,3 @@
-const $ = require('jquery')
-
 let rootPath = null
 let program = null
 let cost = null

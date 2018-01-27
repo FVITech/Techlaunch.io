@@ -11,7 +11,7 @@
         </div>
         <div class="agreement-content" id="agreement-content">
             <div class="logos">
-                <img src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_horizontal_light_bg.png" alt="Techlaunch at Florida Vocational Institute">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_horizontal_light_bg.png" alt="Techlaunch at Florida Vocational Institute">
             </div>
             <h3>Enrollment Conditions</h3>
             <p class="contact-info">

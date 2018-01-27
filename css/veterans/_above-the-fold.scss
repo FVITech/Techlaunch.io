@@ -1,5 +1,11 @@
 section.above-the-fold {
     background-image:
         linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
-        url('../../../images/people/veteran-student.jpg');
+        url('../../../images/people/veteran-student-mobile.jpg');
+
+    @media all and (min-width: 441px) {
+        background-image:
+            linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+            url('../../../images/people/veteran-student.jpg');
+    }
 }

@@ -2,6 +2,11 @@
 
 section.images-slider {
     padding: 0;
+    display: none;
+
+    @media all and (min-width: 768px) {
+        display: block;
+    }
 
     .carousel-item {
         background-size: cover;

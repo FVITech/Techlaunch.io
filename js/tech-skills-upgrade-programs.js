@@ -1,5 +1,3 @@
-const $ = require('jquery')
-
 function _switchPrograms(active) {
     $(`.switchable:not(.${active}-content)`).hide()
     $(`.${active}-content`).show()
