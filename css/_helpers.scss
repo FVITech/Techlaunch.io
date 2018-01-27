@@ -50,6 +50,10 @@
     transition-timing-function: ease-out;
     transition: all 200ms;
 
+    &.lazyloaded {
+        opacity: 0;
+    }
+
     &.scroll-visible {
         transition: all $speed;
         transform: translateY(0);

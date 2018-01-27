@@ -1,27 +1,32 @@
-(function() {
-
 const $quotesSection = $('section#quotes')
-if($quotesSection.length === 0) return;
 
 const $quotes = $quotesSection.find('.quote-container')
 
 let quoteIndex = Math.floor( Math.random() * $quotes.length )
+let isSwitched = false
 
-function switchQuote() {
+function replaceQuoteText() {
     quoteIndex = ++quoteIndex % $quotes.length
     $quotes.hide()
     $($quotes[quoteIndex]).show()
 }
 
-switchQuote()
+replaceQuoteText()
 
-setInterval(function() {
+export function switchQuote() {
     const position = $quotesSection[0].getBoundingClientRect()
-    
-    if(position.top >= 0) return;
-    
-    switchQuote()
-}, 5000)
 
+    if (position.bottom >= 0) {
+        isSwitched = false
 
-})()
+        return
+    }
+
+    if (isSwitched) {
+        return
+    }
+
+    replaceQuoteText()
+
+    isSwitched = true
+}

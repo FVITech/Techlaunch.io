@@ -1,4 +1,5 @@
 const throttle = require('lodash.throttle')
+const { switchQuote } = require('./quotes.js')
 
 // Add selectors here and they will all have the class 'scroll-visible'
 // added to them when they scroll into view
@@ -42,8 +43,14 @@ function playAnimations() {
     })
 }
 
+const $quotesSection = $('section#quotes')
+
 function onScroll() {
     playAnimations()
+
+    if ($quotesSection.length) {
+        switchQuote()
+    }
 }
 
 function _showItemsInView() {
