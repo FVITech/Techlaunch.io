@@ -1,6 +1,8 @@
 main.testimonials-page {
-    margin-top: 70px;
-    margin-bottom: 70px;
+
+    @media all and (min-width: 768px) {
+        margin-bottom: 70px;
+    }
 }
 
 section.testimonials-page.testimonial {
@@ -37,14 +39,10 @@ section.testimonials-page.testimonial {
         width: 100%;
 
         @media all and (min-width: 768px) {
-            width: 400px;
+            max-width: 400px;
             float: left;
             margin-right: 30px;
             margin-bottom: 15px;
-
-            &.yasiel {
-                width: 300px;
-            }
         }
     }
 
@@ -53,6 +51,7 @@ section.testimonials-page.testimonial {
         box-shadow: 0 10px 30px -10px rgba(0, 0, 0, .5);
         border: 2px solid #888;
         background-color: #000;
+        z-index: 3;
 
         @media all and (min-width: 768px) {
             margin-top: 4px;
@@ -74,13 +73,50 @@ section.testimonials-page.testimonial {
         margin-bottom: 15px;
     }
 
+    .question {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 5px;
+
+        @media all and (min-width: 768px) {
+            font-size: 20px;
+        }
+    }
+
     .quote {
         font-size: 14px;
         margin-top: 0;
+        position: relative;
 
         @media all and (min-width: 768px) {
             font-size: 18px;
             line-height: 1.8;
+        }
+
+        .teaser-overlay {
+            background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 1) 75%);
+            left: 0;
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+
+            @media all and (min-width: 662px) {
+                background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 1) 65%);
+            }
+
+            @media all and (min-width: 1200px) {
+                background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 1) 80%);
+            }
+        }
+    }
+
+    #eric-teaser {
+        margin-top: -65px;
+        z-index: 2;
+
+        @media all and (min-width: 1200px) {
+            margin-top: -45px;
         }
     }
 }
