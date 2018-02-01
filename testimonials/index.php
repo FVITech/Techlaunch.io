@@ -40,7 +40,7 @@ include('../parts/head.php'); ?>
                 <div class="">
                     <h3 class="author">Eric Phillips</h3>
                     <p class="title" style="margin-bottom: 5px;">Web Developer Graduate</p>
-                    <p class="title" style="margin-bottom: 5px;">Employed at Seed (Miami, FL)</p>
+                    <p class="title" style="margin-bottom: 5px;">Employed at Seeed (Miami, FL)</p>
                     <p class="title" style="margin-bottom: 25px;">6 Year US Navy Veteran</p>
                     <h4 class="question">What was your educational background before enrolling at Techlaunch?</h4>
                     <p class="quote">I have a bachelor’s degree, but it was in History, not very useful. Wasn’t working in that area, just had a job.</p>

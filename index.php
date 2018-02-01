@@ -196,22 +196,22 @@ include('parts/head.php'); ?>
                     </div>
                     <div class="company-logos">
                         <div class="logo">
-                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/khan-academy.png" src="https://via.placeholder.com/200x40" alt="khan academy logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/khan-academy.png" src="https://via.placeholder.com/100x40" alt="khan academy logo">
                         </div>
                         <div class="logo">
-                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/netflix.png" src="https://via.placeholder.com/200x40" alt="netflix logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/netflix.png" src="https://via.placeholder.com/100x40" alt="netflix logo">
                         </div>
                         <div class="logo">
-                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/yahoo.png" src="https://via.placeholder.com/200x40" alt="yahoo logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/yahoo.png" src="https://via.placeholder.com/100x40" alt="yahoo logo">
                         </div>
                         <div class="logo uber">
-                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/uber.jpg" src="https://via.placeholder.com/200x40" alt="uber logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/uber.jpg" src="https://via.placeholder.com/100x40" alt="uber logo">
                         </div>
                         <div class="logo">
-                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/paypal.png" src="https://via.placeholder.com/200x40" alt="paypal logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/paypal.png" src="https://via.placeholder.com/100x40" alt="paypal logo">
                         </div>
                         <div class="logo facebook">
-                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/facebook.png" src="https://via.placeholder.com/200x40" alt="facebook logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/facebook.png" src="https://via.placeholder.com/100x40" alt="facebook logo">
                         </div>
                     </div>
                 </div>
@@ -228,25 +228,25 @@ include('parts/head.php'); ?>
                     </div>
                     <div class="company-logos">
                         <!-- <div class="logo">
-                            <img class="lazyload" data-src="images/logos/rackspace.png" src="https://via.placeholder.com/200x40" alt="rackspace logo">
+                            <img class="lazyload" data-src="images/logos/rackspace.png" src="https://via.placeholder.com/100x40" alt="rackspace logo">
                         </div> -->
                         <div class="logo">
-                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/zynga.png" src="https://via.placeholder.com/200x40" alt="zynga logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/zynga.png" src="https://via.placeholder.com/100x40" alt="zynga logo">
                         </div>
                         <div class="logo tesla">
-                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/tesla.png" src="https://via.placeholder.com/200x40" alt="tesla logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/tesla.png" src="https://via.placeholder.com/100x40" alt="tesla logo">
                         </div>
                         <div class="logo">
-                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/wordpress.png" src="https://via.placeholder.com/200x40" alt="wordpress logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/wordpress.png" src="https://via.placeholder.com/100x40" alt="wordpress logo">
                         </div>
                         <div class="logo udemy">
-                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/udemy.png" src="https://via.placeholder.com/200x40" alt="udemy logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/udemy.png" src="https://via.placeholder.com/100x40" alt="udemy logo">
                         </div>
                         <div class="logo lyft">
-                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/lyft.png" src="https://via.placeholder.com/200x40" alt="lyft logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/lyft.png" src="https://via.placeholder.com/100x40" alt="lyft logo">
                         </div>
                         <div class="logo">
-                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/tumblr.png" src="https://via.placeholder.com/200x40" alt="tumblr logo">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/tumblr.png" src="https://via.placeholder.com/100x40" alt="tumblr logo">
                         </div>
                     </div>
                 </div>
