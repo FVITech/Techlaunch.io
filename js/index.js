@@ -1,14 +1,3 @@
-window.lazySizesConfig = window.lazySizesConfig || {};
-window.lazySizesConfig.customMedia = {
-    '--small': '(max-width: 440px)',
-    '--large': '(min-width: 441px)'
-};
-
-require('../vendor/picturefill.min.js')
-require('../vendor/ls.bgset.min.js')
-require('../vendor/ls.unveilhooks.min.js')
-require('lazysizes')
-
 require('./carousel-slider.js')
 
 require('./menu.js')
