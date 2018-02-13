@@ -71,7 +71,7 @@
         </div>
     </div>
     <div class="third">
-        <h3 class="heading">Latest Tweets</h3>
+        <h3 class="heading">Our Latest Tweets</h3>
         <div class="tweets-list">
             <a class="tweet" target="_blank" rel="noopener" href="">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -115,7 +115,7 @@
 	</style>
 
     <div class="fourth">
-        <h3 class="heading">Latest Posts</h3>
+        <h3 class="heading">Our Latest Blog Posts</h3>
         <div class="blog-list">
         
         <?php

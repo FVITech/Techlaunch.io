@@ -54,6 +54,18 @@ section.photos-and-maps {
                     }
                 }
             }
+
+            &.fourth {
+                background-position: center top;
+
+                &.lazyloaded {
+                    background-image: url('../../../images/pipeline/workspace-mobile.jpg');
+
+                    @media (min-width: 441px) {
+                        background-image: url('../../../images/pipeline/workspace.jpg');
+                    }
+                }
+            }
         }
 
         .location-title {
