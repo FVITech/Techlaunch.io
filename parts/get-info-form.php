@@ -41,14 +41,13 @@
         ?>
         <i class="close-btn fa fa-times-circle" aria-hidden="true"></i>
         <form method="POST" action="<?= $form_action; ?>">
-            <input type="hidden" name="campus" value="miami">
-            <!-- <div class="form-input">
+            <div class="form-input">
                 <label>Preferred Location</label>
                 <select name="campus" id="campus">
                     <option value="Miami" <?php if(isset($campus) && $campus == 'miami') echo 'selected' ?>>Miami Campus</option>
                     <option value="Miramar" <?php if(isset($campus) && $campus == 'miramar') echo 'selected' ?>>Miramar Campus</option>
                 </select>
-            </div> -->
+            </div>
             <div class="form-input">
                 <label>Program of Interest</label>
                 <select name="program_name" id="program_name">
