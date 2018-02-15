@@ -1,7 +1,6 @@
 <div id="menu-overlay"></div>
 
 <?php
-    session_start();
     $origin = "no-origin";
     $phone_num = "305-783-3599";
 
