@@ -57,7 +57,7 @@ include('parts/head.php'); ?>
     <section class="programs">
         <div class="left">
             <a class="program-title" href="<?= $rootPath ?>programs/">
-                tech career programs
+                Tech Career Programs
             </a>
         </div>
         <div class="right">
