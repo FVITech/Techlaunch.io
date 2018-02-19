@@ -1,16 +1,18 @@
-const throttle = require('lodash.throttle')
+const debounce = require('lodash.debounce')
 const { switchQuote } = require('./quotes.js')
 
 // Add selectors here and they will all have the class 'scroll-visible'
 // added to them when they scroll into view
-var selectors = [
+let selectors = [
     $('.graph'),
     $('.appear')
 ]
 
-var animElements = []
+let animElements = []
 
 function _populateElements() {
+    animElements = []
+
     selectors.forEach(function($selector) {
         $selector.each(function(i, el) {
             animElements.push({element: $(el), position: null})
@@ -29,8 +31,9 @@ function _getPositions() {
 const supportPageOffset = window.pageXOffset !== undefined;
 const isCSS1Compat = ((document.compatMode || "") === "CSS1Compat");
 const windowScroll = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
-var windowHeight = null
-var offset = null
+let windowScrollCache
+let windowHeight
+let offset
 
 function playAnimations() {
     animElements.forEach(function(el) {
@@ -45,15 +48,12 @@ function playAnimations() {
 
 const $quotesSection = $('section#quotes')
 
-function onScroll() {
-    playAnimations()
-
-    if ($quotesSection.length) {
-        switchQuote()
-    }
-}
-
 function _showItemsInView() {
+    if (windowScrollCache === windowScroll) {
+        return
+    }
+
+    windowScrollCache = windowScroll
     windowHeight = $(window).height()
     offset = windowHeight * .1
     _getPositions()
@@ -62,17 +62,21 @@ function _showItemsInView() {
 
 $(document).ready(function() {
     // make sure items in view when page loads become visible
-    setTimeout(_showItemsInView, 300)
-    setTimeout(_showItemsInView, 600)
-    setTimeout(_showItemsInView, 900)
-    setTimeout(_showItemsInView, 1200)
+    setTimeout(_showItemsInView, 1000)
 
-    // re-initialize every 2 seconds in case of page resizing
-    setInterval(function() {
-        _showItemsInView()
-    }, 2000)
+    $(document).resize(debounce(function () {
+        setTimeout(function () {
+            _showItemsInView()
+        }, 200)
+    }), 100)
 
-    $(document).scroll(throttle(onScroll, 100))
+    $(document).scroll(debounce(function () {
+        playAnimations()
+
+        if ($quotesSection.length) {
+            switchQuote()
+        }
+    }, 100))
 })
 
 module.exports.playAnimations = playAnimations
