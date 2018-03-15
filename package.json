@@ -38,6 +38,7 @@
     "html-truncate": "^1.2.2",
     "lazysizes": "^4.0.1",
     "lodash.debounce": "^4.0.8",
+    "lodash.throttle": "^4.1.1",
     "moment": "^2.18.1",
     "sanitize-html": "^1.14.1"
   }
