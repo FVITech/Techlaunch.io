@@ -1,4 +1,6 @@
-<?php $rootPath = '';
+<?php 
+session_start();
+$rootPath = '';
 $page = "homepage";
 $meta_title="Miami Coding Bootcamp - Programs, Training, Classes Near Me";
 $meta_key="";
@@ -55,7 +57,7 @@ include('parts/head.php'); ?>
     <section class="programs">
         <div class="left">
             <a class="program-title" href="<?= $rootPath ?>programs/">
-                tech career programs
+                Tech Career Programs
             </a>
         </div>
         <div class="right">
