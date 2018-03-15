@@ -66,7 +66,7 @@ function ready(fn) {
     if (document.attachEvent ? document.readyState === 'complete' : document.readyState !== 'loading') {
         fn()
     } else {
-        document.on('DOMContentLoaded', fn)
+        document.addEventListener('DOMContentLoaded', fn)
     }
 }
 
@@ -74,13 +74,13 @@ ready(() => {
     // make sure items that are in view when page loads become visible
     setTimeout(showItemsInView, 1000)
 
-    document.on('resize', debounce(() => {
+    document.addEventListener('resize', debounce(() => {
         showItemsInView()
     }, 100))
 
     const $quotesSection = $('section#quotes')
 
-    document.on('scroll', throttle(() => {
+    document.addEventListener('scroll', throttle(() => {
         lastWindowScrollY = getWindowScrollY()
 
         playAnimations()
