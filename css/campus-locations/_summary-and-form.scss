@@ -14,15 +14,6 @@ section.summary-and-form .campus-summary {
     }
 }
 
-section.summary-and-form img.workspace {
-    width: 100%;
-    display: none;
-
-    @media all and (min-width: 441px) {
-        display: block;
-    }
-}
-
 section.summary-and-form .get-info-form.on-page {
     // undo base form styles
     position: relative;

@@ -11,6 +11,8 @@ var selectors = [
 var animElements = []
 
 function _populateElements() {
+    animElements = []
+
     selectors.forEach(function($selector) {
         $selector.each(function(i, el) {
             animElements.push({element: $(el), position: null})
