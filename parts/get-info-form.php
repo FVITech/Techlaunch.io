@@ -9,9 +9,13 @@
             $url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
             $escaped_url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' );
           }
-        //   $form_action = "https://secure.velocify.com/Import.aspx?Provider=TechLaunchWebsite&Client=30010&CampaignId=1093&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
           $form_action = "https://secure.velocify.com/Import.aspx?Provider=FloridaVocationalInstitute&Client=30010&XmlResponse=True&CampaignId=1093&URL=https://www.techlaunch.io/thank-you&referrerpage=" . $escaped_url;
-
+          
+          $campus = '';
+          if ( isset($_GET['location'])){
+            $campus = $_GET['location'];
+          }
+          
           if (!isset($origin)){
             //this is just hardening the script, since $origin is set in navbar.php
             $origin = "no-origin";
@@ -44,8 +48,8 @@
             <div class="form-input">
                 <label>Preferred Location</label>
                 <select name="campus" id="campus">
-                    <option value="Miami" <?php if(isset($campus) && $campus == 'miami') echo 'selected' ?>>Miami Campus</option>
-                    <option value="Miramar" <?php if(isset($campus) && $campus == 'miramar') echo 'selected' ?>>Miramar Campus</option>
+                    <option value="Miami" <?php if ($campus == 'miami' || $campus == '') echo 'selected' ?>>Miami</option>
+                    <option value="Miramar" <?php if( $campus == 'miramar') echo 'selected' ?>>Miramar</option>
                 </select>
             </div>
             <div class="form-input">
