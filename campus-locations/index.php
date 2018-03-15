@@ -35,9 +35,9 @@ include('../parts/head.php'); ?>
                     <div class="campus-summary">
                         <h3>Miramar Campus</h3>
                         <p>With a convenient Broward County location near Pembroke Pines and minutes from both the Florida Turnpike and I-75, the Miramar campus of FVI features in-demand programs in both Allied Health and Information Technology.</p>
-                        <p>Our programs are designed to get you in a career fast, with most designed to be completed in 9 months. Along with an excellent education, our career services team is there to help you prepare for and find a terrific career opportunity.</p>
                     </div>
                     <br>
+                    <p style="font-size: 20px">Our programs are designed to get you in a career fast, with most designed to be completed in 9 months. Along with an excellent education, our career services team is there to help you prepare for and find a terrific career opportunity.</p>
                     <br>
                 </div>
                 <div class="split-box">

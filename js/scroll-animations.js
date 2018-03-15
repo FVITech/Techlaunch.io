@@ -12,7 +12,7 @@ const selectors = [
 let animElements = []
 let windowHeight = null
 let lastWindowScrollY = 0
-let offset = 150
+let offset = 50
 
 const supportPageOffset = (window.pageXOffset !== undefined)
 const isCSS1Compat = ((document.compatMode || '') === 'CSS1Compat')
