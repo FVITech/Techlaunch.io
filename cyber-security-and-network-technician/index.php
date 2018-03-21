@@ -52,7 +52,7 @@ include('../parts/head.php'); ?>
         <div class="container">
             <h2 class="section-title appear">Program Overview</h2>
             <div class="split-3">
-                <p class="split-box subtitle appear">As a student in our Cyber Security Network Technician program, you’ll learn about every aspect of Cyber Security – from software distribution and updates and troubleshooting support to implement auditing policy and performing scheduled vulnerability-assessment scans.</p>
+                <p class="split-box subtitle appear">As a student in our Cyber Security and Network Technician program, you’ll learn about every aspect of Cyber Security – from software distribution and updates and troubleshooting support to implement auditing policy and performing scheduled vulnerability-assessment scans.</p>
                 <p class="split-box subtitle appear">Through lectures, discussions, demonstrations, exercises, and laboratory projects, we’ll introduce the 21st century cloud-based systems administration on Azure and AWS and prepare you to perform all basic configuration procedures to build LAN and WAN interfaces for the most commonly used router protocols.</p>
                 <p class="split-box subtitle appear">Upon completing this program, you’ll be qualified to manage, support, and troubleshoot information systems with Microsoft Windows Server 2012 and Linux, as well as configure Cisco switches and routers.</p>
             </div>
@@ -81,8 +81,8 @@ include('../parts/head.php'); ?>
                         <p>Federal Financial aid available to those who qualify</p>
                     </div>
                     <div class="card appear">
-                        <img class="lazyload" data-src="<?= $rootPath ?>images/icons/growing-graph.png" alt="growing-graph">
-                        <p>Campus located in Doral, a rapidly growing tech community</p>
+                        <img class="lazyload" data-src="<?= $rootPath ?>images/icons/laptop.png" alt="growing-graph">
+                        <p>Campus located in Miramar, a rapidly growing tech community</p>
                     </div>
                     <div class="card appear">
                         <img class="lazyload" data-src="<?= $rootPath ?>images/icons/search-the-globe.png" alt="search-the-globe">
@@ -125,10 +125,10 @@ include('../parts/head.php'); ?>
             <h2 class="section-title appear">What kind of job can I get as a graduate?</h2>
             <div class="split">
                 <div class="left">
-                    <p class="appear">Equipped with the training from the Cyber Security Network Technician Program, graduates are qualified for high demand careers in IT security and cloud computing. As organizations move their IT systems into the cloud, the need for engineers and technicians trained on cloud computing will increase.</p>
+                    <p class="appear">Equipped with the training from the Cyber Security Network Technician Program, graduates are qualified for high demand careers in IT security and cloud computing. As organizations move their IT systems into the cloud, the need for entry level professionals trained on cloud computing will increase.</p>
                 </div>
                 <div class="right">
-                    <p class="appear">Techlaunch's career services team will assist you in finding a career in IT by working to match you to open positions, connect you to local employers, and ensure your resume and professional readiness are a match for any open positions in IT. Potential jobs include, but are not limited to Security Engineer, Security Consultant, Network Administrator, or an IA Technician or Manager.</p>
+                    <p class="appear">Techlaunch's career services team will assist you in finding a career in IT by working to match you to open positions, connect you to local employers, and ensure your resume and professional readiness are a match for any open positions in IT.</p>
                 </div>
             </div>
             <div class="image-section">
