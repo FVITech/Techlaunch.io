@@ -1,0 +1,99 @@
+section.job-info {
+    background-color: #fff;
+
+    .section-title {
+        color: #444;
+        font-weight: 400;
+        font-size: 32px;
+        text-align: center;
+
+        @media all and (min-width: 768px) {
+            font-size: 40px;
+        }
+    }
+
+    p {
+        max-width: 800px;
+        margin: 30px auto;
+        line-height: 1.7;
+        color: #555;
+    }
+
+    .image-section {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        padding-top: 30px;
+
+        .left,
+        .right {
+            width: 100%;
+
+            @media all and (min-width: 768px) {
+                width: 50%;
+                padding: 15px 30px;
+            }
+        }
+
+        .left {
+            background-size: cover;
+            background-position: left top;
+            padding-bottom: 50%;
+            padding-top: 0;
+            margin-bottom: 30px;
+
+            @media all and (min-width: 768px) {
+                padding-bottom: 25%;
+                margin-bottom: 0;
+            }
+        }
+
+        .right {
+            padding-top: 0;
+
+            h3 {
+                margin: 0;
+                color: #444;
+                font-weight: 400;
+                font-size: 32px;
+            }
+
+            p {
+                text-align: left;
+                margin-top: 24px;
+            }
+
+            button {
+                display: block;
+                text-transform: uppercase;
+                color: #fff;
+                margin: 30px auto 0;
+                width: 180px;
+                padding: 14px;
+                border: none;
+                background-color: $fvi-blue;
+                font-weight: 700;
+                font-size: 14px;
+                cursor: pointer;
+                box-shadow: 0 2px 3px -1px rgba(0, 0, 0, .8);
+                transform: translateY(-2px);
+
+                @media all and (min-width: 768px) {
+                    margin: 30px auto 0 0;
+                }
+
+                &:focus,
+                &:hover {
+                    outline: none;
+                    background-color: darken($fvi-blue, 10%);
+                }
+
+                &:active {
+                    transition: all 0s;
+                    box-shadow: none;
+                    transform: translateY(0);
+                }
+            }
+        }
+    }
+}

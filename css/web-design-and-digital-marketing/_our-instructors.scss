@@ -1,0 +1,92 @@
+section.our-instructors {
+    background-color: $fvi-blue;
+    padding: 50px 0;
+    color: #fff;
+
+    @media all and (min-width: 992px) {
+        padding: 80px 0;
+    }
+
+    .content {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+
+        @media all and (min-width: 768px) {
+            width: 50%;
+        }
+    }
+
+    .section-title {
+        color: #eee;
+    }
+
+    .left {
+        color: #fff;
+
+        @media all and (min-width: 768px) {
+            padding-right: 40px;
+        }
+
+        .section-title {
+            padding: 0;
+            margin: 0;
+            text-align: left;
+        }
+
+        p {
+            margin: 35px 0;
+            line-height: 1.6;
+            font-size: 18px;
+        }
+
+        button {
+            display: block;
+            text-transform: uppercase;
+            color: #fff;
+            margin: 30px auto 0;
+            width: 180px;
+            padding: 14px;
+            border: none;
+            background-color: #222;
+            font-weight: 700;
+            font-size: 14px;
+            cursor: pointer;
+            box-shadow: 0 2px 3px -1px rgba(0, 0, 0, .8);
+            transform: translateY(-2px);
+
+            &:focus,
+            &:hover {
+                outline: none;
+                background-color: #444;
+            }
+
+            &:active {
+                transition: all 0s;
+                box-shadow: none;
+                transform: translateY(0);
+            }
+
+            @media all and (min-width: 768px) {
+                margin: 30px auto 0 0;
+            }
+        }
+    }
+
+    .right {
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 56%;
+        margin-top: 40px;
+
+        @media all and (min-width: 768px) {
+            padding-bottom: 28%;
+            margin-top: 0;
+        }
+    }
+}
