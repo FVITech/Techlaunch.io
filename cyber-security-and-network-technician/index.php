@@ -125,7 +125,7 @@ include('../parts/head.php'); ?>
             <h2 class="section-title appear">What kind of job can I get as a graduate?</h2>
             <div class="split">
                 <div class="left">
-                    <p class="appear">Equipped with the training from the Cyber Security Network Technician Program, graduates are qualified for high demand careers in IT security and cloud computing. As organizations move their IT systems into the cloud, the need for entry level professionals trained on cloud computing will increase.</p>
+                    <p class="appear">Equipped with the training from the Cyber Security and Network Technician Program, graduates are qualified for high demand careers in IT security and cloud computing. As organizations move their IT systems into the cloud, the need for entry level professionals trained on cloud computing will increase.</p>
                 </div>
                 <div class="right">
                     <p class="appear">Techlaunch's career services team will assist you in finding a career in IT by working to match you to open positions, connect you to local employers, and ensure your resume and professional readiness are a match for any open positions in IT.</p>
@@ -206,7 +206,7 @@ include('../parts/head.php'); ?>
                 </div>
                 <div class="split-box text">
                     <h2 class="section-title">Our Campus</h2>
-                    <p>We are located at the Pipeline Doral co-working space. The Doral area is home to numerous tech companies.</p>
+                    <p>Our program is located at our Mirarmar campus.</p>
                 </div>
                 <div class="split-box image-container">
                     <div class="image lazyload appear second" data-bgset="<?= $rootPath ?>images/pipeline/students-3-mobile.jpg [--small] | <?= $rootPath ?>images/pipeline/students-3.jpg [--large]"></div>
