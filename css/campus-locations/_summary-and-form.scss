@@ -14,6 +14,16 @@ section.summary-and-form .campus-summary {
     }
 }
 
+section.summary-and-form .large-text {
+    margin-top: 20px;
+    font-size: 22px;
+
+    @media all and (min-width: 1200px) {
+        margin-top: 60px;
+        font-size: 24px;
+    }
+}
+
 section.summary-and-form .get-info-form.on-page {
     // undo base form styles
     position: relative;
@@ -22,12 +32,15 @@ section.summary-and-form .get-info-form.on-page {
     z-index: 0;
     opacity: 1;
     transition: 0s;
+
     @media all and (min-width: 1200px) {
         width: auto;
     }
+
     .get-info-form-overlay {
         display: none;
     }
+    
     .close-btn {
         display: none;
     }
@@ -40,7 +53,6 @@ section.summary-and-form .get-info-form.on-page .form-container {
     top: auto;
     left: auto;
     transform: none;
-    max-width: 500px;
     margin: auto;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;

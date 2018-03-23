@@ -134,39 +134,39 @@ include('../parts/head.php'); ?>
             <h2 class="section-title appear">The Program Includes the Following Courses</h2>
             <div class="content">
                 <div class="cards-container">
-                    <div class="card">
+                    <div class="card appear">
                         <img class="logo lazyload" data-src="<?= $rootPath ?>images/icons/digital-marketing-design.svg" alt="Design Principles">
                         <p>Design Principles</p>
                     </div>
-                    <div class="card">
+                    <div class="card appear">
                         <img class="logo lazyload" data-src="<?= $rootPath ?>images/logos/html5-logo.png" alt="HTML5">
                         <p>Basic Front End Programing (JavaScript, HTML5, CSS)</p>
                     </div>
-                    <div class="card">
+                    <div class="card appear">
                         <img class="logo lazyload" data-src="<?= $rootPath ?>images/icons/digital-marketing-programming.svg" alt="Frontend Programming">
                         <p>Basic Front End Programming II</p>
                     </div>
-                    <div class="card">
+                    <div class="card appear">
                         <img class="logo lazyload" data-src="<?= $rootPath ?>images/icons/digital-marketing-structure.svg" alt="Front End Structure">
                         <p>Intermediate Front End Structure</p>
                     </div>
-                    <div class="card">
+                    <div class="card appear">
                         <img class="logo lazyload" data-src="<?= $rootPath ?>images/icons/digital-marketing-styling.svg" alt="Styling Techniques">
                         <p>Intermediate Styling Techniques</p>
                     </div>
-                    <div class="card">
+                    <div class="card appear">
                         <img class="logo lazyload" data-src="<?= $rootPath ?>images/logos/wordpress-w-logo.png" alt="WordPress">
                         <p>Intro to PHP and WordPress</p>
                     </div>
-                    <div class="card">
+                    <div class="card appear">
                         <img class="logo lazyload" data-src="<?= $rootPath ?>images/icons/digital-marketing-user-experience.svg" alt="UX/UI Design">
                         <p>UI/UX Design</p>
                     </div>
-                    <div class="card">
+                    <div class="card appear">
                         <img class="logo lazyload" data-src="<?= $rootPath ?>images/icons/digital-marketing-business.svg" alt="Digital Marketing Techniques">
                         <p>Digital Marketing Techniques, Strategies, and Analysis</p>
                     </div>
-                    <div class="card">
+                    <div class="card appear">
                         <img class="logo lazyload" data-src="<?= $rootPath ?>images/icons/digital-marketing-people.svg" alt="Webpack 2 logo">
                         <p>Effective Engagement in Digital Marketing</p>
                     </div>

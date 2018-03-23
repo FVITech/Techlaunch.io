@@ -157,5 +157,5 @@ button, .btn {
 
 .lazyloaded {
     opacity: 1;
-    transition: opacity 300ms;
+    transition: opacity 300ms, transform 10000ms;
 }

@@ -75,8 +75,8 @@ include('parts/head.php'); ?>
                     <div class="bar-container">
                         <div class="bar">
                             <div class="rocket-container">
-                                <img data-src="<?= $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket lazyload">
-                                <img data-src="<?= $rootPath ?>images/fire.svg" alt="flame" class="flame lazyload">
+                                <img src="<?= $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket">
+                                <img src="<?= $rootPath ?>images/fire.svg" alt="flame" class="flame">
                             </div>
                             <span>27%</span>
                         </div>
@@ -85,8 +85,8 @@ include('parts/head.php'); ?>
                     <div class="bar-container">
                         <div class="bar">
                             <div class="rocket-container">
-                                <img data-src="<?= $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket lazyload">
-                                <img data-src="<?= $rootPath ?>images/fire.svg" alt="flame" class="flame lazyload">
+                                <img src="<?= $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket">
+                                <img src="<?= $rootPath ?>images/fire.svg" alt="flame" class="flame">
                             </div>
                             <span>17%</span>
                         </div>
@@ -95,8 +95,8 @@ include('parts/head.php'); ?>
                     <div class="bar-container">
                         <div class="bar">
                             <div class="rocket-container">
-                                <img data-src="<?= $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket lazyload">
-                                <img data-src="<?= $rootPath ?>images/fire.svg" alt="flame" class="flame lazyload">
+                                <img src="<?= $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket">
+                                <img src="<?= $rootPath ?>images/fire.svg" alt="flame" class="flame">
                             </div>
                             <span>18%</span>
                         </div>
@@ -105,8 +105,8 @@ include('parts/head.php'); ?>
                     <div class="bar-container">
                         <div class="bar">
                             <div class="rocket-container">
-                                <img data-src="<?= $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket lazyload">
-                                <img data-src="<?= $rootPath ?>images/fire.svg" alt="flame" class="flame lazyload">
+                                <img src="<?= $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket">
+                                <img src="<?= $rootPath ?>images/fire.svg" alt="flame" class="flame">
                             </div>
                             <span>7%</span>
                         </div>

@@ -83,6 +83,7 @@
             margin-top: 2px;
             border: 1px solid #ccc;
             padding: 7px;
+            padding-right: 14px;
             -moz-appearance: none;
             -webkit-appearance: none;
             appearance: none;
@@ -96,6 +97,7 @@
 
             @media all and (min-width: 768px) {
                 padding: 10px;
+                padding-right: 14px;
                 font-size: 16px;
             }
         }
