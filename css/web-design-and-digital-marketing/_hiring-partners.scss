@@ -1,0 +1,30 @@
+section.hiring-partners {
+    background-color: #eee;
+    padding-bottom: 30px;
+
+    .section-title {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 400;
+        font-size: 28px;
+
+        @media all and (min-width: 768px) {
+            font-size: 32px;
+        }
+    }
+
+    .logos-container {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        align-items: center;
+        padding: 30px;
+        padding-top: 20px;
+
+        img {
+            height: 100%;
+            margin: 0px;
+        }
+    }
+}

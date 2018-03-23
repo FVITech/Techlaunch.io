@@ -55,6 +55,7 @@
                     <a class="mobile-link" href="<?= $rootPath ?>programs/">Programs Summary</a>
                     <a href="<?= $rootPath ?>web-developer/">Web Developer</a>
                     <a href="<?= $rootPath ?>cyber-security-and-network-technician/">CyberSecurity and Network Technician</a>
+                    <a href="<?= $rootPath ?>web-design-and-digital-marketing/">Web Design and Digital Marketing</a>
                 </div>
             </div>
             <div class="menu-section tech-skills-upgrade">

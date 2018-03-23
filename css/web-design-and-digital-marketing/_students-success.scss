@@ -1,0 +1,58 @@
+section.students-success {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 100%),
+        url('../../../images/backgrounds/computer-background-mobile.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+
+    @media all and (min-width: 441px) {
+        background-image:
+            linear-gradient(rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 100%),
+            url('../../../images/backgrounds/computer-background.jpg');
+    }
+
+    .section-title {
+        color: #fff;
+        text-align: center;
+    }
+}
+
+section.students-success .testimonials-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    .testimonial {
+        padding: 10px;
+        padding-bottom: 30px;
+        max-width: 300px;
+    }
+
+    .quote {
+        padding: 15px;
+        background-color: #eee;
+        font-size: 14px;
+        font-style: italic;
+        line-height: 1.6;
+        font-weight: bolder;
+        margin: 0;
+        height: 180px;
+    }
+
+    img {
+        display: inline-block;
+        width: 50px;
+        border-radius: 100%;
+        margin: 10px 20px 0 0;
+        vertical-align: middle;
+    }
+
+    .name {
+        display: inline-block;
+        vertical-align: middle;
+        color: #fff;
+        font-weight: bolder;
+    }
+}

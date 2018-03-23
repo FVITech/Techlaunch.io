@@ -57,7 +57,8 @@
                 <select name="program_name" id="program_name">
                     <option value="--" disabled <?php if (!isset($program) || $program == '') echo 'selected' ?>>-- Select --</option>
                     <option value="Web Developer" <?php if(isset($program) && $program == 'web-developer') echo 'selected' ?>>Web Developer</option>
-                    <option value="Cyber Security Network Technician" <?php if(isset($program) && $program == 'cyber-security') echo 'selected' ?>>Cyber Security Network Technician</option>
+                    <option value="Cyber Security Network Technician" <?php if(isset($program) && $program == 'cyber-security') echo 'selected' ?>>Cyber Security and Network Technician</option>
+                    <option value="Web Design and Digital Marketing" <?php if(isset($program) && $program == 'web-design-and-digital-marketing') echo 'selected' ?>>Web Design and Digital Marketing</option>
                     <option value="aws" <?php if(isset($program) && $program == 'aws') echo 'selected' ?>>Amazon Web Services</option>
                     <!-- <option value="wordpress" <?php if(isset($program) && $program == 'wordpress') echo 'selected' ?>>WordPress</option> -->
                 </select>
