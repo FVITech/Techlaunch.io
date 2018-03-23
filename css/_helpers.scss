@@ -16,19 +16,46 @@
 }
 
 .hidden {
-    position: absolute;
-    left: -10000px;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
+    display: none !important;
 }
 
+ // Hide only visually, but have it available for screen readers:
+ // http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+
+    &.focusable:active,
+    &.focusable:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto;
+    }
+}
+
+// Hide visually and from screen readers, but maintain layout
+ .invisible {
+    visibility: hidden;
+}
+
+
 .container {
+    padding-top: 1px;
+    padding-bottom: 1px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    
     @media all and (min-width: 375px) {
         padding-left: 20px;
         padding-right: 20px;
@@ -44,11 +71,18 @@
     }
 }
 
+.text-content {
+    padding: 1px 0;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
 @mixin appear($offset, $speed) {
     opacity: 0;
+    transition: opacity 300ms, transform 10000ms;
+    transition: all 200ms;
     transform: translateY($offset);
     transition-timing-function: ease-out;
-    transition: all 200ms;
 
     &.lazyloaded {
         opacity: 0;
@@ -62,7 +96,7 @@
 }
 
 .appear {
-    @include appear(30px, 700ms);
+    @include appear(30px, 1000ms);
 
     @media all and (min-width: 992px) {
         &.scroll-visible.delay-200 {
@@ -105,6 +139,7 @@
         transform: translateY(0);
     }
 }
+
 @mixin slide-up-fade-in($delay) {
     opacity: 0;
     animation-name: slide-up-fade-in;

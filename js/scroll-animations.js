@@ -42,6 +42,9 @@ function getPositions() {
     })
 }
 
+const first = document.querySelectorAll('.program-courses .cards-container .card')[0]
+const last = document.querySelectorAll('.program-courses .cards-container .card')[8]
+
 function playAnimations() {
     animElements.forEach((el) => {
         const triggerPoint = Number(el.position) + Number(-windowHeight) + Number(offset)
@@ -72,7 +75,11 @@ function ready(fn) {
 
 ready(() => {
     // make sure items that are in view when page loads become visible
-    setTimeout(showItemsInView, 1000)
+    showItemsInView()
+    
+    setInterval(debounce(() => {
+        showItemsInView()
+    }), 1000)
 
     document.addEventListener('resize', debounce(() => {
         showItemsInView()
