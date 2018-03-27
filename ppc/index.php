@@ -314,7 +314,7 @@
                <div class="resp-tabs-container vert">
                  <div class="tab-content-wrapper">
                    <!-- <h5 class="blue-text light-text"> -->
-                      <p>With HTML &amp; CSS, you will be able to build the frontend of almost everything that you see on the web. They are the most common and important languages on the web as both basic websites to complex systems, like Google and Facebook, use HTML and CSS. Although you cannot build an entire program with them alone, what you see on the web is made up of HTML &amp; CSS.</p>
+                      <p>With HTML &amp; CSS, you will be able to build the front end of almost everything that you see on the web. They are the most common and important languages on the web as both basic websites to complex systems, like Google and Facebook, use HTML and CSS. Although you cannot build an entire program with them alone, what you see on the web is made up of HTML &amp; CSS.</p>
                  </div>
 
                  <div class="tab-content-wrapper">

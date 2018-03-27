@@ -45,7 +45,7 @@ include('../parts/head.php'); ?>
                 <div class="image">
                     <h3>Web Design and Digital Marketing</h3>
                 </div>
-                <p>As a Web Designer and Digital Marketing professional, you’ll be able create, manage, maintain and market web sites and digital marketing strategies. You will be able to utilize a variety of web design methods and tools from HTML, CSS and Javascript to Adobe, Ajax and more – both frontend and backend programming. On the marketing side you’ll manage social media, SEM, SEO and overall digital marketing strategies.</p>
+                <p>As a Web Designer and Digital Marketing professional, you’ll be able create, manage, maintain and market web sites and digital marketing strategies. You will be able to utilize a variety of web design methods and tools from HTML, CSS and Javascript to Adobe, Ajax and more – both front end and back end programming. On the marketing side you’ll manage social media, SEM, SEO and overall digital marketing strategies.</p>
                 <a href="<?= $rootPath ?>web-design-and-digital-marketing/" class="btn">Learn More</a>
             </div>
         </div>

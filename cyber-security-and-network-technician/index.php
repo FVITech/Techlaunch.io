@@ -206,7 +206,7 @@ include('../parts/head.php'); ?>
                 </div>
                 <div class="split-box text">
                     <h2 class="section-title">Our Campus</h2>
-                    <p>Our program is located at our Mirarmar campus.</p>
+                    <p>Our program is located at our <a href="<?= $rootPath ?>campus-locations/">Miramar campus</a>.</p>
                 </div>
                 <div class="split-box image-container">
                     <div class="image lazyload appear second" data-bgset="<?= $rootPath ?>images/pipeline/students-3-mobile.jpg [--small] | <?= $rootPath ?>images/pipeline/students-3.jpg [--large]"></div>
