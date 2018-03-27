@@ -2,7 +2,7 @@
 $page = "web-design-and-digital-marketing"; 
 $meta_title="Miami Web Design and Digital Markting Training Course";
 $meta_key="";
-$meta_desc="As a Web Designer and Digital Marketing professional, you’ll be able create, manage, maintain and market web sites and digital marketing strategies. You will be able to utilize a variety of web design methods and tools from HTML, CSS and Javascript to Adobe, Ajax and more – both frontend and backend programming. On the marketing side you’ll manage social media, SEM, SEO and overall digital marketing strategies.";
+$meta_desc="As a Web Designer and Digital Marketing professional, you’ll be able create, manage, maintain and market web sites and digital marketing strategies. You will be able to utilize a variety of web design methods and tools from HTML, CSS and Javascript to Adobe, Ajax and more – both front end and   programming. On the marketing side you’ll manage social media, SEM, SEO and overall digital marketing strategies.";
 include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -143,7 +143,7 @@ include('../parts/head.php'); ?>
                         <p>Basic Front End Programing (JavaScript, HTML5, CSS)</p>
                     </div>
                     <div class="card appear">
-                        <img class="logo lazyload" data-src="<?= $rootPath ?>images/icons/digital-marketing-programming.svg" alt="Frontend Programming">
+                        <img class="logo lazyload" data-src="<?= $rootPath ?>images/icons/digital-marketing-programming.svg" alt="Front End Programming">
                         <p>Basic Front End Programming II</p>
                     </div>
                     <div class="card appear">
@@ -199,7 +199,7 @@ include('../parts/head.php'); ?>
                 </div>
                 <div class="split-box text">
                     <h2 class="section-title appear">Our Campus</h2>
-                    <p>We are located at the Pipeline Doral co-working space. The Doral area is home to numerous tech companies.</p>
+                    <p>We are located at the <a href="<?= $rootPath ?>campus-locations/">Pipeline Doral</a> co-working space. The Doral area is home to numerous tech companies.</p>
                 </div>
                 <div class="split-box image-container">
                     <div class="image appear second lazyload" data-bgset="<?= $rootPath ?>images/pipeline/students-3-mobile.jpg [--small] | <?= $rootPath ?>images/pipeline/students-3.jpg [--large]"></div>
