@@ -86,7 +86,7 @@ include('../parts/head.php'); ?>
                     </div>
                     <div class="card appear">
                         <img class="lazyload" data-src="<?= $rootPath ?>images/icons/search-the-globe.png" alt="search-the-globe">
-                        <p>Curriculum designed with local Miami job market in mind</p>
+                        <p>Curriculum designed with South Florida job market in mind</p>
                     </div>
                     <div class="card appear">
                         <img class="lazyload" data-src="<?= $rootPath ?>images/icons/graduate.png" alt="graduate">
