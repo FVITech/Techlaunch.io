@@ -32,9 +32,7 @@
                 </a>
             </li>
             <li>
-                <a target="_blank" rel="noopener" href="<?= $rootPath ?>fvi_catalog.pdf">
-                    Catalog
-                </a>
+                <a target="_blank" rel="noopener" href="https://fvi.edu/catalog/fvi_catalog.pdf">Catalog</a>
             </li>
             <li>
                 <a target="_blank" rel="noopener" href="http://www.fvi.edu/calculator/npcalc.htm">

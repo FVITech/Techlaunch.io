@@ -1,8 +1,8 @@
-<?php $rootPath = '../'; 
-$page = "student-disclosures"; 
+<?php $rootPath = '../';
+$page = "student-disclosures";
 $meta_title="Student Disclosures";
 $meta_key="";
-$meta_desc="Student Disclosures";    
+$meta_desc="Student Disclosures";
 include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -31,7 +31,7 @@ include('../parts/head.php'); ?>
             <ul class="pdfs">
                 <li>
                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                    <a target="_blank" rel="noopener" href="<?= $rootPath ?>fvi_catalog.pdf">FVI Catalog</a>
+                    <a target="_blank" rel="noopener" href="https://fvi.edu/catalog/fvi_catalog.pdf">FVI Catalog</a>
                 </li>
                 <li>
                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
