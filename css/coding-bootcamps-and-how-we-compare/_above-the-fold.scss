@@ -89,6 +89,7 @@ section.above-the-fold .text-box {
         letter-spacing: 1.3px;
         color: #fff;
         margin: 0 auto;
+        @include slide-up-fade-in(500ms);
 
         @media all and (min-width: 1200px) {
             margin: 0;
