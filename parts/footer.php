@@ -1,22 +1,27 @@
 <footer data-rootpath="<?= $rootPath ?>">
     <div class="first">
-        <a href="<?= $rootPath ?>">
-            <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
-        </a>
-        <address>
-            <strong>Miami Campus</strong><br>
-            7757 W Flagler St #220,<br>
-            Miami, FL 33144 <br>
-            <br>
-            <strong>Miramar Campus</strong><br>
-            3520 Enterprise Way,<br>
-            Miramar, FL  33025<br>
-            <br>
-            Email: <a target="_blank" rel="noopener" href="mailto:info@techlaunch.io">info@techlaunch.io</a><br><br>
-            Phone: <a href="tel:3057833599">(305) 783-3599</a>
-            <br> <br>
-            <small>TechLaunch is registered DBA of Florida Vocational Institute</small>
-        </address>
+        <div class="first-wrapper">
+            <a href="<?= $rootPath ?>" class="logo-container">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+            </a>
+            <hr>
+            <address>
+                <strong>Miami Campus</strong><br>
+                7757 W Flagler St #220,<br>
+                Miami, FL 33144 <br>
+                <br>
+                <strong>Miramar Campus</strong><br>
+                3520 Enterprise Way,<br>
+                Miramar, FL  33025<br>
+                <br>
+                <small>Florida Vocational Institute of Miramar is an Extension Campus of Florida Vocational Institute, Miami</small>
+                <br><br>
+                Email: <a target="_blank" rel="noopener" href="mailto:info@techlaunch.io">info@techlaunch.io</a><br>
+                Phone: <a href="tel:3057833599">(305) 783-3599</a>
+                <br> <br>
+                <small>TechLaunch is registered DBA of Florida Vocational Institute</small>
+            </address>
+        </div>
     </div>
     <div class="second">
         <h3 class="heading">Useful Links</h3>
