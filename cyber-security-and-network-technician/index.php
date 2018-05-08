@@ -19,7 +19,7 @@ include('../parts/head.php'); ?>
             </a>
             <div class="content">
                 <div class="text-box">
-                    <h2>Become a Cyber Security Professional</h2>
+                    <h2>Become a Cyber Security Technician</h2>
                     <h4>Join one of the fastest growing professions on the planet<small>†</small></h4>
                     <div class="figures-container">
                         <div class="figure appear">
