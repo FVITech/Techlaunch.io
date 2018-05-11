@@ -141,7 +141,7 @@ include('../parts/head.php'); ?>
                     <img class="lazyload" data-src="<?= $rootPath ?>images/people/lily-cantillo.jpg" alt="Lilianne Cantillo">
                     <span class="name">Lilianne Cantillo</span>
                 </div>
-                <div class="testimonial appear delay-400">
+                <div class="testimonial appear delay-200">
                     <p class="quote">"I went to the office for the interview and actually got the job that day! The instructors themselves are great. When I’ve been working on stuff over the weekend, I’ve reached out and have gotten replies every time."</p>
                     <img class="lazyload" data-src="<?= $rootPath ?>images/people/eric-phillips-square.jpg" alt="Eric Phillips">
                     <span class="name">Eric Phillips</span>
