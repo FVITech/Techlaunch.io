@@ -101,6 +101,9 @@
     </div>
 
     <style>
+    .blog_title {
+        margin-bottom: 16px;
+    }
 	.blog_title > a {
 		color: #aaa !important;
         font-size: 14px !important;
