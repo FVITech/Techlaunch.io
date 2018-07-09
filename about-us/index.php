@@ -2,7 +2,7 @@
 $page = "about-us"; 
 $meta_title="About Us";
 $meta_key="";
-$meta_desc="About Us at TechLaunch";    
+$meta_desc="Techlaunch is information IT vocational school in Miami for programming boot camps and courses in cybersecurity, wed and app development and digital marketing.";    
 include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
