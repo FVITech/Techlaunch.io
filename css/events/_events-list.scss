@@ -69,9 +69,10 @@ section.events-list .events-list-container .event {
 
         .event-description {
 
-             p {
+             p, h1, h2, h3, h4, h5, h6 {
                 font-size: 14px;
                 margin: 20px 0;
+                line-height: 1.5;
              }
         }
 
