@@ -990,3 +990,7 @@ FileETag None
 # ----------------------------------------------------------------------
 Redirect /#/web-developer-program /web-developer/
 Redirect /#/network-administrator-program /cyber-security-and-network-technician/
+Redirect /exercise-grader /
+Redirect /aws/enroll.html http://aws.techlaunch.io/aws/enroll.html
+Redirect /aws/ http://aws.techlaunch.io/aws/index.html
+Redirect /aws/index.html http://aws.techlaunch.io/aws/index.html
