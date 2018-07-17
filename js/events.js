@@ -31,7 +31,7 @@ function sanitizeAndTruncate(desc, url) {
 
     let options = {}
 
-    if(url) options = { ellipsis: `... <a target="_blank" rel="noopener" href="${url}" style="text-decoration: none;">read more</a>`}
+    if(url) options = { ellipsis: `... <a target="_blank" rel="noopener" href="${url}" class="read-more">read more</a>`}
 
     const truncated = truncate(sanitized, 300, options)
 
@@ -83,18 +83,7 @@ function createEventHTML(ev) {
 }
 
 function createDateSectionHTML(date, events = []) {
-    let dateString = moment(date, 'MM/DD/YYYY').format("ddd, MMM Do, YYYY")
-    let sectionClass = ''
-    
-    if (date === 'in the past') {
-        dateString = 'In the Past'
-        sectionClass = 'in-the-past'
-    }
-
-    let dateSection = `
-        <div class="date-section ${sectionClass}">
-            <h3 class="date-title">${dateString}</h3>
-    `
+    let dateSection = `<div class="date-section">`
     
     events.forEach(event => {
         dateSection += createEventHTML(event)
@@ -135,7 +124,6 @@ function groupEventsByDate(events = []) {
 }
 
 function generateEventsList(events = []) {
-
     if(events.length === 0) return '<br><h3 style="text-align: center">No upcoming events</h3><br>'
 
     const { upcomingEvents, pastEvents } = groupEventsByDate(events)
@@ -147,6 +135,9 @@ function generateEventsList(events = []) {
     }
     else {
         for(date in upcomingEvents) {
+            let dateString = moment(date, 'MM/DD/YYYY').format("ddd, MMM Do, YYYY")
+
+            eventsListHTML += `<h3 class="date-title">${dateString}</h3>`
             eventsListHTML += createDateSectionHTML(date, upcomingEvents[date])
         }
     }
@@ -155,6 +146,8 @@ function generateEventsList(events = []) {
         eventsListHTML += ''
     }
     else {
+        eventsListHTML += `<h3 class="date-title">In The Past</h3>`
+
         for(date in pastEvents) {
             eventsListHTML += createDateSectionHTML('in the past', pastEvents[date])
         }

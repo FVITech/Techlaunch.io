@@ -1,0 +1,1 @@
+<?php header("Location: https://techlaunch.io", true, 301); exit(); ?>

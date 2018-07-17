@@ -1,0 +1,1 @@
+<?php header("Location: http://aws.techlaunch.io/aws/index.html", true, 301); exit(); ?>

@@ -988,5 +988,9 @@ FileETag None
 # ----------------------------------------------------------------------
 # | Redirects                                                          |
 # ----------------------------------------------------------------------
-Redirect /#/web-developer-program /web-developer/
-Redirect /#/network-administrator-program /cyber-security-and-network-technician/
+Redirect 301 /#/web-developer-program /web-developer/
+Redirect 301 /#/network-administrator-program /cyber-security-and-network-technician/
+Redirect 301 /exercise-grader /
+Redirect 301 /aws/enroll.html http://aws.techlaunch.io/aws/enroll.html
+Redirect 301 /aws/ http://aws.techlaunch.io/aws/index.html
+Redirect 301 /aws/index.html http://aws.techlaunch.io/aws/index.html

@@ -126,6 +126,11 @@ include('../parts/head.php'); ?>
                     <img class="lazyload" data-src="<?= $rootPath ?>images/people/qian-lin.jpg" alt="Qian Lin">
                     <span class="name">Qian Lin</span>
                 </div>
+                <div class="testimonial appear delay-600">
+                    <p class="quote">"I wouldn’t just be recommending a school, I’d be doing them a life favor. The team has always assisted me with all my career needs. They helped with my resume and sent me referrals to jobs I may be a good fit for."</p>
+                    <img class="lazyload" data-src="<?= $rootPath ?>images/people/alain-tavarez.jpg" alt="Alain Tavarez">
+                    <span class="name">Alain Tavarez</span>
+                </div>
             </div>
         </div>
     </section>
