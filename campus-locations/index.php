@@ -62,8 +62,8 @@ include('../parts/head.php'); ?>
                     <p>Two convenient locations to choose from.</p>
                 </div>
                 <div class="split-box image-container">
-                    <h4 class="location-title">Miami Campus - Pipeline Doral</h4>
-                    <iframe class="location-map appear lazyload" frameborder="0" data-src="https://www.google.com/maps/embed/v1/place?q=Pipeline%20Doral&key=AIzaSyDaSsFoC1uGHddMd2hFgIKfHiupzPUhZQY" allowfullscreen></iframe>
+                    <h4 class="location-title">Miami Campus</h4>
+                    <iframe class="location-map appear lazyload" frameborder="0" data-src="https://www.google.com/maps/embed/v1/place?q=Florida%20Vocational%20Institute&key=AIzaSyDaSsFoC1uGHddMd2hFgIKfHiupzPUhZQY" allowfullscreen></iframe>
                 </div>
                 <div class="split-box image-container">
                     <h4 class="location-title">Miramar Campus</h4>
