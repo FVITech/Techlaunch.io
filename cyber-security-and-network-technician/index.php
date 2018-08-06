@@ -37,6 +37,7 @@ include('../parts/head.php'); ?>
                             <p class="label">Expected<br>Growth</p>
                         </div>
                     </div>
+                    <p style="color:#fff;">This program is offered at: Miami Campus and Miramar Campus</p>
                     <p class="disclosure">† Source: BLS.gov</p>
                 </div>
                 <?php

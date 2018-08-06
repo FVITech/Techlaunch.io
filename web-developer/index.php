@@ -1,8 +1,8 @@
-<?php $rootPath = '../'; 
-$page = "web-developer"; 
+<?php $rootPath = '../';
+$page = "web-developer";
 $meta_title="Miami Web Development Training Course - Web Developer Classes Near Me";
 $meta_key="";
-$meta_desc="When you are taking Miami Web Development Training Courses you are learning to Become a Web Developer.   Learn why more students are earning Web Developing Diplomas Here.";    
+$meta_desc="When you are taking Miami Web Development Training Courses you are learning to Become a Web Developer.   Learn why more students are earning Web Developing Diplomas Here.";
 include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -37,6 +37,7 @@ include('../parts/head.php'); ?>
                             <p class="label">Expected<br>Growth</p>
                         </div>
                     </div>
+                    <p style="color:#fff;">This program is offered at: Miami Campus and Miramar Campus</p>
                     <p class="disclosure">† Source: BLS.gov</p>
                 </div>
                 <?php
