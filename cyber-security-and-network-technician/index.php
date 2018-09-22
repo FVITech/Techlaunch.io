@@ -193,15 +193,15 @@ include('../parts/head.php'); ?>
                             <p>Cloud Technologies like AWS &amp; Azure</p>
                         </div>
                         <div class="card appear">
-                            <img class="lazyload" data-src="<?= $rootPath ?>images/icons/globe-up-arrow.png" alt="globe-up-arrow">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/icons/ethical-hacking.png" alt="globe-up-arrow">
                             <p>Ethical Hacking</p>
                         </div>
                         <div class="card appear">
-                            <img class="lazyload" data-src="<?= $rootPath ?>images/icons/globe-up-arrow.png" alt="globe-up-arrow">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/icons/network-defense.png" alt="globe-up-arrow">
                             <p>Network Defense</p>
                         </div>
                         <div class="card appear">
-                            <img class="lazyload" data-src="<?= $rootPath ?>images/icons/globe-up-arrow.png" alt="globe-up-arrow">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/icons/computer-forensics.png" alt="globe-up-arrow">
                             <p>Computer Forensics</p>
                         </div>
                     </div>
