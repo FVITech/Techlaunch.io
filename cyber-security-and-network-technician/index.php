@@ -53,9 +53,9 @@ include('../parts/head.php'); ?>
         <div class="container">
             <h2 class="section-title appear">Program Overview</h2>
             <div class="split-3">
-                <p class="split-box subtitle appear">As a student in our Cyber Security and Network Technician program, you’ll learn about every aspect of Cyber Security – from software distribution and updates and troubleshooting support to implement auditing policy and performing scheduled vulnerability-assessment scans.</p>
-                <p class="split-box subtitle appear">Through lectures, discussions, demonstrations, exercises, and laboratory projects, we’ll introduce the 21st century cloud-based systems administration on Azure and AWS and prepare you to perform all basic configuration procedures to build LAN and WAN interfaces for the most commonly used router protocols.</p>
-                <p class="split-box subtitle appear">Upon completing this program, you’ll be qualified to manage, support, and troubleshoot information systems with Microsoft Windows Server 2012 and Linux, as well as configure Cisco switches and routers.</p>
+                <p class="split-box subtitle appear">As a student in our Cyber Security and Network Technician program, you'll learn about every aspect of Cyber Security – from software distribution and updates and troubleshooting support to implement auditing policy and performing scheduled vulnerability-assessment scans.</p>
+                <p class="split-box subtitle appear">Through lectures, discussions, demonstrations, exercises, and laboratory projects, we'll introduce the 21st century cloud-based systems administration on Azure and AWS and prepare you to perform all basic configuration procedures to build LAN and WAN interfaces for the most commonly used router protocols.</p>
+                <p class="split-box subtitle appear">Upon completing this program, you'll be qualified to manage, support, and troubleshoot information systems with Microsoft Windows Server 2012 and Linux, as well as configure Cisco switches and routers.</p>
             </div>
             <div class="cards-container">
                 <div class="left">
@@ -113,12 +113,12 @@ include('../parts/head.php'); ?>
                     <span class="name">Alan Espinet Lluvet</span>
                 </div>
                 <div class="testimonial appear delay-400">
-                    <p class="quote">"Before I started at TechLaunch I was concerned. I thought that coding was difficult and I didn’t know what to expect. Now I feel that it is easier than everybody thinks."</p>
+                    <p class="quote">"Before I started at TechLaunch I was concerned. I thought that coding was difficult and I didn't know what to expect. Now I feel that it is easier than everybody thinks."</p>
                     <img class="lazyload" data-src="<?= $rootPath ?>images/people/lily-cantillo.jpg" alt="Lilianne Cantillo">
                     <span class="name">Lilianne Cantillo</span>
                 </div>
                 <div class="testimonial appear delay-200">
-                    <p class="quote">"I went to the office for the interview and actually got the job that day! The instructors themselves are great. When I’ve been working on stuff over the weekend, I’ve reached out and have gotten replies every time."</p>
+                    <p class="quote">"I went to the office for the interview and actually got the job that day! The instructors themselves are great. When I've been working on stuff over the weekend, I've reached out and have gotten replies every time."</p>
                     <img class="lazyload" data-src="<?= $rootPath ?>images/people/eric-phillips-square.jpg" alt="Eric Phillips">
                     <span class="name">Eric Phillips</span>
                 </div>
@@ -128,7 +128,7 @@ include('../parts/head.php'); ?>
                     <span class="name">Qian Lin</span>
                 </div>
                 <div class="testimonial appear delay-600">
-                    <p class="quote">"I wouldn’t just be recommending a school, I’d be doing them a life favor. The team has always assisted me with all my career needs. They helped with my resume and sent me referrals to jobs I may be a good fit for."</p>
+                    <p class="quote">"I wouldn't just be recommending a school, I'd be doing them a life favor. The team has always assisted me with all my career needs. They helped with my resume and sent me referrals to jobs I may be a good fit for."</p>
                     <img class="lazyload" data-src="<?= $rootPath ?>images/people/alain-tavarez.jpg" alt="Alain Tavarez">
                     <span class="name">Alain Tavarez</span>
                 </div>
@@ -191,6 +191,18 @@ include('../parts/head.php'); ?>
                         <div class="card appear">
                             <img class="lazyload" data-src="<?= $rootPath ?>images/icons/globe-up-arrow.png" alt="globe-up-arrow">
                             <p>Cloud Technologies like AWS &amp; Azure</p>
+                        </div>
+                        <div class="card appear">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/icons/globe-up-arrow.png" alt="globe-up-arrow">
+                            <p>Ethical Hacking</p>
+                        </div>
+                        <div class="card appear">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/icons/globe-up-arrow.png" alt="globe-up-arrow">
+                            <p>Network Defense</p>
+                        </div>
+                        <div class="card appear">
+                            <img class="lazyload" data-src="<?= $rootPath ?>images/icons/globe-up-arrow.png" alt="globe-up-arrow">
+                            <p>Computer Forensics</p>
                         </div>
                     </div>
                 </div>
