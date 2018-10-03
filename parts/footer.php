@@ -56,13 +56,13 @@
             </li>
         </ul>
         <div class="social-media">
-            <a target="_blank" rel="noopener" href="https://www.facebook.com/TechLaunchMiami/?ref=br_rs">
+            <a target="_blank" rel="noopener" href="https://www.facebook.com/Techlaunchio">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
-            <a target="_blank" rel="noopener" href="https://twitter.com/techlaunchmiami">
+            <a target="_blank" rel="noopener" href="https://twitter.com/@Techlaunchio">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
-            <a target="_blank" rel="noopener" href="https://www.linkedin.com/company-beta/3825643/">
+            <a target="_blank" rel="noopener" href="https://www.linkedin.com/Techlaunchio">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
             <a target="_blank" rel="noopener" href="https://www.instagram.com/techlaunchmiami/">
