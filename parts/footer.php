@@ -62,7 +62,7 @@
             <a target="_blank" rel="noopener" href="https://twitter.com/@Techlaunchio">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
-            <a target="_blank" rel="noopener" href="https://www.linkedin.com/Techlaunchio">
+            <a target="_blank" rel="noopener" href="https://www.linkedin.com/company/techlaunch/">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
             <a target="_blank" rel="noopener" href="https://www.instagram.com/techlaunchmiami/">
