@@ -65,7 +65,7 @@
             <a target="_blank" rel="noopener" href="https://www.linkedin.com/company/techlaunch/">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
-            <a target="_blank" rel="noopener" href="https://www.instagram.com/techlaunchmiami/">
+            <a target="_blank" rel="noopener" href="https://www.instagram.com/techlaunchio/">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
             <a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCGJcXuVSkHrNSzXsM_lBZ4w">
