@@ -73,7 +73,8 @@ include('../parts/head.php'); ?>
             </a>
             <br>
 <!--            <p class="contact"><strong>Email:</strong> <a href="mailto:info@fvi.edu">info@techlaunch.io</a></p>
--->            <p class="contact"><strong>Phone:</strong> <a href="tel:786-574-9511">305-783-3599</a></p>
+           <p class="contact"><strong>Phone:</strong> <a href="tel:786-574-9511">305-783-3599</a></p>
+-->            <p class="contact"><strong>Phone:</strong> <a href="tel:305-783-359">305-783-3599</a></p>
             <img class="lazyload" data-src="<?= $rootPath ?>images/people/group-at-pipeline-mobile.jpg" alt="Techlaunch Students at Pipeline Doral">
         </aside>
     </section>
