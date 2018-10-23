@@ -27,14 +27,15 @@ include('../parts/head.php'); ?>
         <div class="main">
             <h2 class="section-title">Request More Information</h2>
             <form method="POST" action="<?= $form_action; ?>">
-            <div class="form-input">
+            <div class="form-input split-2">
+            <div class="split-boxt">
                 <label>Preferred Location</label>
                 <select name="campus" id="campus">
                     <option value="Miami" <?php if ($campus == 'miami' || $campus == '') echo 'selected' ?>>Miami</option>
                     <option value="Miramar" <?php if( $campus == 'miramar') echo 'selected' ?>>Miramar</option>
                 </select>
             </div>
-            <div class="form-input">
+            <div class="split-box">
                 <label>Program of Interest</label>
                 <select name="program_name" id="program_name">
                     <option value="--" disabled <?php if (!isset($program) || $program == '') echo 'selected' ?>>-- Select --</option>
@@ -45,6 +46,7 @@ include('../parts/head.php'); ?>
                     <!-- <option value="wordpress" <?php if(isset($program) && $program == 'wordpress') echo 'selected' ?>>WordPress</option> -->
                 </select>
                 <input type="hidden" name="program_id" id="legacy_program" value="<?php if(isset($program)) echo $program ?>" />
+            </div>
             </div>
             <div class="form-input split-2">
                 <div class="split-box">
