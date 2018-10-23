@@ -16,8 +16,8 @@
                 <br>
                 <small>Florida Vocational Institute of Miramar is an Extension Campus of Florida Vocational Institute, Miami</small>
                 <br><br>
-                Email: <a target="_blank" rel="noopener" href="mailto:info@techlaunch.io">info@techlaunch.io</a><br>
-                Phone: <a href="tel:3057833599">(305) 783-3599</a>
+<!--                Email: <a target="_blank" rel="noopener" href="mailto:info@techlaunch.io">info@techlaunch.io</a><br>
+-->                Phone: <a href="tel:3057833599">(305) 783-3599</a>
                 <br> <br>
                 <small>TechLaunch is registered DBA of Florida Vocational Institute</small>
             </address>
