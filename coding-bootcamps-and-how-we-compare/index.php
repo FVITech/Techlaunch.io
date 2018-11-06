@@ -212,7 +212,7 @@ include('../parts/head.php'); ?>
                 </div>
                 <div class="split-box text">
                     <h2 class="section-title appear">Our Campus</h2>
-                    <p>We are located at the <a href="<?= $rootPath ?>campus-locations/">Pipeline Doral</a> co-working space. The Doral area is home to numerous tech companies.</p>
+                    <p>We are centrally located in <a href="<?= $rootPath ?>campus-locations/">Miami</a> at Mall of the Americas on Flagler Street and Palmetto Expressway.</p>
                 </div>
                 <div class="split-box image-container">
                     <div class="image appear second lazyload" data-bgset="<?= $rootPath ?>images/pipeline/students-3-mobile.jpg [--small] | <?= $rootPath ?>images/pipeline/students-3.jpg [--large]"></div>
