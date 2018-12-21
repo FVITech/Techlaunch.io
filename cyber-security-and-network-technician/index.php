@@ -232,7 +232,7 @@ include('../parts/head.php'); ?>
                 <div class="split-box image-container">
                     <div class="image lazyload appear first" data-bgset="<?= $rootPath ?>images/pipeline/workspace-mobile.jpg [--small] | <?= $rootPath ?>images/pipeline/workspace.jpg [--large]"></div>
                 </div>
-                <div class="split-box text">
+                <div class="split-box text" style="padding: 0 21px;">
                     <h2 class="section-title">Our Campus</h2>
                     <p>Our program is located at our <a href="<?= $rootPath ?>campus-locations/">Miramar and Miami Campuses</a>.</p>
                 </div>
