@@ -90,7 +90,8 @@ include('../parts/head.php'); ?>
             <p><em>What is the placement rate for graduates of your institution?</em></p>
             <p>Placement rates vary depending on the methods of compiling, calculating, and reporting of data by the regulatory agency or institution. Placement rates are intended to provide information on the number of students who have obtained employment in their field of study after graduation. The rates disclosed below reflect historical outcomes and should not be relied on by anyone as an implicit or explicit representation or promise of future outcomes or employability for any student following completion of a program of study at Florida Vocational Institute. Numerous individual and market factors affect a graduate’s ability to secure employment in his/her field or in a related field after graduation, and the institution has little or no control over many of these factors.</p>
             <p><em>Therefore, Florida Vocational Institute cannot and does not guarantee employment or estimate the likelihood of securing employment upon graduation for any student.</em></p>
-            <p>The graduation and placement program data reported in the institution’s 2016 Annual Report filed with the Council on Occupational Education (COE)  is for the reporting period of  7/1/2015 – 6/30/2016.</p>
+           <!-- <p>The graduation and placement program data reported in the institution’s 2016 Annual Report filed with the Council on Occupational Education (COE)  is for the reporting period of  7/1/2015 – 6/30/2016.</p>-->
+           <p>The graduation and placement program data reported in the institution's 2018 Annual Report filed with the Council on Occupational Education (COE) is for the reporting period of 7/1/2017 – 6/30/2018.</p>
             <table class="placement-rate">
                 <tbody>
                     <tr>
