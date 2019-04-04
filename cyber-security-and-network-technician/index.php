@@ -252,8 +252,26 @@ include('../parts/head.php'); ?>
     display: inline-block;
     width: 100% !important;
 }.custom-blog-section .custom-split-3 {
-    width: 25%;
+    width: 23%;
     float: left;
+    margin-right: 2.6%;
+}
+.custom-blog-section .custom-split-3:last-child {
+    margin-right: 0 !important;
+}
+.custom-blog-section .custom-split-3 img {
+    height: 155px;
+}.custom-blog-section .custom-split-3 p {
+    text-align: center !important;
+}.custom-blog-section .custom-split-3 a {
+    text-decoration: none !important;
+}
+.custom-blog-section .custom-split-3 a {
+    text-decoration: none !important;
+    color: #222 !important;
+}
+.custom-blog-section .custom-split-3 a:hover {
+    color: #0090ec !important;
 }
 	</style>
 <section class="custom-blog-section">
