@@ -245,25 +245,7 @@ include('../parts/head.php'); ?>
             </div>
         </div>
     </section>
-<section class="our-campus">
-        <div class="container">
-            <div class="split-2">
-                <div class="split-box image-container">
-                    <div class="image lazyload appear first" data-bgset="<?= $rootPath ?>images/pipeline/workspace-mobile.jpg [--small] | <?= $rootPath ?>images/pipeline/workspace.jpg [--large]"></div>
-                </div>
-                <div class="split-box text" style="padding: 0 21px;">
-                    <h2 class="section-title">Our Campus</h2>
-                    <p>Our program is located at our <a href="<?= $rootPath ?>campus-locations/">Miramar and Miami Campuses</a>.</p>
-                </div>
-                <div class="split-box image-container">
-                    <div class="image lazyload appear second" data-bgset="<?= $rootPath ?>images/pipeline/students-3-mobile.jpg [--small] | <?= $rootPath ?>images/pipeline/students-3.jpg [--large]"></div>
-                </div>
-                <div class="split-box image-container">
-                    <div class="image lazyload appear delay-300 third" data-bgset="<?= $rootPath ?>images/pipeline/learning-1-mobile.jpg [--small] | <?= $rootPath ?>images/pipeline/learning-1.jpg [--large]"></div>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <?php $rootPath = '../'; include('../parts/footer.php') ?>
     <?php $rootPath = '../'; include('../parts/bottom.php') ?>
 
