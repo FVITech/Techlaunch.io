@@ -263,6 +263,7 @@ include('../parts/head.php'); ?>
     height: 155px;
 }.custom-blog-section .custom-split-3 p {
     text-align: center !important;
+	margin-bottom: 0 !important;
 }.custom-blog-section .custom-split-3 a {
     text-decoration: none !important;
 }
