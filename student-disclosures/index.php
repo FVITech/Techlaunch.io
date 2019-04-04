@@ -92,7 +92,7 @@ include('../parts/head.php'); ?>
             <p><em>Therefore, Florida Vocational Institute cannot and does not guarantee employment or estimate the likelihood of securing employment upon graduation for any student.</em></p>
            <!-- <p>The graduation and placement program data reported in the institution’s 2016 Annual Report filed with the Council on Occupational Education (COE)  is for the reporting period of  7/1/2015 – 6/30/2016.</p>-->
            <p>The graduation and placement program data reported in the institution's 2018 Annual Report filed with the Council on Occupational Education (COE) is for the reporting period of 7/1/2017 – 6/30/2018.</p>
-            <table class="placement-rate">
+            <!--<table class="placement-rate">
                 <tbody>
                     <tr>
                         <td class="title" colspan="7"><strong>Placement Rate</strong></td>
@@ -124,6 +124,103 @@ include('../parts/head.php'); ?>
                         <td>N/A</td>
                         <td>N/A</td>
                     </tr>
+                </tbody>
+            </table>-->
+            <table class="placement-rate">
+                <tbody>
+                    <tr>
+                        <td class="title" colspan="7"><strong>Placement Rate</strong></td>
+                    </tr>
+                    <tr>
+                        <th>Program</th>
+                        <th>Credential</th>
+                        <th>Total Placed</th>
+                        <th>Total Graduates</th>
+                        <th>Students Excluded from Placement Rate</th>
+                        <th>Total Completion Rate (%)</th>
+                        <th>Total Placement Rate (%)</th>
+                    </tr>
+                    <tr>
+  <td>Home Health Aid</td>
+  <td>Diploma</td>
+  <td>6</td>
+  <td>10</td>
+  <td>2</td>
+  <td>100%</td>
+  <td>75%</td>
+</tr>
+<tr>
+  <td>Medical Assistant</td>
+  <td>Diploma</td>
+  <td>71</td>
+  <td>126</td>
+  <td>55</td>
+  <td>80%</td>
+  <td>76%</td>
+</tr>
+<tr>
+  <td>Nursing Assistant/Home Health Aide</td>
+  <td>Diploma</td>
+  <td>23</td>
+  <td>46</td>
+  <td>12</td>
+  <td>92%</td>
+  <td>70%</td>
+</tr>
+<tr>
+  <td>Patient Care Technician</td>
+  <td>Diploma</td>
+  <td>68</td>
+  <td>106</td>
+  <td>38</td>
+  <td>80%</td>
+  <td>79%</td>
+</tr>
+<tr>
+  <td>Pharmacy Technician</td>
+  <td>Diploma</td>
+  <td>60</td>
+  <td>124</td>
+  <td>64</td>
+  <td>78%</td>
+  <td>71%</td>
+</tr>
+<tr>
+  <td>Web Developer</td>
+  <td>Diploma</td>
+  <td>10</td>
+  <td>16</td>
+  <td>6</td>
+  <td>48%</td>
+  <td>71%</td>
+</tr>
+<tr>
+  <td>Home Health Aide</td>
+  <td>Diploma</td>
+  <td>50</td>
+  <td>96</td>
+  <td>46</td>
+  <td>93%</td>
+  <td>72%</td>
+</tr>
+<tr>
+  <td>Nursing Assistant/Home Health Aide</td>
+  <td>Diploma</td>
+  <td>1</td>
+  <td>1</td>
+  <td>0</td>
+  <td>100%</td>
+  <td>100%</td>
+</tr>
+<tr>
+  <td>IT Programs (No Grads)</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
                 </tbody>
             </table>
 
