@@ -245,7 +245,8 @@ include('../parts/head.php'); ?>
             </div>
         </div>
     </section>
-<section class="program-overview">
+    
+<section class="program-overview custom-blog-section">
 <div class="custom-split-3">
 <div class="cards-container">
 <div class="card">
