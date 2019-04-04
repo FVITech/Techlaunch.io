@@ -141,7 +141,7 @@ include('../parts/head.php'); ?>
                         <th>Total Placement Rate (%)</th>
                     </tr>
                     <tr>
-  <td>Home Health Aid</td>
+  <td  style="background-color: #eee;">Home Health Aid</td>
   <td>Diploma</td>
   <td>6</td>
   <td>10</td>
@@ -150,7 +150,7 @@ include('../parts/head.php'); ?>
   <td>75%</td>
 </tr>
 <tr>
-  <td>Medical Assistant</td>
+  <td  style="background-color: #eee;">Medical Assistant</td>
   <td>Diploma</td>
   <td>71</td>
   <td>126</td>
@@ -159,7 +159,7 @@ include('../parts/head.php'); ?>
   <td>76%</td>
 </tr>
 <tr>
-  <td>Nursing Assistant/Home Health Aide</td>
+  <td  style="background-color: #eee;">Nursing Assistant/Home Health Aide</td>
   <td>Diploma</td>
   <td>23</td>
   <td>46</td>
@@ -168,7 +168,7 @@ include('../parts/head.php'); ?>
   <td>70%</td>
 </tr>
 <tr>
-  <td>Patient Care Technician</td>
+  <td  style="background-color: #eee;">Patient Care Technician</td>
   <td>Diploma</td>
   <td>68</td>
   <td>106</td>
@@ -177,7 +177,7 @@ include('../parts/head.php'); ?>
   <td>79%</td>
 </tr>
 <tr>
-  <td>Pharmacy Technician</td>
+  <td  style="background-color: #eee;">Pharmacy Technician</td>
   <td>Diploma</td>
   <td>60</td>
   <td>124</td>
@@ -186,7 +186,7 @@ include('../parts/head.php'); ?>
   <td>71%</td>
 </tr>
 <tr>
-  <td>Web Developer</td>
+  <td  style="background-color: #eee;">Web Developer</td>
   <td>Diploma</td>
   <td>10</td>
   <td>16</td>
@@ -195,7 +195,7 @@ include('../parts/head.php'); ?>
   <td>71%</td>
 </tr>
 <tr>
-  <td>Home Health Aide</td>
+  <td  style="background-color: #eee;">Home Health Aide</td>
   <td>Diploma</td>
   <td>50</td>
   <td>96</td>
@@ -204,7 +204,7 @@ include('../parts/head.php'); ?>
   <td>72%</td>
 </tr>
 <tr>
-  <td>Nursing Assistant/Home Health Aide</td>
+  <td  style="background-color: #eee;">Nursing Assistant/Home Health Aide</td>
   <td>Diploma</td>
   <td>1</td>
   <td>1</td>
@@ -213,7 +213,7 @@ include('../parts/head.php'); ?>
   <td>100%</td>
 </tr>
 <tr>
-  <td>IT Programs (No Grads)</td>
+  <td  style="background-color: #eee;">IT Programs (No Grads)</td>
   <td></td>
   <td></td>
   <td></td>
