@@ -245,7 +245,17 @@ include('../parts/head.php'); ?>
             </div>
         </div>
     </section>
-    
+    <style>
+	.custom-blog-section img {
+    width: 100% !important;
+}.custom-blog-section {
+    display: inline-block;
+    width: 100% !important;
+}.custom-blog-section .custom-split-3 {
+    width: 25%;
+    float: left;
+}
+	</style>
 <section class="program-overview custom-blog-section">
 <div class="custom-split-3">
 <div class="cards-container">
