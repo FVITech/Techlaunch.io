@@ -55,7 +55,7 @@ include('../parts/head.php'); ?>
             <div class="split-3">
                 <p class="split-box subtitle appear">As a student in our Cyber Security and Network Technician program, you'll learn about every aspect of Cyber Security – from software distribution and updates and troubleshooting support to implement auditing policy and performing scheduled vulnerability-assessment scans.</p>
                 <p class="split-box subtitle appear">Through lectures, discussions, demonstrations, exercises, and laboratory projects, we'll introduce the 21st century cloud-based systems administration on Azure and AWS and prepare you to perform all basic configuration procedures to build LAN and WAN interfaces for the most commonly used router protocols.</p>
-                <p class="split-box subtitle appear">Upon completing this program, you'll be qualified to manage, support, and troubleshoot information systems with Microsoft Windows Server 2012 and Linux, as well as configure Cisco switches and routers.</p>
+                <p class="split-box subtitle appear">Upon completing this program, you'll be qualified to manage, support, and troubleshoot information systems with Microsoft Windows Server 2016 and Linux, as well as configure Cisco switches and routers.</p>
             </div>
             <div class="cards-container">
                 <div class="left">
