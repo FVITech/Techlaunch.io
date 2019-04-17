@@ -211,8 +211,15 @@ include('../parts/head.php'); ?>
                 </div>
             </div>
             <div class="split-2">
+                                <h2 class="section-title appear" style="text-align:center;">CompTIA Certifications</h2>
             <div class="custom-split-4">
-            <img src="https://techlaunch.io/images/logos/comptia-a+.png">
+            <img src="https://techlaunch.io/images/logos/comptia-a+.png" alt="CompTIA A+">
+            </div>
+                  <div class="custom-split-4">
+            <img src="https://techlaunch.io/images/logos/comptia-network+.png" alt="CompTIA Network +">
+            </div>
+                  <div class="custom-split-4">
+            <img src="https://techlaunch.io/images/logos/comptia-security+.png" alt="CompTIA Security +">
             </div>
             </div>
             </div>
