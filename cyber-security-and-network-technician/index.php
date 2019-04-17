@@ -210,6 +210,12 @@ include('../parts/head.php'); ?>
                     <img class="lazyload" data-src="<?= $rootPath ?>images/people/techhire-student-coding.jpg" alt="Techlaunch student coding">
                 </div>
             </div>
+            <div class="split-2">
+            <div class="custom-split-4">
+            <img src="https://techlaunch.io/images/logos/comptia-a+.png">
+            </div>
+            </div>
+            </div>
         </div>
     </section>
 
