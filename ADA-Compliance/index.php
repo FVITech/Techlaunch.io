@@ -23,9 +23,9 @@ include('../parts/head.php'); ?>
             <a href="<?= $rootPath ?>">
                 <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
-            <h1 class="page-title">Tech Skills Upgrades</h1>
-            <p class="page-subtitle">Get the skills to push your business or career to the next level</p>
-        </div>
+            <h1 class="page-title">ADA Compliance</h1>
+<!--            <p class="page-subtitle">Get the skills to push your business or career to the next level</p>
+-->        </div>
     </section>
 
     <div class="programs-bar">
@@ -41,9 +41,10 @@ include('../parts/head.php'); ?>
             <h2 class="section-title aws-content switchable appear">Amazon Web Services (AWS)</h2>
             <h2 class="section-title wordpress-content switchable appear">WordPress</h2>
             <div class="intro-content switchable">
-                <p>Take your skills and knowledge to the next level with our tech skills upgrade programs. We've designed them to be a great addition to our more immersive programs and they're also perfect for those who have prior experience in web development. The programs give an accelerated understanding without all the risks and frustration of trial and error.</p>
-                <p>Our tech skills upgrade programs are made available through an easy online enrollment process.</p>
-                <p><strong><em>Please note:</em></strong> Our programs may change from time to time so check back in the future for additions. If you want to know about new programs, subscribe to our newsletters at the bottom of the page and you'll be one of the first to know!</p>
+                <p>We are committed to ensuring that individuals with disabilities have access to our goods and services, including those offered through our website, <strong>https://techlaunch.io/</strong>.  As such, we strive to adhere to the Web Content Accessibility Guidelines 2.0 and 2.1 Levels A and AA, a set of guidelines developed by the World Wide Web Consortium and used to ensure that digital content is accessible to everyone.  We also work with accessibility and usability consultants to make sure that our website functions properly.
+ </p>
+                <p>We are always learning and looking for ways to improve accessibility, and welcome comments on how we may enhance the user experience on our website.  Please be aware that our efforts are ongoing.</p>
+                <p>If you have any feedback or questions regarding our website, please contact us or call us at <strong>(305) 783-3599</strong>.</p>
             </div>
             <div class="split-4 aws-content switchable">
                 <div class="split-box appear">
