@@ -1,0 +1,15 @@
+section.above-the-fold {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)),
+        url('../../../images/backgrounds/computer-background-mobile.jpg');
+
+    @media all and (min-width: 441px) {
+        background-image:
+            linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)),
+            url('../../../images/backgrounds/computer-background.jpg');
+    }
+
+    @media all and (min-width: 1300px) {
+        min-height: 30vw;
+    }
+}

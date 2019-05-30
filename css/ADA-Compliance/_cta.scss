@@ -1,0 +1,53 @@
+section.cta {
+    text-align: center;
+    background-image: url('../../../images/backgrounds/canvas-texture-mobile.jpg');
+    background-size: cover;
+    background-position: center;
+
+    @media all and (min-width: 441px) {
+        background-image: url('../../../images/backgrounds/canvas-texture.jpg');
+    }
+
+    .disclaimer {
+        font-size: 12px;
+        max-width: 400px;
+        margin: 5px auto 0;
+        text-align: left;
+    }
+
+    .enroll {
+        font-size: 24px;
+        display: inline-block;
+        margin-top: 40px;
+    }
+}
+
+section.cta table {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    border-collapse: collapse;
+
+    th, td {
+        border-top: 5px solid rgba(0, 0, 0 ,0);
+        border-bottom: 5px solid rgba(0, 0, 0, 0);
+        font-size: 14px;
+    }
+
+    th {
+        background-color: #ccc;
+        padding: 10px;
+    }
+
+    td {
+        padding: 10px;
+        background-color: #ddd;
+    }
+
+    tr.down-payment {
+
+        td {
+            font-weight: 800;
+        }
+    }
+}

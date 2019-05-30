@@ -1,0 +1,19 @@
+// shared
+@import "../normalize";
+@import "../helpers";
+@import "../base";
+@import "../footer";
+@import "../navbar/navbar";
+@import "../navbar/menu-overlay";
+@import "../navbar/menu-button";
+@import "../navbar/menu";
+@import "../get-info-form";
+@import "../agreement";
+@import "../paypal-pop-up";
+
+// sections
+@import "above-the-fold";
+@import "programs-bar";
+@import "summary";
+@import "syllabus";
+@import "cta";
