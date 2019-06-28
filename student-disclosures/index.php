@@ -250,8 +250,8 @@ include('../parts/head.php'); ?>
 
             <h3 id="gainful-employment-disclosures">Gainful Employment Disclosures</h3>
             <ul>
-                <li><a target="_blank" rel="noopener" href="http://www.fvi.edu/ge/IT/Gedt.html">Cyber Security and Network Technician</a> - Diploma (CIP Code: 11.0901)</li>
-                <li><a target="_blank" rel="noopener" href="http://www.fvi.edu/ge/WEB/Gedt.html">Web Developer</a> - Diploma (CIP Code: 11.0201)</li>
+                <li><a target="_blank" rel="noopener" href="https://techlaunch.io/images/Cyber_Security.docx" download>Cyber Security and Network Technician</a> - Diploma (CIP Code: 11.0901)</li>
+                <li><a target="_blank" rel="noopener" href="https://techlaunch.io/images/Web_Developer.docx" download>Web Developer</a> - Diploma (CIP Code: 11.0201)</li>
             </ul>
         </div>
     </section>
