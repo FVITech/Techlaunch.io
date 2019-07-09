@@ -268,6 +268,24 @@ include('parts/head.php'); ?>
 
     <?php $rootPath = ''; include('parts/footer.php') ?>
     <?php $rootPath = ''; include('parts/bottom.php') ?>
-
+    
+<script type="text/javascript">
+var _userway_config = {
+/* uncomment the following line to override default position*/
+ position: '3', 
+/* uncomment the following line to override default size (values: small, large)*/
+size: 'large',  
+/* uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)*/
+  language: 'en-US',  
+/* uncomment the following line to override color set via widget (e.g., #053f67)*/
+  color: '#053f67',  
+/* uncomment the following line to override type set via widget(1=person, 2=chair, 3=eye)*/
+  type: '1',  
+/* uncomment the following line to override support on mobile devices*/
+  mobile: true,  
+account: 'KIhnSLzwwc'
+};
+</script>
+<script type="text/javascript" src="https://cdn.userway.org/widget.js"></script>
 </body>
 </html>
