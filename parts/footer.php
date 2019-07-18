@@ -44,6 +44,11 @@
                     Net Price Calculator
                 </a>
             </li>
+                     <li>
+                <a target="_blank" rel="noopener" href="https://techlaunch.io/ADA-Compliance/">
+                    ADA Compliance
+                </a>
+            </li>
             <li>
                 <a target="_blank" rel="noopener" href="<?= $rootPath ?>privacy-policy/">
                     Privacy Policy
