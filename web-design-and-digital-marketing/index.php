@@ -28,7 +28,7 @@ include('../parts/head.php'); ?>
                         <br>
                         Professional
                     </h2>
-                    <p style="color:#fff;">This program is offered at: Miramar Campus</p>
+                    <p style="color:#fff;">This program is not currently enrolling: Miramar Campus</p>
                 </div>
                 <?php
                     $classes = "on-page";
