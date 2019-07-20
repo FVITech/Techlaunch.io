@@ -37,7 +37,7 @@ include('../parts/head.php'); ?>
                             <p class="label">Expected<br>Growth</p>
                         </div>
                     </div>
-                    <p style="color:#fff; font-size:24px; font-weight:bold;">This program is not currently enrolling</p>
+                    <p style="color:#fff; font-size:28px; font-weight:bold;">This program is not currently enrolling</p>
                     <p class="disclosure">† Source: BLS.gov</p>
                 </div>
                 <?php
