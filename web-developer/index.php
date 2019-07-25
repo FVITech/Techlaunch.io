@@ -42,6 +42,7 @@ include('../parts/head.php'); ?>
                     <p class="disclosure">† Source: BLS.gov</p>
                 </div>
                 <?php
+					$readonly ="disabled";
                     $classes = "on-page";
                     $program = "web-developer";
                     include('../parts/get-info-form.php');
