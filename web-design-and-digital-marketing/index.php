@@ -3,7 +3,6 @@ $page = "web-design-and-digital-marketing";
 $meta_title="Miami Web Design and Digital Markting Training Course";
 $meta_key="";
 $meta_desc="As a Web Designer and Digital Marketing professional, you’ll be able create, manage, maintain and market web sites and digital marketing strategies. You will be able to utilize a variety of web design methods and tools from HTML, CSS and Javascript to Adobe, Ajax and more – both front end and   programming. On the marketing side you’ll manage social media, SEM, SEO and overall digital marketing strategies.";
-$readonly ="readonly";
 include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -32,6 +31,7 @@ include('../parts/head.php'); ?>
                     <p style="color:#fff; font-size:28px; font-weight:bold;">This program is not currently enrolling</p>
                 </div>
                 <?php
+					$readonly ="readonly";
                     $classes = "on-page";
                     $program = "web-design-and-digital-marketing";
                     include('../parts/get-info-form.php');
