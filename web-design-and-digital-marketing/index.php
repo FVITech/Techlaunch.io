@@ -31,7 +31,7 @@ include('../parts/head.php'); ?>
                     <p style="color:#fff; font-size:28px; font-weight:bold;">This program is not currently enrolling</p>
                 </div>
                 <?php
-					$readonly ="readonly";
+					$readonly ="disabled";
                     $classes = "on-page";
                     $program = "web-design-and-digital-marketing";
                     include('../parts/get-info-form.php');
