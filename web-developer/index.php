@@ -3,6 +3,7 @@ $page = "web-developer";
 $meta_title="Miami Web Development Training Course - Web Developer Classes Near Me";
 $meta_key="";
 $meta_desc="When you are taking Miami Web Development Training Courses you are learning to Become a Web Developer.   Learn why more students are earning Web Developing Diplomas Here.";
+$readonly ="readonly";
 include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
