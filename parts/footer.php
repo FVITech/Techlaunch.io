@@ -178,6 +178,7 @@
                 <input type="email" placeholder="Your email">
                 <button type="submit"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></button>
             </div>
-        </form> -->
+        </form> <?=$readonly?>-->
+        
     </div>
 </footer>
