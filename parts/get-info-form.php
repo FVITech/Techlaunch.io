@@ -48,7 +48,9 @@
             <div class="form-input">
                 <label>Preferred Location</label>
                 <select name="campus" id="campus">
+                	<?php if ($limited != 'yes'){ ?>
                     <option value="Miami" <?php if ($campus == 'miami' || $campus == '') echo 'selected' ?>>Miami</option>
+                    <?php } ?>
                     <option value="Miramar" <?php if( $campus == 'miramar') echo 'selected' ?>>Miramar</option>
                 </select>
             </div>
@@ -56,11 +58,15 @@
                 <label>Program of Interest</label>
                 <select name="program_name" id="program_name">
                     <option value="--" disabled <?php if (!isset($program) || $program == '') echo 'selected' ?>>-- Select --</option>
+                    <?php if ($limited != 'yes'){ ?>
                     <option value="Web Developer" <?php if(isset($program) && $program == 'web-developer') echo 'selected' ?>>Web Developer</option>
+                    <?php } ?>
                     <option value="Cyber Security Network Technician" <?php if(isset($program) && $program == 'cyber-security') echo 'selected' ?>>Cyber Security and Network Technician</option>
+                    <?php if ($limited != 'yes'){ ?>
                     <option value="Web Design and Digital Marketing" <?php if(isset($program) && $program == 'web-design-and-digital-marketing') echo 'selected' ?>>Web Design and Digital Marketing</option>
                     <option value="aws" <?php if(isset($program) && $program == 'aws') echo 'selected' ?>>Amazon Web Services</option>
                     <!-- <option value="wordpress" <?php if(isset($program) && $program == 'wordpress') echo 'selected' ?>>WordPress</option> -->
+                    <?php } ?>
                 </select>
                 <input type="hidden" name="program_id" id="legacy_program" value="<?php if(isset($program)) echo $program ?>" />
             </div>
