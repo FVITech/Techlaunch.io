@@ -49,7 +49,7 @@ include('../parts/head.php'); ?>
 .custom-video-1 {
     width: 100%;
     display: inherit;
-    margin-right: 0;
+    margin-right: 0;    margin-bottom: 3%;
 }
 }
 
@@ -58,7 +58,10 @@ include('../parts/head.php'); ?>
 .custom-video-1 {
     width: 100%;
     display: inherit;
-    margin-right: 0;
+    margin-right: 0; margin-bottom: 3%;
+}.custom-video-1 iframe {
+    width: 100%;
+    height: 300px;
 }
 }
 		 </style>
