@@ -45,7 +45,7 @@ include('parts/head.php'); ?>
                         $options .= "&iv_load_policy=3";
                         $options .= "&origin=1";
                     ?>
-                    <iframe class="lazyload" data-src="https://www.youtube.com/embed/6eS5xHsJCPs?ecver=2<?= $options ?>" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="lazyload" data-src="https://www.youtube.com/embed/KlM94Wiybjs?ecver=2<?= $options ?>" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="split-box">
