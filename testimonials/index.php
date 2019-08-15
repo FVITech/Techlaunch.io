@@ -34,7 +34,10 @@ include('../parts/head.php'); ?>
             $options .= "&origin=1";
         ?>
          <section class="testimonials-page testimonial" id="eric-phillips">
-         <style>
+         <style>.custom-video-1 iframe {
+    width: 100%;
+    height: 198px;
+}
 		 .custom-video-last {
     margin-right: 0 !important;
 }.custom-video-1 {
