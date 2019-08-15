@@ -34,10 +34,23 @@ include('../parts/head.php'); ?>
             $options .= "&origin=1";
         ?>
          <section class="testimonials-page testimonial" id="eric-phillips">
+         <style>
+		 .custom-video-last {
+    margin-right: 0 !important;
+}.custom-video-1 {
+    width: 31%;
+    display: inline-block;
+    margin-right: 3%;
+}
+		 </style>
             <div class="container">
-            <div class="custom-video-1"><iframe width="100%" height="315" src="https://www.youtube.com/embed/umw2N9SerDs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-            <div class="custom-video-1"><iframe width="100%" height="315" src="https://www.youtube.com/embed/A09-JyVC41Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-            <div class="custom-video-1 custom-video-last"><iframe width="100%" height="315" src="https://www.youtube.com/embed/iPxOcFpNMBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="custom-video-1">
+            <iframe class="lazyload" data-src="https://www.youtube.com/embed/umw2N9SerDs?ecver=2<?= $options ?>" frameborder="0"></iframe></div>
+            <div class="custom-video-1">
+            
+            <iframe class="lazyload" data-src="https://www.youtube.com/embed/A09-JyVC41Y?ecver=2<?= $options ?>" frameborder="0"></iframe>
+         </div>
+            <div class="custom-video-1 custom-video-last">            <iframe class="lazyload" data-src="https://www.youtube.com/embed/iPxOcFpNMBI?ecver=2<?= $options ?>" frameborder="0"></iframe></div>
             </div></section>
 
         <section class="testimonials-page testimonial" id="eric-phillips">
