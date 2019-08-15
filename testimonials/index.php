@@ -45,6 +45,22 @@ include('../parts/head.php'); ?>
     display: inline-block;
     margin-right: 3%;
 }
+@media only screen and (max-width: 480px) {
+.custom-video-1 {
+    width: 100%;
+    display: inherit;
+    margin-right: 0;
+}
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.custom-video-1 {
+    width: 100%;
+    display: inherit;
+    margin-right: 0;
+}
+}
 		 </style>
             <div class="container">
             <div class="custom-video-1">
