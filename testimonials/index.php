@@ -33,6 +33,12 @@ include('../parts/head.php'); ?>
             $options .= "&iv_load_policy=3";
             $options .= "&origin=1";
         ?>
+         <section class="testimonials-page testimonial" id="eric-phillips">
+            <div class="container">
+            <div class="custom-video-1"><iframe width="100%" height="315" src="https://www.youtube.com/embed/umw2N9SerDs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="custom-video-1"><iframe width="100%" height="315" src="https://www.youtube.com/embed/A09-JyVC41Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="custom-video-1 custom-video-last"><iframe width="100%" height="315" src="https://www.youtube.com/embed/iPxOcFpNMBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            </div></section>
 
         <section class="testimonials-page testimonial" id="eric-phillips">
             <div class="container">
@@ -55,7 +61,7 @@ include('../parts/head.php'); ?>
                                 document.querySelector('.teaser-overlay.eric').style.display = 'none';
                             };
                         </script>
-                        <a onclick="showFullInterview()" style="cursor: pointer; font-size: 14px;">Continue reading Eric's interview...</a>
+                        <a onClick="showFullInterview()" style="cursor: pointer; font-size: 14px;">Continue reading Eric's interview...</a>
                     </div>
 
                     <div id="eric-interview-continued" style="display: none;">
