@@ -185,9 +185,9 @@ include('parts/head.php'); ?>
     ?>
 
     <section class="stacks">
-        <h2 class="section-title">Software Stacks We Teach</h2>
+        <h2 class="section-title">Director of TechLaunch Education</h2>
         <div class="stacks-container">
-            <div class="stack">
+            <!--<div class="stack">
                 <div class="box appear">
                     <h3 class="title">mern</h3>
                     <div class="tech">
@@ -217,9 +217,9 @@ include('parts/head.php'); ?>
                         </div>
                     </div>
                 </div>
-                <a class="appear read-more" href="<?= $rootPath ?>web-developer/">read more</a>
-            </div>
-            <div class="stack">
+                <a class="appear read-more" href="<?=  $rootPath ?>web-developer/">read more</a>
+            </div>-->
+            <!--<div class="stack">
                 <div class="box appear delay-200">
                     <h3 class="title">lamp</h3>
                     <div class="tech">
@@ -229,10 +229,10 @@ include('parts/head.php'); ?>
                         <span>PHP</span>
                     </div>
                     <div class="company-logos">
-                        <!-- <div class="logo">
+                        <div class="logo">
                             <img class="lazyload" data-src="images/logos/rackspace.png" src="https://via.placeholder.com/100x40" alt="rackspace logo">
                         </div> -->
-                        <div class="logo">
+                       <!--  <div class="logo">
                             <img class="lazyload" data-src="<?= $rootPath ?>images/logos/zynga.png" src="https://via.placeholder.com/100x40" alt="zynga logo">
                         </div>
                         <div class="logo tesla">
@@ -253,7 +253,7 @@ include('parts/head.php'); ?>
                     </div>
                 </div>
                 <a class="appear read-more" href="<?= $rootPath ?>web-developer/">read more</a>
-            </div>
+            </div>-->
         </div>
     </section>
 
