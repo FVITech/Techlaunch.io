@@ -188,7 +188,7 @@ include('parts/head.php'); ?>
         <h2 class="section-title">Director of TechLaunch Education</h2>
         <div class="stacks-container">
         <h1>
-                    <iframe class="lazyload" data-src="https://www.youtube.com/embed/umw2N9SerDs?ecver=2<?= $options ?>" frameborder="0"></iframe>
+                    <iframe style="width: 532px;height: 300px;" class="lazyload" data-src="https://www.youtube.com/embed/umw2N9SerDs?ecver=2<?= $options ?>" frameborder="0"></iframe>
              </h1>
             <!--<div class="stack">
                 <div class="box appear">
