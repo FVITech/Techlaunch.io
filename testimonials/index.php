@@ -33,47 +33,42 @@ include('../parts/head.php'); ?>
             $options .= "&iv_load_policy=3";
             $options .= "&origin=1";
         ?>
-         <section class="testimonials-page testimonial" id="eric-phillips">
-         <style>.custom-video-1 iframe {
-    width: 100%;
-    height: 198px;
-}
-		 .custom-video-last {
-    margin-right: 0 !important;
-}.custom-video-1 {
-    width: 31%;
-    display: inline-block;
-    margin-right: 3%;
-}
-@media only screen and (max-width: 480px) {
-.custom-video-1 {
-    width: 100%;
-    display: inherit;
-    margin-right: 0;    margin-bottom: 3%;
-}
-}
-
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-.custom-video-1 {
-    width: 100%;
-    display: inherit;
-    margin-right: 0; margin-bottom: 3%;
-}.custom-video-1 iframe {
-    width: 100%;
-    height: 300px;
-}
-}
-		 </style>
+        <section class="testimonials-page testimonial" id="lily-cantillo">
             <div class="container">
-            <div class="custom-video-1">
-            <iframe class="lazyload" data-src="https://www.youtube.com/embed/umw2N9SerDs?ecver=2<?= $options ?>" frameborder="0"></iframe></div>
-            <div class="custom-video-1">
-            
-            <iframe class="lazyload" data-src="https://www.youtube.com/embed/A09-JyVC41Y?ecver=2<?= $options ?>" frameborder="0"></iframe>
-         </div>
-            <div class="custom-video-1 custom-video-last">            <iframe class="lazyload" data-src="https://www.youtube.com/embed/iPxOcFpNMBI?ecver=2<?= $options ?>" frameborder="0"></iframe></div>
-            </div></section>
+                <div class="video-container">
+                    <iframe class="lazyload" data-src="https://www.youtube.com/embed/x5gYVj2v1lo?ecver=2<?= $options ?>" frameborder="0"></iframe>
+                </div>
+                <div class="">
+                    <h3 class="author">Roger Olivier</h3>
+                    <p class="title"> Cyber Security Program</p>
+                    <p class="quote">  </p>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials-page testimonial" id="lily-cantillo">
+            <div class="container">
+                <div class="video-container">
+                    <iframe class="lazyload" data-src="https://www.youtube.com/embed/iPxOcFpNMBI?ecver=2<?= $options ?>" frameborder="0"></iframe>
+                </div>
+                <div class="">
+                    <h3 class="author">Katherine Barrera</h3>
+                    <p class="title">Cyber Security Network Technician Student</p>
+                    <p class="quote">Before my journey with TechLaunch I was in the logistics industry.  I was an ocean import and export coordinator.  It was a lot of paperwork, a regular office job. I chose to enroll because they focus on the certifications.  It's a great opportunity to graduate knowing that I'll have an extensive background.  My experience with TechLaunch has been great.  I've been learning about routers and switches, doing spanning tree calls. This is a very high demand industry that keep on Growing.  My favorite thing about TechLaunch is the hands-on lab.  I get to play with routers and switches.  I get to connect them, I get to work with the command-prompt. We are now learning about hacking.  Tech is an industry where you keep learning every day and it's a great career because its very high demand and the pay is great in the end. I would definitely recommend TechLaunch if you love learning new things and everything that has to do with computers, technology, programming, code, whatever it is, this is the place for you especially women.  </p>
+                </div>
+            </div>
+        </section>
+         <section class="testimonials-page testimonial" id="lily-cantillo">
+            <div class="container">
+                <div class="video-container">
+                    <iframe class="lazyload" data-src="https://www.youtube.com/embed/A09-JyVC41Y?ecver=2<?= $options ?>" frameborder="0"></iframe>
+                </div>
+                <div class="">
+                    <h3 class="author">Rocky Webman</h3>
+                    <p class="title">Cyber Security Network Technician Graduate</p>
+                    <p class="quote">During my school search I came across Florida vacation Institute Miramar campus the nine-month accelerated certification program for cyber security network technician. It seemed right up my alley and was everything I wanted to better my knowledge as well as it's was a really great learning experience.  When you're here, you have fun. I had great instructors and a great group of students that I'm with. It's just a great time. If we can do it, so can you!</p>
+                </div>
+            </div>
+        </section>
 
         <section class="testimonials-page testimonial" id="eric-phillips">
             <div class="container">
