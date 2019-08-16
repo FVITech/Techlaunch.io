@@ -45,7 +45,7 @@ include('../parts/head.php'); ?>
                 </div>
             </div>
         </section>
-        <section class="testimonials-page testimonial" id="lily-cantillo">
+        <section class="testimonials-page testimonial" id="lily-cantillo" style="clear: both;">
             <div class="container">
                 <div class="video-container">
                     <iframe class="lazyload" data-src="https://www.youtube.com/embed/iPxOcFpNMBI?ecver=2<?= $options ?>" frameborder="0"></iframe>
