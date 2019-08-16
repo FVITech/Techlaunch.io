@@ -1,12 +1,3 @@
-<?php
-    $options = "&";
-    $options .= "&rel=0";
-    $options .= "&showinfo=0";
-    $options .= "&fs=0";
-    $options .= "&iv_load_policy=3";
-    $options .= "&origin=1";
-?>
-
 <div class="carousel-item youtube" id="peter-vegliante">
     <div class="left">
         <div class="video-container">
