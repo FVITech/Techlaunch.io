@@ -187,6 +187,9 @@ include('parts/head.php'); ?>
     <section class="stacks">
         <h2 class="section-title">Director of TechLaunch Education</h2>
         <div class="stacks-container">
+        <h1><div class="video-container">
+                    <iframe class="lazyload" data-src="https://www.youtube.com/embed/umw2N9SerDs?ecver=2<?= $options ?>" frameborder="0"></iframe>
+                </div></h1>
             <!--<div class="stack">
                 <div class="box appear">
                     <h3 class="title">mern</h3>
