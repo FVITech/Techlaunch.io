@@ -183,15 +183,15 @@ include('parts/head.php'); ?>
         $classes = '';
         include('parts/quotes.php')
     ?>
-
-    <section class="stacks">
-        <h2 class="section-title">Director of TechLaunch Education</h2>
-        <div class="stacks-container custom-if">
-        <style>
+     <style>
 		@media only screen and (max-width: 480px) {
 .custom-if iframe{ width:100%; height:100%;}
 }
 		</style>
+    <section class="stacks">
+        <h2 class="section-title">Director of TechLaunch Education</h2>
+        <div class="stacks-container custom-if">
+   
         <h1>
                     <iframe style="width: 532px;height: 300px;" class="lazyload" data-src="https://www.youtube.com/embed/umw2N9SerDs?ecver=2<?= $options ?>" frameborder="0"></iframe>
              </h1>
