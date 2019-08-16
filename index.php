@@ -185,7 +185,7 @@ include('parts/head.php'); ?>
     ?>
      <style>
 		@media only screen and (max-width: 480px) {
-.custom-if iframe{ width:100%; height:100%;}
+.custom-if iframe{ width:100% !important; height:100% !important;}
 }
 		</style>
     <section class="stacks">
