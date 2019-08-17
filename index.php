@@ -214,6 +214,11 @@ include('parts/head.php'); ?>
     width: 100% !important;
 }
 }
+@media only screen and (min-width: 960px) and (max-width: 1060px) {
+.custom-video-home iframe {
+    width: 100% !important;
+}
+}
 		</style>
     <section class="stacks">
         <div class="stacks-container custom-if">
