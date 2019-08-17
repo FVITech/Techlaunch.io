@@ -197,12 +197,16 @@ include('parts/head.php'); ?>
 .custom-if iframe{ width:335px !important; height:200px !important;}.custom-video-home {
     width: 100%!important;
 }
-
+.custom-video-home.custom-last {
+    margin-top: 20px;
+}
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.custom-if iframe{ width:100% !important; height:100% !important;}.custom-video-home {
+.custom-if iframe{ width:400px !important; height:250px !important;}.custom-video-home {
     width: 100%!important;
-    margin-bottom: 92px !important;
+}
+.custom-video-home.custom-last {
+    margin-top: 20px;
 }
 }
 		</style>
