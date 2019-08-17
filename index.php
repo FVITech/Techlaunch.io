@@ -184,6 +184,15 @@ include('parts/head.php'); ?>
         include('parts/quotes.php')
     ?>
      <style>
+	 .custom-video-home {
+    width: 48%;text-align: center;
+}
+.custom-video-home .section-title {
+    font-size: 22px !important;
+    font-weight: bold !important;
+    margin-top: 15px !important;
+    margin-bottom: 0 !important;
+}
 		@media only screen and (max-width: 480px) {
 .custom-if iframe{ width:100% !important; height:100% !important;}
 }
