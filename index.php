@@ -193,7 +193,7 @@ include('parts/head.php'); ?>
    
         <div class="custom-video-home">
                     <iframe style="width: 532px;height: 300px;" class="lazyload" data-src="https://www.youtube.com/embed/umw2N9SerDs?ecver=2<?= $options ?>" frameborder="0"></iframe>
-                            <h2 class="section-title">Director of TechLaunch Education</h2>
+                            <h2 class="section-title">Director of TechLaunch Education</h2></div>
                        <div class="custom-video-home custom-last">
                     <iframe style="width: 532px;height: 300px;" class="lazyload" data-src="https://www.youtube.com/embed/x5gYVj2v1lo?ecver=2<?= $options ?>" frameborder="0"></iframe>
                             <h2 class="section-title">Cyber Security &Network Tech Program Chair  </h2>
