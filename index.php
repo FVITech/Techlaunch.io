@@ -216,7 +216,7 @@ include('parts/head.php'); ?>
 }
 @media only screen and (min-width: 960px) and (max-width: 1060px) {
 .custom-video-home iframe {
-    width: 100% !important;
+    width: 96% !important;
 }
 }
 		</style>
