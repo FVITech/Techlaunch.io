@@ -138,7 +138,7 @@ include('parts/head.php'); ?>
     </section>
 
     <?php
-        $testimonials = array('lily-cantillo', 'frank-veloz', 'peter-vegliante');
+        $testimonials = array('katherine-barrera', 'rocky-webman', 'lily-cantillo', 'frank-veloz', 'peter-vegliante');
         include('parts/testimonials/index.php');
     ?>
 
