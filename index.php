@@ -194,7 +194,17 @@ include('parts/head.php'); ?>
     margin-bottom: 0 !important;
 }
 		@media only screen and (max-width: 480px) {
-.custom-if iframe{ width:100% !important; height:100% !important;}
+.custom-if iframe{ width:100% !important; height:100% !important;}.custom-video-home {
+    width: 100%!important;
+    margin-bottom: 92px !important;
+}
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.custom-if iframe{ width:100% !important; height:100% !important;}.custom-video-home {
+    width: 100%!important;
+    margin-bottom: 92px !important;
+}
 }
 		</style>
     <section class="stacks">
