@@ -33,18 +33,6 @@ include('../parts/head.php'); ?>
             $options .= "&iv_load_policy=3";
             $options .= "&origin=1";
         ?>
-        <section class="testimonials-page testimonial" id="lily-cantillo">
-            <div class="container">
-                <div class="video-container">
-                    <iframe class="lazyload" data-src="https://www.youtube.com/embed/x5gYVj2v1lo?ecver=2<?= $options ?>" frameborder="0"></iframe>
-                </div>
-                <div class="">
-                    <h3 class="author">Roger Olivier</h3>
-                    <p class="title"> Cyber Security Program</p>
-                    <p class="quote">  </p>
-                </div>
-            </div>
-        </section>
         <section class="testimonials-page testimonial" id="lily-cantillo" style="clear: both;">
             <div class="container">
                 <div class="video-container">
@@ -70,7 +58,7 @@ include('../parts/head.php'); ?>
             </div>
         </section>
 
-        <section class="testimonials-page testimonial" id="eric-phillips">
+        <!--<section class="testimonials-page testimonial" id="eric-phillips">
             <div class="container">
                 <img class="image lazyload" data-src="<?= $rootPath ?>images/people/eric_phillips.jpg" src="https://via.placeholder.com/800x752" alt="Eric Phllips, Techlaunch @ FVI Graduate">
                 <div class="">
@@ -108,7 +96,7 @@ include('../parts/head.php'); ?>
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
 
         <section class="testimonials-page testimonial" id="lily-cantillo">
             <div class="container">
