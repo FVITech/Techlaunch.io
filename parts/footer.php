@@ -215,8 +215,8 @@ function close(){
 }
 </script>-->
 <script>
-jQuery(".popclose-close").click(function(){
+jQuery("#hi").click(function(){
   jQuery("#custom-popup").addClass("close");
 });
 </script>
-<div id="custom-popup"><a  href="https://techlaunch.io/prepare/"><img src="https://techlaunch.io/images/fvi-banner.jpg" style="width100%;width: 100%;"></a> <a  href="#" class="popclose-close" ><span> CLOSE</span> </a></div>
+<div id="custom-popup"><a  href="https://techlaunch.io/prepare/"><img src="https://techlaunch.io/images/fvi-banner.jpg" style="width100%;width: 100%;"></a> <a  href="#" class="popclose-close" id="hi" ><span> CLOSE</span> </a></div>
