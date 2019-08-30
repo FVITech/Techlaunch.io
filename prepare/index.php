@@ -26,8 +26,8 @@ include('../parts/head.php'); ?>
 
     <section class="content">
         <div class="container">
-<div class="split-2" style="width:100%;">
-                <div class="split-box left text appear">
+<div class="split-2">
+                <div class="split-box left text appear"  style="width:100%;">
                     <h1 class="section-title">Florida Vocational Institute Continues to Closely Monitor Hurricane Dorian</h1>
                    <p><strong>Thursday, August 29th, 2:00pm</strong></p>
 
