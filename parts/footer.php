@@ -143,7 +143,7 @@
     text-decoration: none !important;
     padding: 8px;
     background: rgb(0, 183, 205);
-  
+  display: inline-block;
     color: #fff !important;
 
 }
