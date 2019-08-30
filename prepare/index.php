@@ -18,36 +18,7 @@ include('../parts/head.php'); ?>
             <a href="<?= $rootPath ?>">
                 <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
-            <div class="content">
-                <div class="text-box">
-                    <h2>Become a<br>Web Developer</h2>
-                    <h4>Join one of the fastest-growing professions on the planet<small>†</small></h4>
-                    <div class="figures-container">
-                        <div class="figure appear">
-                            <p class="number">$37,290</p>
-                            <span>$17.93/hr</span>
-                            <p class="label">10% Salary</p>
-                        </div>
-                        <div class="figure appear delay-200">
-                            <p class="number">$56,900</p>
-                            <span>$27.36//hr</span>
-                            <p class="label">50% Salary</p>
-                        </div>
-                        <div class="figure appear delay-400">
-                            <p class="number">37%</p>
-                            <p class="label">Expected<br>Growth</p>
-                        </div>
-                    </div>
-                    <p style="color:#fff; font-size:28px; font-weight:bold;">This program is not currently enrolling</p>
-                    <p class="disclosure">† Source: BLS.gov</p>
-                </div>
-                <?php
-					$readonly ="disabled";
-                    $classes = "on-page";
-                    $program = "web-developer";
-                    include('../parts/get-info-form.php');
-                ?>
-            </div>
+            <h1 class="page-title">prepare</h1>
         </div>
     </section>
 
