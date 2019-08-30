@@ -122,7 +122,7 @@
 	footer .fourth p {
         margin-bottom: 3px !important;
         margin-top: 4px !important;
-    }
+    }.close{ display:none;}
 	</style>
 
     <div class="fourth">
@@ -182,3 +182,11 @@
         
     </div>
 </footer>
+<div id="custom-popup"><a  href="https://techlaunch.io/prepare/"><img src="https://techlaunch.io/images/fvi-banner.jpg" style="width100%;width: 100%;"></a> <a  href="#" class="popclose-close" onclick="close()" > CLOSE </a></div>
+<script>
+function close(){
+    var element = document.getElementById("custom-popup");
+    element.classList.add("close");
+	
+}
+</script>
