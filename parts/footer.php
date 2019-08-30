@@ -135,7 +135,7 @@
     right: 50%;
     bottom: 0;
     left: 50%;
-    margin: auto;
+    margin: auto;cursor: pointer;
 
 }
 .popclose-close span {
