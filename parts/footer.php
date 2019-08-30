@@ -206,7 +206,6 @@
         
     </div>
 </footer>
-<div id="custom-popup"><a  href="https://techlaunch.io/prepare/"><img src="https://techlaunch.io/images/fvi-banner.jpg" style="width100%;width: 100%;"></a> <a  href="#" class="popclose-close" onclick="close()" ><span> CLOSE</span> </a></div>
 <script>
 function close(){
     var element = document.getElementById("custom-popup");
@@ -214,3 +213,4 @@ function close(){
 	
 }
 </script>
+<div id="custom-popup"><a  href="https://techlaunch.io/prepare/"><img src="https://techlaunch.io/images/fvi-banner.jpg" style="width100%;width: 100%;"></a> <a  href="#" class="popclose-close" onclick="close()" ><span> CLOSE</span> </a></div>
