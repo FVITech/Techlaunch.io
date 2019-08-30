@@ -215,7 +215,7 @@ function close(){
 }
 </script>-->
 <script>
-jQuery("#hi").click(function(){
+$('#hi').click(function(){
   jQuery("#custom-popup").addClass("close");
 });
 </script>
