@@ -146,7 +146,7 @@
   display: inline-block;
     color: #fff !important;
 
-}    #hide:target ~ #custom-popup { display: none; }
+}    #hide:target ~ #hide-section { display: none; }
 	</style>
 
     <div class="fourth">
@@ -219,4 +219,4 @@ $('#hi').click(function(){
   jQuery("#custom-popup").addClass("close");
 });
 </script>
-<div id="custom-popup"><a  href="https://techlaunch.io/prepare/"><img src="https://techlaunch.io/images/fvi-banner.jpg" style="width100%;width: 100%;"></a> <a  href="#hide" class="popclose-close"  ><span> CLOSE</span> </a></div>
+<div id="custom-popup"><a  href="https://techlaunch.io/prepare/" id="hide-section"><img src="https://techlaunch.io/images/fvi-banner.jpg" style="width100%;width: 100%;"></a> <a  href="#hide" class="popclose-close"  ><span> CLOSE</span> </a></div>
