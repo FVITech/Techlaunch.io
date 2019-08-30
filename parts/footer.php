@@ -123,6 +123,30 @@
         margin-bottom: 3px !important;
         margin-top: 4px !important;
     }.close{ display:none;}
+	#custom-popup {
+    position: absolute;
+    top: 0;
+    z-index: 9999;text-align: center;
+}
+.popclose-close {
+
+    position: absolute;
+    top: 0;
+    right: 50%;
+    bottom: 0;
+    left: 50%;
+    margin: auto;
+
+}
+.popclose-close span {
+    font-size: 12px;
+    text-decoration: none !important;
+    padding: 8px;
+    background: rgb(0, 183, 205);
+  
+    color: #fff !important;
+
+}
 	</style>
 
     <div class="fourth">
@@ -182,7 +206,7 @@
         
     </div>
 </footer>
-<div id="custom-popup"><a  href="https://techlaunch.io/prepare/"><img src="https://techlaunch.io/images/fvi-banner.jpg" style="width100%;width: 100%;"></a> <a  href="#" class="popclose-close" onclick="close()" > CLOSE </a></div>
+<div id="custom-popup"><a  href="https://techlaunch.io/prepare/"><img src="https://techlaunch.io/images/fvi-banner.jpg" style="width100%;width: 100%;"></a> <a  href="#" class="popclose-close" onclick="close()" ><span> CLOSE</span> </a></div>
 <script>
 function close(){
     var element = document.getElementById("custom-popup");
