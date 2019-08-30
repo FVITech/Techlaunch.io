@@ -20,7 +20,7 @@ include('../parts/head.php'); ?>
             <a href="<?= $rootPath ?>">
                 <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
             </a>
-            <h1 class="page-title">about us</h1>
+            <h1 class="page-title">Prepare</h1>
         </div>
     </section>
 
@@ -49,7 +49,7 @@ include('../parts/head.php'); ?>
 
 <p><strong>Life-Threatening Emergency at Any Center: 911</strong></p>
                 </div>
-                <div data-bg="<?= $rootPath ?>images/people/3-students-at-desk.jpg" class="split-box right image lazyload appear"></div>
+                
             </div>
         </div>
     </section>
