@@ -26,31 +26,28 @@ include('../parts/head.php'); ?>
 
     <section class="content">
         <div class="container">
-            <div class="split-2">
-                <div data-bgset="<?= $rootPath ?>images/people/group-at-pipeline-mobile.jpg [--small] | <?= $rootPath ?>images/people/group-at-pipeline.jpg [--large]" class="split-box left image lazyload appear"></div>
-                <div class="split-box right text appear">
-                    <h2 class="section-title">Leading The Way In Tech Education</h2>
-                    <p>In the rapidly growing tech industry, finding the right training is key. At TechLaunch @ Florida Vocational Institute (FVI), we're committed to preparing our students for a career in technology in less than a year. In this time, we prepare our students to fill the void by providing the training they need. In our programs, we transform general computer users into technologists and empower people to get a rewarding career within one year.</p>
-                </div>
-            </div>
-            <div class="split-2">
+<div class="split-2" style="width:100%;">
                 <div class="split-box left text appear">
-                    <h2 class="section-title">Bridging The Technology Gap</h2>
-                    <p>The world of tech presents many challenges and it can be difficult to keep up with this constantly changing industry. That's why we continually refine our curriculum based on feedback from our hiring partners – companies who use technology everyday and can identify skill gaps within the industry. This puts our grads on the right path and provides them with hard to find skills that employers are looking for.</p>
-                </div>
-                <div data-bg="<?= $rootPath ?>images/bridging-the-gap.jpg" class="split-box right image lazyload appear"></div>
-            </div>
-            <div class="split-2">
-                <div data-bg="<?= $rootPath ?>images/people/techhire-bbbs-students-group.jpg" class="split-box left image lazyload appear"></div>
-                <div class="split-box right text appear">
-                    <h2 class="section-title">Investing In Our Community</h2>
-                    <p>Along with helping grads obtain new career opportunities, we're also committed to helping our community. With programs like <a target="_blank" rel="noopener" href="http://www.nbcmiami.com/news/local/Bridging-the-Economic-Tech-Gap-Free-Coding-Camp-For-Low-Income-Kids-430438653.html">TechHire.Miami and Summer Bootcamps</a>, our goal is to build local awareness of the growing tech industry, giving high school students the chance to learn new skills that can propel their career. By exposing these students to the tech industry at a young age, we can create a spark of interest and show them the world of opportunities being created as more companies are adopting technology into their daily operations.</p>
-                </div>
-            </div>
-            <div class="split-2">
-                <div class="split-box left text appear">
-                    <h2 class="section-title">A Better Tomorrow Starts Today</h2>
-                    <p>At TechLaunch @ FVI, we're helping our students match their passions with their skills. Whether they've completed high school, have some college experience, or even have a college degree, we can provide the training they need to start a new career in the tech industry in less than a year. Our extensive, hands-on coursework prepares our grads to enter the tech industry with the tools and confidence that appeals to potential employers. And with our career services team, we can help our graduates find tech jobs that allow them to use their skills and grow.</p>
+                    <h1 class="section-title">Florida Vocational Institute Continues to Closely Monitor Hurricane Dorian</h1>
+                   <p><strong>Thursday, August 29th, 2:00pm</strong></p>
+
+<p>Florida Vocational Institute is closely monitoring Hurricane Dorian. The current track of the storm does bring it toward South Florida, but given the margin of error in the forecast it is still too early to know what, if any, impacts will be experienced.</p>
+
+<p><strong>At this time, all classes, events, and activities are operating on a regular schedule, and there are no plans to reschedule or modify overall operations.</strong></p>
+
+<p><strong>FVI'sCrisis Management Team will continue to actively monitor and assess the situation over the coming days. We are ready to take comprehensive preparatory actions if needed.</strong></p>
+
+<h3>Emergency Notification Information</h3>
+
+<p><strong><i>STUDENTS:</i></strong> Continue to regularly monitor official communications issued by Florida Vocational Institutes on the website for updates on class schedule and operations at <a href="http://www.fvi.edu">http://www.fvi.edu</a>.</p>
+
+<p><strong><i>INSTRUCTORS, FACULTY AND STAFF</i></strong>: Continue to regularly monitor official communications issued by Florida Vocational Institutes on the website at <a href="http://www.fvi.edu">http://www.fvi.edu</a>. When a situation warrants, mass text and voice messages and emails containing emergency information will be sent.</p>
+
+<p><strong>Florida Vocational Institutes Information Hotline: 1-855-934-0493</strong></p>
+
+<p>8/29/19 – TIMELY REQUEST</p>
+
+<p><strong>Life-Threatening Emergency at Any Center: 911</strong></p>
                 </div>
                 <div data-bg="<?= $rootPath ?>images/people/3-students-at-desk.jpg" class="split-box right image lazyload appear"></div>
             </div>
