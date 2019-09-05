@@ -215,4 +215,4 @@ function close(){
 }
 </script>-->
 
-<div id="custom-popup"><a  href="https://www.fvi.edu/prepare/" id="hide-section"><img src="https://techlaunch.io/images/fvi-banner.jpg" style="width100%;width: 100%;"></a> <a   class="popclose-close" onclick="getElementById('custom-popup').classList.add('close')"><span> CLOSE</span> </a></div>
+<!--<div id="custom-popup"><a  href="https://www.fvi.edu/prepare/" id="hide-section"><img src="https://techlaunch.io/images/fvi-banner.jpg" style="width100%;width: 100%;"></a> <a   class="popclose-close" onclick="getElementById('custom-popup').classList.add('close')"><span> CLOSE</span> </a></div>-->
