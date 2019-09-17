@@ -36,6 +36,33 @@ include('../parts/head.php'); ?>
         <section class="testimonials-page testimonial" id="lily-cantillo" style="clear: both;">
             <div class="container">
                 <div class="video-container">
+                    <iframe class="lazyload" data-src="https://www.youtube.com/embed/OYNA0GC4tm0?ecver=2<?= $options ?>" frameborder="0"></iframe>
+                </div>
+                <div class="">
+                    <h3 class="author">Peter Lewis </h3>
+                    <p class="title">Cyber Security Network Technician Student</p>
+                    <p class="quote">My name is Peter Luis. I have a Haitian background. Before Tech Launch, I was really just jobhopping from place to place. I was alwaysinterested in computers and then my friend recommended this school to me and ever since, it's been the bestdecision I've ever made. The experienceshere that I've had has been phenomenal from the instructors to the faculty everyone being so friendly. The hands-on that we do is not cookie cutter and  every moment is worth it. Career Services helped a lot. My resume was awful. Vanessa in Career Services is just top-notch she recommends tipsyou should do during theinterview. Questions you should askemployers and how you should dress.I would say to stay motivated, focusedand driven because everyone here iswilling to help, you just have to ask.
+</p>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials-page testimonial" id="lily-cantillo" style="clear: both;">
+            <div class="container">
+                <div class="video-container">
+                    <iframe class="lazyload" data-src="https://www.youtube.com/embed/nMy0xQnhd_4?ecver=2<?= $options ?>" frameborder="0"></iframe>
+                </div>
+                <div class="">
+                    <h3 class="author">Kyron Singh</h3>
+                    <p class="title">Cyber Security Network Technician Student</p>
+                    <p class="quote">This school is awesome! The teachers are amazing.They actually want to teach you. The teachers here actually care. I was trying to go back to school for a while and didn't know what I was wanted to do andI came here. How they structure the classes is pretty nice. You get the certificates herethat you need to boost yourself up in acareer. I've got to get to morecertifications one security plus and another one.  I'm still contemplating a career, help desk to start off and then on to something else like junior network administrator. These certifications work forhospitals, police stations and bigcorporations. You've got Comcast, hotels, condominiums, you name it. if you're going do it, stick to it.  Don't let a failure stop you from achieving what you can in the future.  
+ </p>
+                </div>
+            </div>
+        </section>
+        <!---->
+        <section class="testimonials-page testimonial" id="lily-cantillo" style="clear: both;">
+            <div class="container">
+                <div class="video-container">
                     <iframe class="lazyload" data-src="https://www.youtube.com/embed/iPxOcFpNMBI?ecver=2<?= $options ?>" frameborder="0"></iframe>
                 </div>
                 <div class="">
