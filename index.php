@@ -78,7 +78,17 @@ include('parts/head.php'); ?>
                                 <img src="<?= $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket">
                                 <img src="<?= $rootPath ?>images/fire.svg" alt="flame" class="flame">
                             </div>
-                            <span>27%</span>
+                            <span>28%</span>
+                        </div>
+                        <label>Cyber</label>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar">
+                            <div class="rocket-container">
+                                <img src="<?= $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket">
+                                <img src="<?= $rootPath ?>images/fire.svg" alt="flame" class="flame">
+                            </div>
+                            <span>13%</span>
                         </div>
                         <label>Web<br>Developers</label>
                     </div>
@@ -91,16 +101,6 @@ include('parts/head.php'); ?>
                             <span>17%</span>
                         </div>
                         <label>Software<br>Developers</label>
-                    </div>
-                    <div class="bar-container">
-                        <div class="bar">
-                            <div class="rocket-container">
-                                <img src="<?= $rootPath ?>images/rocket2.svg" alt="rocket" class="rocket">
-                                <img src="<?= $rootPath ?>images/fire.svg" alt="flame" class="flame">
-                            </div>
-                            <span>18%</span>
-                        </div>
-                        <label>Cyber<br>Security</label>
                     </div>
                     <div class="bar-container">
                         <div class="bar">
