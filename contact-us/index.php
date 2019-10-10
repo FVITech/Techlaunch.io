@@ -31,7 +31,7 @@ include('../parts/head.php'); ?>
             <div class="split-boxt">
                 <label>Preferred Location</label>
                 <select name="campus" id="campus" style="width: 100%;">
-                    <option value="Miami" <?php if ($campus == 'miami' || $campus == '') echo 'selected' ?>>Miami</option>
+                    <!--<option value="Miami" <?php // if ($campus == 'miami' || $campus == '') echo 'selected' ?>>Miami</option>-->
                     <option value="Miramar" <?php if( $campus == 'miramar') echo 'selected' ?>>Miramar</option>
                 </select>
             </div>
@@ -39,10 +39,10 @@ include('../parts/head.php'); ?>
                 <label>Program of Interest</label>
                 <select name="program_name" id="program_name" style="width: 100%;">
                     <option value="--" disabled <?php if (!isset($program) || $program == '') echo 'selected' ?>>-- Select --</option>
-                    <option value="Web Developer" <?php if(isset($program) && $program == 'web-developer') echo 'selected' ?>>Web Developer</option>
+                    <!--<option value="Web Developer" <?php // if(isset($program) && $program == 'web-developer') echo 'selected' ?>>Web Developer</option>-->
                     <option value="Cyber Security Network Technician" <?php if(isset($program) && $program == 'cyber-security') echo 'selected' ?>>Cyber Security and Network Technician</option>
-                    <option value="Web Design and Digital Marketing" <?php if(isset($program) && $program == 'web-design-and-digital-marketing') echo 'selected' ?>>Web Design and Digital Marketing</option>
-                    <option value="aws" <?php if(isset($program) && $program == 'aws') echo 'selected' ?>>Amazon Web Services</option>
+                    <!--<option value="Web Design and Digital Marketing" <?php // if(isset($program) && $program == 'web-design-and-digital-marketing') echo 'selected' ?>>Web Design and Digital Marketing</option>-->
+                   <!-- <option value="aws" <?php // if(isset($program) && $program == 'aws') echo 'selected' ?>>Amazon Web Services</option>-->
                     <!-- <option value="wordpress" <?php if(isset($program) && $program == 'wordpress') echo 'selected' ?>>WordPress</option> -->
                 </select>
                 <input type="hidden" name="program_id" id="legacy_program" value="<?php if(isset($program)) echo $program ?>" />
