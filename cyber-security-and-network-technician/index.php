@@ -11,7 +11,14 @@ include('../parts/head.php'); ?>
     <!-- End Google Tag Manager (noscript) -->
     <?php include('../parts/navbar.php'); ?>
     <?php $program = "cyber-security"; $classes = ""; include('../parts/get-info-form.php'); ?>
-
+<style>
+#campus option:last-child {
+    display: none !important;
+}
+#program_name option:nth-child(2), #program_name option:nth-child(4), #program_name option:nth-child(5){
+    display: none !important;
+}
+</style>
     <section class="above-the-fold">
         <div class="container">
             <a href="<?= $rootPath ?>">
