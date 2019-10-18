@@ -12,7 +12,7 @@ include('../parts/head.php'); ?>
     <?php include('../parts/navbar.php'); ?>
     <?php $program = "cyber-security"; $classes = ""; include('../parts/get-info-form.php'); ?>
 <style>
-#campus option:last-child {
+#campus option:first-child {
     display: none !important;
 }
 #program_name option:nth-child(2), #program_name option:nth-child(4), #program_name option:nth-child(5){
