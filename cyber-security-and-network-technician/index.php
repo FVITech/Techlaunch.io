@@ -10,7 +10,7 @@ include('../parts/head.php'); ?>
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <?php include('../parts/navbar.php'); ?>
-    <?php $program = "cyber-security"; $classes = ""; $limited != 'yes';include('../parts/get-info-form.php'); ?>
+    <?php $program = "cyber-security"; $classes = ""; $limited = 'yes';include('../parts/get-info-form.php'); ?>
 <style>
 #campus option:first-child {
     display: none !important;
@@ -18,7 +18,6 @@ include('../parts/head.php'); ?>
 #program_name option:nth-child(2), #program_name option:nth-child(4), #program_name option:nth-child(5){
     display: none !important;
 }
-
 </style>
     <section class="above-the-fold">
         <div class="container">
