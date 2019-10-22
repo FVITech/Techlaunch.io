@@ -1,4 +1,4 @@
-<?php $rootPath = '../';
+﻿<?php $rootPath = '../';
 $page = "cyber-security-and-network-technician";
 $meta_title="Miami Cyber Security Training, Career and Network Technician Jobs";
 $meta_key="";
@@ -10,7 +10,7 @@ include('../parts/head.php'); ?>
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <?php include('../parts/navbar.php'); ?>
-    <?php $program = "cyber-security"; $classes = ""; include('../parts/get-info-form.php'); ?>
+    <?php $program = "cyber-security"; $classes = ""; $limited != 'yes';include('../parts/get-info-form.php'); ?>
 <style>
 #campus option:first-child {
     display: none !important;
