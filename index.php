@@ -1,5 +1,6 @@
 <?php 
 session_start();
+
 $rootPath = '';
 $page = "homepage";
 $meta_title="Miami Coding Bootcamp - Programs, Training, Classes Near Me";
