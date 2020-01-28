@@ -1,6 +1,6 @@
 <?php 
 session_start();
-
+//Git Hub Check
 $rootPath = '';
 $page = "homepage";
 $meta_title="Miami Coding Bootcamp - Programs, Training, Classes Near Me";
