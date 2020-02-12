@@ -71,7 +71,9 @@ include('parts/head.php'); ?>
     <section class="tech-industry">
         <h2 class="section-title appear">The Great Tech Boom</h2>
         <div class="container">
-            <div class="graph-container">
+            <div class="graph-container" style="padding:0px;">
+                <img src="/images/rockets.png" alt="tech industry growth" style="width:100%;">
+                <!-- <div class="graph">
                 <div class="graph">
                     <div class="bar-container">
                         <div class="bar">
@@ -113,10 +115,13 @@ include('parts/head.php'); ?>
                         </div>
                         <label>Average of<br>all jobs</label>
                     </div>
-                </div>
+                 </div>
                 <p class="graph-label">job growth 2014-2024</p>
+                -->
             </div>
+            
             <p class="explanation appear delay-300">The tech industry is continuing to grow at warp speed and demand for qualified employees is growing just as quickly. By working with our hiring partners, we regularly revise our curriculum to meet industry standards so that our grads learn how to use the latest, cutting-edge technology and become vital assets to any company looking for new talent.</p>
+
             <div class="income-div appear delay-600">
                 <h4>median tech income</h4>
                 <div class="stats-container">
@@ -307,6 +312,8 @@ include('parts/head.php'); ?>
             <img class="lazyload" data-src="<?= $rootPath ?>images/logos/coe.jpg" src="https://via.placeholder.com/240x80" alt="Council on Occupational Education logo">
             <img class="lazyload" data-src="<?= $rootPath ?>images/logos/fl-doe.jpg" src="https://via.placeholder.com/240x80" alt="Florida Department of Education logo">
             <img class="lazyload" data-src="<?= $rootPath ?>images/logos/fapsc.jpeg" src="https://via.placeholder.com/240x80" alt="FAPSC logo">
+            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/aws-black.png" src="https://via.placeholder.com/240x80" alt="AWS logo">
+            <img class="lazyload" data-src="<?= $rootPath ?>images/logos/comptia.png" src="https://via.placeholder.com/240x80" alt="comptia logo">
         </div>
     </section>
 

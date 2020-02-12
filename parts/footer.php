@@ -19,7 +19,7 @@
 <!--                Email: <a target="_blank" rel="noopener" href="mailto:info@techlaunch.io">info@techlaunch.io</a><br>
 -->                Phone: <a href="tel:3057833599">(305) 783-3599</a>
                 <br> <br>
-                <small>TechLaunch is registered DBA of Florida Vocational Institute</small>
+                <small>FVI School of Technology is a registered DBA of Florida Vocational Institute</small>
             </address>
         </div>
     </div>
@@ -157,7 +157,7 @@
 		error_reporting(1);
 		$curl = curl_init();
         curl_setopt_array($curl, Array(
-            CURLOPT_URL            => 'https://techlaunch.io/blog/feed/',
+            CURLOPT_URL            => 'https://tech.fvi.edu/blog/feed/',
             CURLOPT_USERAGENT      => 'spider',
             CURLOPT_TIMEOUT        => 120,
             CURLOPT_CONNECTTIMEOUT => 30,
