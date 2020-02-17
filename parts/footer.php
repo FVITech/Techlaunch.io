@@ -2,7 +2,7 @@
     <div class="first">
         <div class="first-wrapper">
             <a href="<?= $rootPath ?>" class="logo-container">
-                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo" style="max-width: 250px;">
             </a>
             <hr>
             <address>
