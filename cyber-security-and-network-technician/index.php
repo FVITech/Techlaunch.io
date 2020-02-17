@@ -218,18 +218,21 @@ include('../parts/head.php'); ?>
                 </div>
             </div>
             <div class="split-2">
-                                <h2 class="section-title appear" style="text-align:center;width: 100%;">CompTIA Certifications</h2>
-            <div class="custom-split-4">
-            <img src="https://techlaunch.io/images/logos/comptia-a+.png" alt="CompTIA A+">
+                <h2 class="section-title appear" style="text-align:center;width: 100%;">CompTIA Certifications</h2>
+                <div class="custom-split-4">
+                    <img src="/images/logos/comptia-a+.png" alt="CompTIA A+">
+                </div>
+                <div class="custom-split-4">
+                    <img src="/images/logos/comptia-network+.png" alt="CompTIA Network +">
+                </div>
+                <div class="custom-split-4">
+                    <img src="/images/logos/comptia-security+.png" alt="CompTIA Security +">
+                </div>
+                <div class="custom-split-4">
+                    <img src="/images/logos/aws_authorized.png" alt="AWS Authorized Provider">
+                </div>
             </div>
-                  <div class="custom-split-4">
-            <img src="https://techlaunch.io/images/logos/comptia-network+.png" alt="CompTIA Network +">
-            </div>
-                  <div class="custom-split-4">
-            <img src="https://techlaunch.io/images/logos/comptia-security+.png" alt="CompTIA Security +">
-            </div>
-            </div>
-            </div>
+        </div>
         </div>
     </section>
 
@@ -297,29 +300,29 @@ include('../parts/head.php'); ?>
 	</style>
 <section class="custom-blog-section">
 <div class="custom-split-3">
-<a  href="https://techlaunch.io/blog/cyver-security-trends-2019/"><img src="https://techlaunch.io/blog/wp-content/uploads/2019/01/Untitled-Design-50.jpg"></a>
-<p><a href="https://techlaunch.io/blog/cyver-security-trends-2019/">Cyber Security Will Dominate Tech Industry in 2019</a></p>
+<a  href="/blog/cyver-security-trends-2019/"><img src="/blog/wp-content/uploads/2019/01/Untitled-Design-50.jpg"></a>
+<p><a href="/blog/cyver-security-trends-2019/">Cyber Security Will Dominate Tech Industry in 2019</a></p>
 
 </div>
 <!---->
 
 <div class="custom-split-3">
-<a  href="https://techlaunch.io/blog/cyber-monday-protection-in-2018/"><img src="https://techlaunch.io/blog/wp-content/uploads/2018/11/cybersecurity-rules-linkedin-400x243.png"></a>
-<p><a href="https://techlaunch.io/blog/cyber-monday-protection-in-2018/">5 Tips to keep protection optimized during Cyber Monday 2018</a></p>
+<a  href="/blog/cyber-monday-protection-in-2018/"><img src="/blog/wp-content/uploads/2018/11/cybersecurity-rules-linkedin-400x243.png"></a>
+<p><a href="/blog/cyber-monday-protection-in-2018/">5 Tips to keep protection optimized during Cyber Monday 2018</a></p>
 
 </div>
 <!---->
 
 <div class="custom-split-3">
-<a  href="https://techlaunch.io/blog/what-does-a-cyber-security-professonal-do/"><img src="https://techlaunch.io/blog/wp-content/uploads/2018/12/Untitled-Design-42.jpg"></a>
-<p><a href="https://techlaunch.io/blog/what-does-a-cyber-security-professonal-do/">What Does a Cybersecurity Professional Do?</a></p>
+<a  href="/blog/what-does-a-cyber-security-professonal-do/"><img src="/blog/wp-content/uploads/2018/12/Untitled-Design-42.jpg"></a>
+<p><a href="/blog/what-does-a-cyber-security-professonal-do/">What Does a Cybersecurity Professional Do?</a></p>
 
 </div>
 <!---->
 
 <div class="custom-split-3">
-<a  href="https://techlaunch.io/blog/cyber-security-jobs-for-women/"><img src="https://techlaunch.io/blog/wp-content/uploads/2018/12/Untitled-Design-41.jpg"></a>
-<p><a href="https://techlaunch.io/blog/cyber-security-jobs-for-women/">More Opportunity in Cybersecurity Jobs for Women</a></p>
+<a  href="/blog/cyber-security-jobs-for-women/"><img src="/blog/wp-content/uploads/2018/12/Untitled-Design-41.jpg"></a>
+<p><a href="/blog/cyber-security-jobs-for-women/">More Opportunity in Cybersecurity Jobs for Women</a></p>
 
 </div>
     </section>
