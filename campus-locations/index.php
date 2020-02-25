@@ -26,10 +26,10 @@ include('../parts/head.php'); ?>
         <div class="container">
             <div class="split-2">
                 <div class="split-box">
-                    <div class="campus-summary">
+<!--                     <div class="campus-summary">
                          <h3>Miami Campus</h3>
                         <p>The Miami campus of FVI is conveniently located at the intersection of the Palmetto Expressway and W Flagler St. For over a decade FVI Miami has been providing in-demand programs in areas such as Allied Health and Information Technology.</p>
-                    </div>
+                    </div> -->
                     <br>
                     <br>
                     <div class="campus-summary">
@@ -54,19 +54,20 @@ include('../parts/head.php'); ?>
     <section class="photos-and-maps">
         <div class="container">
             <div class="split-2">
-                <div class="split-box image-container">
+<!--                 <div class="split-box image-container">
                     <div class="image appear first lazyload"></div>
-                </div>
+                </div> -->
                 <div class="split-box text">
-                    <h2 class="section-title">Our Campuses</h2>
-                    <p>Two convenient locations to choose from.</p>
+                    <h2 class="section-title">Our Campus</h2>
+                    <p>A convenient location at the heart of Miramar.</p>
                 </div>
+<!-- 
                 <div class="split-box image-container">
                     <h4 class="location-title">Miami Campus</h4>
                     <iframe class="location-map appear lazyload" frameborder="0" data-src="https://www.google.com/maps/embed/v1/place?q=Florida%20Vocational%20Institute&key=AIzaSyDaSsFoC1uGHddMd2hFgIKfHiupzPUhZQY" allowfullscreen></iframe>
                 </div>
+ -->
                 <div class="split-box image-container">
-                    <h4 class="location-title">Miramar Campus</h4>
                     <iframe class="location-map appear delay-300 lazyload" frameborder="0" data-src="https://www.google.com/maps/embed/v1/place?q=3520%20Enterprise%20Way%2C%20Miramar%2C%20FL%2033025&key=AIzaSyDaSsFoC1uGHddMd2hFgIKfHiupzPUhZQY" allowfullscreen></iframe>
                 </div>
             </div>

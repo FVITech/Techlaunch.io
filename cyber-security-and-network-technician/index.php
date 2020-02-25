@@ -26,6 +26,8 @@ include('../parts/head.php'); ?>
             </a>
             <div class="content">
                 <div class="text-box">
+                    <img src="/images/rockets.png" alt="tech industry growth" style="width:100%;">
+<!-- 
                     <h2>Become a Cyber Security Professional</h2>
                     <h4>Join one of the fastest growing professions on the planet<small>†</small></h4>
                     <div class="figures-container">
@@ -46,6 +48,7 @@ include('../parts/head.php'); ?>
                     </div>
                     <p style="color:#fff;">This program is offered at: Miami Campus and Miramar Campus</p>
                     <p class="disclosure">† Source: BLS.gov</p>
+ -->
                 </div>
                 <?php
                     $classes = "on-page";
@@ -60,9 +63,9 @@ include('../parts/head.php'); ?>
         <div class="container">
             <h2 class="section-title appear">Program Overview</h2>
             <div class="split-3">
-                <p class="split-box subtitle appear">As a student in our Cyber Security and Network Technician program, you'll learn about every aspect of Cyber Security – from software distribution and updates and troubleshooting support to implement auditing policy and performing scheduled vulnerability-assessment scans.</p>
-                <p class="split-box subtitle appear">Through lectures, discussions, demonstrations, exercises, and laboratory projects, we'll introduce the 21st century cloud-based systems administration on Azure and AWS and prepare you to perform all basic configuration procedures to build LAN and WAN interfaces for the most commonly used router protocols.</p>
-                <p class="split-box subtitle appear">Upon completing this program, you'll be qualified to manage, support, and troubleshoot information systems with Microsoft Windows Server 2016 and Linux, as well as configure Cisco switches and routers.</p>
+                <p class="split-box subtitle appear">As a student in our Cyber Security and Network Technician Program, you&#39;ll learn about every aspect of Cyber Security and Networking – from building a computer from scratch, to cabling infrastructure, securing wireless configurations, software installation and distribution, implementing auditing policies and performing scheduled vulnerability-assessment scans.</p>
+                <p class="split-box subtitle appear">Through lectures, discussions, demonstrations, exercises, and laboratory projects, we&#39;ll introduce the 21st century cloud-based systems administration on AWS and prepare you to perform all basic configuration procedures to build Networks such as LANs, WANs, and WLANs using the most common routing protocols.</p>
+                <p class="split-box subtitle appear">Upon completing this program, you&#39;ll be qualified to configure, manage, support, and troubleshoot operating systems such as Microsoft Windows Server 2016 and Linux Fedora/Redhat, configuring Cisco switches and routers, as well as being prepared on the latest trends and techniques in risk management, risk mitigation, threat management and intrusion detection.</p>
             </div>
             <div class="cards-container">
                 <div class="left">
@@ -158,7 +161,7 @@ include('../parts/head.php'); ?>
                 <div class="left appear lazyload" data-bg="<?= $rootPath ?>images/people/guy-on-laptop.jpeg"></div>
                 <div class="right">
                     <h3 class="appear">Will I obtain any certifications?</h3>
-                    <p class="appear">Students will be equipped to sit for the following certification exams: Network+, Security+ and Window Server Administration Fundamentals (MTA-365). In addition, the curriculum will also cover a portion of Cisco CCNA and CompTIA Cloud+.</p>
+                    <p class="appear">Students will be equipped to sit for the following certification exams: Network+, Security+, Microsoft Windows Server Exam 70-740, AWS Certified Cloud Practitioner, and AWS Certified Solutions Architect.  In addition, the curriculum will also cover a portion of Cisco CCNA and Linux Plus.</p>
                     <button data-form-program="cyber-security" class="get-more-info appear">get info</button>
                 </div>
             </div>
@@ -181,7 +184,7 @@ include('../parts/head.php'); ?>
                         </div>
                         <div class="card appear">
                             <img class="lazyload" data-src="<?= $rootPath ?>images/icons/shield.png" alt="shield">
-                            <p>Network and Computer Security+</p>
+                            <p>Network and Computer Security</p>
                         </div>
                         <div class="card appear">
                             <img class="lazyload" data-src="<?= $rootPath ?>images/icons/two-way.png" alt="two-way">
@@ -197,7 +200,7 @@ include('../parts/head.php'); ?>
                         </div>
                         <div class="card appear">
                             <img class="lazyload" data-src="<?= $rootPath ?>images/icons/globe-up-arrow.png" alt="globe-up-arrow">
-                            <p>Cloud Technologies like AWS &amp; Azure</p>
+                            <p>AWS Cloud Technologies</p>
                         </div>
                         <div class="card appear">
                             <img class="lazyload" data-src="<?= $rootPath ?>images/icons/ethical-hacking.png" alt="ethical-hacking">
@@ -207,10 +210,11 @@ include('../parts/head.php'); ?>
                             <img class="lazyload" data-src="<?= $rootPath ?>images/icons/network-defense.png" alt="network-defense">
                             <p>Network Defense</p>
                         </div>
+<!-- 
                         <div class="card appear">
                             <img class="lazyload" data-src="<?= $rootPath ?>images/icons/computer-forensics.png" alt="computer-forensics">
                             <p>Computer Forensics</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="split-box">
@@ -218,18 +222,27 @@ include('../parts/head.php'); ?>
                 </div>
             </div>
             <div class="split-2">
-                <h2 class="section-title appear" style="text-align:center;width: 100%;">CompTIA Certifications</h2>
-                <div class="custom-split-4">
+                <h2 class="section-title appear" style="text-align:center;width: 100%;">Certifications</h2>
+                <div class="custom-split-3">
                     <img src="/images/logos/comptia-a+.png" alt="CompTIA A+">
                 </div>
-                <div class="custom-split-4">
+                <div class="custom-split-3">
                     <img src="/images/logos/comptia-network+.png" alt="CompTIA Network +">
                 </div>
-                <div class="custom-split-4">
+                <div class="custom-split-3">
                     <img src="/images/logos/comptia-security+.png" alt="CompTIA Security +">
                 </div>
-                <div class="custom-split-4">
+                <div class="custom-split-3">
                     <img src="/images/logos/aws_authorized.png" alt="AWS Authorized Provider">
+                </div>
+                <div class="custom-split-3">
+                    <img src="/images/logos/ms-server-cert.png" width="110" alt="Microsoft Server Certification">
+                </div>
+                <div class="custom-split-3">
+                    <img src="/images/logos/cisco-ccna.png" width="110" alt="Cisco CCNA">
+                </div>
+                <div class="custom-split-3">
+                    <img src="/images/logos/linux-plus.png" width="110" alt="Linux Plus">
                 </div>
             </div>
         </div>
@@ -257,7 +270,7 @@ include('../parts/head.php'); ?>
                 </div>
                 <div class="split-box text" style="padding: 0 21px;">
                     <h2 class="section-title">Our Campus</h2>
-                    <p>Our program is located at our <a href="<?= $rootPath ?>campus-locations/">Miramar and Miami Campuses</a>.</p>
+                    <p>Our program is located at our <a href="<?= $rootPath ?>campus-locations/">Miramar Campus</a>.</p>
                 </div>
                 <div class="split-box image-container">
                     <div class="image lazyload appear second" data-bgset="<?= $rootPath ?>images/pipeline/students-3-mobile.jpg [--small] | <?= $rootPath ?>images/pipeline/students-3.jpg [--large]"></div>

@@ -15,6 +15,10 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="<?= $meta_desc ?>" />
     <meta name="twitter:title" content="<?= $meta_title ?>" />
+
+    <link rel="shortcut icon" type="image/ico" href="/images/fav.ico" />
+
+<!-- 
     <link rel="apple-touch-icon" sizes="57x57" href="<?= $rootPath ?>images/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="<?= $rootPath ?>images/favicons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="<?= $rootPath ?>images/favicons/apple-icon-72x72.png">
@@ -28,6 +32,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="<?= $rootPath ?>images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="<?= $rootPath ?>images/favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="<?= $rootPath ?>images/favicons/favicon-16x16.png">
+ -->
     <link rel="manifest" href="<?= $rootPath ?>manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="<?= $rootPath ?>images/favicons/ms-icon-144x144.png">
