@@ -2,7 +2,7 @@
 $page = "programs";
 $meta_title="Miami Coding Programs, Training & Classes Near Me";
 $meta_key="";
-$meta_desc="Click Here To Learn All The Coding Programs, Training, Classes That TechLaunch Has To Offer.";
+$meta_desc="Click Here To Learn All The Coding Programs, Training, Classes That FVI School of Technology Has To Offer.";
 include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -18,10 +18,10 @@ include('../parts/head.php'); ?>
     <section class="above-the-fold">
         <div class="container">
             <a href="<?= $rootPath ?>">
-                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="FVI School of Technology logo" class="logo">
             </a>
             <h1 class="page-title">tech career programs</h1>
-            <p class="page-subtitle">Join TechLaunch for technology training in the rapidly changing fields of Computer Programming, I.T. Security, Cloud Computing, Web Design, Digital Marketing and other areas of Information Technology. Learn from experienced instructors the essential technical skills and expertise to gain a career in I.T. and Digital Marketing.</p>
+            <p class="page-subtitle">Join FVI School of Technology for technology training in the rapidly changing fields of Computer Programming, I.T. Security, Cloud Computing, Web Design, Digital Marketing and other areas of Information Technology. Learn from experienced instructors the essential technical skills and expertise to gain a career in I.T. and Digital Marketing.</p>
         </div>
     </section>
 

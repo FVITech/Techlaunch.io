@@ -18,7 +18,7 @@ include('../parts/head.php'); ?>
     <section class="above-the-fold">
         <div class="container">
             <a href="<?= $rootPath ?>">
-                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="FVI School of Technology logo" class="logo">
             </a>
             <h1 class="page-title">privacy policy</h1>
         </div>
@@ -26,8 +26,8 @@ include('../parts/head.php'); ?>
 
     <section class="content">
         <div class="container">
-            <h2 class="section-title">TechLaunch Privacy Policy</h2>
-            <p>This privacy policy discloses the privacy practices for <a target="_blank" rel="noopener" href="<?= $rootPath ?>">Techlaunch.io</a>.</p>
+            <h2 class="section-title">FVI School of Technology Privacy Policy</h2>
+            <p>This privacy policy discloses the privacy practices for <a target="_blank" rel="noopener" href="<?= $rootPath ?>">FVI School of Technology</a>.</p>
             <p>This privacy policy applies solely to information collected by this web site. It will notify you of the following:</p>
             <ul>
                 <li>What personally identifiable information is collected from you through the web site, how it is used and with whom it may be shared.</li>

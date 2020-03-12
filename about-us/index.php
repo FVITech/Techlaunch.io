@@ -2,7 +2,7 @@
 $page = "about-us"; 
 $meta_title="About Us";
 $meta_key="";
-$meta_desc="Techlaunch is information IT vocational school in Miami for programming boot camps and courses in cybersecurity, wed and app development and digital marketing.";    
+$meta_desc="FVI School of Technology is information IT vocational school in Miami for programming boot camps and courses in cybersecurity, wed and app development and digital marketing.";    
 include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -18,7 +18,7 @@ include('../parts/head.php'); ?>
     <section class="above-the-fold">
         <div class="container">
             <a href="<?= $rootPath ?>">
-                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="FVI School of Technology at Florida Vocational Institute logo" class="logo">
             </a>
             <h1 class="page-title">about us</h1>
         </div>
@@ -30,7 +30,7 @@ include('../parts/head.php'); ?>
                 <div data-bgset="<?= $rootPath ?>images/people/group-at-pipeline-mobile.jpg [--small] | <?= $rootPath ?>images/people/group-at-pipeline.jpg [--large]" class="split-box left image lazyload appear"></div>
                 <div class="split-box right text appear">
                     <h2 class="section-title">Leading The Way In Tech Education</h2>
-                    <p>In the rapidly growing tech industry, finding the right training is key. At TechLaunch @ Florida Vocational Institute (FVI), we’re committed to preparing our students for a career in technology in less than a year. In this time, we prepare our students to fill the void by providing the training they need. In our programs, we transform general computer users into technologists and empower people to get a rewarding career within one year.</p>
+                    <p>In the rapidly growing tech industry, finding the right training is key. At FVI School of Technology, we’re committed to preparing our students for a career in technology in less than a year. In this time, we prepare our students to fill the void by providing the training they need. In our programs, we transform general computer users into technologists and empower people to get a rewarding career within one year.</p>
                 </div>
             </div>
             <div class="split-2">
@@ -50,7 +50,7 @@ include('../parts/head.php'); ?>
             <div class="split-2">
                 <div class="split-box left text appear">
                     <h2 class="section-title">A Better Tomorrow Starts Today</h2>
-                    <p>At TechLaunch @ FVI, we’re helping our students match their passions with their skills. Whether they’ve completed high school, have some college experience, or even have a college degree, we can provide the training they need to start a new career in the tech industry in less than a year. Our extensive, hands-on coursework prepares our grads to enter the tech industry with the tools and confidence that appeals to potential employers. And with our career services team, we can help our graduates find tech jobs that allow them to use their skills and grow.</p>
+                    <p>At FVI School of Technology, we’re helping our students match their passions with their skills. Whether they’ve completed high school, have some college experience, or even have a college degree, we can provide the training they need to start a new career in the tech industry in less than a year. Our extensive, hands-on coursework prepares our grads to enter the tech industry with the tools and confidence that appeals to potential employers. And with our career services team, we can help our graduates find tech jobs that allow them to use their skills and grow.</p>
                 </div>
                 <div data-bg="<?= $rootPath ?>images/people/3-students-at-desk.jpg" class="split-box right image lazyload appear"></div>
             </div>

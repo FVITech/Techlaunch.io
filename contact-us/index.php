@@ -15,11 +15,11 @@ include('../parts/head.php'); ?>
     <section class="above-the-fold">
         <div class="container">
             <a href="<?= $rootPath ?>">
-                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="FVI School of Technology logo" class="logo">
             </a>
             <br>
             <h1 class="page-title">Location</h1>
-<!--            <p class="page-subtitle">Techlaunch is is conveniently located in heart of the Doral Business District, inside Pipeline Workspaces. Situated just steps away from CityPlace Doral with easy access from expressway and many parking spaces available.</p>
+<!--            <p class="page-subtitle">FVI School of Technology is is conveniently located in heart of the Doral Business District, inside Pipeline Workspaces. Situated just steps away from CityPlace Doral with easy access from expressway and many parking spaces available.</p>
 -->        </div>
     </section>
 
@@ -75,7 +75,7 @@ include('../parts/head.php'); ?>
             <button class="submit-btn" type="submit">get info</button>
             <div class="user-feedback"></div>
         </form>
-            <p class="disclosure">By clicking "Submit Info" above, you agree for TechLaunch to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list".</p>
+            <p class="disclosure">By clicking "Submit Info" above, you agree for FVI School of Technology to contact you using our autodialer, text, pre-recorded message, via telephone or mobile device (including SMS and MMS) and email, even if your number is currently listed on any state, federal or corporate "Do Not Call list".</p>
         </div>
         <aside>
             <h3>Contact Us</h3>
@@ -92,7 +92,7 @@ include('../parts/head.php'); ?>
 <!--            <p class="contact"><strong>Email:</strong> <a href="mailto:info@fvi.edu">info@techlaunch.io</a></p>
            <p class="contact"><strong>Phone:</strong> <a href="tel:786-574-9511">305-783-3599</a></p>
 -->            <p class="contact"><strong>Phone:</strong> <a href="tel:305-783-359">305-783-3599</a></p>
-            <img class="lazyload" data-src="<?= $rootPath ?>images/people/group-at-pipeline-mobile.jpg" alt="Techlaunch Students at Pipeline Doral">
+            <img class="lazyload" data-src="<?= $rootPath ?>images/people/group-at-pipeline-mobile.jpg" alt="FVI School of Technology Students at Pipeline Doral">
         </aside>
     </section>
 

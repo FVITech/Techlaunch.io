@@ -101,7 +101,7 @@
         </div>
         <div class="logo-box">
             <a class="home-btn-logo" href="<?= $rootPath ?>">
-                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="FVI School of Technology logo" class="logo">
             </a>
         </div>
     </div>

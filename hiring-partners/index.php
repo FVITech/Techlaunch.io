@@ -2,7 +2,7 @@
 $page = "hiring-partners";
 $meta_title="Hiring Partners";
 $meta_key="";
-$meta_desc="Becoming a hiring partner for TechLaunch gives your business access to motivated candidates trained in both technical and professional skills.";
+$meta_desc="Becoming a hiring partner for FVI School of Technology gives your business access to motivated candidates trained in both technical and professional skills.";
 include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -18,7 +18,7 @@ include('../parts/head.php'); ?>
     <section class="above-the-fold">
         <div class="container">
             <a href="<?= $rootPath; ?>">
-                <img src="<?= $rootPath; ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?= $rootPath; ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="FVI School of Technology logo" class="logo">
             </a>
             <h1 class="page-title">Hiring Partners</h1>
         </div>
@@ -29,11 +29,11 @@ include('../parts/head.php'); ?>
             <h2 class="section-title">Find the Talent That You Need</h2>
             <div class="split-2">
                 <div class="split-box">
-                    <p>Becoming a hiring partner for TechLaunch gives your business access to highly trained candidates with our Zero Cost Recruiting program. There’s no need to place an ad or hire a recruiter. We’ll take responsibility for understanding the needs of your company and matching you with the ideal candidate. </p>
-                    <p>Our career services department has experience working closely with our hiring partners to understand their company culture, business needs, and technology stack. Our team then matches our partners with TechLaunch @ FVI graduates who have the skills their business is looking for. We can help our hiring partners find qualified candidates for temp-to-perm opportunities, paid internships, and unpaid internships while minimizing business risk, turnover rates, and costs. </p>
+                    <p>Becoming a hiring partner for FVI School of Technology gives your business access to highly trained candidates with our Zero Cost Recruiting program. There’s no need to place an ad or hire a recruiter. We’ll take responsibility for understanding the needs of your company and matching you with the ideal candidate. </p>
+                    <p>Our career services department has experience working closely with our hiring partners to understand their company culture, business needs, and technology stack. Our team then matches our partners with FVI School of Technology @ FVI graduates who have the skills their business is looking for. We can help our hiring partners find qualified candidates for temp-to-perm opportunities, paid internships, and unpaid internships while minimizing business risk, turnover rates, and costs. </p>
                 </div>
                 <div class="split-box">
-                    <img class="lazyload" data-src="<?= $rootPath; ?>images/people/group-at-pipeline.jpg" alt="Techlaunch students">
+                    <img class="lazyload" data-src="<?= $rootPath; ?>images/people/group-at-pipeline.jpg" alt="FVI School of Technology students">
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@ include('../parts/head.php'); ?>
 
     <section class="reasons">
         <div class="container">
-            <h2 class="section-title appear">Reasons To Hire A TechLaunch Graduate</h2>
+            <h2 class="section-title appear">Reasons To Hire A FVI School of Technology Graduate</h2>
             <p class="section-subtitle appear delay-200">Our training sets our students apart and is designed to prepare them to work in the tech industry. We do this by: </p>
             <div class="split-2">
                 <ul class="list split-box appear">
@@ -112,7 +112,7 @@ include('../parts/head.php'); ?>
                 <div class="testimonial">
                     <h3 class="name">LaunchCode</h3>
                     <div class="text">
-                        <p>"We've always been impressed with TechLaunch graduates and have been very happy bringing Lily on-board as an instructor for LaunchCode."</p>
+                        <p>"We've always been impressed with FVI School of Technology graduates and have been very happy bringing Lily on-board as an instructor for LaunchCode."</p>
                         <p class="author-name">Matt Mawhinney</p>
                         <p class="author-title">South Florida Community Manager at LaunchCode</p>
                     </div>
@@ -132,19 +132,19 @@ include('../parts/head.php'); ?>
 
     <section class="logos">
         <div class="logos-container">
-            <img class="lazyload" data-src="https://techlaunch.io/blog/wp-content/uploads/2017/07/coach-hq-1-1.png" alt="Coach HQ">
-            <img class="lazyload" data-src="https://techlaunch.io/blog/wp-content/uploads/2017/07/logo-spiderboost-2.png" alt="Spider Boost">
-            <img class="lazyload" data-src="https://techlaunch.io/blog/wp-content/uploads/2017/07/Starthub_MainLogoFile-2.png" alt="Start Hub">
-            <img class="lazyload" data-src="https://techlaunch.io/blog/wp-content/uploads/2017/07/tango_mango_logo.jpg-1.png" alt="Tango Mango">
-            <img class="lazyload" data-src="https://techlaunch.io/blog/wp-content/uploads/2017/07/the-fitz-solution-2.png" alt="Fitz Solution">
-            <img class="lazyload" data-src="https://techlaunch.io/blog/wp-content/uploads/2017/07/WhereByUs-2.pngfinal-2.png" alt="Where by us">
+            <img class="lazyload" data-src="https://tech.fvi.edu/blog/wp-content/uploads/2017/07/coach-hq-1-1.png" alt="Coach HQ">
+            <img class="lazyload" data-src="https://tech.fvi.edu/blog/wp-content/uploads/2017/07/logo-spiderboost-2.png" alt="Spider Boost">
+            <img class="lazyload" data-src="https://tech.fvi.edu/blog/wp-content/uploads/2017/07/Starthub_MainLogoFile-2.png" alt="Start Hub">
+            <img class="lazyload" data-src="https://tech.fvi.edu/blog/wp-content/uploads/2017/07/tango_mango_logo.jpg-1.png" alt="Tango Mango">
+            <img class="lazyload" data-src="https://tech.fvi.edu/blog/wp-content/uploads/2017/07/the-fitz-solution-2.png" alt="Fitz Solution">
+            <img class="lazyload" data-src="https://tech.fvi.edu/blog/wp-content/uploads/2017/07/WhereByUs-2.pngfinal-2.png" alt="Where by us">
         </div>
     </section>
 
     <section class="learning bg-gray">
         <div class="content">
             <h2 class="section-title appear">Culture of Learning</h2>
-            <p class="appear">At TechLaunch, the primary skill we teach our students is to be life-long learners. By hiring our graduates and allowing them to grow within your organization, you will help foster a culture of teaching, learning, and collaboration amongst your team members. This often results in engaged, loyal employees who want to “pay it forward.”  </p>
+            <p class="appear">At FVI School of Technology, the primary skill we teach our students is to be life-long learners. By hiring our graduates and allowing them to grow within your organization, you will help foster a culture of teaching, learning, and collaboration amongst your team members. This often results in engaged, loyal employees who want to “pay it forward.”  </p>
         </div>
     </section>
 
@@ -153,7 +153,7 @@ include('../parts/head.php'); ?>
             <h2 class="section-title">Bridging the Skills Gap</h2>
             <div class="split-2">
                 <div class="split-box">
-                    <p>Many companies and individuals in the tech industry are very socially conscious and understand the skills gap, the digital divide, and the under-representation of minorities in the world of tech. At TechLaunch, we prepare every student who has the right combination of skills and grit to succeed in tech. By hiring our grads, you have the opportunity to have an impact by bringing people with diverse backgrounds and ideas into the industry and effect change for the better that bridges the gaps in the world of tech.</p>
+                    <p>Many companies and individuals in the tech industry are very socially conscious and understand the skills gap, the digital divide, and the under-representation of minorities in the world of tech. At FVI School of Technology, we prepare every student who has the right combination of skills and grit to succeed in tech. By hiring our grads, you have the opportunity to have an impact by bringing people with diverse backgrounds and ideas into the industry and effect change for the better that bridges the gaps in the world of tech.</p>
                 </div>
                 <div class="split-box">
                     <img class="lazyload" data-src="<?= $rootPath; ?>images/bridging-the-gap.jpg" alt="Bridging the Skills Gap">

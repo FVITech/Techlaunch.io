@@ -2,7 +2,7 @@
 $page = "miami-coding-bootcamp-program"; 
 $meta_title="Miami Coding Bootcamp Program";
 $meta_key="";
-$meta_desc="About Us at TechLaunch";    
+$meta_desc="About Us at FVI School of Technology";    
 include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -18,7 +18,7 @@ include('../parts/head.php'); ?>
     <section class="above-the-fold">
         <div class="container">
             <a href="<?= $rootPath ?>">
-                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="FVI School of Technology logo" class="logo">
             </a>
             <h1 class="page-title">Miami Coding Bootcamp Program</h1>
         </div>
@@ -68,7 +68,7 @@ What if you’re not sure what you want to do after you graduate? At Tech Launch
                     <p>If you’re serious about a career in the tech industry, a coding bootcamp could be a major step in the right direction. The internet is constantly changing, and professionals must be dynamic to keep up. If you’re serious about a new career, formal training can separate those who succeed and coders who lag behind. 
                     </p>
 <p>
-You can find plenty of free resources readily available online. These resources aren’t always up to date. If you want to build a future, you need the right information. Others might not cover the most important languages or other things developers are expected to know. One on one instruction is missing from these types of programs so less people tend finish the programs.  At Tech Launch we work with you every steps of the way.  Questions are answered and problems avoided.  When looking for employment, employers don’t look at your intentions. They consider what you bring to the table. This often centers around portfolios and samples. What kind of past work can you show them? When you graduate from TechLaunch, you leave with a portfolio of work that employers want to see.   
+You can find plenty of free resources readily available online. These resources aren’t always up to date. If you want to build a future, you need the right information. Others might not cover the most important languages or other things developers are expected to know. One on one instruction is missing from these types of programs so less people tend finish the programs.  At Tech Launch we work with you every steps of the way.  Questions are answered and problems avoided.  When looking for employment, employers don’t look at your intentions. They consider what you bring to the table. This often centers around portfolios and samples. What kind of past work can you show them? When you graduate from FVI School of Technology, you leave with a portfolio of work that employers want to see.   
 </p>
 <p>
 Tech Launch streamlines the process to help students learn more of what they need to know. Instead of spending thousands of dollars on a four-year degree, you can get straight to the core knowledge you need. We help students pursue their dreams and find more answers. Just check out our coding bootcamps and see what Tech Launch can offer you.

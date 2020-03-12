@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <title> Techlaunch </title>
+  <title>FVI School of Technology</title>
 
   <!-- vendor css -->
   <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
@@ -398,8 +398,8 @@
           <div class="content-wrapper">
             <div class="content-wrapper-inner">
               <h2 class="white-text light-text">What kind of job can I get as a graduate?</h2>
-              <p class="white-text graduate-text first-graduate-text">The Web Developer Program from Techlaunch will prepare graduates to develop practical skills and knowledge needed for career opportunities in areas involving sotware design and development, systems analysis, programming, process design and management, and other areas related to computer software production and deployment. The fast growth in web and mobile development, combined with the increasing use of software, continues to create strong demand for software developers.</p>
-              <p class="white-text graduate-text">Techlaunch maintains strong working relationships with top companies in the area so we can match your passion and ability to career opportunities.</p>
+              <p class="white-text graduate-text first-graduate-text">The Web Developer Program from FVI School of Technology will prepare graduates to develop practical skills and knowledge needed for career opportunities in areas involving sotware design and development, systems analysis, programming, process design and management, and other areas related to computer software production and deployment. The fast growth in web and mobile development, combined with the increasing use of software, continues to create strong demand for software developers.</p>
+              <p class="white-text graduate-text">FVI School of Technology maintains strong working relationships with top companies in the area so we can match your passion and ability to career opportunities.</p>
 
               <div class="note-text-wrapper">
                 <span class="white-text">*</span>
@@ -568,7 +568,7 @@
             <a href="index.php"><img src="images/footerLogo.png" class="img-responsive footer-logo-image" alt=""></a>
             <p class="white-text">Mall of Americas - 7757 West Flagler Street #220 Miami, FL 33144</p>
             <p class="white-text rights-note">All rights reserved FVI Florida Vocational Institute Ⓒ 2010 - 2017</p>
-            <a href="https://techlaunch.io/privacy-policy/" target="_blank" class="white-text privacy-policy-link">Privacy Policy</a>
+            <a href="https://tech.fvi.edu/privacy-policy/" target="_blank" class="white-text privacy-policy-link">Privacy Policy</a>
           </div>
         </div>
 

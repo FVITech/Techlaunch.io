@@ -2,7 +2,7 @@
     <div class="first">
         <div class="first-wrapper">
             <a href="<?= $rootPath ?>" class="logo-container">
-                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo" style="max-width: 250px;">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="FVI School of Technology logo" class="logo" style="max-width: 250px;">
             </a>
             <hr>
             <address>
@@ -47,7 +47,7 @@
                 </a>
             </li>
                      <li>
-                <a target="_blank" rel="noopener" href="https://techlaunch.io/ADA-Compliance/">
+                <a target="_blank" rel="noopener" href="https://tech.fvi.edu/ADA-Compliance/">
                     ADA Compliance
                 </a>
             </li>
@@ -198,7 +198,7 @@
         <!-- <br>
         
         <h3 class="heading">Newsletter</h3>
-        <p>Get updates from Techlaunch</p>
+        <p>Get updates from FVI School of Technology</p>
         <form action="" id="newsletter-form">
             <div class="form-input">
                 <input type="email" placeholder="Your email">
@@ -217,4 +217,4 @@ function close(){
 }
 </script>-->
 
-<!--<div id="custom-popup"><a  href="https://www.fvi.edu/prepare/" id="hide-section"><img src="https://techlaunch.io/images/fvi-banner.jpg" style="width100%;width: 100%;"></a> <a   class="popclose-close" onclick="getElementById('custom-popup').classList.add('close')"><span> CLOSE</span> </a></div>-->
+<!--<div id="custom-popup"><a  href="https://www.fvi.edu/prepare/" id="hide-section"><img src="https://tech.fvi.edu/images/fvi-banner.jpg" style="width100%;width: 100%;"></a> <a   class="popclose-close" onclick="getElementById('custom-popup').classList.add('close')"><span> CLOSE</span> </a></div>-->

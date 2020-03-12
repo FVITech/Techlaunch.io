@@ -2,7 +2,7 @@
 $page = "events"; 
 $meta_title="Events";
 $meta_key="";
-$meta_desc="Techlaunch.io events.";    
+$meta_desc="FVI School of Technology events.";    
 include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -15,7 +15,7 @@ include('../parts/head.php'); ?>
     <section class="above-the-fold">
         <div class="container">
             <a href="<?= $rootPath ?>">
-                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="FVI School of Technology logo" class="logo">
             </a>
             <h1 class="page-title">events</h1>
         </div>
@@ -23,7 +23,7 @@ include('../parts/head.php'); ?>
 
     <section class="events-list" id="events-list">
         <div class="container">
-            <p class="section-summary">Techlaunch hosts various events, including free coding workshops and informational sessions.</p>
+            <p class="section-summary">FVI School of Technology hosts various events, including free coding workshops and informational sessions.</p>
             <div class="events-list-container" id="events-list-container">
                 <br>
                 <h3 style="text-align: center">Loading events...</h3>

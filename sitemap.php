@@ -2,7 +2,7 @@
 $page = "sitemap";
 $meta_title="Sitemap";
 $meta_key="";
-$meta_desc="TechLaunch Code School Offers Coding Bootcamp Programs, Training And Classes For Students To Crack The Code To Their Future. Learn More On How To Earn Degrees Here.";
+$meta_desc="FVI School of Technology Code School Offers Coding Bootcamp Programs, Training And Classes For Students To Crack The Code To Their Future. Learn More On How To Earn Degrees Here.";
 include('parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -17,7 +17,7 @@ include('parts/head.php'); ?>
     <section class="above-the-fold">
         <div class="container">
             <a href="<?= $rootPath ?>">
-                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="FVI School of Technology logo" class="logo">
             </a>
             <h2 class="page-title">sitemap</h2>
         </div>
@@ -25,23 +25,23 @@ include('parts/head.php'); ?>
 
     <section class="links">
         <div class="container">
-            <p><a class="sitemap-link" href="https://techlaunch.io/programs/">Programs</a></p>
-            <p><a class="sitemap-link" href="https://techlaunch.io/web-developer/">Web Developer Program</a></p>
-            <p><a class="sitemap-link" href="https://techlaunch.io/cyber-security-and-network-technician/">Cyber Security and Network Technician Program</a></p>
-            <p><a class="sitemap-link" href="https://techlaunch.io/tech-skills-upgrade-programs/">Tech Skills Upgrade Programs</a></p>
-            <p><a class="sitemap-link" href="https://techlaunch.io/tech-skills-upgrade-programs/#aws">Amazon Web Services Program</a></p>
-            <p><a class="sitemap-link" href="https://techlaunch.io/tech-skills-upgrade-programs/#wordpress">Wordpress Program</a></p>
-            <p><a class="sitemap-link" href="https://techlaunch.io/careerlaunch/">Careerlaunch</a></p>
-            <p><a class="sitemap-link" href="https://techlaunch.io/hiring-partners/">Hiring Partners</a></p>
-            <p><a class="sitemap-link" href="https://techlaunch.io/about-us/">About Us</a></p>
-            <p><a class="sitemap-link" href="https://techlaunch.io/campus-locations/">Campus Locations</a></p>
-            <p><a class="sitemap-link" href="https://techlaunch.io/contact-us/">Contact Us</a></p>
-            <p><a class="sitemap-link" href="https://techlaunch.io/financial-aid/">Financial Aid</a></p>
-            <p><a class="sitemap-link" href="https://techlaunch.io/veterans/">Veterans</a></p>
-            <p><a class="sitemap-link" href="https://techlaunch.io/events/">Events</a></p>
-            <p><a class="sitemap-link" href="https://techlaunch.io/blog/">Blog</a></p>
-            <p><a class="sitemap-link" href="https://techlaunch.io/student-disclosures/">Student Disclosures</a></p>
-            <p><a class="sitemap-link" href="https://techlaunch.io/privacy-policy/">Privacy Policy</a></p>
+            <p><a class="sitemap-link" href="https://tech.fvi.edu/programs/">Programs</a></p>
+            <p><a class="sitemap-link" href="https://tech.fvi.edu/web-developer/">Web Developer Program</a></p>
+            <p><a class="sitemap-link" href="https://tech.fvi.edu/cyber-security-and-network-technician/">Cyber Security and Network Technician Program</a></p>
+            <p><a class="sitemap-link" href="https://tech.fvi.edu/tech-skills-upgrade-programs/">Tech Skills Upgrade Programs</a></p>
+            <p><a class="sitemap-link" href="https://tech.fvi.edu/tech-skills-upgrade-programs/#aws">Amazon Web Services Program</a></p>
+            <p><a class="sitemap-link" href="https://tech.fvi.edu/tech-skills-upgrade-programs/#wordpress">Wordpress Program</a></p>
+            <p><a class="sitemap-link" href="https://tech.fvi.edu/careerlaunch/">Careerlaunch</a></p>
+            <p><a class="sitemap-link" href="https://tech.fvi.edu/hiring-partners/">Hiring Partners</a></p>
+            <p><a class="sitemap-link" href="https://tech.fvi.edu/about-us/">About Us</a></p>
+            <p><a class="sitemap-link" href="https://tech.fvi.edu/campus-locations/">Campus Locations</a></p>
+            <p><a class="sitemap-link" href="https://tech.fvi.edu/contact-us/">Contact Us</a></p>
+            <p><a class="sitemap-link" href="https://tech.fvi.edu/financial-aid/">Financial Aid</a></p>
+            <p><a class="sitemap-link" href="https://tech.fvi.edu/veterans/">Veterans</a></p>
+            <p><a class="sitemap-link" href="https://tech.fvi.edu/events/">Events</a></p>
+            <p><a class="sitemap-link" href="https://tech.fvi.edu/blog/">Blog</a></p>
+            <p><a class="sitemap-link" href="https://tech.fvi.edu/student-disclosures/">Student Disclosures</a></p>
+            <p><a class="sitemap-link" href="https://tech.fvi.edu/privacy-policy/">Privacy Policy</a></p>
         </div>
     </section>
 

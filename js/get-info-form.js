@@ -27,7 +27,7 @@ function resetForm($form) {
 function sendForm($form) {
 
     $.ajax({
-        url: `https://secure.velocify.com/Import.aspx?Provider=FacebookAds&Client=30010&CampaignId=1101&URL=http://techlaunch.io/thank-you?referrerpage=http://www.techlaunch.io`,
+        url: `https://secure.velocify.com/Import.aspx?Provider=FacebookAds&Client=30010&CampaignId=1101&URL=https://tech.fvi.edu/thank-you?referrerpage=http://www.techlaunch.io`,
         method: 'POST',
         data: $form.serialize(),
         cache: false

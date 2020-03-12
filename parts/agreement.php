@@ -11,13 +11,13 @@
         </div>
         <div class="agreement-content" id="agreement-content">
             <div class="logos">
-                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_horizontal_light_bg.png" alt="Techlaunch at Florida Vocational Institute">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_horizontal_light_bg.png" alt="FVI School of Technology">
             </div>
             <h3>Enrollment Conditions</h3>
             <p class="contact-info">
                 <span>7757 West Flagler Street Suite 220, Miami, FL 33144</span>
                 <span>305-665-1917</span>
-                <span>www.techlaunch.io</span>
+                <span>tech.fvi.io</span>
                 <span>www.fvi.edu</span>
             </p>
             <p><strong>TUITION AND OTHER COSTS:</strong> The total tuition and other costs are shown above. A student will be charged for the entire course and the amount becomes payable on the first day of class. The student budget sheet is used to outline the method that will be used to pay all costs the student will incur. Tuition is charged on the first day of class.  If a student’s enrollment is terminated before the end of the course, the tuition charged may require adjustment in accordance with the School’s refund policy as stated in this Enrollment Agreement All other fees and charges are non-refundable when the applicable service or item is provided to the student. Payment for tuition and fees may be made by cash, check, and credit card and/or by federal or state financial aid sources. If the student maintains continuous enrollment in her / his course of study, and upon the request of the student and the approval of the School, the student may be approved for additional instructional time for the completion of all course requirements beyond the above stated expected graduation date. </p>

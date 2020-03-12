@@ -18,7 +18,7 @@ include('../parts/head.php'); ?>
     <section class="above-the-fold">
         <div class="container">
             <a href="<?= $rootPath ?>">
-                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="FVI School of Technology logo" class="logo">
             </a>
             <h1 class="page-title">disclosures</h1>
         </div>
@@ -250,8 +250,8 @@ include('../parts/head.php'); ?>
 
             <h3 id="gainful-employment-disclosures">Gainful Employment Disclosures</h3>
             <ul>
-                <li><a target="_blank" rel="noopener" href="https://techlaunch.io/images/Cyber_Security.docx" download>Cyber Security and Network Technician</a> - Diploma (CIP Code: 11.0901)</li>
-                <li><a target="_blank" rel="noopener" href="https://techlaunch.io/images/Web_Developer.docx" download>Web Developer</a> - Diploma (CIP Code: 11.0201)</li>
+                <li><a target="_blank" rel="noopener" href="https://tech.fvi.edu/images/Cyber_Security.docx" download>Cyber Security and Network Technician</a> - Diploma (CIP Code: 11.0901)</li>
+                <li><a target="_blank" rel="noopener" href="https://tech.fvi.edu/images/Web_Developer.docx" download>Web Developer</a> - Diploma (CIP Code: 11.0201)</li>
             </ul>
         </div>
     </section>

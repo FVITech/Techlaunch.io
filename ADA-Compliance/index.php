@@ -21,7 +21,7 @@ include('../parts/head.php'); ?>
     <section class="above-the-fold">
         <div class="container">
             <a href="<?= $rootPath ?>">
-                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="FVI School of Technology logo" class="logo">
             </a>
             <h1 class="page-title">ADA Compliance</h1>
 <!--            <p class="page-subtitle">Get the skills to push your business or career to the next level</p>
@@ -41,7 +41,7 @@ include('../parts/head.php'); ?>
             <h2 class="section-title aws-content switchable appear">Amazon Web Services (AWS)</h2>
             <h2 class="section-title wordpress-content switchable appear">WordPress</h2>
             <div class="intro-content switchable">
-                <p>We are committed to ensuring that individuals with disabilities have access to our goods and services, including those offered through our website, <strong>https://techlaunch.io/</strong>.  As such, we strive to adhere to the Web Content Accessibility Guidelines 2.0 and 2.1 Levels A and AA, a set of guidelines developed by the World Wide Web Consortium and used to ensure that digital content is accessible to everyone.  We also work with accessibility and usability consultants to make sure that our website functions properly.
+                <p>We are committed to ensuring that individuals with disabilities have access to our goods and services, including those offered through our website, <strong>https://tech.fvi.edu/</strong>.  As such, we strive to adhere to the Web Content Accessibility Guidelines 2.0 and 2.1 Levels A and AA, a set of guidelines developed by the World Wide Web Consortium and used to ensure that digital content is accessible to everyone.  We also work with accessibility and usability consultants to make sure that our website functions properly.
  </p>
                 <p>We are always learning and looking for ways to improve accessibility, and welcome comments on how we may enhance the user experience on our website.  Please be aware that our efforts are ongoing.</p>
                 <p>If you have any feedback or questions regarding our website, please contact us or call us at <strong>(305) 783-3599</strong>.</p>

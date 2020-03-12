@@ -1,7 +1,7 @@
 {
   "name": "techlaunch.io",
   "version": "1.0.0",
-  "description": "Website for the Techlaunch coding school at the Florida Vocational Institute",
+  "description": "Website for the FVI School of Technology coding school at the Florida Vocational Institute",
   "main": "js/index.js",
   "scripts": {
     "start": "npm-run-all --parallel watch browser-sync",

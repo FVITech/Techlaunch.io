@@ -5,7 +5,7 @@ $rootPath = '';
 $page = "homepage";
 $meta_title="Miami Coding Bootcamp - Programs, Training, Classes Near Me";
 $meta_key="";
-$meta_desc="TechLaunch Code School Offers Coding Bootcamp Programs, Training And Classes For Students To Crack The Code To Their Future. Learn More On How To Earn Degrees Here.";
+$meta_desc="FVI School of Technology Code School Offers Coding Bootcamp Programs, Training And Classes For Students To Crack The Code To Their Future. Learn More On How To Earn Degrees Here.";
 include('parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -20,10 +20,10 @@ include('parts/head.php'); ?>
     <section class="above-the-fold">
         <div class="container">
             <a href="<?= $rootPath ?>">
-                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="FVI School of Technology logo" class="logo">
             </a>
             <h2 class="page-title">Ready to Launch a Career in Technology?</h2>
-            <p class="page-subtitle">TechLaunch offers immersive programs and courses that prepare you today, for the recession proof tech careers of tomorrow.</p>
+            <p class="page-subtitle">FVI School of Technology offers immersive programs and courses that prepare you today, for the recession proof tech careers of tomorrow.</p>
             <div class="buttons-box">
                 <a class="btn browse-programs" href="<?= $rootPath ?>programs/">Browse Programs</a>
                 <a class="btn get-more-info">Get More Info</a>
@@ -50,7 +50,7 @@ include('parts/head.php'); ?>
                 </div>
             </div>
             <div class="split-box">
-                <p>When you’re a student at TechLaunch, you’ll get the training you need to enter the world of tech. With a dynamic classroom environment, our instructors use an extensive hands-on approach and work by your side to teach you <strong>actual job skills</strong>.</p>
+                <p>When you’re a student at FVI School of Technology, you’ll get the training you need to enter the world of tech. With a dynamic classroom environment, our instructors use an extensive hands-on approach and work by your side to teach you <strong>actual job skills</strong>.</p>
             </div>
         </div>
     </section>
@@ -152,7 +152,7 @@ include('parts/head.php'); ?>
         <h2 class="section-title appear">An Education That Works For You</h2>
         <div class="benefits-container">
             <div class="left">
-                <p class="appear">There are many benefits of getting your education at TechLaunch. With our dedicated instructors, understanding support staff, and Career Services team on your side, you’ll learn the skills you need for a new career in tech.</p>
+                <p class="appear">There are many benefits of getting your education at FVI School of Technology. With our dedicated instructors, understanding support staff, and Career Services team on your side, you’ll learn the skills you need for a new career in tech.</p>
             </div>
             <div class="middle">
                 <img class="appear lazyload" data-src="<?= $rootPath ?>images/pipeline/students-1.jpg" alt="phone and laptop">
@@ -231,7 +231,7 @@ include('parts/head.php'); ?>
    
         <div class="custom-video-home">
                     <iframe style="width: 532px;height: 300px;" class="lazyload" data-src="https://www.youtube.com/embed/umw2N9SerDs?ecver=2<?= $options ?>" frameborder="0"></iframe>
-                            <h2 class="section-title">Director of TechLaunch Education</h2></div>
+                            <h2 class="section-title">Director of FVI School of Technology Education</h2></div>
                        <div class="custom-video-home custom-last">
                     <iframe style="width: 532px;height: 300px;" class="lazyload" data-src="https://www.youtube.com/embed/x5gYVj2v1lo?ecver=2<?= $options ?>" frameborder="0"></iframe>
                             <h2 class="section-title">Cyber Security &Network Tech Program Chair  </h2>

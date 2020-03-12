@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Techlaunch.io | <?= $meta_title ?></title>
+    <title>FVI School of Technology | <?= $meta_title ?></title>
     <meta name="keywords" content="<?= $meta_key ?>" />
     <meta name="description" content="<?= $meta_desc ?>"/>
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="<?= $meta_title ?>" />
     <meta property="og:description" content="<?= $meta_desc ?>" />
-    <meta property="og:site_name" content="Techlaunch.io" />
+    <meta property="og:site_name" content="FVI School of Technology" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="<?= $meta_desc ?>" />
     <meta name="twitter:title" content="<?= $meta_title ?>" />

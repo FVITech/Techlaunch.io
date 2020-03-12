@@ -22,7 +22,7 @@ include('../parts/head.php'); ?>
     <section class="above-the-fold">
         <div class="container">
             <a href="<?= $rootPath ?>">
-                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="FVI School of Technology logo" class="logo">
             </a>
             <div class="content">
                 <div class="text-box">
@@ -118,12 +118,12 @@ include('../parts/head.php'); ?>
                     <span class="name">Yasiel Sanchez Caleo</span>
                 </div>
                 <div class="testimonial appear delay-200">
-                    <p class="quote">"TechLaunch demonstrated to me that no matter when you decide, great things can happen if you try. I've acquired knowledge every day, and every single minute I've spent inside of their classroom has made me better."</p>
+                    <p class="quote">"FVI School of Technology demonstrated to me that no matter when you decide, great things can happen if you try. I've acquired knowledge every day, and every single minute I've spent inside of their classroom has made me better."</p>
                     <img class="lazyload" data-src="<?= $rootPath ?>images/people/alan-espinet.jpg" alt="Alan Espinet Lluvet">
                     <span class="name">Alan Espinet Lluvet</span>
                 </div>
                 <div class="testimonial appear delay-400">
-                    <p class="quote">"Before I started at TechLaunch I was concerned. I thought that coding was difficult and I didn't know what to expect. Now I feel that it is easier than everybody thinks."</p>
+                    <p class="quote">"Before I started at FVI School of Technology I was concerned. I thought that coding was difficult and I didn't know what to expect. Now I feel that it is easier than everybody thinks."</p>
                     <img class="lazyload" data-src="<?= $rootPath ?>images/people/lily-cantillo.jpg" alt="Lilianne Cantillo">
                     <span class="name">Lilianne Cantillo</span>
                 </div>
@@ -133,7 +133,7 @@ include('../parts/head.php'); ?>
                     <span class="name">Eric Phillips</span>
                 </div>
                 <div class="testimonial appear delay-400">
-                    <p class="quote">"Techlaunch is great for me. I wanted to learn useful skills in a few months. The team used all their resources to help me find my new job. They also helped me find the job fairs and tech events I should attend."</p>
+                    <p class="quote">"FVI School of Technology is great for me. I wanted to learn useful skills in a few months. The team used all their resources to help me find my new job. They also helped me find the job fairs and tech events I should attend."</p>
                     <img class="lazyload" data-src="<?= $rootPath ?>images/people/qian-lin.jpg" alt="Qian Lin">
                     <span class="name">Qian Lin</span>
                 </div>
@@ -154,7 +154,7 @@ include('../parts/head.php'); ?>
                     <p class="appear">Equipped with the training from the Cyber Security and Network Technician Program, graduates are qualified for high demand careers in IT security and cloud computing. As organizations move their IT systems into the cloud, the need for entry level professionals trained on cloud computing will increase.</p>
                 </div>
                 <div class="right">
-                    <p class="appear">Techlaunch's career services team will assist you in finding a career in IT by working to match you to open positions, connect you to local employers, and ensure your resume and professional readiness are a match for any open positions in IT.</p>
+                    <p class="appear">FVI School of Technology's career services team will assist you in finding a career in IT by working to match you to open positions, connect you to local employers, and ensure your resume and professional readiness are a match for any open positions in IT.</p>
                 </div>
             </div>
             <div class="image-section">
@@ -218,7 +218,7 @@ include('../parts/head.php'); ?>
                     </div>
                 </div>
                 <div class="split-box">
-                    <img class="lazyload" data-src="<?= $rootPath ?>images/people/techhire-student-coding.jpg" alt="Techlaunch student coding">
+                    <img class="lazyload" data-src="<?= $rootPath ?>images/people/techhire-student-coding.jpg" alt="FVI School of Technology student coding">
                 </div>
             </div>
             <div class="split-2">

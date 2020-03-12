@@ -57,7 +57,7 @@
         <section class="above-the-fold">
             <div class="container">
                 <a href="<?php echo $rootPath ?>">
-                    <img class="logo" src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo">
+                    <img class="logo" src="<?php echo $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="FVI School of Technology logo">
                 </a>
                 <h1 class="page-title">Page Title</h1>
             </div>

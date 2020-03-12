@@ -16,7 +16,7 @@ include('../parts/head.php'); ?>
     <section class="above-the-fold">
         <div class="container">
             <a href="<?= $rootPath ?>">
-                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="FVI School of Technology logo" class="logo">
             </a>
             <div class="content">
                 <div class="text-box">
@@ -107,19 +107,19 @@ include('../parts/head.php'); ?>
             <div class="split-3">
                 <div class="split-box appear">
                     <h4>Coding Bootcamps</h4>
-                    <p>The South Florida region offers a handful of coding bootcamps. These programs are often effective, but they take place during the work day and do not offer financial aid. The technology programs at Techlaunch take place during the evenings and therefore don't interfere with the 9-5 career schedule and financial aid can cover the majority of tuition costs.</p>
-                    <p>Most importantly, the coding bootcamps are 320 total hours while Techlaunch's program is 720 total hours. We think 320 hours is barely enough time to become a web developer, let alone a strong one. There are no shortcuts--you will become a strong web developer by the end of our program.</p>
+                    <p>The South Florida region offers a handful of coding bootcamps. These programs are often effective, but they take place during the work day and do not offer financial aid. The technology programs at FVI School of Technology take place during the evenings and therefore don't interfere with the 9-5 career schedule and financial aid can cover the majority of tuition costs.</p>
+                    <p>Most importantly, the coding bootcamps are 320 total hours while FVI School of Technology's program is 720 total hours. We think 320 hours is barely enough time to become a web developer, let alone a strong one. There are no shortcuts--you will become a strong web developer by the end of our program.</p>
                 </div>
                 <div class="split-box appear delay-300">
                     <h4>Computer Science Degrees</h4>
                     <p>A computer science degree will give you an excellent understanding of computers and the internet, but it won't give you any coding skills to apply your knowledge. You won't have a portoflio of projects proving you can make stuff.</p>
                     <p>A developer's portfolio is the most important part of their resume.</p>
-                    <p>By the end of Techlaunch's Web Developer program, you will have a rich portfolio full of varied, in-depth, relevant projects.</p>
+                    <p>By the end of FVI School of Technology's Web Developer program, you will have a rich portfolio full of varied, in-depth, relevant projects.</p>
                 </div>
                 <div class="split-box appear delay-600">
                     <h4>Online Programs</h4>
                     <p>There are a few different online coding schools and websites that can take a beginner from amateur to intermediate however, online programs are notorious for low completion rates.</p>
-                    <p>As a student in Techlaunch's Web Developer program, you will be learning and coding with a professional web developer in the same room who can immediately answer any questions, look at your code, and offer you feedback and encouragement. Such a close student-mentor relationship cannot be found in online programs.</p>
+                    <p>As a student in FVI School of Technology's Web Developer program, you will be learning and coding with a professional web developer in the same room who can immediately answer any questions, look at your code, and offer you feedback and encouragement. Such a close student-mentor relationship cannot be found in online programs.</p>
                 </div>
             </div>
         </div>
@@ -135,12 +135,12 @@ include('../parts/head.php'); ?>
                     <span class="name">Yasiel Sanchez Caleo</span>
                 </div>
                 <div class="testimonial appear delay-200">
-                    <p class="quote">"TechLaunch demonstrated to me that no matter when you decide, great things can happen if you try. I've acquired knowledge every day, and every single minute I've spent inside of their classroom has made me better."</p>
+                    <p class="quote">"FVI School of Technology demonstrated to me that no matter when you decide, great things can happen if you try. I've acquired knowledge every day, and every single minute I've spent inside of their classroom has made me better."</p>
                     <img class="lazyload" data-src="<?= $rootPath ?>images/people/alan-espinet.jpg" alt="Alan Espinet Lluvet">
                     <span class="name">Alan Espinet Lluvet</span>
                 </div>
                 <div class="testimonial appear delay-400">
-                    <p class="quote">"Before I started at TechLaunch I was concerned. I thought that coding was difficult and I didn’t know what to expect. Now I feel that it is easier than everybody thinks."</p>
+                    <p class="quote">"Before I started at FVI School of Technology I was concerned. I thought that coding was difficult and I didn’t know what to expect. Now I feel that it is easier than everybody thinks."</p>
                     <img class="lazyload" data-src="<?= $rootPath ?>images/people/lily-cantillo.jpg" alt="Lilianne Cantillo">
                     <span class="name">Lilianne Cantillo</span>
                 </div>
@@ -150,7 +150,7 @@ include('../parts/head.php'); ?>
                     <span class="name">Eric Phillips</span>
                 </div>
                 <div class="testimonial appear delay-400">
-                    <p class="quote">"Techlaunch is great for me. I wanted to learn useful skills in a few months. The team used all their resources to help me find my new job. They also helped me find the job fairs and tech events I should attend."</p>
+                    <p class="quote">"FVI School of Technology is great for me. I wanted to learn useful skills in a few months. The team used all their resources to help me find my new job. They also helped me find the job fairs and tech events I should attend."</p>
                     <img class="lazyload" data-src="<?= $rootPath ?>images/people/qian-lin.jpg" alt="Qian Lin">
                     <span class="name">Qian Lin</span>
                 </div>
@@ -168,11 +168,11 @@ include('../parts/head.php'); ?>
             <h2 class="section-title appear">What kind of job can I get as a graduate?</h2>
             <div class="split">
                 <div class="left">
-                    <p class="appear">The <strong>Web Developer Program</strong> from Techlaunch will prepare graduates to develop practical skills and knowledge needed for career opportunities in areas involving software design and development, systems analysis, programming, process design and management, and other areas related to computer software production and deployment. The fast growth in web and mobile development, combined with the increasing use of software, continues to create <strong>strong demand for software developers</strong>.</p>
+                    <p class="appear">The <strong>Web Developer Program</strong> from FVI School of Technology will prepare graduates to develop practical skills and knowledge needed for career opportunities in areas involving software design and development, systems analysis, programming, process design and management, and other areas related to computer software production and deployment. The fast growth in web and mobile development, combined with the increasing use of software, continues to create <strong>strong demand for software developers</strong>.</p>
                 </div>
                 <div class="right">
-                    <p class="appear">The career services team at TechLaunch work to guide you in finding internship opportunities during training and upon graduation assist you in finding a great career as a web developer.</p>
-                    <p class="appear">Techlaunch maintains strong working relationships with top companies in the area so we can match your passion and ability to career opportunities.</p>
+                    <p class="appear">The career services team at FVI School of Technology work to guide you in finding internship opportunities during training and upon graduation assist you in finding a great career as a web developer.</p>
+                    <p class="appear">FVI School of Technology maintains strong working relationships with top companies in the area so we can match your passion and ability to career opportunities.</p>
                 </div>
             </div>
             <div class="image-section">
@@ -213,7 +213,7 @@ include('../parts/head.php'); ?>
                     </div>
                 </div>
                 <div class="image-container">
-                    <img class="lazyload" data-srcset="<?= $rootPath ?>images/people/group-at-pipeline-mobile.jpg 440w, <?= $rootPath ?>images/people/group-at-pipeline.jpg 1000w" data-sizes="auto" alt="Techlaunch students">
+                    <img class="lazyload" data-srcset="<?= $rootPath ?>images/people/group-at-pipeline-mobile.jpg 440w, <?= $rootPath ?>images/people/group-at-pipeline.jpg 1000w" data-sizes="auto" alt="FVI School of Technology students">
                 </div>
             </div>
         </div>
@@ -263,12 +263,12 @@ include('../parts/head.php'); ?>
     <section class="hiring-partners">
         <h2 class="section-title appear">Hiring Partners</h2>
         <div class="logos-container">
-            <img class="lazyload" data-src="https://techlaunch.io/blog/wp-content/uploads/2017/07/coach-hq-1-1.png" alt="Coach HQ">
-            <img class="lazyload" data-src="https://techlaunch.io/blog/wp-content/uploads/2017/07/logo-spiderboost-2.png" alt="Spider Boost">
-            <img class="lazyload" data-src="https://techlaunch.io/blog/wp-content/uploads/2017/07/Starthub_MainLogoFile-2.png" alt="Start Hub">
-            <img class="lazyload" data-src="https://techlaunch.io/blog/wp-content/uploads/2017/07/tango_mango_logo.jpg-1.png" alt="Tango Mango">
-            <img class="lazyload" data-src="https://techlaunch.io/blog/wp-content/uploads/2017/07/the-fitz-solution-2.png" alt="Fitz Solution">
-            <img class="lazyload" data-src="https://techlaunch.io/blog/wp-content/uploads/2017/07/WhereByUs-2.pngfinal-2.png" alt="Where by us">
+            <img class="lazyload" data-src="https://tech.fvi.edu/blog/wp-content/uploads/2017/07/coach-hq-1-1.png" alt="Coach HQ">
+            <img class="lazyload" data-src="https://tech.fvi.edu/blog/wp-content/uploads/2017/07/logo-spiderboost-2.png" alt="Spider Boost">
+            <img class="lazyload" data-src="https://tech.fvi.edu/blog/wp-content/uploads/2017/07/Starthub_MainLogoFile-2.png" alt="Start Hub">
+            <img class="lazyload" data-src="https://tech.fvi.edu/blog/wp-content/uploads/2017/07/tango_mango_logo.jpg-1.png" alt="Tango Mango">
+            <img class="lazyload" data-src="https://tech.fvi.edu/blog/wp-content/uploads/2017/07/the-fitz-solution-2.png" alt="Fitz Solution">
+            <img class="lazyload" data-src="https://tech.fvi.edu/blog/wp-content/uploads/2017/07/WhereByUs-2.pngfinal-2.png" alt="Where by us">
         </div>
     </section>
 

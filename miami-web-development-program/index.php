@@ -2,7 +2,7 @@
 $page = "miami-web-development-program"; 
 $meta_title="Miami Web Development Program";
 $meta_key="";
-$meta_desc="About Us at TechLaunch";    
+$meta_desc="About Us at FVI School of Technology";    
 include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -18,7 +18,7 @@ include('../parts/head.php'); ?>
     <section class="above-the-fold">
         <div class="container">
             <a href="<?= $rootPath ?>">
-                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="FVI School of Technology logo" class="logo">
             </a>
             <h1 class="page-title">Miami Web Development Program</h1>
         </div>

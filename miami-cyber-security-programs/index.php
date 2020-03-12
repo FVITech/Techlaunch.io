@@ -2,7 +2,7 @@
 $page = "miami-cyber-security-programs"; 
 $meta_title="Miami Cyber Security Programs";
 $meta_key="";
-$meta_desc="About Us at TechLaunch";    
+$meta_desc="About Us at FVI School of Technology";    
 include('../parts/head.php'); ?>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -18,7 +18,7 @@ include('../parts/head.php'); ?>
     <section class="above-the-fold">
         <div class="container">
             <a href="<?= $rootPath ?>">
-                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="Techlaunch at Florida Vocational Institute logo" class="logo">
+                <img src="<?= $rootPath ?>images/logos/techlaunch_at_fvi_vertical_dark_bg.png" alt="FVI School of Technology logo" class="logo">
             </a>
             <h1 class="page-title">Miami Cyber Security Programs</h1>
         </div>
@@ -30,7 +30,7 @@ include('../parts/head.php'); ?>
                 <div class="split-box left image appear lazyload" data-bgset="<?= $rootPath ?>images/people/group-at-pipeline-mobile.jpg [--small] | <?= $rootPath ?>images/people/group-at-pipeline.jpg [--large]"></div>
                 <div class="split-box right text appear">
                     <h2 class="section-title">Launch Your Future with Miami Cyber Security Programs</h2>
-                    <p>In the rapidly growing tech industry, finding the right training is key. At TechLaunch @ Florida Vocational Institute (FVI), we’re committed to preparing our students for a career in technology in less than a year. In this time, we prepare our students to fill the void by providing the training they need. In our programs, we transform general computer users into technologists and empower people to get a rewarding career within one year.</p>
+                    <p>In the rapidly growing tech industry, finding the right training is key. At FVI School of Technology, we’re committed to preparing our students for a career in technology in less than a year. In this time, we prepare our students to fill the void by providing the training they need. In our programs, we transform general computer users into technologists and empower people to get a rewarding career within one year.</p>
                     <p>Every time a new technology comes out, people find a way to disrupt it. Hacking has become one of the most problematic parts of business. Many large companies also embrace it. They hold hacking conferences and competitions to see who can breach their systems and how they do it. Even a small vulnerability in our technical systems can put sensitive data at risk. This creates a need for more trained cyber security professionals.</p>
                     <p>What is cyber security and how does it help? Experts estimate almost <a href="https://www.usnews.com/news/articles/2014/05/28/companies-unprepared-as-hacking-increases">50% of adults in the US have been the victims of cyberattacks</a> in the past year alone. That number is only growing even in the federal government. With increased vigilance, we can catch vulnerabilities before they become serious problems. This is the role of a cyber security professional. You have to be on your toes to detect and fight digital crime.</p>
                     <p>What do cyber security programs teach you? An example of typical coursework includes classes like:</p>
@@ -53,7 +53,7 @@ include('../parts/head.php'); ?>
                 <div class="split-box left image appear lazyload" data-bg="<?= $rootPath ?>images/people/techhire-bbbs-students-group.jpg"></div>
                 <div class="split-box right text appear">
                     <h2 class="section-title">Explore Different Specializations with a Cyber Security Career</h2>
-                    <p>Even within a relatively new field like cyber security, not all students or companies are the same. At TechLaunch, we give our students more options. Many programs now focus on areas like information assurance and forensics. </p>
+                    <p>Even within a relatively new field like cyber security, not all students or companies are the same. At FVI School of Technology, we give our students more options. Many programs now focus on areas like information assurance and forensics. </p>
                     <p>Tech Launch gets you off to the right start if you&rsquo;re interested in a new career. We can help you prepare for jobs and find opportunities once you graduate with a diploma. We can also help students find internships that fit their needs. Each student&rsquo;s path is unique. For a career you love, it should be specialized to fit your needs. Things like internships can help you get your feet wet once you have the foundational knowledge you need.</p>
                 </div>
             </div>
