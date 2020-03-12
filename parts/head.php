@@ -15,6 +15,8 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="<?= $meta_desc ?>" />
     <meta name="twitter:title" content="<?= $meta_title ?>" />
+    <meta name="google-site-verification" content="5IxXERJSqV6SfDdb_5FvAkuH0rCwILLsNXZTFOq9GTM" />
+
 
     <link rel="shortcut icon" type="image/ico" href="/images/fav.ico" />
 
