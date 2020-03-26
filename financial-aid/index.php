@@ -31,25 +31,6 @@ include('../parts/head.php'); ?>
 			<p>Federal assistance programs are administered by the U.S. Department of Education. Any U.S. citizen, national, or person in the United States for other than temporary reasons who is enrolled and accepted may apply for these programs. Most forms of financial assistance are available during each July 1-June 30 award period.</p>
 			<p>If you’re considering applying for federal financial aid, it’s important to request a copy of the current guide, Funding Your Education, which is published by the U.S. Department of Education. You can find this document online at <a href="http://studentaid.ed.gov/">http://studentaid.ed.gov/</a>. It’s designed to help students understand eligibility requirements. </p>
 		</div>
-
-		<div id="reskilling" class="container">
-			<h2 class="section-title">Workforce Reskilling Scholarship</h2>
-			<p>FVI School of Technology will offer qualified applicants a TUITION ONLY scholarship worth up to $15,000 for the Medical Assistant Program and the Cyber Security and Network Technician Program. A maximum of scholarships will be awarded for each of the two programs and for each term start for the Spring and Summer terms</p>
-			<p>Applicants must meet the following requirements:</p>
-			<ul>
-				<li>The applicant must demonstrate that he/she worked in the hospitality, travel and or restaurant business, and his or her employment was terminated or impacted because of the COVID-19 virus.</li>
-				<li>The applicant must meet all entrance requirements published in the school catalog</li>
-				<li>The applicant must agree to apply for financial aid in the form of a Pell Grant.</li>
-				<li>The applicant agrees that any Grant aid will be subrogated by the school.  Any amount awarded will reduce the scholarship aide proportionately.</li>
-				<li>The applicant cannot apply for and not participate in federal student loan programs.</li>
-				<li>The applicant will forfeit all scholarship awards if the applicant uses any student loan funds during his or her enrollment period</li>
-				<li>This scholarship is not transferrable</li>
-				<li>This scholarship has no cash value (cannot be converted to cash)</li>
-				<li>The scholarship will be applied at the end of each academic term (2 terms).  One half for the first term and the other half at the end of the second term</li>
-				<li>The student must remain in academic satisfactory progress and hold at least a 2.0-grade point average at the end of each term.</li>
-				<li>The student must abide by the requirements published in the school catalog.</li>
-			</ul>
-		 </div>
 	</section>
 
 	<section class="banner teaching"></section>

@@ -27,7 +27,7 @@ include('parts/head.php'); ?>
             <div class="buttons-box">
                 <a class="btn browse-programs" href="<?= $rootPath ?>programs/">Browse Programs</a>
                 <a class="btn get-more-info" style="margin-right:25px;">Get More Info</a>
-                <a class="btn" href="<?= $rootPath ?>financial-aid/#reskilling">Scholarship opportunities</a>
+                <a class="btn" href="<?= $rootPath ?>reskilling">Scholarship opportunities</a>
             </div>
         </div>
     </section>

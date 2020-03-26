@@ -83,6 +83,9 @@
             </div>
             <div class="menu-section">
                 <a class="menu-header" href="<?= $rootPath ?>financial-aid/">Financial Aid</a>
+                <div class="menu-list">
+                    <a href="<?= $rootPath ?>reskilling">Reskilling Scholarship</a>
+                </div>
             </div>
             <div class="menu-section">
                 <a class="menu-header" href="<?= $rootPath ?>events/">Events</a>
