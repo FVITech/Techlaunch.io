@@ -26,7 +26,8 @@ include('parts/head.php'); ?>
             <p class="page-subtitle">FVI School of Technology offers immersive programs and courses that prepare you today, for the recession proof tech careers of tomorrow.</p>
             <div class="buttons-box">
                 <a class="btn browse-programs" href="<?= $rootPath ?>programs/">Browse Programs</a>
-                <a class="btn get-more-info">Get More Info</a>
+                <a class="btn get-more-info" style="margin-right:25px;">Get More Info</a>
+                <a class="btn" href="<?= $rootPath ?>financial-aid/#reskilling">Scholarship opportunities</a>
             </div>
         </div>
     </section>
