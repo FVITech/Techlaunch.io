@@ -159,7 +159,7 @@
 		error_reporting(1);
 		$curl = curl_init();
         curl_setopt_array($curl, Array(
-            CURLOPT_URL            => 'https://tech.fvi.edu/blog/feed/',
+            CURLOPT_URL            => 'http://blog.tech.fvi.edu/feed/',
             CURLOPT_USERAGENT      => 'spider',
             CURLOPT_TIMEOUT        => 120,
             CURLOPT_CONNECTTIMEOUT => 30,

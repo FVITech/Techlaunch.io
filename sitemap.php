@@ -39,7 +39,7 @@ include('parts/head.php'); ?>
             <p><a class="sitemap-link" href="https://tech.fvi.edu/financial-aid/">Financial Aid</a></p>
             <p><a class="sitemap-link" href="https://tech.fvi.edu/veterans/">Veterans</a></p>
             <p><a class="sitemap-link" href="https://tech.fvi.edu/events/">Events</a></p>
-            <p><a class="sitemap-link" href="https://tech.fvi.edu/blog/">Blog</a></p>
+            <p><a class="sitemap-link" href="http://blog.tech.fvi.edu/">Blog</a></p>
             <p><a class="sitemap-link" href="https://tech.fvi.edu/student-disclosures/">Student Disclosures</a></p>
             <p><a class="sitemap-link" href="https://tech.fvi.edu/privacy-policy/">Privacy Policy</a></p>
         </div>

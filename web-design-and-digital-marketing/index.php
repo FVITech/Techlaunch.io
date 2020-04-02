@@ -228,6 +228,7 @@ include('../parts/head.php'); ?>
         </div>
     </section>
 
+<!-- 
     <section class="hiring-partners">
         <h2 class="section-title appear">Hiring Partners</h2>
         <div class="logos-container">
@@ -238,7 +239,8 @@ include('../parts/head.php'); ?>
             <img class="lazyload" data-src="https://tech.fvi.edu/blog/wp-content/uploads/2017/07/the-fitz-solution-2.png" alt="Fitz Solution">
             <img class="lazyload" data-src="https://tech.fvi.edu/blog/wp-content/uploads/2017/07/WhereByUs-2.pngfinal-2.png" alt="Where by us">
         </div>
-    </section>
+    </section> 
+-->
 
     <?php $rootPath = '../'; include('../parts/footer.php') ?>
     <?php $rootPath = '../'; include('../parts/bottom.php') ?>

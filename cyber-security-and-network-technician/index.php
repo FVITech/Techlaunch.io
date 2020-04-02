@@ -311,31 +311,27 @@ include('../parts/head.php'); ?>
     color: #0090ec !important;
 }
 	</style>
+<!-- 
 <section class="custom-blog-section">
 <div class="custom-split-3">
 <a  href="/blog/cyver-security-trends-2019/"><img src="/blog/wp-content/uploads/2019/01/Untitled-Design-50.jpg"></a>
 <p><a href="/blog/cyver-security-trends-2019/">Cyber Security Will Dominate Tech Industry in 2019</a></p>
-
 </div>
-<!---->
 
 <div class="custom-split-3">
 <a  href="/blog/cyber-monday-protection-in-2018/"><img src="/blog/wp-content/uploads/2018/11/cybersecurity-rules-linkedin-400x243.png"></a>
 <p><a href="/blog/cyber-monday-protection-in-2018/">5 Tips to keep protection optimized during Cyber Monday 2018</a></p>
-
 </div>
-<!---->
 
 <div class="custom-split-3">
 <a  href="/blog/what-does-a-cyber-security-professonal-do/"><img src="/blog/wp-content/uploads/2018/12/Untitled-Design-42.jpg"></a>
 <p><a href="/blog/what-does-a-cyber-security-professonal-do/">What Does a Cybersecurity Professional Do?</a></p>
-
 </div>
-<!---->
 
 <div class="custom-split-3">
 <a  href="/blog/cyber-security-jobs-for-women/"><img src="/blog/wp-content/uploads/2018/12/Untitled-Design-41.jpg"></a>
 <p><a href="/blog/cyber-security-jobs-for-women/">More Opportunity in Cybersecurity Jobs for Women</a></p>
+-->
 
 </div>
     </section>

@@ -129,7 +129,7 @@ include('../parts/head.php'); ?>
 
         </div>
     </section>
-
+<!-- 
     <section class="logos">
         <div class="logos-container">
             <img class="lazyload" data-src="https://tech.fvi.edu/blog/wp-content/uploads/2017/07/coach-hq-1-1.png" alt="Coach HQ">
@@ -140,7 +140,7 @@ include('../parts/head.php'); ?>
             <img class="lazyload" data-src="https://tech.fvi.edu/blog/wp-content/uploads/2017/07/WhereByUs-2.pngfinal-2.png" alt="Where by us">
         </div>
     </section>
-
+ -->
     <section class="learning bg-gray">
         <div class="content">
             <h2 class="section-title appear">Culture of Learning</h2>
