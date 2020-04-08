@@ -93,11 +93,9 @@
             <div class="menu-section">
                 <a class="menu-header" href="<?= $rootPath ?>veterans/">Veterans</a>
             </div>
-<!--             
             <div class="menu-section">
-                <a class="menu-header" target="_blank" rel="noopener" href="https://www.techlaunch.io/blog">Blog</a>
+                <a class="menu-header" target="_blank" rel="noopener" href="http://blog.tech.fvi.edu">Blog</a>
             </div>
--->
             <div class="menu-section">
                 <a class="menu-header" href="<?= $rootPath ?>testimonials/">Testimonials</a>
             </div>
