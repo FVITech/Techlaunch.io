@@ -16,9 +16,7 @@
     <meta name="twitter:description" content="<?= $meta_desc ?>" />
     <meta name="twitter:title" content="<?= $meta_title ?>" />
     <meta name="google-site-verification" content="5IxXERJSqV6SfDdb_5FvAkuH0rCwILLsNXZTFOq9GTM" />
-
     <link rel="icon" type="image/png" sizes="32x32" href="/images/logos/fvi_tech_logo_32x32.png"/>
-
 <!-- 
     <link rel="apple-touch-icon" sizes="57x57" href="<?= $rootPath ?>images/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="<?= $rootPath ?>images/favicons/apple-icon-60x60.png">
@@ -67,6 +65,11 @@ a.appendChild(r);
 <style type="text/css">
     .above-the-fold .logo {
         width: 300px !important;
+    }
+
+    .userway {
+        position: absolute !important;
+        left: 20px !important;
     }
 </style>
 </head>
