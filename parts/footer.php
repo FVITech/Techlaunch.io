@@ -29,7 +29,7 @@
         <h3 class="heading">Useful Links</h3>
         <ul>
             <li>
-                <a target="_blank" rel="noopener" href="https://www.techlaunch.io/blog">
+                <a target="_blank" rel="noopener" href="http://blog.tech.fvi.edu">
                     Blog
                 </a>
             </li>
