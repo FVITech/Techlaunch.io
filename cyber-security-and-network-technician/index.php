@@ -60,6 +60,7 @@ include('../parts/head.php'); ?>
     </section>
 
     <section class="program-overview">
+        <img style="width:100%; margin-bottom:40px;" src="/images/security-network-tecnician.jpg" alt="security network tecnician"/>
         <div class="container">
             <h2 class="section-title appear">Program Overview</h2>
             <div class="split-3">
