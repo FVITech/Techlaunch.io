@@ -52,6 +52,7 @@
                     <option value="Miami" <?php if ($campus == 'miami' || $campus == '') echo 'selected' ?>>Miami</option>
                     <?php } ?> -->
                     <option value="Miramar" <?php if( $campus == 'miramar') echo 'selected' ?>>Miramar</option>
+                    <option value="Online" <?php if ($campus == 'online') echo 'selected' ?>>Online</option>
                 </select>
             </div>
             <div class="form-input">

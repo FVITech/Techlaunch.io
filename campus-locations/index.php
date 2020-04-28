@@ -26,15 +26,15 @@ include('../parts/head.php'); ?>
         <div class="container">
             <div class="split-2">
                 <div class="split-box">
-<!--                     <div class="campus-summary">
-                         <h3>Miami Campus</h3>
-                        <p>The Miami campus of FVI is conveniently located at the intersection of the Palmetto Expressway and W Flagler St. For over a decade FVI Miami has been providing in-demand programs in areas such as Allied Health and Information Technology.</p>
-                    </div> -->
-                    <br>
-                    <br>
                     <div class="campus-summary">
                         <h3>Miramar Campus</h3>
                         <p>With a convenient Broward County location near Pembroke Pines and minutes from both the Florida Turnpike and I-75, the Miramar campus of FVI features in-demand programs in both Allied Health and Information Technology.</p>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="campus-summary">
+                         <h3>Online Campus</h3>
+                        <p>Today’s world demands flexible, innovative, and convenient learning options. FVI School of Technology acknowledges and embraces these challenges. At FVI, our online classes provide the same first-rate quality of learning as on-campus programs.</p>
                     </div>
                     <br>
                     <p class="large-text">Our programs are designed to get you in a career fast, with most designed to be completed in 9 months. Along with an excellent education, our career services team is there to help you prepare for and find a terrific career opportunity.</p>
@@ -58,7 +58,7 @@ include('../parts/head.php'); ?>
                     <div class="image appear first lazyload"></div>
                 </div> -->
                 <div class="split-box text">
-                    <h2 class="section-title">Our Campus</h2>
+                    <h2 class="section-title">Miramar Campus</h2>
                     <p>A convenient location at the heart of Miramar.</p>
                 </div>
 <!-- 
