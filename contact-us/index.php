@@ -75,6 +75,7 @@ include('../parts/head.php'); ?>
 			<div class="form-input">
 				<label for="custom_field_8">How Did You Hear About Us</label>
 				<select name="custom_field_8" id="custom_field_8" style="width: 100%;">
+					<option value=""></option>
 					<option value="event">Event</option>
 					<option value="facebook">Facebook</option>
 					<option value="friend-family">Friend/Family Member</option>
