@@ -41,6 +41,6 @@
     "lodash.debounce": "^4.0.8",
     "lodash.throttle": "^4.1.1",
     "moment": "^2.18.1",
-    "sanitize-html": "^1.14.1"
+    "sanitize-html": "^2.3.2"
   }
 }
